@@ -15,107 +15,89 @@ router.use((req, res, next) => {
     next();
 });
 
-// Helper function to log data
-function logData(message, file = 'error_log.log') {
-    const logMessage = `${new Date().toISOString()} - ${message}\n`;
-    fs.appendFileSync(file, logMessage);
-}
+// Middleware to parse JSON bodies
+router.use(express.json());
 
-// Heartbeat API route
-router.get('/', async (req, res) => {
-    const screenName = req.query.screen_name;
+// Handle heartbeat request (post data to backend)
+router.post('/', async (req, res) => {
+    const data = req.body; // Retrieve the JSON data sent in the request body
 
-    if (!screenName) {
-        return res.status(400).json({ error: 'screen_name parameter is required.' });
+    // Log the incoming data to the console for verification
+    console.log('Received heartbeat data:', data);
+
+    // Extract entryTime and exitTime from the incoming data
+    const { entryTime, exitTime, domain_id, pathname, name } = data;
+
+    if (!entryTime || !exitTime || !domain_id || !pathname || !name) {
+        return res.status(400).json({ message: 'Missing required fields in the request body' });
     }
 
-    const screenFile = 'screen_retrieved_in_hearbeat.json';
-    fs.writeFileSync(screenFile, JSON.stringify(screenName, null, 2));
+    // Convert entryTime and exitTime to IST timezone and then to ISO 8601 format (with 'Z' for UTC)
+    const startDateTimeIST = moment(entryTime).tz('Asia/Kolkata').toISOString();  // Converts to '2025-01-07T15:07:13.000+05:30'
+    const endDateTimeIST = moment(exitTime).tz('Asia/Kolkata').toISOString();    // Converts to '2025-01-07T15:07:13.000+05:30'
 
-    let dbConnection;
-    try {
-        dbConnection = await connectToDatabase();
+    // Log the IST formatted date times for verification
+    console.log('Start DateTime in IST format:', startDateTimeIST);
+    console.log('End DateTime in IST format:', endDateTimeIST);
 
-        let domainId = null;
-        let name = null;
-        let lastLoginTime = '1970-01-01T00:00:00.000Z';
-
-        const sessionId = req.cookies?.admin_session_id;
-        if (sessionId) {
-            // Fetch domain_id and name
-            const adminQuery = `
-                SELECT domain_id, name
-                FROM admins
-                WHERE id = ?`;
-            const adminResult = await dbConnection.query(adminQuery, [sessionId]);
-
-            if (adminResult.length > 0) {
-                domainId = adminResult[0].domain_id;
-                name = adminResult[0].name;
-
-                // Fetch last_login_time
-                const loginQuery = `
-                    SELECT last_login_time
-                    FROM total_logins
-                    WHERE domain_id = ?`;
-                const loginResult = await dbConnection.query(loginQuery, [domainId]);
-
-                if (loginResult.length > 0) {
-                    lastLoginTime = loginResult[0].last_login_time;
-                }
-            }
+    // Create the necessary data format for the API request
+    const payload = [
+        {
+            "AppID": "LUBRICATION_PORTAL",
+            "ApplicationType": "web",
+            "CustEmail": "", 
+            "CustID": "",
+            "CustName": "",
+            "CustomData": "",
+            "DeviceID": "3385f58ecd5b7dbd",
+            "EndDateTime": endDateTimeIST,  // Use IST formatted EndDateTime
+            "Password": "Suzlon@123",
+            "UserID": domain_id,
+            "ScreenName": pathname,
+            "StartDateTime": startDateTimeIST,  // Use IST formatted StartDateTime
+            "UserEngagementID": 0,
+            "UserName": name
         }
+    ];
 
-        // Format last login time as ISO 8601
-        const lastLoginTimeISO = moment(lastLoginTime).tz('Asia/Kolkata').format('YYYY-MM-DDTHH:mm:ss.SSS[Z]');
+    // Log the data to be sent to the API
+    console.log('Data to be sent to API:', payload);
 
-        // Get current date-time in IST
-        const currentDateTimeISO = moment().tz('Asia/Kolkata').format('YYYY-MM-DDTHH:mm:ss.SSS[Z]');
-
-        // Prepare data for UserEngagement API
-        const postData = [
-            {
-                AppID: 'LUBRICATION_PORTAL',
-                ApplicationType: 'web',
-                CustEmail: '',
-                CustID: '',
-                CustName: '',
-                CustomData: '',
-                DeviceID: '3385f58ecd5b7dbd',
-                EndDateTime: currentDateTimeISO,
-                Password: 'Suzlon@123',
-                UserID: domainId,
-                ScreenName: screenName,
-                StartDateTime: lastLoginTimeISO,
-                UserEngagementID: 0,
-                UserName: name,
-            },
-        ];
-
-        const apiUrl = 'https://suzomsapps.suzlon.com/Services/UserEngagement/api/UserEngagement';
-
-        // Log the data sent to UserEngagement API
-        const logFile = 'data_sent_userengagement_record_api-hearbeat.log';
-        fs.appendFileSync(logFile, `${new Date().toISOString()} - Request: ${JSON.stringify(postData)}\n`);
-
-        // Send POST request to UserEngagement API
-        const response = await fetch(apiUrl, {
+    try {
+        // Send POST request to the external API
+        const response = await fetch('https://suzomsapps.suzlon.com/Services/UserEngagement/api/UserEngagement', {
             method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(postData),
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(payload)
         });
 
-        const responseData = await response.text();
-        fs.appendFileSync(logFile, `${new Date().toISOString()} - Response (${response.status}): ${responseData}\n`);
+        // Get the response from the API
+        const apiResponse = await response.json();
 
-        res.json({ message: 'Heartbeat processed successfully.', responseData });
-    } catch (error) {
-        logData(`Error processing heartbeat: ${error.message}`);
-        res.status(500).json({ error: 'Internal server error.' });
-    } finally {
-        if (dbConnection) {
-            await dbConnection.close();
-        }
+        // Log the response for debugging
+        console.log('API Response:', apiResponse);
+
+        // Write both the sent data and API response to 'user_engagement.json'
+        const userEngagementData = {
+            sentData: payload,
+            apiResponse: apiResponse
+        };
+
+        fs.writeFile('user_engagement.json', JSON.stringify(userEngagementData, null, 2), (err) => {
+            if (err) {
+                console.error('Error writing to file:', err);
+                return res.status(500).json({ message: 'Error writing to file' });
+            }
+            
+            console.log('User engagement data saved to user_engagement.json');
+            return res.status(200).json({ message: 'User engagement data received and saved' });
+        });
+
+    } catch (err) {
+        console.error('Error during API request:', err);
+        return res.status(500).json({ message: 'Error during API request' });
     }
 });
 

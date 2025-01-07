@@ -1,0 +1,615 @@
+checkAdmin route module loaded
+checkAdmin route module loaded
+Server is listening on port \\.\pipe\3997abf2-c689-4a95-b96f-7048ac98c053
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  adminId: '3bf19f94691f2dc27fc5602d710b6c3c',
+  access: 'lubrication',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  userId: 'Not Set',
+  domain_id: '40139',
+  state: 'Not Set',
+  area: 'Not Set',
+  site: 'Not Set',
+  email: 'Not Set',
+  pathname: '/Site_Report',
+  entryTime: '2025-01-07 23:21:15',
+  exitTime: '2025-01-07 23:24:37'
+}
+Start DateTime in ISO format: 2025-01-07T17:51:15.000Z
+End DateTime in ISO format: 2025-01-07T17:54:37.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-01-07T17:54:37.000Z',
+    Password: 'Suzlon@123',
+    UserID: '40139',
+    ScreenName: '/Site_Report',
+    StartDateTime: '2025-01-07T17:51:15.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+States written to states_sent_back.json
+GET /api/get_states 304 - - 142.617 ms
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 197.615 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+States written to states_sent_back.json
+GET /api/get_states 304 - - 303.906 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  adminId: '3bf19f94691f2dc27fc5602d710b6c3c',
+  access: 'lubrication',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  userId: 'Not Set',
+  domain_id: '40139',
+  state: 'Not Set',
+  area: 'Not Set',
+  site: 'Not Set',
+  email: 'Not Set',
+  pathname: '/WTG_Wise_Planning',
+  entryTime: '2025-01-07 23:24:37',
+  exitTime: '2025-01-07 23:24:40'
+}
+Start DateTime in ISO format: 2025-01-07T17:54:37.000Z
+End DateTime in ISO format: 2025-01-07T17:54:40.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-01-07T17:54:40.000Z',
+    Password: 'Suzlon@123',
+    UserID: '40139',
+    ScreenName: '/WTG_Wise_Planning',
+    StartDateTime: '2025-01-07T17:54:37.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+States written to states_sent_back.json
+GET /api/get_states 304 - - 98.777 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_type_order_for_wtg_wise_planning 304 - - 635.707 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 52.536 ms
+States written to states_sent_back.json
+GET /api/get_states 304 - - 48.183 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+States written to states_sent_back.json
+GET /api/get_states 304 - - 173.510 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+States written to states_sent_back.json
+GET /api/get_states 304 - - 129.823 ms
+GET /api/fetch_type_order_for_wtg_wise_planning 304 - - 561.641 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  adminId: '3bf19f94691f2dc27fc5602d710b6c3c',
+  access: 'lubrication',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  userId: 'Not Set',
+  domain_id: '40139',
+  state: 'Not Set',
+  area: 'Not Set',
+  site: 'Not Set',
+  email: 'Not Set',
+  pathname: '/Site_Report',
+  entryTime: '2025-01-07 23:24:40',
+  exitTime: '2025-01-07 23:24:46'
+}
+Start DateTime in ISO format: 2025-01-07T17:54:40.000Z
+End DateTime in ISO format: 2025-01-07T17:54:46.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-01-07T17:54:46.000Z',
+    Password: 'Suzlon@123',
+    UserID: '40139',
+    ScreenName: '/Site_Report',
+    StartDateTime: '2025-01-07T17:54:40.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  adminId: '3bf19f94691f2dc27fc5602d710b6c3c',
+  access: 'lubrication',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  userId: 'Not Set',
+  domain_id: '40139',
+  state: 'Not Set',
+  area: 'Not Set',
+  site: 'Not Set',
+  email: 'Not Set',
+  pathname: '/Home',
+  entryTime: '2025-01-07 23:24:46',
+  exitTime: '2025-01-07 23:24:46'
+}
+Start DateTime in ISO format: 2025-01-07T17:54:46.000Z
+End DateTime in ISO format: 2025-01-07T17:54:46.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-01-07T17:54:46.000Z',
+    Password: 'Suzlon@123',
+    UserID: '40139',
+    ScreenName: '/Home',
+    StartDateTime: '2025-01-07T17:54:46.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  adminId: '3bf19f94691f2dc27fc5602d710b6c3c',
+  access: 'lubrication',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  userId: 'Not Set',
+  domain_id: '40139',
+  state: 'Not Set',
+  area: 'Not Set',
+  site: 'Not Set',
+  email: 'Not Set',
+  pathname: '/Home',
+  entryTime: '2025-01-07 23:24:46',
+  exitTime: '2025-01-07 23:24:46'
+}
+Start DateTime in ISO format: 2025-01-07T17:54:46.000Z
+End DateTime in ISO format: 2025-01-07T17:54:46.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-01-07T17:54:46.000Z',
+    Password: 'Suzlon@123',
+    UserID: '40139',
+    ScreenName: '/Home',
+    StartDateTime: '2025-01-07T17:54:46.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 85.866 ms
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 113.558 ms
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 118.045 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  adminId: '3bf19f94691f2dc27fc5602d710b6c3c',
+  access: 'lubrication',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  userId: 'Not Set',
+  domain_id: '40139',
+  state: 'Not Set',
+  area: 'Not Set',
+  site: 'Not Set',
+  email: 'Not Set',
+  pathname: '/Home',
+  entryTime: '2025-01-07 23:24:46',
+  exitTime: '2025-01-07 23:24:52'
+}
+Start DateTime in ISO format: 2025-01-07T17:54:46.000Z
+End DateTime in ISO format: 2025-01-07T17:54:52.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-01-07T17:54:52.000Z',
+    Password: 'Suzlon@123',
+    UserID: '40139',
+    ScreenName: '/Home',
+    StartDateTime: '2025-01-07T17:54:46.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+States written to states_sent_back.json
+GET /api/get_states 304 - - 33.377 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+States written to states_sent_back.json
+GET /api/get_states 304 - - 42.088 ms
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 155.097 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  adminId: '3bf19f94691f2dc27fc5602d710b6c3c',
+  access: 'lubrication',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  userId: 'Not Set',
+  domain_id: '40139',
+  state: 'Not Set',
+  area: 'Not Set',
+  site: 'Not Set',
+  email: 'Not Set',
+  pathname: '/Functional_Loc',
+  entryTime: '2025-01-07 23:24:52',
+  exitTime: '2025-01-07 23:24:54'
+}
+Start DateTime in ISO format: 2025-01-07T17:54:52.000Z
+End DateTime in ISO format: 2025-01-07T17:54:54.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-01-07T17:54:54.000Z',
+    Password: 'Suzlon@123',
+    UserID: '40139',
+    ScreenName: '/Functional_Loc',
+    StartDateTime: '2025-01-07T17:54:52.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_fy_year 304 - - 35.758 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_fy_year 304 - - 15.587 ms
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 96.602 ms
+GET /api/fetch_order_type 304 - - 253.145 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_order_type 304 - - 168.791 ms

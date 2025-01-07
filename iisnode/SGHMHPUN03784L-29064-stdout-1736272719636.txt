@@ -1,0 +1,215 @@
+GET /api/fetch_oil_under_supervision_admin 304 - - 559.125 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  adminId: '3bf19f94691f2dc27fc5602d710b6c3c',
+  access: 'lubrication',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  userId: 'Not Set',
+  domain_id: '40139',
+  state: 'Not Set',
+  area: 'Not Set',
+  site: 'Not Set',
+  email: 'Not Set',
+  pathname: '/corrective-action',
+  entryTime: '2025-01-07 23:28:38',
+  exitTime: '2025-01-07 23:28:42'
+}
+Start DateTime in IST format: 2025-01-07T23:28:38.000
+End DateTime in IST format: 2025-01-07T23:28:42.000
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-01-07T23:28:42.000.000+05:30',
+    Password: 'Suzlon@123',
+    UserID: '40139',
+    ScreenName: '/corrective-action',
+    StartDateTime: '2025-01-07T23:28:38.000.000+05:30',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+API Response: {
+  type: 'https://tools.ietf.org/html/rfc7231#section-6.5.1',
+  title: 'One or more validation errors occurred.',
+  status: 400,
+  traceId: '00-ce64f70213d3d726e48e8933d24f28c7-d25639a63e2d95a9-00',
+  errors: {
+    value: [ 'The value field is required.' ],
+    '$[0].EndDateTime': [
+      'The JSON value could not be converted to System.DateTime. Path: $[0].EndDateTime | LineNumber: 0 | BytePositionInLine: 191.'
+    ]
+  }
+}
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 28.463 ms
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_fy_year 304 - - 47.224 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_fy_year 304 - - 18.338 ms
+GET /api/fetch_order_type 304 - - 181.539 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_order_type 304 - - 195.664 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  adminId: '3bf19f94691f2dc27fc5602d710b6c3c',
+  access: 'lubrication',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  userId: 'Not Set',
+  domain_id: '40139',
+  state: 'Not Set',
+  area: 'Not Set',
+  site: 'Not Set',
+  email: 'Not Set',
+  pathname: '/Oil_Analysis',
+  entryTime: '2025-01-07 23:28:42',
+  exitTime: '2025-01-07 23:28:45'
+}
+Start DateTime in IST format: 2025-01-07T23:28:42.000
+End DateTime in IST format: 2025-01-07T23:28:45.000
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-01-07T23:28:45.000.000+05:30',
+    Password: 'Suzlon@123',
+    UserID: '40139',
+    ScreenName: '/Oil_Analysis',
+    StartDateTime: '2025-01-07T23:28:42.000.000+05:30',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+API Response: {
+  type: 'https://tools.ietf.org/html/rfc7231#section-6.5.1',
+  title: 'One or more validation errors occurred.',
+  status: 400,
+  traceId: '00-e0522645dcb6df2af697a7369493ba48-56fadc5b161e7bb5-00',
+  errors: {
+    value: [ 'The value field is required.' ],
+    '$[0].EndDateTime': [
+      'The JSON value could not be converted to System.DateTime. Path: $[0].EndDateTime | LineNumber: 0 | BytePositionInLine: 191.'
+    ]
+  }
+}
+States written to states_sent_back.json
+GET /api/get_states 304 - - 21.700 ms
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 32.664 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+States written to states_sent_back.json
+GET /api/get_states 304 - - 32.443 ms

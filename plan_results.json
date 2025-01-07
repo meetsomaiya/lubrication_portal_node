@@ -1,6 +1,13 @@
 {
-  "TotalCount": 24,
+  "TotalCount": 2821,
   "stateWiseCounts": {
-    "Rajasthan": 24
+    "GJ - Saurashtra": 385,
+    "Tamil nadu": 363,
+    "Rajasthan": 655,
+    "Maharashtra": 271,
+    "Andhra Pradesh": 705,
+    "Karnataka": 246,
+    "GJ - Kutch": 189,
+    "Sri lanka": 7
   }
 }

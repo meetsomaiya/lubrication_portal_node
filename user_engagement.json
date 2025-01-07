@@ -1,0 +1,25 @@
+{
+  "sentData": [
+    {
+      "AppID": "LUBRICATION_PORTAL",
+      "ApplicationType": "web",
+      "CustEmail": "",
+      "CustID": "",
+      "CustName": "",
+      "CustomData": "",
+      "DeviceID": "3385f58ecd5b7dbd",
+      "EndDateTime": "2025-01-07T17:59:52.000Z",
+      "Password": "Suzlon@123",
+      "UserID": "40139",
+      "ScreenName": "/Home",
+      "StartDateTime": "2025-01-07T17:59:52.000Z",
+      "UserEngagementID": 0,
+      "UserName": "Meet Harishbhai Somaiya"
+    }
+  ],
+  "apiResponse": {
+    "message": "Saved Successfully.",
+    "isSuccess": true,
+    "data": null
+  }
+}

@@ -127,6 +127,8 @@ const api74 = require('./apis/get_completed_wtg_count_based_on_state');
 
 const api75 = require('./apis/get_completed_out_of_grace_wtg_count_based_on_state');
 
+const api76 = require('./apis/heartbeat');
+
 
 
 // Use routes with a dynamic router prefix
@@ -245,6 +247,8 @@ app.use('/api/get_open_wtg_count_based_on_state', api73);
 app.use('/api/get_completed_wtg_count_based_on_state', api74);
 
 app.use('/api/get_completed_out_of_grace_wtg_count_based_on_state', api75);
+
+app.use('/api/heartbeat', api76);
 
 
 

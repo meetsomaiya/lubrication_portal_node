@@ -1,47 +1,4 @@
-GET /api/fetch_oil_under_supervision?loginUser=vhiralal@suzlon.com 304 - - 160.888 ms
-Connected to the database.
-Test query result: [
-  { test: 1 },
-  statement: 'SELECT 1 AS test',
-  parameters: [],
-  return: undefined,
-  count: -1,
-  columns: [
-    {
-      name: 'test',
-      dataType: 4,
-      dataTypeName: 'SQL_INTEGER',
-      columnSize: 10,
-      decimalDigits: 0,
-      nullable: false
-    }
-  ]
-]
-POST /api/logout_user 200 221 - 428.604 ms
-OPTIONS /api/login2 204 0 - 0.142 ms
-POST /api/login2 200 1009 - 71.307 ms
-Retrieved DomainId: 40139
-Decoded Name: Meet Harishbhai Somaiya
-EmailId: Meet.Somaiya@suzlon.com
-Connected to the database.
-Test query result: [
-  { test: 1 },
-  statement: 'SELECT 1 AS test',
-  parameters: [],
-  return: undefined,
-  count: -1,
-  columns: [
-    {
-      name: 'test',
-      dataType: 4,
-      dataTypeName: 'SQL_INTEGER',
-      columnSize: 10,
-      decimalDigits: 0,
-      nullable: false
-    }
-  ]
-]
-GET /api/checkAdmin?DomainId=40139&Name=Meet%20Harishbhai%20Somaiya&EmailId=Meet.Somaiya%40suzlon.com 200 190 - 23.588 ms
+GET /api/fetch_oil_under_supervision_admin 304 - - 1256.834 ms
 Executing query: SELECT * FROM [Fleet_Manager_DB].[dbo].oil_under_supervision
 Connected to MSSQL database
 Query result: [
@@ -2547,7 +2504,7 @@ Query result: [
   },
   ... 2327 more items
 ]
-GET /api/fetch_oil_under_supervision_admin 304 - - 183.603 ms
+GET /api/fetch_oil_under_supervision_admin 304 - - 826.837 ms
 Executing query: SELECT * FROM [Fleet_Manager_DB].[dbo].oil_under_supervision
 Connected to MSSQL database
 Query result: [

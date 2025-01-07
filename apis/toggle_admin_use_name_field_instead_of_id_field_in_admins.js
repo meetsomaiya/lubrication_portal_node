@@ -22,19 +22,20 @@ router.use(express.json());
 router.post('/', async (req, res) => {
     const { adminId, name, email } = req.body; // Retrieve adminId, name, and email from request body
 
+    // if (!adminId || !name || !email) {
+    //     return res.status(400).json({ error: 'adminId, name, and email are required in the request body' });
+    // }
+
     try {
         const connection = await connectToDatabase(); // Connect to the database
 
-        // Decode the name (as it might be URL-encoded)
-        const decodedName = decodeURIComponent(name); // Decoding the name before using it
-
-        // Fetch domain_id from the admins table using name instead of adminId
-        const adminQuery = `SELECT domain_id FROM admins WHERE name = ?`;
-        const adminResult = await connection.query(adminQuery, [decodedName]); // Use decoded name here
+        // Fetch domain_id from the admins table
+        const adminQuery = `SELECT domain_id FROM admins WHERE id = ?`;
+        const adminResult = await connection.query(adminQuery, [adminId]);
 
         if (adminResult.length === 0) {
             await connection.close();
-            return res.status(404).json({ error: 'Admin name not found in the admins table' });
+            return res.status(404).json({ error: 'adminId not found in the admins table' });
         }
 
         const domainId = adminResult[0].domain_id;
@@ -42,12 +43,15 @@ router.post('/', async (req, res) => {
         // Generate a random session ID
         const sessionId = crypto.randomBytes(16).toString('hex');
 
+        // Decode the name (as it might be URL-encoded)
+        const decodedName = decodeURIComponent(name);
+
         // Get the current date and time in Indian Standard Time (Asia/Kolkata)
         const lastLoginTime = moment().tz('Asia/Kolkata').format('YYYY-MM-DD HH:mm:ss'); // Format: YYYY-MM-DD HH:mm:ss
 
         // Update sessionId, name, email, and last_login_time in the login table for the retrieved domain_id
         const updateQuery = `UPDATE login SET id = ?, name = ?, email = ?, last_login_time = ? WHERE domain_id = ?`;
-        await connection.query(updateQuery, [sessionId, decodedName, email, lastLoginTime, domainId]); // Use decoded name here
+        await connection.query(updateQuery, [sessionId, decodedName, email, lastLoginTime, domainId]);
 
         // Fetch additional details from the login table for the given domain_id
         const loginQuery = `SELECT domain_id, name, email, state, area, site, access, last_login_time FROM login WHERE domain_id = ?`;
@@ -68,7 +72,7 @@ router.post('/', async (req, res) => {
             message: 'Session ID, name, email, and last login time updated successfully',
             sessionId,
             domainId: domainId,
-            name: decodedName, // Return the decoded name in the response
+            name: decodedName,
             email: userDetails.email,
             state: userDetails.state,
             area: userDetails.area,
