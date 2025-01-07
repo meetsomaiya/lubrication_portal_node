@@ -1,0 +1,41 @@
+const express = require('express');
+const fs = require('fs');
+const cors = require('cors');
+
+const router = express.Router();
+
+// Enable CORS for all origins
+router.use(cors({
+    origin: '*', // Allow requests from all origins
+    methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allow specific HTTP methods
+    allowedHeaders: ['Content-Type', 'Authorization'], // Allow specific headers
+}));
+
+// Middleware to parse JSON bodies
+router.use(express.json()); // This line is added to parse JSON body
+
+router.post('/', async (req, res) => {
+    // Destructure and log the received body to debug
+    const { domain_id, password } = req.body;
+
+    console.log('Received domain_id:', domain_id);
+    console.log('Received password:', password);
+
+    // Create an object to hold the login data
+    const loginData = {
+        domain_id: domain_id,
+        password: password
+    };
+
+    // Write the login data to a JSON file
+    fs.writeFile('login_api.json', JSON.stringify(loginData, null, 2), (err) => {
+        if (err) {
+            console.error('Error writing to file:', err);
+            return res.status(500).json({ message: 'Error saving data' });
+        }
+        console.log('Login data saved to login_api.json');
+        return res.status(200).json({ message: 'Login data saved successfully' });
+    });
+});
+
+module.exports = router;

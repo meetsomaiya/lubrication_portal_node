@@ -1,0 +1,4 @@
+{
+  "error_message": "[odbc] Error connecting to the database",
+  "error_trace": "Error: [odbc] Error connecting to the database"
+}

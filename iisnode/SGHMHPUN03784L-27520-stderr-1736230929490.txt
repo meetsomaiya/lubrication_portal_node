@@ -1,0 +1,94 @@
+(node:27520) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Error executing query: ConnectionError: Failed to connect to SELPUNMBDWEB01:7002 - Could not connect (sequence)
+    at D:\NODEJS_BACKEND\Lubrication_Portal_Backend\node_modules\mssql\lib\tedious\connection-pool.js:85:17
+    at Connection.onConnect (D:\NODEJS_BACKEND\Lubrication_Portal_Backend\node_modules\tedious\lib\connection.js:849:9)
+    at Object.onceWrapper (node:events:633:26)
+    at Connection.emit (node:events:518:28)
+    at Connection.emit (D:\NODEJS_BACKEND\Lubrication_Portal_Backend\node_modules\tedious\lib\connection.js:970:18)
+    at Connection.socketError (D:\NODEJS_BACKEND\Lubrication_Portal_Backend\node_modules\tedious\lib\connection.js:1353:12)
+    at D:\NODEJS_BACKEND\Lubrication_Portal_Backend\node_modules\tedious\lib\connection.js:1146:14
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+  code: 'ESOCKET',
+  originalError: ConnectionError: Failed to connect to SELPUNMBDWEB01:7002 - Could not connect (sequence)
+      at Connection.socketError (D:\NODEJS_BACKEND\Lubrication_Portal_Backend\node_modules\tedious\lib\connection.js:1353:28)
+      at D:\NODEJS_BACKEND\Lubrication_Portal_Backend\node_modules\tedious\lib\connection.js:1146:14
+      at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+    code: 'ESOCKET',
+    [cause]: AggregateError: Could not connect (sequence)
+        at connectInSequence (D:\NODEJS_BACKEND\Lubrication_Portal_Backend\node_modules\tedious\lib\connector.js:114:9)
+        at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+        at async D:\NODEJS_BACKEND\Lubrication_Portal_Backend\node_modules\tedious\lib\connection.js:1129:20 {
+      [errors]: [Array]
+    }
+  }
+}
+Error executing query: ConnectionError: Failed to connect to SELPUNMBDWEB01:7002 - Could not connect (sequence)
+    at D:\NODEJS_BACKEND\Lubrication_Portal_Backend\node_modules\mssql\lib\tedious\connection-pool.js:85:17
+    at Connection.onConnect (D:\NODEJS_BACKEND\Lubrication_Portal_Backend\node_modules\tedious\lib\connection.js:849:9)
+    at Object.onceWrapper (node:events:633:26)
+    at Connection.emit (node:events:518:28)
+    at Connection.emit (D:\NODEJS_BACKEND\Lubrication_Portal_Backend\node_modules\tedious\lib\connection.js:970:18)
+    at Connection.socketError (D:\NODEJS_BACKEND\Lubrication_Portal_Backend\node_modules\tedious\lib\connection.js:1353:12)
+    at D:\NODEJS_BACKEND\Lubrication_Portal_Backend\node_modules\tedious\lib\connection.js:1146:14
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+  code: 'ESOCKET',
+  originalError: ConnectionError: Failed to connect to SELPUNMBDWEB01:7002 - Could not connect (sequence)
+      at Connection.socketError (D:\NODEJS_BACKEND\Lubrication_Portal_Backend\node_modules\tedious\lib\connection.js:1353:28)
+      at D:\NODEJS_BACKEND\Lubrication_Portal_Backend\node_modules\tedious\lib\connection.js:1146:14
+      at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+    code: 'ESOCKET',
+    [cause]: AggregateError: Could not connect (sequence)
+        at connectInSequence (D:\NODEJS_BACKEND\Lubrication_Portal_Backend\node_modules\tedious\lib\connector.js:114:9)
+        at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+        at async D:\NODEJS_BACKEND\Lubrication_Portal_Backend\node_modules\tedious\lib\connection.js:1129:20 {
+      [errors]: [Array]
+    }
+  }
+}
+Error executing query: ConnectionError: Failed to connect to SELPUNMBDWEB01:7002 - Could not connect (sequence)
+    at D:\NODEJS_BACKEND\Lubrication_Portal_Backend\node_modules\mssql\lib\tedious\connection-pool.js:85:17
+    at Connection.onConnect (D:\NODEJS_BACKEND\Lubrication_Portal_Backend\node_modules\tedious\lib\connection.js:849:9)
+    at Object.onceWrapper (node:events:633:26)
+    at Connection.emit (node:events:518:28)
+    at Connection.emit (D:\NODEJS_BACKEND\Lubrication_Portal_Backend\node_modules\tedious\lib\connection.js:970:18)
+    at Connection.socketError (D:\NODEJS_BACKEND\Lubrication_Portal_Backend\node_modules\tedious\lib\connection.js:1353:12)
+    at D:\NODEJS_BACKEND\Lubrication_Portal_Backend\node_modules\tedious\lib\connection.js:1146:14
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+  code: 'ESOCKET',
+  originalError: ConnectionError: Failed to connect to SELPUNMBDWEB01:7002 - Could not connect (sequence)
+      at Connection.socketError (D:\NODEJS_BACKEND\Lubrication_Portal_Backend\node_modules\tedious\lib\connection.js:1353:28)
+      at D:\NODEJS_BACKEND\Lubrication_Portal_Backend\node_modules\tedious\lib\connection.js:1146:14
+      at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+    code: 'ESOCKET',
+    [cause]: AggregateError: Could not connect (sequence)
+        at connectInSequence (D:\NODEJS_BACKEND\Lubrication_Portal_Backend\node_modules\tedious\lib\connector.js:114:9)
+        at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+        at async D:\NODEJS_BACKEND\Lubrication_Portal_Backend\node_modules\tedious\lib\connection.js:1129:20 {
+      [errors]: [Array]
+    }
+  }
+}
+Error executing query: ConnectionError: Failed to connect to SELPUNMBDWEB01:7002 - Could not connect (sequence)
+    at D:\NODEJS_BACKEND\Lubrication_Portal_Backend\node_modules\mssql\lib\tedious\connection-pool.js:85:17
+    at Connection.onConnect (D:\NODEJS_BACKEND\Lubrication_Portal_Backend\node_modules\tedious\lib\connection.js:849:9)
+    at Object.onceWrapper (node:events:633:26)
+    at Connection.emit (node:events:518:28)
+    at Connection.emit (D:\NODEJS_BACKEND\Lubrication_Portal_Backend\node_modules\tedious\lib\connection.js:970:18)
+    at Connection.socketError (D:\NODEJS_BACKEND\Lubrication_Portal_Backend\node_modules\tedious\lib\connection.js:1353:12)
+    at D:\NODEJS_BACKEND\Lubrication_Portal_Backend\node_modules\tedious\lib\connection.js:1146:14
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+  code: 'ESOCKET',
+  originalError: ConnectionError: Failed to connect to SELPUNMBDWEB01:7002 - Could not connect (sequence)
+      at Connection.socketError (D:\NODEJS_BACKEND\Lubrication_Portal_Backend\node_modules\tedious\lib\connection.js:1353:28)
+      at D:\NODEJS_BACKEND\Lubrication_Portal_Backend\node_modules\tedious\lib\connection.js:1146:14
+      at process.processTicksAndRejections (node:internal/process/task_queues:85:11) {
+    code: 'ESOCKET',
+    [cause]: AggregateError: Could not connect (sequence)
+        at connectInSequence (D:\NODEJS_BACKEND\Lubrication_Portal_Backend\node_modules\tedious\lib\connector.js:114:9)
+        at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+        at async D:\NODEJS_BACKEND\Lubrication_Portal_Backend\node_modules\tedious\lib\connection.js:1129:20 {
+      [errors]: [Array]
+    }
+  }
+}

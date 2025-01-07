@@ -1,0 +1,34 @@
+[
+  {
+    "domain_id": 800,
+    "name": "dummy user",
+    "email": "dummyuser@suzlon.com",
+    "state": "Maharashtra",
+    "area": "Ratlam",
+    "site": "Kod, Mahuria, Ratlam"
+  },
+  {
+    "domain_id": 801,
+    "name": "dummy user2",
+    "email": "dummyuser2@suzlon.com",
+    "state": "Maharashtra",
+    "area": "Ratlam",
+    "site": "Kod, Mahuria, Ratlam"
+  },
+  {
+    "domain_id": 802,
+    "name": "dummy user3",
+    "email": "dummyuser3@suzlon.com",
+    "state": "Maharashtra",
+    "area": "Ratlam",
+    "site": "Kod, Mahuria, Ratlam"
+  },
+  {
+    "domain_id": 803,
+    "name": "meetdummy",
+    "email": "dummyuser3@suzlon.com",
+    "state": "rajkot",
+    "area": "rajkot",
+    "site": "rajkot"
+  }
+]

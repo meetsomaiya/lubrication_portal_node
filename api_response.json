@@ -1,0 +1,24 @@
+{
+  "DomainId": "40139",
+  "Name": "Meet Harishbhai Somaiya",
+  "Message": "Suzlon",
+  "EmailId": "Meet.Somaiya@suzlon.com",
+  "Department": "Digital Solutions",
+  "ContactNumber": "02067022444",
+  "MobileNumber": "7046412385",
+  "EmpGrade": "M3",
+  "IsActive": true,
+  "Groups": [
+    "CN=SEL_PUNEFS_OMS_SGSLColib_LubPortal_Full,OU=OMS,OU=FileServer_Groups,DC=suzlon,DC=com",
+    "CN=A&B Raters,CN=Users,DC=suzlon,DC=com",
+    "CN=SUZLON IT,OU=Users,OU=Pune,DC=suzlon,DC=com",
+    "CN=OMS-Corp,OU=Groups,OU=Pune,OU=Maharashtra,OU=India,DC=suzlon,DC=com",
+    "CN=Suzlon All India OMS group,CN=Users,DC=suzlon,DC=com",
+    "CN=contacts oms,OU=Groups,OU=Pune,OU=Maharashtra,OU=India,DC=suzlon,DC=com",
+    "CN=DLP_Installation,OU=Groups,OU=Pune,OU=Maharashtra,OU=India,DC=suzlon,DC=com",
+    "CN=IB-OMS-DL,CN=Users,DC=suzlon,DC=com",
+    "CN=SEL_PUNEFS_OMS_ENG_Digitiz_FULL,OU=OMS,OU=FileServer_Groups,DC=suzlon,DC=com",
+    "CN=Suzlon All India Group,OU=Groups,OU=Pune,OU=Maharashtra,OU=India,DC=suzlon,DC=com",
+    "CN=Suzlon One Earth Group,OU=Groups,OU=Pune,OU=Maharashtra,OU=India,DC=suzlon,DC=com"
+  ]
+}

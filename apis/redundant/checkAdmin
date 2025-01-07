@@ -1,0 +1,51 @@
+console.log('checkAdmin route module loaded');
+
+const express = require('express');
+const fs = require('fs');
+
+const router = express.Router(); // Define the router
+
+// Set up CORS middleware
+router.use((req, res, next) => {
+    res.header('Access-Control-Allow-Origin', '*');
+    res.header('Access-Control-Allow-Methods', 'POST, GET, OPTIONS');
+    res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+    res.header('Access-Control-Allow-Credentials', 'true');
+    res.header('Access-Control-Max-Age', '3600');
+    next();
+});
+
+// Define the GET route for checkAdmin
+router.get('/', (req, res) => {
+    const { DomainId, Name } = req.query; // Retrieve DomainId and Name from query parameters
+
+    // Validate the incoming data
+    if (!DomainId || !Name) {
+        return res.status(400).json({ message: 'DomainId and Name are required.' });
+    }
+
+    // Log the retrieved DomainId and Name
+    console.log('Retrieved DomainId:', DomainId);
+    console.log('Retrieved Name:', Name);
+
+    // Prepare the data to be written to JSON
+    const dataToWrite = {
+        DomainId,
+        Name,
+        timestamp: new Date().toISOString(), // Adding a timestamp for reference
+    };
+
+    // Write the data to checkAdmin.json
+    fs.writeFile('checkAdmin.json', JSON.stringify(dataToWrite, null, 2), (err) => {
+        if (err) {
+            console.error('Error writing to file:', err);
+            return res.status(500).json({ message: 'Failed to write data to file.' });
+        }
+
+        console.log('Data successfully written to checkAdmin.json');
+        res.status(200).json({ message: 'Data successfully processed.' });
+    });
+});
+
+// Export the router
+module.exports = router;

@@ -1,0 +1,12 @@
+[
+  {
+    "timestamp": "2024-10-31T06:40:12.700Z",
+    "message": "rows.map is not a function",
+    "stack": "TypeError: rows.map is not a function\n    at D:\\NODEJS_BACKEND\\Lubrication_Portal_Backend\\apis\\get_areas.js:81:30"
+  },
+  {
+    "timestamp": "2024-10-31T06:40:14.943Z",
+    "message": "rows.map is not a function",
+    "stack": "TypeError: rows.map is not a function\n    at D:\\NODEJS_BACKEND\\Lubrication_Portal_Backend\\apis\\get_areas.js:81:30"
+  }
+]

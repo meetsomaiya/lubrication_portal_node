@@ -1,0 +1,63 @@
+const express = require('express');
+const odbc = require('odbc');
+const { connectToDatabase } = require('./connect.js');
+const fs = require('fs');
+
+const router = express.Router();
+
+// Middleware to set up CORS and parse JSON
+router.use((req, res, next) => {
+    res.header('Access-Control-Allow-Origin', '*');
+    res.header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
+    res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+    next();
+});
+
+// Route to generate the report
+router.get('/', async (req, res) => {
+    try {
+        const dbConnection = await connectToDatabase();
+        console.log("Database connected.");
+
+        const combinedQuery = `
+           SELECT
+               COUNT(*) AS total_count,
+               SUM(CASE WHEN TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL THEN 1 ELSE 0 END) AS planned_count,
+               SUM(CASE WHEN ZTEXT1 IN ('Open', 'In Process')
+                         AND TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL
+                         AND TRY_CAST(ZREQ_SDAT AS DATE) <= GETDATE()
+                         THEN 1 ELSE 0 END) AS open_count,
+               SUM(CASE WHEN ZTEXT1 NOT IN ('Open', 'In Process', 'Deletion Flag')
+                         AND TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL
+                         AND TRY_CAST(ZREQ_SDAT AS DATE) <= GETDATE()
+                         THEN 1 ELSE 0 END) AS completed_count
+           FROM
+               Schedule_plan_lubrication
+           WHERE
+               ZEXT_RNO IS NOT NULL AND ZEXT_RNO <> ''
+               AND ZTEXT1 NOT IN ('Deletion Flag');
+        `;
+
+        console.log("Executing query:", combinedQuery);
+
+        let result;
+        try {
+            result = await dbConnection.query(combinedQuery);
+            console.log('Query executed successfully:', result);
+        } catch (queryError) {
+            console.error('Query execution error:', queryError.message);
+            return res.status(500).json({ error: 'Query execution failed.' });
+        }
+
+        // Write the JSON data to a file
+        fs.writeFileSync('site_report_generated_test.json', JSON.stringify(result, null, 2));
+        console.log('Results written to site_report_generated_test.json');
+
+        res.status(200).json({ message: 'Report generated successfully.', results: result });
+    } catch (err) {
+        console.error('Database operation error:', err.message);
+        res.status(500).json({ error: 'Internal Server Error' });
+    }
+});
+
+module.exports = router;

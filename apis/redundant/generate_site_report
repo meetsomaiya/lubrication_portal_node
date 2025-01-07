@@ -1,0 +1,59 @@
+const express = require('express');
+const odbc = require('odbc');
+const { connectToDatabase } = require('./connect.js'); // Ensure this function is implemented
+const fs = require('fs');
+
+const router = express.Router();
+
+// Set up CORS middleware
+router.use((req, res, next) => {
+    res.header('Access-Control-Allow-Origin', '*');
+    res.header('Access-Control-Allow-Methods', 'POST, GET, OPTIONS');
+    res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+    res.header('Access-Control-Allow-Credentials', 'true');
+    res.header('Access-Control-Max-Age', '3600');
+    next();
+});
+
+// Middleware to parse JSON bodies
+router.use(express.json());
+
+// Route to generate the report
+router.get('/', async (req, res) => {
+    try {
+        console.log("Attempting to connect to the database...");
+        const dbConnection = await connectToDatabase();
+        console.log("Database connection established.");
+
+        // Base query setup
+        const baseQuery = `
+            SELECT ZEXT_RNO, 
+                COUNT(*) AS total_count, 
+                SUM(CASE WHEN TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL AND ZTEXT1 NOT IN ('Deletion Flag') THEN 1 ELSE 0 END) AS planned_count,
+                SUM(CASE WHEN ZTEXT1 IN ('Open', 'In Process') AND TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL AND CAST(ZREQ_SDAT AS DATE) <= GETDATE() AND ZTEXT1 NOT IN ('Deletion Flag') THEN 1 ELSE 0 END) AS open_count,
+                SUM(CASE WHEN ZTEXT1 NOT IN ('Open', 'In Process', 'Deletion Flag') AND TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL AND CAST(ZREQ_SDAT AS DATE) <= GETDATE() AND ZTEXT1 NOT IN ('Deletion Flag') THEN 1 ELSE 0 END) AS completed_count,
+                SUM(CASE WHEN ZTEXT1 NOT IN ('Open', 'In Process', 'Deletion Flag') AND TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL AND TRY_CAST(ZACTENDT AS DATE) IS NOT NULL AND TRY_CAST(ZREQ_SDAT AS DATE) < TRY_CAST(ZACTENDT AS DATE) AND DATEDIFF(DAY, TRY_CAST(ZREQ_SDAT AS DATE), TRY_CAST(ZACTENDT AS DATE)) > 7 AND CAST(ZREQ_SDAT AS DATE) BETWEEN DATEADD(YEAR, -2, GETDATE()) AND DATEADD(YEAR, 2, GETDATE()) AND ZTEXT1 NOT IN ('Deletion Flag') THEN 1 ELSE 0 END) AS grace_count
+            FROM Schedule_plan_lubrication
+            WHERE DATEDIFF(day, DATEADD(YEAR, -2, GETDATE()), CONVERT(DATE, TRY_CAST(ZREQ_SDAT AS DATE), 23)) >= 0
+            AND ZEXT_RNO IS NOT NULL AND ZEXT_RNO <> ''
+            AND ZTEXT1 NOT IN ('Deletion Flag')
+        `;
+        console.log("Base query created.");
+
+        // Execute the query
+        const results = await dbConnection.query(baseQuery);
+        console.log('Query executed successfully, result:', results);
+
+        // Write the JSON data to a file
+        const filePath = 'site_report_generate_test.json'; // File path for the output
+        fs.writeFileSync(filePath, JSON.stringify(results, null, 2));
+        console.log('Results written to JSON file:', filePath);
+
+        res.status(200).json({ message: 'Report generated successfully.', results });
+    } catch (err) {
+        console.error('Error:', err);
+        res.status(500).json({ error: 'Internal Server Error' });
+    }
+});
+
+module.exports = router;
