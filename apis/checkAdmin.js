@@ -2,7 +2,8 @@ console.log('checkAdmin route module loaded');
 
 const express = require('express');
 // const { connectToDatabase } = require('./connect.js');
-const { connectToDatabase } = require('./connect5.js');
+// const { connectToDatabase } = require('./connect5.js');
+const { connectToDatabase } = require('./connect6.js');
 const crypto = require('crypto'); // For generating a random session ID
 const fs = require('fs'); // For file operations
 const moment = require('moment-timezone'); // For handling timezones
@@ -42,7 +43,7 @@ router.get('/', async (req, res) => {
         // SQL query to fetch admin details for the specified domain_id
         const query = `
             SELECT [id], [domain_id], [name], [email], [access], [admin_type], [last_login_time]
-            FROM [Lubrication_Dashboard].[dbo].[admins]
+            FROM [dbo].[admins]
             WHERE [domain_id] = ?
         `;
 

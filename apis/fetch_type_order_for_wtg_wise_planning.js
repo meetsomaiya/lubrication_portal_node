@@ -1,6 +1,8 @@
 const express = require('express');
 const odbc = require('odbc');
-const { connectToDatabase } = require('./connect.js'); // Ensure you have this connection string in the 'connect.js' file.
+// Ensure you have this connection string in the 'connect.js' file.
+// const { connectToDatabase } = require('./connect.js'); 
+const { connectToDatabase } = require('./connect6.js');
 const router = express.Router();
 
 // Set up CORS middleware

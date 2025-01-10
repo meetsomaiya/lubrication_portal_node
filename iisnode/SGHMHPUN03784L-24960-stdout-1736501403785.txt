@@ -1,0 +1,4501 @@
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Connected to the database.
+GET /api/get_total_planned_wtg_count?orderType=Q1_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Andhra+Pradesh&area=Borampalli&site=Select 200 62 - 194.791 ms
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/get_total_wtg_count?orderType=Q1_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Andhra+Pradesh&area=Borampalli 200 468 - 226.282 ms
+Connected to the database.
+Connected to the database.
+GET /api/get_total_open_status_wtg_count?orderType=Q1_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Andhra+Pradesh&area=Borampalli&site=Select 200 47 - 218.213 ms
+Parameters: {
+  zextRNO: 'Q1_LUB_2024',
+  selectedState: 'Andhra Pradesh',
+  selectedArea: 'Borampalli',
+  selectedSite: '',
+  startDate: '2023-01-10',
+  endDate: '2027-01-10'
+}
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Connected to the database.
+Data written to total_count_sent_back.json
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+            SELECT COUNT(*) AS total_count, PLANT 
+            FROM Schedule_plan_lubrication 
+            WHERE ZEXT_RNO = ? 
+            AND ZTEXT1 NOT IN ('Deletion Flag')
+            AND PLANT NOT LIKE 'T%'
+         AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE State = ?
+                      ) AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE Area = ?
+                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [
+  'Q1_LUB_2024',
+  'Andhra Pradesh',
+  'Borampalli',
+  '2023-01-10',
+  '2027-01-10'
+]
+GET /api/get_completed_count?orderType=Q1_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Andhra+Pradesh&area=Borampalli&site=Select 200 64 - 319.457 ms
+GET /api/get_completed_out_of_grace_count?orderType=Q1_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Andhra+Pradesh&area=Borampalli&site=Select 200 63 - 250.307 ms
+Query Result: [
+  { total_count: 2, PLANT: '4466' },
+  statement: '\n' +
+    '            SELECT COUNT(*) AS total_count, PLANT \n' +
+    '            FROM Schedule_plan_lubrication \n' +
+    '            WHERE ZEXT_RNO = ? \n' +
+    "            AND ZTEXT1 NOT IN ('Deletion Flag')\n" +
+    "            AND PLANT NOT LIKE 'T%'\n" +
+    '         AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE State = ?\n' +
+    '                      ) AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE Area = ?\n' +
+    '                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [
+    'Q1_LUB_2024',
+    'Andhra Pradesh',
+    'Borampalli',
+    '2023-01-10',
+    '2027-01-10'
+  ],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+GET /api/get_total_wtg_count_based_on_state?orderType=Q1_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Andhra+Pradesh&area=Borampalli&site=Select 200 55 - 315.335 ms
+Parameters: {
+  zextRNO: 'Q2_LUB_2024',
+  selectedState: 'Andhra Pradesh',
+  selectedArea: 'Borampalli',
+  selectedSite: '',
+  startDate: '2023-01-10',
+  endDate: '2027-01-10'
+}
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+            SELECT COUNT(*) AS total_count, PLANT 
+            FROM Schedule_plan_lubrication 
+            WHERE ZEXT_RNO = ? 
+            AND TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL
+            AND CONVERT(DATE, TRY_CAST(ZREQ_SDAT AS DATE), 23) <= CONVERT(DATE, GETDATE(), 23)
+            AND ZTEXT1 NOT IN ('Deletion Flag')
+            AND PLANT NOT LIKE 'T%'
+         AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE State = ?
+                      ) AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE Area = ?
+                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [
+  'Q2_LUB_2024',
+  'Andhra Pradesh',
+  'Borampalli',
+  '2023-01-10',
+  '2027-01-10'
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Query Result: [
+  { total_count: 2, PLANT: '4466' },
+  statement: '\n' +
+    '            SELECT COUNT(*) AS total_count, PLANT \n' +
+    '            FROM Schedule_plan_lubrication \n' +
+    '            WHERE ZEXT_RNO = ? \n' +
+    '            AND TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL\n' +
+    '            AND CONVERT(DATE, TRY_CAST(ZREQ_SDAT AS DATE), 23) <= CONVERT(DATE, GETDATE(), 23)\n' +
+    "            AND ZTEXT1 NOT IN ('Deletion Flag')\n" +
+    "            AND PLANT NOT LIKE 'T%'\n" +
+    '         AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE State = ?\n' +
+    '                      ) AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE Area = ?\n' +
+    '                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [
+    'Q2_LUB_2024',
+    'Andhra Pradesh',
+    'Borampalli',
+    '2023-01-10',
+    '2027-01-10'
+  ],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+GET /api/get_total_wtg_count?orderType=Q2_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Andhra+Pradesh&area=Borampalli 304 - - 1249.490 ms
+Connected to the database.
+GET /api/get_total_planned_wtg_count?orderType=Q2_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Andhra+Pradesh&area=Borampalli&site=Select 304 - - 1336.346 ms
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/get_total_open_status_wtg_count?orderType=Q2_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Andhra+Pradesh&area=Borampalli&site=Select 304 - - 1357.609 ms
+Parameters: {
+  zextRNO: 'Q2_LUB_2024',
+  selectedState: 'Andhra Pradesh',
+  selectedArea: 'Borampalli',
+  selectedSite: '',
+  startDate: '2023-01-10',
+  endDate: '2027-01-10'
+}
+Connected to the database.
+Data written to total_count_sent_back.json
+Connected to the database.
+GET /api/get_completed_count?orderType=Q2_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Andhra+Pradesh&area=Borampalli&site=Select 304 - - 175.328 ms
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+            SELECT COUNT(*) AS total_count, PLANT 
+            FROM Schedule_plan_lubrication 
+            WHERE ZEXT_RNO = ? 
+            AND ZTEXT1 NOT IN ('Deletion Flag')
+            AND PLANT NOT LIKE 'T%'
+         AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE State = ?
+                      ) AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE Area = ?
+                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [
+  'Q2_LUB_2024',
+  'Andhra Pradesh',
+  'Borampalli',
+  '2023-01-10',
+  '2027-01-10'
+]
+GET /api/get_completed_out_of_grace_count?orderType=Q2_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Andhra+Pradesh&area=Borampalli&site=Select 304 - - 144.332 ms
+Query Result: [
+  { total_count: 2, PLANT: '4466' },
+  statement: '\n' +
+    '            SELECT COUNT(*) AS total_count, PLANT \n' +
+    '            FROM Schedule_plan_lubrication \n' +
+    '            WHERE ZEXT_RNO = ? \n' +
+    "            AND ZTEXT1 NOT IN ('Deletion Flag')\n" +
+    "            AND PLANT NOT LIKE 'T%'\n" +
+    '         AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE State = ?\n' +
+    '                      ) AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE Area = ?\n' +
+    '                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [
+    'Q2_LUB_2024',
+    'Andhra Pradesh',
+    'Borampalli',
+    '2023-01-10',
+    '2027-01-10'
+  ],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+GET /api/get_total_wtg_count_based_on_state?orderType=Q2_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Andhra+Pradesh&area=Borampalli&site=Select 304 - - 195.268 ms
+Connecting to main database...
+Parameters: {
+  zextRNO: 'Q2_LUB_2024',
+  selectedState: 'Andhra Pradesh',
+  selectedArea: 'Borampalli',
+  selectedSite: '',
+  startDate: '2023-01-10',
+  endDate: '2027-01-10'
+}
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Connected to main database.
+Executing main query: 
+            SELECT 
+                spl.[FUNCT_LOC], 
+                spl.[PLANT], 
+                spl.[CRM_ORDERH], 
+                spl.[ZTEXT1], 
+                spl.[ZEXT_RNO], 
+                spl.[ZREQ_SDAT],
+                r.[reason] AS Reason
+            FROM 
+                Schedule_plan_lubrication spl
+            LEFT JOIN 
+                reason r ON r.[functional_location] = spl.[FUNCT_LOC] 
+                          AND r.[order_number] = spl.[CRM_ORDERH]
+            WHERE 
+                spl.ZEXT_RNO = ? 
+                AND TRY_CAST(spl.[ZREQ_SDAT] AS DATE) IS NOT NULL
+                AND CONVERT(DATE, TRY_CAST(spl.[ZREQ_SDAT] AS DATE), 23) <= GETDATE()
+                AND spl.[PLANT] NOT LIKE 'T%'
+                AND spl.ZTEXT1 IN ('Open', 'In Process')
+         AND spl.[PLANT] IN (SELECT DISTINCT [Maintenance_Plant] FROM installedbase WHERE State = ?) AND spl.[PLANT] IN (SELECT DISTINCT [Maintenance_Plant] FROM installedbase WHERE Area = ?) AND spl.[ZREQ_SDAT] >= ? AND spl.[ZREQ_SDAT] <= ? with params: [
+  'Q2_LUB_2024',
+  'Andhra Pradesh',
+  'Borampalli',
+  '2023-01-10',
+  '2027-01-10'
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+        SELECT COUNT(*) AS total_count, PLANT
+        FROM Schedule_plan_lubrication
+        WHERE ZEXT_RNO = ? 
+        AND TRY_CAST([ZREQ_SDAT] AS DATE) IS NOT NULL
+        AND CONVERT(DATE, TRY_CAST([ZREQ_SDAT] AS DATE), 23) <= GETDATE()
+        AND [PLANT] NOT LIKE 'T%'
+        AND ZTEXT1 IN ('Open', 'In Process') AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE State = ?
+                      ) AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE Area = ?
+                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [
+  'Q2_LUB_2024',
+  'Andhra Pradesh',
+  'Borampalli',
+  '2023-01-10',
+  '2027-01-10'
+]
+Main query results: [
+  {
+    FUNCT_LOC: 'SWSTTD-SC2-NED01-NK01',
+    PLANT: '4466',
+    CRM_ORDERH: '0018468962',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240819',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSTTD-SC2-NED01-NK02',
+    PLANT: '4466',
+    CRM_ORDERH: '0018468961',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240822',
+    Reason: null
+  },
+  statement: '\n' +
+    '            SELECT \n' +
+    '                spl.[FUNCT_LOC], \n' +
+    '                spl.[PLANT], \n' +
+    '                spl.[CRM_ORDERH], \n' +
+    '                spl.[ZTEXT1], \n' +
+    '                spl.[ZEXT_RNO], \n' +
+    '                spl.[ZREQ_SDAT],\n' +
+    '                r.[reason] AS Reason\n' +
+    '            FROM \n' +
+    '                Schedule_plan_lubrication spl\n' +
+    '            LEFT JOIN \n' +
+    '                reason r ON r.[functional_location] = spl.[FUNCT_LOC] \n' +
+    '                          AND r.[order_number] = spl.[CRM_ORDERH]\n' +
+    '            WHERE \n' +
+    '                spl.ZEXT_RNO = ? \n' +
+    '                AND TRY_CAST(spl.[ZREQ_SDAT] AS DATE) IS NOT NULL\n' +
+    '                AND CONVERT(DATE, TRY_CAST(spl.[ZREQ_SDAT] AS DATE), 23) <= GETDATE()\n' +
+    "                AND spl.[PLANT] NOT LIKE 'T%'\n" +
+    "                AND spl.ZTEXT1 IN ('Open', 'In Process')\n" +
+    '         AND spl.[PLANT] IN (SELECT DISTINCT [Maintenance_Plant] FROM installedbase WHERE State = ?) AND spl.[PLANT] IN (SELECT DISTINCT [Maintenance_Plant] FROM installedbase WHERE Area = ?) AND spl.[ZREQ_SDAT] >= ? AND spl.[ZREQ_SDAT] <= ?',
+  parameters: [
+    'Q2_LUB_2024',
+    'Andhra Pradesh',
+    'Borampalli',
+    '2023-01-10',
+    '2027-01-10'
+  ],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'FUNCT_LOC',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 40,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'CRM_ORDERH',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 32,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'ZTEXT1',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 40,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'ZEXT_RNO',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 32,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'ZREQ_SDAT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 8,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'Reason',
+      dataType: 12,
+      dataTypeName: 'SQL_VARCHAR',
+      columnSize: 0,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+GET /api/get_open_status_wtg_data?orderType=Q2_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Andhra+Pradesh&area=Borampalli&site=Select 200 343 - 555.030 ms
+Query Result: [
+  { total_count: 2, PLANT: '4466' },
+  statement: '\n' +
+    '        SELECT COUNT(*) AS total_count, PLANT\n' +
+    '        FROM Schedule_plan_lubrication\n' +
+    '        WHERE ZEXT_RNO = ? \n' +
+    '        AND TRY_CAST([ZREQ_SDAT] AS DATE) IS NOT NULL\n' +
+    '        AND CONVERT(DATE, TRY_CAST([ZREQ_SDAT] AS DATE), 23) <= GETDATE()\n' +
+    "        AND [PLANT] NOT LIKE 'T%'\n" +
+    "        AND ZTEXT1 IN ('Open', 'In Process') AND PLANT IN (\n" +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE State = ?\n' +
+    '                      ) AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE Area = ?\n' +
+    '                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [
+    'Q2_LUB_2024',
+    'Andhra Pradesh',
+    'Borampalli',
+    '2023-01-10',
+    '2027-01-10'
+  ],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+GET /api/get_open_wtg_count_based_on_state?orderType=Q2_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Andhra+Pradesh&area=Borampalli&site=Select 304 - - 1108.977 ms
+Parameters: {
+  zextRNO: 'Q2_LUB_2024',
+  selectedState: 'Andhra Pradesh',
+  selectedArea: 'Borampalli',
+  selectedSite: '',
+  startDate: '2023-01-10',
+  endDate: '2027-01-10'
+}
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+         SELECT COUNT(*) AS total_count, PLANT
+        FROM Schedule_plan_lubrication
+        WHERE ZEXT_RNO = ? 
+            AND ZTEXT1 NOT IN ('Open', 'In Process', 'Deletion Flag')
+            AND TRY_CAST([ZREQ_SDAT] AS DATE) IS NOT NULL
+            AND TRY_CAST([ZACTENDT] AS DATE) IS NOT NULL
+            AND (DATEDIFF(DAY, TRY_CAST([ZREQ_SDAT] AS DATE), TRY_CAST([ZACTENDT] AS DATE)) > 7 
+                 OR DATEDIFF(DAY, TRY_CAST([ZACTENDT] AS DATE), TRY_CAST([ZREQ_SDAT] AS DATE)) > 7)
+            AND ZTEXT1 != 'deletion_flag'
+            AND CONVERT(DATE, TRY_CAST([ZREQ_SDAT] AS DATE), 23) BETWEEN DATEADD(YEAR, -2, GETDATE()) AND DATEADD(YEAR, 2, GETDATE()) AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE State = ?
+                      ) AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE Area = ?
+                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [
+  'Q2_LUB_2024',
+  'Andhra Pradesh',
+  'Borampalli',
+  '2023-01-10',
+  '2027-01-10'
+]
+GET /api/get_completed_out_of_grace_data?orderType=Q2_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Andhra+Pradesh&area=Borampalli&site=Select 200 2 - 65.842 ms
+Query Result: [
+  statement: '\n' +
+    '         SELECT COUNT(*) AS total_count, PLANT\n' +
+    '        FROM Schedule_plan_lubrication\n' +
+    '        WHERE ZEXT_RNO = ? \n' +
+    "            AND ZTEXT1 NOT IN ('Open', 'In Process', 'Deletion Flag')\n" +
+    '            AND TRY_CAST([ZREQ_SDAT] AS DATE) IS NOT NULL\n' +
+    '            AND TRY_CAST([ZACTENDT] AS DATE) IS NOT NULL\n' +
+    '            AND (DATEDIFF(DAY, TRY_CAST([ZREQ_SDAT] AS DATE), TRY_CAST([ZACTENDT] AS DATE)) > 7 \n' +
+    '                 OR DATEDIFF(DAY, TRY_CAST([ZACTENDT] AS DATE), TRY_CAST([ZREQ_SDAT] AS DATE)) > 7)\n' +
+    "            AND ZTEXT1 != 'deletion_flag'\n" +
+    '            AND CONVERT(DATE, TRY_CAST([ZREQ_SDAT] AS DATE), 23) BETWEEN DATEADD(YEAR, -2, GETDATE()) AND DATEADD(YEAR, 2, GETDATE()) AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE State = ?\n' +
+    '                      ) AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE Area = ?\n' +
+    '                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [
+    'Q2_LUB_2024',
+    'Andhra Pradesh',
+    'Borampalli',
+    '2023-01-10',
+    '2027-01-10'
+  ],
+  return: undefined,
+  count: 0,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+GET /api/get_completed_out_of_grace_wtg_count_based_on_state?orderType=Q2_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Andhra+Pradesh&area=Borampalli&site=Select 200 37 - 118.958 ms
+Parameters: {
+  zextRNO: 'Q2_LUB_2024',
+  selectedState: 'Andhra Pradesh',
+  selectedArea: 'Borampalli',
+  selectedSite: '',
+  startDate: '2023-01-10',
+  endDate: '2027-01-10'
+}
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+        SELECT COUNT(*) AS total_count, PLANT
+        FROM Schedule_plan_lubrication
+        WHERE ZEXT_RNO = ?
+        AND ZTEXT1 NOT IN ('Open', 'In Process', 'Deletion Flag')
+        AND TRY_CAST([ZREQ_SDAT] AS DATE) IS NOT NULL
+        AND CONVERT(DATE, TRY_CAST([ZREQ_SDAT] AS DATE), 23) <= GETDATE()
+        AND [PLANT] NOT LIKE 'T%'
+     AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE State = ?
+                      ) AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE Area = ?
+                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [
+  'Q2_LUB_2024',
+  'Andhra Pradesh',
+  'Borampalli',
+  '2023-01-10',
+  '2027-01-10'
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Connecting to main database...
+Query Result: [
+  statement: '\n' +
+    '        SELECT COUNT(*) AS total_count, PLANT\n' +
+    '        FROM Schedule_plan_lubrication\n' +
+    '        WHERE ZEXT_RNO = ?\n' +
+    "        AND ZTEXT1 NOT IN ('Open', 'In Process', 'Deletion Flag')\n" +
+    '        AND TRY_CAST([ZREQ_SDAT] AS DATE) IS NOT NULL\n' +
+    '        AND CONVERT(DATE, TRY_CAST([ZREQ_SDAT] AS DATE), 23) <= GETDATE()\n' +
+    "        AND [PLANT] NOT LIKE 'T%'\n" +
+    '     AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE State = ?\n' +
+    '                      ) AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE Area = ?\n' +
+    '                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [
+    'Q2_LUB_2024',
+    'Andhra Pradesh',
+    'Borampalli',
+    '2023-01-10',
+    '2027-01-10'
+  ],
+  return: undefined,
+  count: 0,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+GET /api/get_completed_wtg_count_based_on_state?orderType=Q2_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Andhra+Pradesh&area=Borampalli&site=Select 200 37 - 872.580 ms
+Parameters: {
+  zextRNO: 'Q2_LUB_2024',
+  selectedState: 'Andhra Pradesh',
+  selectedArea: 'Borampalli',
+  selectedSite: '',
+  startDate: '2023-01-10',
+  endDate: '2027-01-10'
+}
+Connected to the database.
+Connected to the database.
+GET /api/get_completed_wtg_data?orderType=Q2_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Andhra+Pradesh&area=Borampalli&site=Select 200 2 - 1813.118 ms
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Connected to main database.
+Executing main query: 
+            SELECT 
+                spl.[FUNCT_LOC], 
+                spl.[PLANT], 
+                spl.[CRM_ORDERH], 
+                spl.[ZTEXT1], 
+                spl.[ZEXT_RNO], 
+                spl.[ZREQ_SDAT],
+                r.[reason] AS Reason
+            FROM 
+                Schedule_plan_lubrication spl
+            LEFT JOIN 
+                reason r ON r.[functional_location] = spl.[FUNCT_LOC] 
+                          AND r.[order_number] = spl.[CRM_ORDERH]
+            WHERE 
+                spl.ZEXT_RNO = ? 
+                AND TRY_CAST(spl.[ZREQ_SDAT] AS DATE) IS NOT NULL
+                AND CONVERT(DATE, TRY_CAST(spl.[ZREQ_SDAT] AS DATE), 23) <= GETDATE()
+                AND spl.[PLANT] NOT LIKE 'T%'
+                AND spl.ZTEXT1 IN ('Open', 'In Process')
+         AND spl.[PLANT] IN (SELECT DISTINCT [Maintenance_Plant] FROM installedbase WHERE State = ?) AND spl.[PLANT] IN (SELECT DISTINCT [Maintenance_Plant] FROM installedbase WHERE Area = ?) AND spl.[ZREQ_SDAT] >= ? AND spl.[ZREQ_SDAT] <= ? with params: [
+  'Q2_LUB_2024',
+  'Andhra Pradesh',
+  'Borampalli',
+  '2023-01-10',
+  '2027-01-10'
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+        SELECT COUNT(*) AS total_count, PLANT
+        FROM Schedule_plan_lubrication
+        WHERE ZEXT_RNO = ? 
+        AND TRY_CAST([ZREQ_SDAT] AS DATE) IS NOT NULL
+        AND CONVERT(DATE, TRY_CAST([ZREQ_SDAT] AS DATE), 23) <= GETDATE()
+        AND [PLANT] NOT LIKE 'T%'
+        AND ZTEXT1 IN ('Open', 'In Process') AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE State = ?
+                      ) AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE Area = ?
+                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [
+  'Q2_LUB_2024',
+  'Andhra Pradesh',
+  'Borampalli',
+  '2023-01-10',
+  '2027-01-10'
+]
+Main query results: [
+  {
+    FUNCT_LOC: 'SWSTTD-SC2-NED01-NK01',
+    PLANT: '4466',
+    CRM_ORDERH: '0018468962',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240819',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSTTD-SC2-NED01-NK02',
+    PLANT: '4466',
+    CRM_ORDERH: '0018468961',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240822',
+    Reason: null
+  },
+  statement: '\n' +
+    '            SELECT \n' +
+    '                spl.[FUNCT_LOC], \n' +
+    '                spl.[PLANT], \n' +
+    '                spl.[CRM_ORDERH], \n' +
+    '                spl.[ZTEXT1], \n' +
+    '                spl.[ZEXT_RNO], \n' +
+    '                spl.[ZREQ_SDAT],\n' +
+    '                r.[reason] AS Reason\n' +
+    '            FROM \n' +
+    '                Schedule_plan_lubrication spl\n' +
+    '            LEFT JOIN \n' +
+    '                reason r ON r.[functional_location] = spl.[FUNCT_LOC] \n' +
+    '                          AND r.[order_number] = spl.[CRM_ORDERH]\n' +
+    '            WHERE \n' +
+    '                spl.ZEXT_RNO = ? \n' +
+    '                AND TRY_CAST(spl.[ZREQ_SDAT] AS DATE) IS NOT NULL\n' +
+    '                AND CONVERT(DATE, TRY_CAST(spl.[ZREQ_SDAT] AS DATE), 23) <= GETDATE()\n' +
+    "                AND spl.[PLANT] NOT LIKE 'T%'\n" +
+    "                AND spl.ZTEXT1 IN ('Open', 'In Process')\n" +
+    '         AND spl.[PLANT] IN (SELECT DISTINCT [Maintenance_Plant] FROM installedbase WHERE State = ?) AND spl.[PLANT] IN (SELECT DISTINCT [Maintenance_Plant] FROM installedbase WHERE Area = ?) AND spl.[ZREQ_SDAT] >= ? AND spl.[ZREQ_SDAT] <= ?',
+  parameters: [
+    'Q2_LUB_2024',
+    'Andhra Pradesh',
+    'Borampalli',
+    '2023-01-10',
+    '2027-01-10'
+  ],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'FUNCT_LOC',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 40,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'CRM_ORDERH',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 32,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'ZTEXT1',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 40,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'ZEXT_RNO',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 32,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'ZREQ_SDAT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 8,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'Reason',
+      dataType: 12,
+      dataTypeName: 'SQL_VARCHAR',
+      columnSize: 0,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+GET /api/get_open_status_wtg_data?orderType=Q2_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Andhra+Pradesh&area=Borampalli&site=Select 304 - - 1060.455 ms
+Query Result: [
+  { total_count: 2, PLANT: '4466' },
+  statement: '\n' +
+    '        SELECT COUNT(*) AS total_count, PLANT\n' +
+    '        FROM Schedule_plan_lubrication\n' +
+    '        WHERE ZEXT_RNO = ? \n' +
+    '        AND TRY_CAST([ZREQ_SDAT] AS DATE) IS NOT NULL\n' +
+    '        AND CONVERT(DATE, TRY_CAST([ZREQ_SDAT] AS DATE), 23) <= GETDATE()\n' +
+    "        AND [PLANT] NOT LIKE 'T%'\n" +
+    "        AND ZTEXT1 IN ('Open', 'In Process') AND PLANT IN (\n" +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE State = ?\n' +
+    '                      ) AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE Area = ?\n' +
+    '                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [
+    'Q2_LUB_2024',
+    'Andhra Pradesh',
+    'Borampalli',
+    '2023-01-10',
+    '2027-01-10'
+  ],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+GET /api/get_open_wtg_count_based_on_state?orderType=Q2_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Andhra+Pradesh&area=Borampalli&site=Select 304 - - 1093.365 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+POST /api/insert_reason_for_wtg_planning 200 218 - 17.691 ms
+GET /api/get_completed_count?orderType=Q1_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Andhra+Pradesh&area=Borampalli&site=Veerabhadra 200 46 - 61911.354 ms
+Query Result: [
+  statement: '\n' +
+    '            SELECT COUNT(*) AS total_count, PLANT \n' +
+    '            FROM Schedule_plan_lubrication \n' +
+    '            WHERE ZEXT_RNO = ? \n' +
+    '            AND TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL\n' +
+    '            AND CONVERT(DATE, TRY_CAST(ZREQ_SDAT AS DATE), 23) <= CONVERT(DATE, GETDATE(), 23)\n' +
+    "            AND ZTEXT1 NOT IN ('Deletion Flag')\n" +
+    "            AND PLANT NOT LIKE 'T%'\n" +
+    '         AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE State = ?\n' +
+    '                      ) AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE Area = ?\n' +
+    '                      ) AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE Site = ?\n' +
+    '                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [
+    'Q1_LUB_2024',
+    'Andhra Pradesh',
+    'Borampalli',
+    'Veerabhadra',
+    '2023-01-10',
+    '2027-01-10'
+  ],
+  return: undefined,
+  count: 0,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+GET /api/get_total_planned_wtg_count?orderType=Q1_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Andhra+Pradesh&area=Borampalli&site=Veerabhadra 200 44 - 65676.201 ms
+Received heartbeat data: {
+  name: 'Rahul Dnyaneshwar Raut',
+  userId: 'adec6dcbe7099f5d9b8c86c6ad7c91e9',
+  access: 'lubrication',
+  adminEmail: 'rahul.raut@suzlon.com',
+  domain_id: 'rautr',
+  state: 'Andhra Pradesh',
+  area: 'Borampalli',
+  site: 'Veerabhadra',
+  email: 'rahul.raut@suzlon.com',
+  pathname: '/WTG_Wise_Planning_user',
+  entryTime: '2025-01-10 14:57:48',
+  exitTime: '2025-01-10 15:00:43'
+}
+Start DateTime in IST format: 2025-01-10T09:27:48.000Z
+End DateTime in IST format: 2025-01-10T09:30:43.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-01-10T09:30:43.000Z',
+    Password: 'Suzlon@123',
+    UserID: 'rautr',
+    ScreenName: '/WTG_Wise_Planning_user',
+    StartDateTime: '2025-01-10T09:27:48.000Z',
+    UserEngagementID: 0,
+    UserName: 'Rahul Dnyaneshwar Raut'
+  }
+]
+Received heartbeat data: {
+  name: 'Rahul Dnyaneshwar Raut',
+  userId: 'adec6dcbe7099f5d9b8c86c6ad7c91e9',
+  access: 'lubrication',
+  adminEmail: 'rahul.raut@suzlon.com',
+  domain_id: 'rautr',
+  state: 'Andhra Pradesh',
+  area: 'Borampalli',
+  site: 'Veerabhadra',
+  email: 'rahul.raut@suzlon.com',
+  pathname: '/WTG_Wise_Planning_user',
+  entryTime: '2025-01-10 14:57:48',
+  exitTime: '2025-01-10 15:00:43'
+}
+Start DateTime in IST format: 2025-01-10T09:27:48.000Z
+End DateTime in IST format: 2025-01-10T09:30:43.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-01-10T09:30:43.000Z',
+    Password: 'Suzlon@123',
+    UserID: 'rautr',
+    ScreenName: '/WTG_Wise_Planning_user',
+    StartDateTime: '2025-01-10T09:27:48.000Z',
+    UserEngagementID: 0,
+    UserName: 'Rahul Dnyaneshwar Raut'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 20.677 ms
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 20.075 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_type_order_for_wtg_wise_planning 304 - - 87.219 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_type_order_for_wtg_wise_planning 304 - - 78.272 ms
+Parameters: {
+  zextRNO: 'Q2_LUB_2024',
+  selectedState: 'Andhra Pradesh',
+  selectedArea: 'Borampalli',
+  selectedSite: 'Veerabhadra',
+  startDate: '2023-01-10',
+  endDate: '2027-01-10'
+}
+Parameters: {
+  zextRNO: 'Q2_LUB_2024',
+  selectedState: 'Andhra Pradesh',
+  selectedArea: 'Borampalli',
+  selectedSite: 'Veerabhadra',
+  startDate: '2023-01-10',
+  endDate: '2027-01-10'
+}
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+            SELECT COUNT(*) AS total_count, PLANT 
+            FROM Schedule_plan_lubrication 
+            WHERE ZEXT_RNO = ? 
+            AND TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL
+            AND CONVERT(DATE, TRY_CAST(ZREQ_SDAT AS DATE), 23) <= CONVERT(DATE, GETDATE(), 23)
+            AND ZTEXT1 NOT IN ('Deletion Flag')
+            AND PLANT NOT LIKE 'T%'
+         AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE State = ?
+                      ) AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE Area = ?
+                      ) AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE Site = ?
+                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [
+  'Q2_LUB_2024',
+  'Andhra Pradesh',
+  'Borampalli',
+  'Veerabhadra',
+  '2023-01-10',
+  '2027-01-10'
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+            SELECT COUNT(*) AS total_count, PLANT 
+            FROM Schedule_plan_lubrication 
+            WHERE ZEXT_RNO = ? 
+            AND ZTEXT1 NOT IN ('Deletion Flag')
+            AND PLANT NOT LIKE 'T%'
+         AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE State = ?
+                      ) AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE Area = ?
+                      ) AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE Site = ?
+                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [
+  'Q2_LUB_2024',
+  'Andhra Pradesh',
+  'Borampalli',
+  'Veerabhadra',
+  '2023-01-10',
+  '2027-01-10'
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/get_completed_out_of_grace_count?orderType=Q2_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Andhra+Pradesh&area=Borampalli&site=Veerabhadra 304 - - 21254.151 ms
+Parameters: {
+  zextRNO: 'Q2_LUB_2024',
+  selectedState: 'Andhra Pradesh',
+  selectedArea: 'Borampalli',
+  selectedSite: '',
+  startDate: '2023-01-10',
+  endDate: '2027-01-10'
+}
+GET /api/get_total_wtg_count?orderType=Q2_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Andhra+Pradesh&area=Borampalli&site=Veerabhadra 304 - - 21335.955 ms
+Query Result: [
+  statement: '\n' +
+    '            SELECT COUNT(*) AS total_count, PLANT \n' +
+    '            FROM Schedule_plan_lubrication \n' +
+    '            WHERE ZEXT_RNO = ? \n' +
+    "            AND ZTEXT1 NOT IN ('Deletion Flag')\n" +
+    "            AND PLANT NOT LIKE 'T%'\n" +
+    '         AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE State = ?\n' +
+    '                      ) AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE Area = ?\n' +
+    '                      ) AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE Site = ?\n' +
+    '                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [
+    'Q1_LUB_2024',
+    'Andhra Pradesh',
+    'Borampalli',
+    'Veerabhadra',
+    '2023-01-10',
+    '2027-01-10'
+  ],
+  return: undefined,
+  count: 0,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+GET /api/get_total_wtg_count_based_on_state?orderType=Q1_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Andhra+Pradesh&area=Borampalli&site=Veerabhadra 200 37 - 90946.061 ms
+Connected to the database.
+GET /api/get_total_open_status_wtg_count?orderType=Q2_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Andhra+Pradesh&area=Borampalli&site=Veerabhadra 304 - - 31995.543 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+            SELECT COUNT(*) AS total_count, PLANT 
+            FROM Schedule_plan_lubrication 
+            WHERE ZEXT_RNO = ? 
+            AND TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL
+            AND CONVERT(DATE, TRY_CAST(ZREQ_SDAT AS DATE), 23) <= CONVERT(DATE, GETDATE(), 23)
+            AND ZTEXT1 NOT IN ('Deletion Flag')
+            AND PLANT NOT LIKE 'T%'
+         AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE State = ?
+                      ) AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE Area = ?
+                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [
+  'Q2_LUB_2024',
+  'Andhra Pradesh',
+  'Borampalli',
+  '2023-01-10',
+  '2027-01-10'
+]
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Query Result: [
+  { total_count: 2, PLANT: '4466' },
+  statement: '\n' +
+    '            SELECT COUNT(*) AS total_count, PLANT \n' +
+    '            FROM Schedule_plan_lubrication \n' +
+    '            WHERE ZEXT_RNO = ? \n' +
+    '            AND TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL\n' +
+    '            AND CONVERT(DATE, TRY_CAST(ZREQ_SDAT AS DATE), 23) <= CONVERT(DATE, GETDATE(), 23)\n' +
+    "            AND ZTEXT1 NOT IN ('Deletion Flag')\n" +
+    "            AND PLANT NOT LIKE 'T%'\n" +
+    '         AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE State = ?\n' +
+    '                      ) AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE Area = ?\n' +
+    '                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [
+    'Q2_LUB_2024',
+    'Andhra Pradesh',
+    'Borampalli',
+    '2023-01-10',
+    '2027-01-10'
+  ],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+Data written to total_count_sent_back.json
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/get_total_wtg_count?orderType=Q2_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Andhra+Pradesh&area=Borampalli 304 - - 10795.822 ms
+GET /api/get_total_planned_wtg_count?orderType=Q2_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Andhra+Pradesh&area=Borampalli&site=Select 304 - - 10887.958 ms
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/get_total_open_status_wtg_count?orderType=Q2_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Andhra+Pradesh&area=Borampalli&site=Select 304 - - 232.633 ms
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Data written to total_count_sent_back.json
+Parameters: {
+  zextRNO: 'Q2_LUB_2024',
+  selectedState: 'Andhra Pradesh',
+  selectedArea: 'Borampalli',
+  selectedSite: '',
+  startDate: '2023-01-10',
+  endDate: '2027-01-10'
+}
+GET /api/get_completed_count?orderType=Q2_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Andhra+Pradesh&area=Borampalli&site=Select 304 - - 158.591 ms
+Connected to the database.
+GET /api/get_completed_out_of_grace_count?orderType=Q2_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Andhra+Pradesh&area=Borampalli&site=Select 304 - - 205.300 ms
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+            SELECT COUNT(*) AS total_count, PLANT 
+            FROM Schedule_plan_lubrication 
+            WHERE ZEXT_RNO = ? 
+            AND ZTEXT1 NOT IN ('Deletion Flag')
+            AND PLANT NOT LIKE 'T%'
+         AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE State = ?
+                      ) AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE Area = ?
+                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [
+  'Q2_LUB_2024',
+  'Andhra Pradesh',
+  'Borampalli',
+  '2023-01-10',
+  '2027-01-10'
+]
+Query Result: [
+  { total_count: 2, PLANT: '4466' },
+  statement: '\n' +
+    '            SELECT COUNT(*) AS total_count, PLANT \n' +
+    '            FROM Schedule_plan_lubrication \n' +
+    '            WHERE ZEXT_RNO = ? \n' +
+    "            AND ZTEXT1 NOT IN ('Deletion Flag')\n" +
+    "            AND PLANT NOT LIKE 'T%'\n" +
+    '         AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE State = ?\n' +
+    '                      ) AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE Area = ?\n' +
+    '                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [
+    'Q2_LUB_2024',
+    'Andhra Pradesh',
+    'Borampalli',
+    '2023-01-10',
+    '2027-01-10'
+  ],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+GET /api/get_total_wtg_count_based_on_state?orderType=Q2_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Andhra+Pradesh&area=Borampalli&site=Select 304 - - 199.404 ms
+Connecting to main database...
+Parameters: {
+  zextRNO: 'Q2_LUB_2024',
+  selectedState: 'Andhra Pradesh',
+  selectedArea: 'Borampalli',
+  selectedSite: '',
+  startDate: '2023-01-10',
+  endDate: '2027-01-10'
+}
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Connected to main database.
+Executing main query: 
+            SELECT 
+                spl.[FUNCT_LOC], 
+                spl.[PLANT], 
+                spl.[CRM_ORDERH], 
+                spl.[ZTEXT1], 
+                spl.[ZEXT_RNO], 
+                spl.[ZREQ_SDAT],
+                r.[reason] AS Reason
+            FROM 
+                Schedule_plan_lubrication spl
+            LEFT JOIN 
+                reason r ON r.[functional_location] = spl.[FUNCT_LOC] 
+                          AND r.[order_number] = spl.[CRM_ORDERH]
+            WHERE 
+                spl.ZEXT_RNO = ? 
+                AND TRY_CAST(spl.[ZREQ_SDAT] AS DATE) IS NOT NULL
+                AND CONVERT(DATE, TRY_CAST(spl.[ZREQ_SDAT] AS DATE), 23) <= GETDATE()
+                AND spl.[PLANT] NOT LIKE 'T%'
+                AND spl.ZTEXT1 IN ('Open', 'In Process')
+         AND spl.[PLANT] IN (SELECT DISTINCT [Maintenance_Plant] FROM installedbase WHERE State = ?) AND spl.[PLANT] IN (SELECT DISTINCT [Maintenance_Plant] FROM installedbase WHERE Area = ?) AND spl.[ZREQ_SDAT] >= ? AND spl.[ZREQ_SDAT] <= ? with params: [
+  'Q2_LUB_2024',
+  'Andhra Pradesh',
+  'Borampalli',
+  '2023-01-10',
+  '2027-01-10'
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+        SELECT COUNT(*) AS total_count, PLANT
+        FROM Schedule_plan_lubrication
+        WHERE ZEXT_RNO = ? 
+        AND TRY_CAST([ZREQ_SDAT] AS DATE) IS NOT NULL
+        AND CONVERT(DATE, TRY_CAST([ZREQ_SDAT] AS DATE), 23) <= GETDATE()
+        AND [PLANT] NOT LIKE 'T%'
+        AND ZTEXT1 IN ('Open', 'In Process') AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE State = ?
+                      ) AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE Area = ?
+                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [
+  'Q2_LUB_2024',
+  'Andhra Pradesh',
+  'Borampalli',
+  '2023-01-10',
+  '2027-01-10'
+]
+Main query results: [
+  {
+    FUNCT_LOC: 'SWSTTD-SC2-NED01-NK02',
+    PLANT: '4466',
+    CRM_ORDERH: '0018468961',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240822',
+    Reason: 'Design Issue'
+  },
+  {
+    FUNCT_LOC: 'SWSTTD-SC2-NED01-NK01',
+    PLANT: '4466',
+    CRM_ORDERH: '0018468962',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240819',
+    Reason: null
+  },
+  statement: '\n' +
+    '            SELECT \n' +
+    '                spl.[FUNCT_LOC], \n' +
+    '                spl.[PLANT], \n' +
+    '                spl.[CRM_ORDERH], \n' +
+    '                spl.[ZTEXT1], \n' +
+    '                spl.[ZEXT_RNO], \n' +
+    '                spl.[ZREQ_SDAT],\n' +
+    '                r.[reason] AS Reason\n' +
+    '            FROM \n' +
+    '                Schedule_plan_lubrication spl\n' +
+    '            LEFT JOIN \n' +
+    '                reason r ON r.[functional_location] = spl.[FUNCT_LOC] \n' +
+    '                          AND r.[order_number] = spl.[CRM_ORDERH]\n' +
+    '            WHERE \n' +
+    '                spl.ZEXT_RNO = ? \n' +
+    '                AND TRY_CAST(spl.[ZREQ_SDAT] AS DATE) IS NOT NULL\n' +
+    '                AND CONVERT(DATE, TRY_CAST(spl.[ZREQ_SDAT] AS DATE), 23) <= GETDATE()\n' +
+    "                AND spl.[PLANT] NOT LIKE 'T%'\n" +
+    "                AND spl.ZTEXT1 IN ('Open', 'In Process')\n" +
+    '         AND spl.[PLANT] IN (SELECT DISTINCT [Maintenance_Plant] FROM installedbase WHERE State = ?) AND spl.[PLANT] IN (SELECT DISTINCT [Maintenance_Plant] FROM installedbase WHERE Area = ?) AND spl.[ZREQ_SDAT] >= ? AND spl.[ZREQ_SDAT] <= ?',
+  parameters: [
+    'Q2_LUB_2024',
+    'Andhra Pradesh',
+    'Borampalli',
+    '2023-01-10',
+    '2027-01-10'
+  ],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'FUNCT_LOC',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 40,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'CRM_ORDERH',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 32,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'ZTEXT1',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 40,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'ZEXT_RNO',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 32,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'ZREQ_SDAT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 8,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'Reason',
+      dataType: 12,
+      dataTypeName: 'SQL_VARCHAR',
+      columnSize: 0,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+GET /api/get_open_status_wtg_data?orderType=Q2_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Andhra+Pradesh&area=Borampalli&site=Select 200 353 - 79.646 ms
+Query Result: [
+  { total_count: 2, PLANT: '4466' },
+  statement: '\n' +
+    '        SELECT COUNT(*) AS total_count, PLANT\n' +
+    '        FROM Schedule_plan_lubrication\n' +
+    '        WHERE ZEXT_RNO = ? \n' +
+    '        AND TRY_CAST([ZREQ_SDAT] AS DATE) IS NOT NULL\n' +
+    '        AND CONVERT(DATE, TRY_CAST([ZREQ_SDAT] AS DATE), 23) <= GETDATE()\n' +
+    "        AND [PLANT] NOT LIKE 'T%'\n" +
+    "        AND ZTEXT1 IN ('Open', 'In Process') AND PLANT IN (\n" +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE State = ?\n' +
+    '                      ) AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE Area = ?\n' +
+    '                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [
+    'Q2_LUB_2024',
+    'Andhra Pradesh',
+    'Borampalli',
+    '2023-01-10',
+    '2027-01-10'
+  ],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+GET /api/get_open_wtg_count_based_on_state?orderType=Q2_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Andhra+Pradesh&area=Borampalli&site=Select 304 - - 164.187 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  adminId: 'a0fc0dfa11e84ef1023e23d79d3627be',
+  access: 'lubrication',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  userId: '98316687ae94f591f5fdaef1b63c345f',
+  domain_id: 'Not Set',
+  state: 'Rajasthan',
+  area: 'Akal,Ratan Ka Bass,Tejuva',
+  site: 'Akal,Devikot,Mulana,Soda Mada I,Soda Mada II,Bhesada,Fatehgarh A,Fatehgarh B,Osiyan,Ratan Ka Bass,Baramsar,Baramsar II,Mokala,Sanu,Tejuva',
+  email: 'vhiralal@suzlon.com',
+  pathname: '/WTG_Wise_Planning',
+  entryTime: '2025-01-10 14:55:55',
+  exitTime: '2025-01-10 15:01:36'
+}
+Start DateTime in IST format: 2025-01-10T09:25:55.000Z
+End DateTime in IST format: 2025-01-10T09:31:36.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-01-10T09:31:36.000Z',
+    Password: 'Suzlon@123',
+    UserID: 'Not Set',
+    ScreenName: '/WTG_Wise_Planning',
+    StartDateTime: '2025-01-10T09:25:55.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 14.877 ms
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+States written to states_sent_back.json
+GET /api/get_states 304 - - 103.876 ms
+GET /api/fetch_type_order_for_wtg_wise_planning 304 - - 105.255 ms
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+States written to states_sent_back.json
+GET /api/get_states 304 - - 33.891 ms
+Connected to the database.
+GET /api/fetch_type_order_for_wtg_wise_planning 304 - - 109.790 ms
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+States written to states_sent_back.json
+GET /api/get_states 304 - - 96.283 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+States written to states_sent_back.json
+GET /api/get_states 304 - - 26.259 ms
+Parameters: {
+  zextRNO: 'Q2_LUB_2024',
+  selectedState: '',
+  selectedArea: '',
+  selectedSite: '',
+  startDate: '2023-01-10',
+  endDate: '2027-01-10'
+}
+Parameters: {
+  zextRNO: 'Q2_LUB_2024',
+  selectedState: '',
+  selectedArea: '',
+  selectedSite: '',
+  startDate: '2023-01-10',
+  endDate: '2027-01-10'
+}
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+            SELECT COUNT(*) AS total_count, PLANT 
+            FROM Schedule_plan_lubrication 
+            WHERE ZEXT_RNO = ? 
+            AND TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL
+            AND CONVERT(DATE, TRY_CAST(ZREQ_SDAT AS DATE), 23) <= CONVERT(DATE, GETDATE(), 23)
+            AND ZTEXT1 NOT IN ('Deletion Flag')
+            AND PLANT NOT LIKE 'T%'
+         AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [ 'Q2_LUB_2024', '2023-01-10', '2027-01-10' ]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+            SELECT COUNT(*) AS total_count, PLANT 
+            FROM Schedule_plan_lubrication 
+            WHERE ZEXT_RNO = ? 
+            AND ZTEXT1 NOT IN ('Deletion Flag')
+            AND PLANT NOT LIKE 'T%'
+         AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [ 'Q2_LUB_2024', '2023-01-10', '2027-01-10' ]
+Query Result: [
+  { total_count: 81, PLANT: '2473' },
+  { total_count: 115, PLANT: '4417' },
+  { total_count: 79, PLANT: '4432' },
+  { total_count: 39, PLANT: '4443' },
+  { total_count: 85, PLANT: '4457' },
+  { total_count: 55, PLANT: '4481' },
+  { total_count: 11, PLANT: '2452' },
+  { total_count: 98, PLANT: '2493' },
+  { total_count: 40, PLANT: '4410' },
+  { total_count: 96, PLANT: '4412' },
+  { total_count: 91, PLANT: '4419' },
+  { total_count: 58, PLANT: '4436' },
+  { total_count: 16, PLANT: '4452' },
+  { total_count: 52, PLANT: '4476' },
+  { total_count: 98, PLANT: '4477' },
+  { total_count: 77, PLANT: '4488' },
+  { total_count: 89, PLANT: '2453' },
+  { total_count: 88, PLANT: '2491' },
+  { total_count: 50, PLANT: '4401' },
+  { total_count: 78, PLANT: '4402' },
+  { total_count: 87, PLANT: '4418' },
+  { total_count: 123, PLANT: '4446' },
+  { total_count: 44, PLANT: '4458' },
+  { total_count: 31, PLANT: '4486' },
+  { total_count: 94, PLANT: '2451' },
+  { total_count: 93, PLANT: '4408' },
+  { total_count: 9, PLANT: '4416' },
+  { total_count: 85, PLANT: '4431' },
+  { total_count: 89, PLANT: '4439' },
+  { total_count: 68, PLANT: '4456' },
+  { total_count: 78, PLANT: '4472' },
+  { total_count: 113, PLANT: '4479' },
+  { total_count: 95, PLANT: '2474' },
+  { total_count: 81, PLANT: '2475' },
+  { total_count: 89, PLANT: '4405' },
+  { total_count: 106, PLANT: '4425' },
+  { total_count: 163, PLANT: '4437' },
+  { total_count: 78, PLANT: '4444' },
+  { total_count: 2, PLANT: '4466' },
+  { total_count: 89, PLANT: '2472' },
+  { total_count: 56, PLANT: '4414' },
+  { total_count: 95, PLANT: '4433' },
+  { total_count: 51, PLANT: '4435' },
+  { total_count: 63, PLANT: '4447' },
+  { total_count: 52, PLANT: '4454' },
+  { total_count: 119, PLANT: '4471' },
+  { total_count: 145, PLANT: '4473' },
+  { total_count: 96, PLANT: '4475' },
+  { total_count: 8, PLANT: '8901' },
+  { total_count: 102, PLANT: '2471' },
+  { total_count: 77, PLANT: '2476' },
+  { total_count: 76, PLANT: '4407' },
+  { total_count: 79, PLANT: '4413' },
+  { total_count: 105, PLANT: '4434' },
+  { total_count: 106, PLANT: '4438' },
+  { total_count: 80, PLANT: '4451' },
+  { total_count: 70, PLANT: '4453' },
+  { total_count: 45, PLANT: '4455' },
+  { total_count: 73, PLANT: '4474' },
+  { total_count: 95, PLANT: '2454' },
+  { total_count: 13, PLANT: '2457' },
+  { total_count: 91, PLANT: '2458' },
+  { total_count: 258, PLANT: '2492' },
+  { total_count: 64, PLANT: '4406' },
+  { total_count: 72, PLANT: '4440' },
+  { total_count: 7, PLANT: '4441' },
+  { total_count: 100, PLANT: '4478' },
+  { total_count: 91, PLANT: '4482' },
+  statement: '\n' +
+    '            SELECT COUNT(*) AS total_count, PLANT \n' +
+    '            FROM Schedule_plan_lubrication \n' +
+    '            WHERE ZEXT_RNO = ? \n' +
+    '            AND TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL\n' +
+    '            AND CONVERT(DATE, TRY_CAST(ZREQ_SDAT AS DATE), 23) <= CONVERT(DATE, GETDATE(), 23)\n' +
+    "            AND ZTEXT1 NOT IN ('Deletion Flag')\n" +
+    "            AND PLANT NOT LIKE 'T%'\n" +
+    '         AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [ 'Q2_LUB_2024', '2023-01-10', '2027-01-10' ],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+GET /api/get_total_wtg_count?orderType=Q2_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10 200 1156796 - 229.802 ms
+Query Result: [
+  { total_count: 81, PLANT: '2473' },
+  { total_count: 115, PLANT: '4417' },
+  { total_count: 79, PLANT: '4432' },
+  { total_count: 39, PLANT: '4443' },
+  { total_count: 85, PLANT: '4457' },
+  { total_count: 55, PLANT: '4481' },
+  { total_count: 94, PLANT: '2451' },
+  { total_count: 93, PLANT: '4408' },
+  { total_count: 9, PLANT: '4416' },
+  { total_count: 85, PLANT: '4431' },
+  { total_count: 89, PLANT: '4439' },
+  { total_count: 68, PLANT: '4456' },
+  { total_count: 78, PLANT: '4472' },
+  { total_count: 113, PLANT: '4479' },
+  { total_count: 11, PLANT: '2452' },
+  { total_count: 98, PLANT: '2493' },
+  { total_count: 40, PLANT: '4410' },
+  { total_count: 96, PLANT: '4412' },
+  { total_count: 91, PLANT: '4419' },
+  { total_count: 58, PLANT: '4436' },
+  { total_count: 16, PLANT: '4452' },
+  { total_count: 52, PLANT: '4476' },
+  { total_count: 98, PLANT: '4477' },
+  { total_count: 77, PLANT: '4488' },
+  { total_count: 89, PLANT: '2453' },
+  { total_count: 88, PLANT: '2491' },
+  { total_count: 50, PLANT: '4401' },
+  { total_count: 78, PLANT: '4402' },
+  { total_count: 87, PLANT: '4418' },
+  { total_count: 123, PLANT: '4446' },
+  { total_count: 44, PLANT: '4458' },
+  { total_count: 31, PLANT: '4486' },
+  { total_count: 95, PLANT: '2474' },
+  { total_count: 81, PLANT: '2475' },
+  { total_count: 89, PLANT: '4405' },
+  { total_count: 106, PLANT: '4425' },
+  { total_count: 163, PLANT: '4437' },
+  { total_count: 78, PLANT: '4444' },
+  { total_count: 2, PLANT: '4466' },
+  { total_count: 95, PLANT: '2454' },
+  { total_count: 13, PLANT: '2457' },
+  { total_count: 91, PLANT: '2458' },
+  { total_count: 258, PLANT: '2492' },
+  { total_count: 64, PLANT: '4406' },
+  { total_count: 72, PLANT: '4440' },
+  { total_count: 7, PLANT: '4441' },
+  { total_count: 100, PLANT: '4478' },
+  { total_count: 91, PLANT: '4482' },
+  { total_count: 102, PLANT: '2471' },
+  { total_count: 77, PLANT: '2476' },
+  { total_count: 76, PLANT: '4407' },
+  { total_count: 79, PLANT: '4413' },
+  { total_count: 105, PLANT: '4434' },
+  { total_count: 106, PLANT: '4438' },
+  { total_count: 80, PLANT: '4451' },
+  { total_count: 70, PLANT: '4453' },
+  { total_count: 45, PLANT: '4455' },
+  { total_count: 73, PLANT: '4474' },
+  { total_count: 89, PLANT: '2472' },
+  { total_count: 56, PLANT: '4414' },
+  { total_count: 95, PLANT: '4433' },
+  { total_count: 51, PLANT: '4435' },
+  { total_count: 63, PLANT: '4447' },
+  { total_count: 52, PLANT: '4454' },
+  { total_count: 119, PLANT: '4471' },
+  { total_count: 145, PLANT: '4473' },
+  { total_count: 96, PLANT: '4475' },
+  { total_count: 8, PLANT: '8901' },
+  statement: '\n' +
+    '            SELECT COUNT(*) AS total_count, PLANT \n' +
+    '            FROM Schedule_plan_lubrication \n' +
+    '            WHERE ZEXT_RNO = ? \n' +
+    "            AND ZTEXT1 NOT IN ('Deletion Flag')\n" +
+    "            AND PLANT NOT LIKE 'T%'\n" +
+    '         AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [ 'Q2_LUB_2024', '2023-01-10', '2027-01-10' ],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+GET /api/get_total_open_status_wtg_count?orderType=Q2_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Select&area=Select&site=Select 200 134 - 351.797 ms
+Data written to total_count_sent_back.json
+GET /api/get_completed_count?orderType=Q2_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Andhra+Pradesh&area=Borampalli&site=Veerabhadra 304 - - 59009.827 ms
+GET /api/get_completed_out_of_grace_count?orderType=Q2_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Select&area=Select&site=Select 200 152 - 2620.601 ms
+GET /api/get_completed_count?orderType=Q2_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Select&area=Select&site=Select 200 169 - 2710.959 ms
+GET /api/get_total_planned_wtg_count?orderType=Q2_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Select&area=Select&site=Select 200 187 - 2768.454 ms
+GET /api/get_total_wtg_count_based_on_state?orderType=Q2_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Select&area=Select&site=Select 200 180 - 2807.211 ms
+Parameters: {
+  zextRNO: 'Q2_LUB_2024',
+  selectedState: '',
+  selectedArea: '',
+  selectedSite: '',
+  startDate: '2023-01-10',
+  endDate: '2027-01-10'
+}
+Connecting to main database...
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+        SELECT COUNT(*) AS total_count, PLANT
+        FROM Schedule_plan_lubrication
+        WHERE ZEXT_RNO = ? 
+        AND TRY_CAST([ZREQ_SDAT] AS DATE) IS NOT NULL
+        AND CONVERT(DATE, TRY_CAST([ZREQ_SDAT] AS DATE), 23) <= GETDATE()
+        AND [PLANT] NOT LIKE 'T%'
+        AND ZTEXT1 IN ('Open', 'In Process') AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [ 'Q2_LUB_2024', '2023-01-10', '2027-01-10' ]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Connected to main database.
+Executing main query: 
+            SELECT 
+                spl.[FUNCT_LOC], 
+                spl.[PLANT], 
+                spl.[CRM_ORDERH], 
+                spl.[ZTEXT1], 
+                spl.[ZEXT_RNO], 
+                spl.[ZREQ_SDAT],
+                r.[reason] AS Reason
+            FROM 
+                Schedule_plan_lubrication spl
+            LEFT JOIN 
+                reason r ON r.[functional_location] = spl.[FUNCT_LOC] 
+                          AND r.[order_number] = spl.[CRM_ORDERH]
+            WHERE 
+                spl.ZEXT_RNO = ? 
+                AND TRY_CAST(spl.[ZREQ_SDAT] AS DATE) IS NOT NULL
+                AND CONVERT(DATE, TRY_CAST(spl.[ZREQ_SDAT] AS DATE), 23) <= GETDATE()
+                AND spl.[PLANT] NOT LIKE 'T%'
+                AND spl.ZTEXT1 IN ('Open', 'In Process')
+         AND spl.[ZREQ_SDAT] >= ? AND spl.[ZREQ_SDAT] <= ? with params: [ 'Q2_LUB_2024', '2023-01-10', '2027-01-10' ]
+Main query results: [
+  {
+    FUNCT_LOC: 'SWSMDV-S12-SSL01-M423',
+    PLANT: '4417',
+    CRM_ORDERH: '0018469348',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240925',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S12-SSL01-T005',
+    PLANT: '4417',
+    CRM_ORDERH: '0018468343',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240920',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S12-SSL02-T002',
+    PLANT: '4417',
+    CRM_ORDERH: '0018469300',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240920',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S12-STS01-M408',
+    PLANT: '4417',
+    CRM_ORDERH: '0018469347',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240924',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S12-STS02-T003',
+    PLANT: '4417',
+    CRM_ORDERH: '0018469041',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240917',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S12-SUR01-M507',
+    PLANT: '4417',
+    CRM_ORDERH: '0018469346',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240921',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S12-WES01-M522',
+    PLANT: '4417',
+    CRM_ORDERH: '0018469345',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240908',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S13-DLF01-M726',
+    PLANT: '4425',
+    CRM_ORDERH: '0018469344',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240904',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S13-DLF02-M727',
+    PLANT: '4425',
+    CRM_ORDERH: '0018469343',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240903',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S13-DLF03-M744',
+    PLANT: '4425',
+    CRM_ORDERH: '0018469342',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240913',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S13-DLF04-M745',
+    PLANT: '4425',
+    CRM_ORDERH: '0018469341',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240914',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S13-DLF05-M746',
+    PLANT: '4425',
+    CRM_ORDERH: '0018469340',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240912',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S13-DLF06-M749',
+    PLANT: '4425',
+    CRM_ORDERH: '0018469339',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240909',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S13-DLF07-M750',
+    PLANT: '4425',
+    CRM_ORDERH: '0018469338',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240917',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S13-DLF08-M761',
+    PLANT: '4425',
+    CRM_ORDERH: '0018469337',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240909',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S13-DLF09-M764',
+    PLANT: '4425',
+    CRM_ORDERH: '0018469336',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240911',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S13-DLF10-M765',
+    PLANT: '4425',
+    CRM_ORDERH: '0018469335',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240920',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S13-DLF11-M772',
+    PLANT: '4425',
+    CRM_ORDERH: '0018468201',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240918',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S13-DLF12-M773',
+    PLANT: '4425',
+    CRM_ORDERH: '0018468233',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240906',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S13-DLF13-M774',
+    PLANT: '4425',
+    CRM_ORDERH: '0018468234',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240910',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S13-DLF14-M775',
+    PLANT: '4425',
+    CRM_ORDERH: '0018468235',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240907',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S13-DLF15-M790',
+    PLANT: '4425',
+    CRM_ORDERH: '0018468236',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240916',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S13-DLF16-M793',
+    PLANT: '4425',
+    CRM_ORDERH: '0018468237',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240927',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S13-DLF17-M762',
+    PLANT: '4425',
+    CRM_ORDERH: '0018468238',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240911',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S13-DLF18-M632',
+    PLANT: '4425',
+    CRM_ORDERH: '0018468239',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240915',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S13-DLF19-M771',
+    PLANT: '4417',
+    CRM_ORDERH: '0018468240',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240917',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S13-DLF20-M634',
+    PLANT: '4417',
+    CRM_ORDERH: '0018468241',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240918',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S13-DLF21-M748',
+    PLANT: '4417',
+    CRM_ORDERH: '0018468243',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240910',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S13-DLF22-M770',
+    PLANT: '4417',
+    CRM_ORDERH: '0018468244',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240922',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S13-DLF23-M783',
+    PLANT: '4417',
+    CRM_ORDERH: '0018468245',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240923',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S13-DLF24-M785',
+    PLANT: '4417',
+    CRM_ORDERH: '0018468246',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240925',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S13-DLF25-M786',
+    PLANT: '4417',
+    CRM_ORDERH: '0018468247',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240926',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S13-DLF26-M787',
+    PLANT: '4417',
+    CRM_ORDERH: '0018468168',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240913',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S13-DLF27-M789',
+    PLANT: '4417',
+    CRM_ORDERH: '0018469023',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240919',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S13-DLF28-M791',
+    PLANT: '4417',
+    CRM_ORDERH: '0018469021',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240906',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S13-DLF29-M792',
+    PLANT: '4417',
+    CRM_ORDERH: '0018469019',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240905',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S13-DLF30-M747',
+    PLANT: '4417',
+    CRM_ORDERH: '0018469014',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240908',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S13-DLF31-M794',
+    PLANT: '4417',
+    CRM_ORDERH: '0018469017',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240908',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S13-DLF32-M810',
+    PLANT: '4417',
+    CRM_ORDERH: '0018469024',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240915',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S13-GSP01-JK201',
+    PLANT: '4425',
+    CRM_ORDERH: '0018468157',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240911',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S13-GSP02-JK202',
+    PLANT: '4425',
+    CRM_ORDERH: '0018469027',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240903',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S13-GSP03-JK203',
+    PLANT: '4425',
+    CRM_ORDERH: '0018469028',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240924',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S13-GSP04-JK204',
+    PLANT: '4425',
+    CRM_ORDERH: '0018468159',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240901',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S13-GSP05-JK205',
+    PLANT: '4425',
+    CRM_ORDERH: '0018468160',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240830',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S13-GSP06-JK206',
+    PLANT: '4425',
+    CRM_ORDERH: '0018468162',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240916',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S13-GSP07-JK207',
+    PLANT: '4425',
+    CRM_ORDERH: '0018468163',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240831',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S13-GSP08-JK208',
+    PLANT: '4425',
+    CRM_ORDERH: '0018468165',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240912',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S13-GSP09-JK209',
+    PLANT: '4425',
+    CRM_ORDERH: '0018468167',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240905',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S13-GSP10-JK210',
+    PLANT: '4425',
+    CRM_ORDERH: '0018468202',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240915',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S13-GSP11-JK211',
+    PLANT: '4425',
+    CRM_ORDERH: '0018468203',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240908',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S13-GSP12-JK212',
+    PLANT: '4425',
+    CRM_ORDERH: '0018468205',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240917',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S13-GSP13-JK213',
+    PLANT: '4425',
+    CRM_ORDERH: '0018468206',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240909',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S13-GSP14-JK214',
+    PLANT: '4425',
+    CRM_ORDERH: '0018468207',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240904',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S10-ATL01-M413',
+    PLANT: '4417',
+    CRM_ORDERH: '0018469034',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240923',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S10-ATL02-M415',
+    PLANT: '4417',
+    CRM_ORDERH: '0018469056',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240923',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S10-ATL03-M491',
+    PLANT: '4417',
+    CRM_ORDERH: '0018469098',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240924',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S10-DLF01-M464',
+    PLANT: '4417',
+    CRM_ORDERH: '0018469274',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240906',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S10-DLF02-M465',
+    PLANT: '4417',
+    CRM_ORDERH: '0018469272',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240908',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S10-DLF03-M443',
+    PLANT: '4417',
+    CRM_ORDERH: '0018469313',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240911',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S10-DLF04-M640',
+    PLANT: '4425',
+    CRM_ORDERH: '0018469354',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240924',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S10-DLF05-M641',
+    PLANT: '4425',
+    CRM_ORDERH: '0018469353',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240925',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S10-DLF06-M643',
+    PLANT: '4425',
+    CRM_ORDERH: '0018469352',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240927',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S10-DLF07-M645',
+    PLANT: '4425',
+    CRM_ORDERH: '0018469351',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240921',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S10-DLF08-M514',
+    PLANT: '4417',
+    CRM_ORDERH: '0018469350',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240915',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S10-DLF09-M444',
+    PLANT: '4417',
+    CRM_ORDERH: '0018469285',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240912',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S10-GAC01-M466',
+    PLANT: '4417',
+    CRM_ORDERH: '0018469097',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240925',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S10-GAC02-M467',
+    PLANT: '4417',
+    CRM_ORDERH: '0018469096',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240926',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S10-GAC03-M468',
+    PLANT: '4417',
+    CRM_ORDERH: '0018469095',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240926',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S10-GAC04-M469',
+    PLANT: '4417',
+    CRM_ORDERH: '0018469094',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240927',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S10-GAC05-M582',
+    PLANT: '4417',
+    CRM_ORDERH: '0018469093',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240906',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S10-GAC06-M583',
+    PLANT: '4417',
+    CRM_ORDERH: '0018469092',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240907',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S10-GAC07-M414',
+    PLANT: '4417',
+    CRM_ORDERH: '0018469090',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240907',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S10-GAC08-M427',
+    PLANT: '4417',
+    CRM_ORDERH: '0018469031',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240908',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S10-GAC09-M445',
+    PLANT: '4417',
+    CRM_ORDERH: '0018468017',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240909',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S10-GAC10-M446',
+    PLANT: '4417',
+    CRM_ORDERH: '0018468018',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240820',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S10-GAC11-M448',
+    PLANT: '4417',
+    CRM_ORDERH: '0018468019',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240821',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S10-GAC12-M492',
+    PLANT: '4417',
+    CRM_ORDERH: '0018468020',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240821',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S10-GAC13-M493',
+    PLANT: '4417',
+    CRM_ORDERH: '0018468029',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240822',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S10-GAC14-M584',
+    PLANT: '4417',
+    CRM_ORDERH: '0018468030',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240823',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S10-GAC15-M515',
+    PLANT: '4417',
+    CRM_ORDERH: '0018468031',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240827',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S10-GAC16-M428',
+    PLANT: '4417',
+    CRM_ORDERH: '0018468032',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240901',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S10-GAC17-M449',
+    PLANT: '4417',
+    CRM_ORDERH: '0018468033',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240826',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S10-GAC18-M450',
+    PLANT: '4417',
+    CRM_ORDERH: '0018468035',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240825',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S10-GAC19-M494',
+    PLANT: '4417',
+    CRM_ORDERH: '0018468036',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240825',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S11-ADB01-M481',
+    PLANT: '4417',
+    CRM_ORDERH: '0018469145',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240904',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S11-ADB02-M496',
+    PLANT: '4417',
+    CRM_ORDERH: '0018469143',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240904',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S11-ASW01-M497',
+    PLANT: '4417',
+    CRM_ORDERH: '0018469055',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240920',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S11-BFT01-M529',
+    PLANT: '4417',
+    CRM_ORDERH: '0018469054',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240909',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S11-BML01-M517',
+    PLANT: '4417',
+    CRM_ORDERH: '0018469053',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240909',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S11-CON01-M499',
+    PLANT: '4417',
+    CRM_ORDERH: '0018469052',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240913',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S11-INO01-M451',
+    PLANT: '4417',
+    CRM_ORDERH: '0018469051',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240913',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S11-INO02-M516',
+    PLANT: '4417',
+    CRM_ORDERH: '0018469050',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240915',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S11-MDE01-M482',
+    PLANT: '4417',
+    CRM_ORDERH: '0018469049',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240906',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S11-PRE01-M472',
+    PLANT: '4417',
+    CRM_ORDERH: '0018469048',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240911',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S11-RAN01-M591',
+    PLANT: '4417',
+    CRM_ORDERH: '0018469047',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240912',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S11-RHR01-M528',
+    PLANT: '4417',
+    CRM_ORDERH: '0018469046',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240908',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S11-RKE01-M527',
+    PLANT: '4417',
+    CRM_ORDERH: '0018469306',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240917',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S11-RKE02-M538',
+    PLANT: '4417',
+    CRM_ORDERH: '0018469304',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240917',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S11-RKE03-M594',
+    PLANT: '4417',
+    CRM_ORDERH: '0018469302',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240918',
+    Reason: null
+  },
+  {
+    FUNCT_LOC: 'SWSMDV-S11-RTP01-M590',
+    PLANT: '4417',
+    CRM_ORDERH: '0018469045',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240903',
+    Reason: null
+  },
+  ... 320 more items,
+  statement: '\n' +
+    '            SELECT \n' +
+    '                spl.[FUNCT_LOC], \n' +
+    '                spl.[PLANT], \n' +
+    '                spl.[CRM_ORDERH], \n' +
+    '                spl.[ZTEXT1], \n' +
+    '                spl.[ZEXT_RNO], \n' +
+    '                spl.[ZREQ_SDAT],\n' +
+    '                r.[reason] AS Reason\n' +
+    '            FROM \n' +
+    '                Schedule_plan_lubrication spl\n' +
+    '            LEFT JOIN \n' +
+    '                reason r ON r.[functional_location] = spl.[FUNCT_LOC] \n' +
+    '                          AND r.[order_number] = spl.[CRM_ORDERH]\n' +
+    '            WHERE \n' +
+    '                spl.ZEXT_RNO = ? \n' +
+    '                AND TRY_CAST(spl.[ZREQ_SDAT] AS DATE) IS NOT NULL\n' +
+    '                AND CONVERT(DATE, TRY_CAST(spl.[ZREQ_SDAT] AS DATE), 23) <= GETDATE()\n' +
+    "                AND spl.[PLANT] NOT LIKE 'T%'\n" +
+    "                AND spl.ZTEXT1 IN ('Open', 'In Process')\n" +
+    '         AND spl.[ZREQ_SDAT] >= ? AND spl.[ZREQ_SDAT] <= ?',
+  parameters: [ 'Q2_LUB_2024', '2023-01-10', '2027-01-10' ],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'FUNCT_LOC',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 40,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'CRM_ORDERH',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 32,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'ZTEXT1',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 40,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'ZEXT_RNO',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 32,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'ZREQ_SDAT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 8,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'Reason',
+      dataType: 12,
+      dataTypeName: 'SQL_VARCHAR',
+      columnSize: 0,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+GET /api/get_open_status_wtg_data?orderType=Q2_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Select&area=Select&site=Select 200 71928 - 60.926 ms
+Query Result: [
+  { total_count: 1, PLANT: '2454' },
+  { total_count: 3, PLANT: '4453' },
+  { total_count: 106, PLANT: '4425' },
+  { total_count: 1, PLANT: '4437' },
+  { total_count: 2, PLANT: '4466' },
+  { total_count: 3, PLANT: '2451' },
+  { total_count: 9, PLANT: '4416' },
+  { total_count: 115, PLANT: '4417' },
+  { total_count: 3, PLANT: '2452' },
+  { total_count: 12, PLANT: '4419' },
+  { total_count: 77, PLANT: '4488' },
+  { total_count: 87, PLANT: '4418' },
+  { total_count: 1, PLANT: '4446' },
+  statement: '\n' +
+    '        SELECT COUNT(*) AS total_count, PLANT\n' +
+    '        FROM Schedule_plan_lubrication\n' +
+    '        WHERE ZEXT_RNO = ? \n' +
+    '        AND TRY_CAST([ZREQ_SDAT] AS DATE) IS NOT NULL\n' +
+    '        AND CONVERT(DATE, TRY_CAST([ZREQ_SDAT] AS DATE), 23) <= GETDATE()\n' +
+    "        AND [PLANT] NOT LIKE 'T%'\n" +
+    "        AND ZTEXT1 IN ('Open', 'In Process') AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT",
+  parameters: [ 'Q2_LUB_2024', '2023-01-10', '2027-01-10' ],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+GET /api/get_open_wtg_count_based_on_state?orderType=Q2_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Select&area=Select&site=Select 200 124 - 295.864 ms
+Query Result: [
+  statement: '\n' +
+    '            SELECT COUNT(*) AS total_count, PLANT \n' +
+    '            FROM Schedule_plan_lubrication \n' +
+    '            WHERE ZEXT_RNO = ? \n' +
+    '            AND TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL\n' +
+    '            AND CONVERT(DATE, TRY_CAST(ZREQ_SDAT AS DATE), 23) <= CONVERT(DATE, GETDATE(), 23)\n' +
+    "            AND ZTEXT1 NOT IN ('Deletion Flag')\n" +
+    "            AND PLANT NOT LIKE 'T%'\n" +
+    '         AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE State = ?\n' +
+    '                      ) AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE Area = ?\n' +
+    '                      ) AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE Site = ?\n' +
+    '                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [
+    'Q2_LUB_2024',
+    'Andhra Pradesh',
+    'Borampalli',
+    'Veerabhadra',
+    '2023-01-10',
+    '2027-01-10'
+  ],
+  return: undefined,
+  count: 0,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+GET /api/get_total_planned_wtg_count?orderType=Q2_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Andhra+Pradesh&area=Borampalli&site=Veerabhadra 304 - - 68772.608 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/get_areas?state=Andhra%20Pradesh 304 - - 20.588 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/get_sites?state=Andhra%20Pradesh&area=Borampalli 304 - - 31.434 ms
+Parameters: {
+  zextRNO: 'Q2_LUB_2024',
+  selectedState: 'Andhra Pradesh',
+  selectedArea: 'Borampalli',
+  selectedSite: '',
+  startDate: '2023-01-10',
+  endDate: '2027-01-10'
+}
+Parameters: {
+  zextRNO: 'Q2_LUB_2024',
+  selectedState: 'Andhra Pradesh',
+  selectedArea: 'Borampalli',
+  selectedSite: '',
+  startDate: '2023-01-10',
+  endDate: '2027-01-10'
+}
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+            SELECT COUNT(*) AS total_count, PLANT 
+            FROM Schedule_plan_lubrication 
+            WHERE ZEXT_RNO = ? 
+            AND TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL
+            AND CONVERT(DATE, TRY_CAST(ZREQ_SDAT AS DATE), 23) <= CONVERT(DATE, GETDATE(), 23)
+            AND ZTEXT1 NOT IN ('Deletion Flag')
+            AND PLANT NOT LIKE 'T%'
+         AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE State = ?
+                      ) AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE Area = ?
+                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [
+  'Q2_LUB_2024',
+  'Andhra Pradesh',
+  'Borampalli',
+  '2023-01-10',
+  '2027-01-10'
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+            SELECT COUNT(*) AS total_count, PLANT 
+            FROM Schedule_plan_lubrication 
+            WHERE ZEXT_RNO = ? 
+            AND ZTEXT1 NOT IN ('Deletion Flag')
+            AND PLANT NOT LIKE 'T%'
+         AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE State = ?
+                      ) AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE Area = ?
+                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [
+  'Q2_LUB_2024',
+  'Andhra Pradesh',
+  'Borampalli',
+  '2023-01-10',
+  '2027-01-10'
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/get_completed_out_of_grace_count?orderType=Q2_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Andhra+Pradesh&area=Borampalli&site=Select 200 45 - 85.354 ms
+Query Result: [
+  { total_count: 2, PLANT: '4466' },
+  statement: '\n' +
+    '            SELECT COUNT(*) AS total_count, PLANT \n' +
+    '            FROM Schedule_plan_lubrication \n' +
+    '            WHERE ZEXT_RNO = ? \n' +
+    '            AND TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL\n' +
+    '            AND CONVERT(DATE, TRY_CAST(ZREQ_SDAT AS DATE), 23) <= CONVERT(DATE, GETDATE(), 23)\n' +
+    "            AND ZTEXT1 NOT IN ('Deletion Flag')\n" +
+    "            AND PLANT NOT LIKE 'T%'\n" +
+    '         AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE State = ?\n' +
+    '                      ) AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE Area = ?\n' +
+    '                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [
+    'Q2_LUB_2024',
+    'Andhra Pradesh',
+    'Borampalli',
+    '2023-01-10',
+    '2027-01-10'
+  ],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+GET /api/get_total_wtg_count?orderType=Q2_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Andhra+Pradesh&area=Borampalli 200 402 - 143.907 ms
+Query Result: [
+  { total_count: 2, PLANT: '4466' },
+  statement: '\n' +
+    '            SELECT COUNT(*) AS total_count, PLANT \n' +
+    '            FROM Schedule_plan_lubrication \n' +
+    '            WHERE ZEXT_RNO = ? \n' +
+    "            AND ZTEXT1 NOT IN ('Deletion Flag')\n" +
+    "            AND PLANT NOT LIKE 'T%'\n" +
+    '         AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE State = ?\n' +
+    '                      ) AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE Area = ?\n' +
+    '                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [
+    'Q2_LUB_2024',
+    'Andhra Pradesh',
+    'Borampalli',
+    '2023-01-10',
+    '2027-01-10'
+  ],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+GET /api/get_total_planned_wtg_count?orderType=Q2_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Andhra+Pradesh&area=Borampalli&site=Select 200 62 - 165.909 ms
+GET /api/get_total_wtg_count_based_on_state?orderType=Q2_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Andhra+Pradesh&area=Borampalli&site=Select 200 55 - 193.053 ms
+Data written to total_count_sent_back.json
+GET /api/get_completed_count?orderType=Q2_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Andhra+Pradesh&area=Borampalli&site=Select 200 46 - 215.263 ms
+GET /api/get_total_open_status_wtg_count?orderType=Q2_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Andhra+Pradesh&area=Borampalli&site=Select 200 65 - 221.810 ms
+Connecting to main database...
+Parameters: {
+  zextRNO: 'Q2_LUB_2024',
+  selectedState: 'Andhra Pradesh',
+  selectedArea: 'Borampalli',
+  selectedSite: '',
+  startDate: '2023-01-10',
+  endDate: '2027-01-10'
+}
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Connected to main database.
+Executing main query: 
+            SELECT 
+                spl.[FUNCT_LOC], 
+                spl.[PLANT], 
+                spl.[CRM_ORDERH], 
+                spl.[ZTEXT1], 
+                spl.[ZEXT_RNO], 
+                spl.[ZREQ_SDAT],
+                r.[reason] AS Reason
+            FROM 
+                Schedule_plan_lubrication spl
+            LEFT JOIN 
+                reason r ON r.[functional_location] = spl.[FUNCT_LOC] 
+                          AND r.[order_number] = spl.[CRM_ORDERH]
+            WHERE 
+                spl.ZEXT_RNO = ? 
+                AND TRY_CAST(spl.[ZREQ_SDAT] AS DATE) IS NOT NULL
+                AND CONVERT(DATE, TRY_CAST(spl.[ZREQ_SDAT] AS DATE), 23) <= GETDATE()
+                AND spl.[PLANT] NOT LIKE 'T%'
+                AND spl.ZTEXT1 IN ('Open', 'In Process')
+         AND spl.[PLANT] IN (SELECT DISTINCT [Maintenance_Plant] FROM installedbase WHERE State = ?) AND spl.[PLANT] IN (SELECT DISTINCT [Maintenance_Plant] FROM installedbase WHERE Area = ?) AND spl.[ZREQ_SDAT] >= ? AND spl.[ZREQ_SDAT] <= ? with params: [
+  'Q2_LUB_2024',
+  'Andhra Pradesh',
+  'Borampalli',
+  '2023-01-10',
+  '2027-01-10'
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+        SELECT COUNT(*) AS total_count, PLANT
+        FROM Schedule_plan_lubrication
+        WHERE ZEXT_RNO = ? 
+        AND TRY_CAST([ZREQ_SDAT] AS DATE) IS NOT NULL
+        AND CONVERT(DATE, TRY_CAST([ZREQ_SDAT] AS DATE), 23) <= GETDATE()
+        AND [PLANT] NOT LIKE 'T%'
+        AND ZTEXT1 IN ('Open', 'In Process') AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE State = ?
+                      ) AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE Area = ?
+                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [
+  'Q2_LUB_2024',
+  'Andhra Pradesh',
+  'Borampalli',
+  '2023-01-10',
+  '2027-01-10'
+]
+Query Result: [
+  { total_count: 2, PLANT: '4466' },
+  statement: '\n' +
+    '        SELECT COUNT(*) AS total_count, PLANT\n' +
+    '        FROM Schedule_plan_lubrication\n' +
+    '        WHERE ZEXT_RNO = ? \n' +
+    '        AND TRY_CAST([ZREQ_SDAT] AS DATE) IS NOT NULL\n' +
+    '        AND CONVERT(DATE, TRY_CAST([ZREQ_SDAT] AS DATE), 23) <= GETDATE()\n' +
+    "        AND [PLANT] NOT LIKE 'T%'\n" +
+    "        AND ZTEXT1 IN ('Open', 'In Process') AND PLANT IN (\n" +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE State = ?\n' +
+    '                      ) AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE Area = ?\n' +
+    '                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [
+    'Q2_LUB_2024',
+    'Andhra Pradesh',
+    'Borampalli',
+    '2023-01-10',
+    '2027-01-10'
+  ],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+Main query results: [
+  {
+    FUNCT_LOC: 'SWSTTD-SC2-NED01-NK02',
+    PLANT: '4466',
+    CRM_ORDERH: '0018468961',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240822',
+    Reason: 'Design Issue'
+  },
+  {
+    FUNCT_LOC: 'SWSTTD-SC2-NED01-NK01',
+    PLANT: '4466',
+    CRM_ORDERH: '0018468962',
+    ZTEXT1: 'Open',
+    ZEXT_RNO: 'Q2_LUB_2024',
+    ZREQ_SDAT: '20240819',
+    Reason: null
+  },
+  statement: '\n' +
+    '            SELECT \n' +
+    '                spl.[FUNCT_LOC], \n' +
+    '                spl.[PLANT], \n' +
+    '                spl.[CRM_ORDERH], \n' +
+    '                spl.[ZTEXT1], \n' +
+    '                spl.[ZEXT_RNO], \n' +
+    '                spl.[ZREQ_SDAT],\n' +
+    '                r.[reason] AS Reason\n' +
+    '            FROM \n' +
+    '                Schedule_plan_lubrication spl\n' +
+    '            LEFT JOIN \n' +
+    '                reason r ON r.[functional_location] = spl.[FUNCT_LOC] \n' +
+    '                          AND r.[order_number] = spl.[CRM_ORDERH]\n' +
+    '            WHERE \n' +
+    '                spl.ZEXT_RNO = ? \n' +
+    '                AND TRY_CAST(spl.[ZREQ_SDAT] AS DATE) IS NOT NULL\n' +
+    '                AND CONVERT(DATE, TRY_CAST(spl.[ZREQ_SDAT] AS DATE), 23) <= GETDATE()\n' +
+    "                AND spl.[PLANT] NOT LIKE 'T%'\n" +
+    "                AND spl.ZTEXT1 IN ('Open', 'In Process')\n" +
+    '         AND spl.[PLANT] IN (SELECT DISTINCT [Maintenance_Plant] FROM installedbase WHERE State = ?) AND spl.[PLANT] IN (SELECT DISTINCT [Maintenance_Plant] FROM installedbase WHERE Area = ?) AND spl.[ZREQ_SDAT] >= ? AND spl.[ZREQ_SDAT] <= ?',
+  parameters: [
+    'Q2_LUB_2024',
+    'Andhra Pradesh',
+    'Borampalli',
+    '2023-01-10',
+    '2027-01-10'
+  ],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'FUNCT_LOC',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 40,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'CRM_ORDERH',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 32,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'ZTEXT1',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 40,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'ZEXT_RNO',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 32,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'ZREQ_SDAT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 8,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'Reason',
+      dataType: 12,
+      dataTypeName: 'SQL_VARCHAR',
+      columnSize: 0,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+GET /api/get_open_wtg_count_based_on_state?orderType=Q2_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Andhra+Pradesh&area=Borampalli&site=Select 200 55 - 114.836 ms
+GET /api/get_open_status_wtg_data?orderType=Q2_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Andhra+Pradesh&area=Borampalli&site=Select 200 353 - 118.208 ms
+Query Result: [
+  statement: '\n' +
+    '            SELECT COUNT(*) AS total_count, PLANT \n' +
+    '            FROM Schedule_plan_lubrication \n' +
+    '            WHERE ZEXT_RNO = ? \n' +
+    "            AND ZTEXT1 NOT IN ('Deletion Flag')\n" +
+    "            AND PLANT NOT LIKE 'T%'\n" +
+    '         AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE State = ?\n' +
+    '                      ) AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE Area = ?\n' +
+    '                      ) AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE Site = ?\n' +
+    '                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [
+    'Q2_LUB_2024',
+    'Andhra Pradesh',
+    'Borampalli',
+    'Veerabhadra',
+    '2023-01-10',
+    '2027-01-10'
+  ],
+  return: undefined,
+  count: 0,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+GET /api/get_total_wtg_count_based_on_state?orderType=Q2_LUB_2024&fromDate=2023-01-10&toDate=2027-01-10&state=Andhra+Pradesh&area=Borampalli&site=Veerabhadra 304 - - 85070.695 ms
+OPTIONS /api/toggle_admin 200 4 - 0.435 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  adminId: 'a0fc0dfa11e84ef1023e23d79d3627be',
+  access: 'lubrication',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  userId: '98316687ae94f591f5fdaef1b63c345f',
+  domain_id: 'Not Set',
+  state: 'Rajasthan',
+  area: 'Akal,Ratan Ka Bass,Tejuva',
+  site: 'Akal,Devikot,Mulana,Soda Mada I,Soda Mada II,Bhesada,Fatehgarh A,Fatehgarh B,Osiyan,Ratan Ka Bass,Baramsar,Baramsar II,Mokala,Sanu,Tejuva',
+  email: 'vhiralal@suzlon.com',
+  pathname: '/WTG_Wise_Planning',
+  entryTime: '2025-01-10 15:01:37',
+  exitTime: '2025-01-10 15:02:47'
+}
+Start DateTime in IST format: 2025-01-10T09:31:37.000Z
+End DateTime in IST format: 2025-01-10T09:32:47.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-01-10T09:32:47.000Z',
+    Password: 'Suzlon@123',
+    UserID: 'Not Set',
+    ScreenName: '/WTG_Wise_Planning',
+    StartDateTime: '2025-01-10T09:31:37.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 15.723 ms
+POST /api/toggle_admin 200 352 - 15.010 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  adminId: 'a0fc0dfa11e84ef1023e23d79d3627be',
+  access: 'lubrication,pm,oil_change',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  userId: 'a52cb847b371227d424a83784d5c1fc6',
+  domain_id: 'Not Set',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya@suzlon.com',
+  pathname: '/WTG_Wise_Planning',
+  entryTime: '2025-01-10 15:01:37',
+  exitTime: '2025-01-10 15:02:47'
+}
+Start DateTime in IST format: 2025-01-10T09:31:37.000Z
+End DateTime in IST format: 2025-01-10T09:32:47.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-01-10T09:32:47.000Z',
+    Password: 'Suzlon@123',
+    UserID: 'Not Set',
+    ScreenName: '/WTG_Wise_Planning',
+    StartDateTime: '2025-01-10T09:31:37.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 7.884 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: 'a52cb847b371227d424a83784d5c1fc6',
+  access: 'lubrication,pm,oil_change',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  domain_id: '40139',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya@suzlon.com',
+  pathname: '/Home_user',
+  entryTime: '2025-01-10 15:02:47',
+  exitTime: '2025-01-10 15:02:49'
+}

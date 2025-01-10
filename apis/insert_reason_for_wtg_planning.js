@@ -1,7 +1,7 @@
 const express = require('express');
 const moment = require('moment-timezone'); // Import moment-timezone
-const { connectToDatabase } = require('./connect4'); // Your database connection module
-
+//const { connectToDatabase } = require('./connect4'); // Your database connection module
+const { connectToDatabase } = require('./connect6.js');
 const router = express.Router();
 
 // Set up CORS middleware

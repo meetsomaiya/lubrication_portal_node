@@ -1,7 +1,8 @@
 const express = require('express');
 const fs = require('fs');
 const xlsx = require('xlsx'); // Excel library
-const { connectToDatabase } = require('./connect4.js'); // Your database connection module
+//const { connectToDatabase } = require('./connect4.js'); // Your database connection module
+const { connectToDatabase } = require('./connect6.js');
 const ExcelJS = require('exceljs');
 
 const router = express.Router();

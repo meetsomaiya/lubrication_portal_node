@@ -1,7 +1,8 @@
-console.log('checkAdmin route module loaded');
+console.log('checkUser route module loaded');
 
 const express = require('express');
-const { connectToDatabase } = require('./connect5.js');
+// const { connectToDatabase } = require('./connect5.js');
+const { connectToDatabase } = require('./connect6.js');
 const crypto = require('crypto'); // For generating a random session ID
 const fs = require('fs'); // For file operations
 const moment = require('moment-timezone'); // For handling timezones
@@ -41,7 +42,7 @@ router.get('/', async (req, res) => {
         // SQL query to fetch user details for the specified domain_id
         const query = `
             SELECT [id], [domain_id], [name], [email], [state], [area], [site], [access], [last_login_time]
-            FROM [Lubrication_Dashboard].[dbo].[login]
+            FROM [dbo].[login]
             WHERE [domain_id] = ?
         `;
 
@@ -66,7 +67,7 @@ router.get('/', async (req, res) => {
 
         // Update the session ID, name, email, and last_login_time in the database for the specific domain_id
         const updateQuery = `
-            UPDATE [Lubrication_Dashboard].[dbo].[login]
+            UPDATE [dbo].[login]
             SET [id] = ?, [name] = ?, [email] = ?, [last_login_time] = ?
             WHERE [domain_id] = ?
         `;

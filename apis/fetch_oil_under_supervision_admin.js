@@ -16,7 +16,7 @@ router.use((req, res, next) => {
 router.get('/', async (req, res) => {
     try {
         // Construct the query to fetch all rows from the oil_under_supervision table
-        const query = `SELECT * FROM [Fleet_Manager_DB].[dbo].oil_under_supervision`;
+        const query = `SELECT * FROM [dbo].oil_under_supervision`;
 
         console.log('Executing query:', query);
 

@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const { connectToDatabase } = require('./connect.js'); // Database connection module
+//const { connectToDatabase } = require('./connect.js'); // Database connection module
+const { connectToDatabase } = require('./connect6.js');
 
 // Set up CORS middleware
 router.use((req, res, next) => {

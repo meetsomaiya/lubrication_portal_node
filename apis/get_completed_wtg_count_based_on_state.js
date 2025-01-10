@@ -1,7 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const fs = require('fs');
-const { connectToDatabase } = require('./connect.js');
+//const { connectToDatabase } = require('./connect.js');
+const { connectToDatabase } = require('./connect6.js');
 
 router.use((req, res, next) => {
     res.header('Access-Control-Allow-Origin', '*');

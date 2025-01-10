@@ -1,0 +1,191 @@
+checkAdmin route module loaded
+checkUser route module loaded
+Server is listening on port \\.\pipe\17396805-aad5-4252-8916-8a9e6c5e14f1
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  adminId: 'da9858342dbd6553673de308c0658d85',
+  access: 'lubrication',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  userId: '1751c63d3867fb1e0cc36a84002a7157',
+  domain_id: 'Not Set',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya@suzlon.com',
+  pathname: '/upload-excel',
+  entryTime: '2025-01-10 15:15:48',
+  exitTime: '2025-01-10 15:29:42'
+}
+Start DateTime in IST format: 2025-01-10T09:45:48.000Z
+End DateTime in IST format: 2025-01-10T09:59:42.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-01-10T09:59:42.000Z',
+    Password: 'Suzlon@123',
+    UserID: 'Not Set',
+    ScreenName: '/upload-excel',
+    StartDateTime: '2025-01-10T09:45:48.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  adminId: 'da9858342dbd6553673de308c0658d85',
+  access: 'lubrication',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  userId: '1751c63d3867fb1e0cc36a84002a7157',
+  domain_id: 'Not Set',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya@suzlon.com',
+  pathname: '/upload-excel',
+  entryTime: '2025-01-10 15:15:48',
+  exitTime: '2025-01-10 15:29:42'
+}
+Start DateTime in IST format: 2025-01-10T09:45:48.000Z
+End DateTime in IST format: 2025-01-10T09:59:42.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-01-10T09:59:42.000Z',
+    Password: 'Suzlon@123',
+    UserID: 'Not Set',
+    ScreenName: '/upload-excel',
+    StartDateTime: '2025-01-10T09:45:48.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 106.483 ms
+POST /api/heartbeat 200 53 - 28.990 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  adminId: 'da9858342dbd6553673de308c0658d85',
+  access: 'lubrication',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  userId: '1751c63d3867fb1e0cc36a84002a7157',
+  domain_id: 'Not Set',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya@suzlon.com',
+  pathname: '/upload-excel',
+  entryTime: '2025-01-10 15:30:35',
+  exitTime: '2025-01-10 15:30:45'
+}
+Start DateTime in IST format: 2025-01-10T10:00:35.000Z
+End DateTime in IST format: 2025-01-10T10:00:45.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-01-10T10:00:45.000Z',
+    Password: 'Suzlon@123',
+    UserID: 'Not Set',
+    ScreenName: '/upload-excel',
+    StartDateTime: '2025-01-10T10:00:35.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  adminId: 'da9858342dbd6553673de308c0658d85',
+  access: 'lubrication',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  userId: '1751c63d3867fb1e0cc36a84002a7157',
+  domain_id: 'Not Set',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya@suzlon.com',
+  pathname: '/upload-excel',
+  entryTime: '2025-01-10 15:30:35',
+  exitTime: '2025-01-10 15:30:45'
+}
+Start DateTime in IST format: 2025-01-10T10:00:35.000Z
+End DateTime in IST format: 2025-01-10T10:00:45.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-01-10T10:00:45.000Z',
+    Password: 'Suzlon@123',
+    UserID: 'Not Set',
+    ScreenName: '/upload-excel',
+    StartDateTime: '2025-01-10T10:00:35.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 18.536 ms
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 31.939 ms

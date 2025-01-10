@@ -1,7 +1,8 @@
 const express = require('express');
 const fs = require('fs');
 const xlsx = require('xlsx'); // Excel library
-const { connectToDatabase } = require('./connect3.js'); // Your database connection module
+//const { connectToDatabase } = require('./connect3.js'); // Your database connection module
+const { connectToDatabase } = require('./connect6.js');
 const ExcelJS = require('exceljs');
 
 const router = express.Router();
@@ -173,7 +174,7 @@ const excelDate = (dateStr) => {
                         [AREA INCHARGE],
                         [SITE INCHARGE],
                         [STATE PMO]
-                    FROM [NewDatabase].[dbo].[site_area_incharge_mapping]
+                    FROM [dbo].[site_area_incharge_mapping]
                     WHERE [SITE] = ?;
                 `;
                 
@@ -288,7 +289,7 @@ for (const order of tableResults) {
                     [AREA INCHARGE],
                     [SITE INCHARGE],
                     [STATE PMO]
-                FROM [NewDatabase].[dbo].[site_area_incharge_mapping]
+                FROM [dbo].[site_area_incharge_mapping]
                 WHERE [SITE] = ?;
             `;
             

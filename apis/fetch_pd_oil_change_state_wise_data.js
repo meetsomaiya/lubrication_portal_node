@@ -1,7 +1,8 @@
 const express = require('express');
 const odbc = require('odbc');
 const fs = require('fs');
-const { connectToDatabase } = require('./connect3.js'); // Database connection module
+//const { connectToDatabase } = require('./connect3.js'); // Database connection module
+const { connectToDatabase } = require('./connect6.js');
 const router = express.Router();
 
 // Set timezone to Asia/Kolkata

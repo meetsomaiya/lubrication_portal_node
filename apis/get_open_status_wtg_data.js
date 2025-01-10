@@ -1,8 +1,8 @@
 const express = require('express');
 const odbc = require('odbc');
 const router = express.Router();
-const { connectToDatabase } = require('./connect4'); // Main DB connection module
-
+//const { connectToDatabase } = require('./connect4'); // Main DB connection module
+const { connectToDatabase } = require('./connect6.js');
 // CORS setup
 router.use((req, res, next) => {
     res.header('Access-Control-Allow-Origin', '*');
@@ -65,15 +65,15 @@ router.get('/', async (req, res) => {
 
         // Conditional filters for state, area, and site
         if (selectedState) {
-            query += ` AND spl.[PLANT] IN (SELECT DISTINCT [Maintenance_Plant] FROM installedbase WHERE State = ?)`; 
+            query += ` AND spl.[PLANT] IN (SELECT DISTINCT [Maintenance_Plant] FROM installedbase WHERE State = ?)`;
             params.push(selectedState);
         }
         if (selectedArea) {
-            query += ` AND spl.[PLANT] IN (SELECT DISTINCT [Maintenance_Plant] FROM installedbase WHERE Area = ?)`; 
+            query += ` AND spl.[PLANT] IN (SELECT DISTINCT [Maintenance_Plant] FROM installedbase WHERE Area = ?)`;
             params.push(selectedArea);
         }
         if (selectedSite) {
-            query += ` AND spl.[PLANT] IN (SELECT DISTINCT [Maintenance_Plant] FROM installedbase WHERE Site = ?)`; 
+            query += ` AND spl.[PLANT] IN (SELECT DISTINCT [Maintenance_Plant] FROM installedbase WHERE Site = ?)`;
             params.push(selectedSite);
         }
 
@@ -90,41 +90,35 @@ router.get('/', async (req, res) => {
 
         // Calculate delays and format date fields for each row
         const today = new Date();
-        const formattedResults = await Promise.all(results.map(async row => {
+        const formattedResults = results.map(row => {
+            let delay = null;
+            let formattedDate = null;
+
             try {
-                // Convert ZREQ_SDAT to 'YYYY-MM-DD' format if it's in 'YYYYMMDD' format
-                let zreq_sdat;
-                if (row.ZREQ_SDAT && /^[0-9]{8}$/.test(row.ZREQ_SDAT)) { // Check if it matches 'YYYYMMDD'
-                    const formattedDate = `${row.ZREQ_SDAT.slice(0, 4)}-${row.ZREQ_SDAT.slice(4, 6)}-${row.ZREQ_SDAT.slice(6, 8)}`;
-                    zreq_sdat = new Date(formattedDate);
-                } else {
-                    zreq_sdat = new Date(row.ZREQ_SDAT); // Try to parse as-is if format is different
+                // Convert ZREQ_SDAT to 'YYYY-MM-DD' format
+                if (row.ZREQ_SDAT && /^[0-9]{8}$/.test(row.ZREQ_SDAT)) {
+                    formattedDate = `${row.ZREQ_SDAT.slice(0, 4)}-${row.ZREQ_SDAT.slice(4, 6)}-${row.ZREQ_SDAT.slice(6, 8)}`;
+                } else if (row.ZREQ_SDAT) {
+                    formattedDate = new Date(row.ZREQ_SDAT).toISOString().slice(0, 10);
                 }
 
-                // Check if the parsed date is valid
-                if (isNaN(zreq_sdat)) {
-                    console.warn(`Invalid ZREQ_SDAT date value: ${row.ZREQ_SDAT}`);
-                    row.delay = null;
-                    row.ZREQ_SDAT = null;
-                } else {
-                    // Calculate delay and format the date
-                    row.delay = Math.floor((today - zreq_sdat) / (1000 * 60 * 60 * 24));
-                    row.ZREQ_SDAT = zreq_sdat.toISOString().slice(0, 10); // Format date to YYYY-MM-DD
+                // Calculate delay if date is valid
+                if (formattedDate) {
+                    const zreqDate = new Date(formattedDate);
+                    delay = Math.floor((today - zreqDate) / (1000 * 60 * 60 * 24));
                 }
-
-                // Log processed row for debugging
-                console.log(`Processed row:`, row);
-            } catch (dateError) {
-                console.error(`Error processing ZREQ_SDAT: ${row.ZREQ_SDAT}`, dateError.message);
-                row.delay = null;
-                row.ZREQ_SDAT = null;
+            } catch (error) {
+                console.error(`Error processing ZREQ_SDAT for row: ${row}`, error.message);
             }
 
-            return row;
-        }));
+            return {
+                ...row,
+                ZREQ_SDAT: formattedDate || null,
+                delay: delay || null,
+            };
+        });
 
         // Return JSON response with formatted results
-        console.log("Final formatted results:", formattedResults);
         res.json(formattedResults);
     } catch (error) {
         console.error('Main DB connection error:', error.message);

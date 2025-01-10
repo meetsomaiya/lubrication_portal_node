@@ -1,5 +1,6 @@
 const express = require('express');
-const { connectToDatabase } = require('./connect.js'); // Database connection module
+//const { connectToDatabase } = require('./connect4.js'); // Database connection module
+const { connectToDatabase } = require('./connect6.js');
 
 const router = express.Router();
 
@@ -60,31 +61,45 @@ router.get('/', async (req, res) => {
 
     try {
         const connection = await connectToDatabase();
+
+        // Execute the main query
         const schedulePlanResult = await connection.query(query, params);
-        
-        const stateWiseCounts = {};
 
-        // Loop through each plant, get corresponding state and accumulate counts by state
-        for (const row of schedulePlanResult) {
-            const plant = row.PLANT;
-            const plantCount = row.total_count;
-
-            // Fetch the state for each plant from installedbase
-            const stateQuery = `SELECT State FROM installedbase WHERE Maintenance_Plant = ?`;
-            const stateResult = await connection.query(stateQuery, [plant]);
-
-            if (stateResult.length > 0) {
-                const state = stateResult[0].State;
-                stateWiseCounts[state] = (stateWiseCounts[state] || 0) + plantCount;
-            }
+        // Extract unique plants from the result
+        const plants = schedulePlanResult.map(row => row.PLANT);
+        if (plants.length === 0) {
+            return res.json({ totalOpenStatusCount: 0, stateWiseCounts: {} });
         }
 
-        const results = {
-            totalOpenStatusCount: schedulePlanResult.reduce((sum, row) => sum + row.total_count, 0),
-            stateWiseCounts
-        };
+        // Bulk query to fetch states for all relevant plants
+        const plantPlaceholders = plants.map(() => '?').join(', ');
+        const stateQuery = `
+            SELECT DISTINCT Maintenance_Plant, State 
+            FROM installedbase 
+            WHERE Maintenance_Plant IN (${plantPlaceholders})
+        `;
+        const stateResult = await connection.query(stateQuery, plants);
 
-        res.json(results);
+        // Map plants to their respective states
+        const plantToStateMap = {};
+        stateResult.forEach(row => {
+            plantToStateMap[row.Maintenance_Plant] = row.State;
+        });
+
+        // Aggregate counts by state
+        const stateWiseCounts = {};
+        schedulePlanResult.forEach(row => {
+            const state = plantToStateMap[row.PLANT];
+            if (state) {
+                stateWiseCounts[state] = (stateWiseCounts[state] || 0) + row.total_count;
+            }
+        });
+
+        // Compute total count
+        const totalOpenStatusCount = schedulePlanResult.reduce((sum, row) => sum + row.total_count, 0);
+
+        // Final results
+        res.json({ totalOpenStatusCount, stateWiseCounts });
     } catch (error) {
         console.error('Database query error:', error);
         res.status(500).send('Internal Server Error');

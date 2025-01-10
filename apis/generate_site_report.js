@@ -1,6 +1,7 @@
 const express = require('express');
 const odbc = require('odbc');
-const { connectToDatabase } = require('./connect.js');
+// const { connectToDatabase } = require('./connect.js');
+const { connectToDatabase } = require('./connect6.js');
 const router = express.Router();
 const fs = require('fs');
 

@@ -1,8 +1,9 @@
 const express = require('express');
 const odbc = require('odbc');
 const fs = require('fs'); // Import the file system module
- const { connectToDatabase } = require('./connect.js'); // Your database connection module
+// const { connectToDatabase } = require('./connect.js'); // Your database connection module
 // const { connectToDatabase } = require('./connect_prod.js'); // Your database connection module
+const { connectToDatabase } = require('./connect6.js');
 const router = express.Router();
 
 // Set up CORS middleware

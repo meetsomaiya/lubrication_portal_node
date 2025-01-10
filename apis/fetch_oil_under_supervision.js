@@ -31,7 +31,7 @@ router.get('/', async (req, res) => {
 
     try {
         // Construct the query
-        const query = `SELECT * FROM [Fleet_Manager_DB].[dbo].oil_under_supervision 
+        const query = `SELECT * FROM [dbo].oil_under_supervision 
                        WHERE (STATE_ENGG_HEAD='${loginUser}' OR AREA_INCHARGE='${loginUser}' OR SITE_INCHARGE='${loginUser}')`;
 
         console.log('Executing query:', query, 'With parameter loginUser:', loginUser);

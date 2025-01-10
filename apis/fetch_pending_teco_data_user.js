@@ -2,7 +2,8 @@ const express = require('express');
 const odbc = require('odbc');
 const fs = require('fs');
 const moment = require('moment-timezone');
-const { connectToDatabase } = require('./connect3.js'); // Database connection
+//const { connectToDatabase } = require('./connect3.js'); // Database connection
+const { connectToDatabase } = require('./connect6.js');
 const router = express.Router();
 
 moment.tz.setDefault("Asia/Kolkata");

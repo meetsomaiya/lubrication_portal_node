@@ -1,7 +1,8 @@
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
-const { connectToDatabase } = require('./connect.js');
+// const { connectToDatabase } = require('./connect.js');
+const { connectToDatabase } = require('./connect6.js');
 
 const router = express.Router();
 

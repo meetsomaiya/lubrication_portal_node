@@ -1,7 +1,8 @@
 const express = require('express');
 const odbc = require('odbc');
 const moment = require('moment-timezone');
-const { connectToDatabase } = require('./connect3.js');
+//const { connectToDatabase } = require('./connect3.js');
+const { connectToDatabase } = require('./connect6.js');
 const router = express.Router();
 
 moment.tz.setDefault('Asia/Kolkata');
@@ -82,7 +83,7 @@ router.get('/', async (req, res) => {
                 OFFSET ? ROWS FETCH NEXT ? ROWS ONLY;
             `;
 
-            const orders = await db.query(sqlQuery, [postingDateStart, postingDateEnd, currentDate,stateValue, offset, limit]);
+            const orders = await db.query(sqlQuery, [postingDateStart, postingDateEnd, currentDate, stateValue, offset, limit]);
             allData = allData.concat(orders);
 
             if (orders.length < limit) {
@@ -95,7 +96,7 @@ router.get('/', async (req, res) => {
         // Fetch unique reasons for each order number
         const uniqueOrderNumbers = Array.from(new Set(allData.map(order => order['Order No'])));
         const reasonPlaceholders = uniqueOrderNumbers.map(() => '?').join(', ');
-        
+
         const reasonQuery = `
             SELECT 
                 [Order No], 
@@ -113,11 +114,13 @@ router.get('/', async (req, res) => {
             reasonMap[row['Order No']] = row['Reason'];
         });
 
-        // Add reasons to orders
-        allData = allData.map(order => ({
-            ...order,
-            reason: reasonMap[order['Order No']] || null, // Default to null if no reason found
-        }));
+        // Filter and add reasons to orders
+        allData = allData
+            .filter(order => reasonMap[order['Order No']]) // Include only orders with a reason
+            .map(order => ({
+                ...order,
+                reason: reasonMap[order['Order No']], // Append the relevant reason
+            }));
 
         // Extract unique site values
         const siteSet = new Set();
@@ -142,7 +145,7 @@ router.get('/', async (req, res) => {
             FROM [dbo].[site_area_incharge_mapping]
             WHERE [SITE] IN (${placeholders});
         `;
-        
+
         // Execute the query with all site values
         const siteDetails = await db.query(siteDetailsQuery, siteArray);
 
@@ -177,5 +180,6 @@ router.get('/', async (req, res) => {
         res.status(500).json({ message: 'Server error occurred' });
     }
 });
+
 
 module.exports = router;
