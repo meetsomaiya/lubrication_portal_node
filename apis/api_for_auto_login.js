@@ -47,7 +47,8 @@ router.post('/', async (req, res) => {
         console.log('Sending data to Fleet Manager API:', postData);
 
         // Send the request to the Fleet Manager API using fetch
-        const apiUrl = 'https://suzomsapps.suzlon.com/Services/SuzlonActiveUser/api/SuzlonActiveUser/IsUserActive';
+        // const apiUrl = 'https://suzomsapps.suzlon.com/Services/SuzlonActiveUser/api/SuzlonActiveUser/IsUserActive';
+        const apiUrl = 'https://suzomsuatapps.suzlon.com:7003/Services/SuzlonActiveUser/api/SuzlonActiveUser/IsUserActive/';
         const response = await fetch(apiUrl, {
             method: 'POST',
             headers: {

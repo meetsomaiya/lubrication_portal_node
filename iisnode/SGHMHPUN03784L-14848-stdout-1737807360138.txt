@@ -1,0 +1,757 @@
+checkAdmin route module loaded
+checkUser route module loaded
+Server is listening on port \\.\pipe\b3bc4ee0-6e51-422c-9430-ef3bf6131ec4
+Connected to the database.
+OPTIONS /api/logout_admin 200 4 - 13.358 ms
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_fy_year 200 51 - 230.049 ms
+GET /api/fetch_order_type 200 159 - 395.273 ms
+OPTIONS /api/toggle_admin 200 4 - 6.116 ms
+OPTIONS /api/heartbeat 200 4 - 1.808 ms
+Request data written to data_retrieve_in_toggle_api.json
+Received heartbeat data: {
+  name: 'Abhishek V Devarkar',
+  adminId: 'b85d1cf38190b06fbe7b856c4cc28643',
+  access: 'lubrication',
+  adminEmail: 'Abhishek.Devarkar@suzlon.com',
+  userId: 'Not Set',
+  domain_id: 'Not Set',
+  state: 'Not Set',
+  area: 'Not Set',
+  site: 'Not Set',
+  email: 'Not Set',
+  pathname: '/Oil_Analysis',
+  entryTime: '2025-01-25 17:48:07',
+  exitTime: '2025-01-25 17:48:20'
+}
+Start DateTime in IST format: 2025-01-25T12:18:07.000Z
+End DateTime in IST format: 2025-01-25T12:18:20.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-01-25T12:18:20.000Z',
+    Password: 'Suzlon@123',
+    UserID: 'Not Set',
+    ScreenName: '/Oil_Analysis',
+    StartDateTime: '2025-01-25T12:18:07.000Z',
+    UserEngagementID: 0,
+    UserName: 'Abhishek V Devarkar'
+  }
+]
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing SQL Query: SELECT domain_id FROM admins WHERE name LIKE ?
+With Parameters: ["%Abhishek%V%Devarkar%"]
+Executing SQL Query: UPDATE login SET id = ?, name = ?, email = ?, last_login_time = ? WHERE domain_id = ?
+With Parameters: ["c7bd7f9e93345586187a5b090be65117","Abhishek V Devarkar","Abhishek.Devarkar@suzlon.com","2025-01-25 17:48:20","39192"]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+Executing SQL Query: SELECT domain_id, name, email, state, area, site, access, last_login_time FROM login WHERE domain_id = ?
+With Parameters: ["39192"]
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 340.058 ms
+POST /api/toggle_admin 404 58 - 441.622 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+POST /api/logout_admin 200 193 - 338.489 ms
+IDs and name successfully written to file: {
+  adminId: 'b85d1cf38190b06fbe7b856c4cc28643',
+  userId: 'Not provided',
+  adminName: 'Abhishek V Devarkar',
+  timestamp: '2025-01-25 17:48:25'
+}
+OPTIONS /api/login2 204 0 - 3.785 ms
+POST /api/login2 200 1009 - 334.703 ms
+Retrieved DomainId: 40139
+Decoded Name: Meet Harishbhai Somaiya
+EmailId: Meet.Somaiya@suzlon.com
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/checkAdmin?DomainId=40139&Name=Meet%20Harishbhai%20Somaiya&EmailId=Meet.Somaiya%40suzlon.com 200 190 - 183.645 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: '40139',
+  access: 'lubrication',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  state: 'Not Set',
+  area: 'Not Set',
+  site: 'Not Set',
+  email: 'Not Set',
+  pathname: '/Home',
+  entryTime: '2025-01-25 17:48:30',
+  exitTime: '2025-01-25 17:48:32'
+}
+Request data written to data_retrieve_in_toggle_api.json
+POST /api/heartbeat 400 57 - 5.138 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing SQL Query: SELECT domain_id FROM admins WHERE name LIKE ?
+With Parameters: ["%Meet%Harishbhai%Somaiya%"]
+Executing SQL Query: UPDATE login SET id = ?, name = ?, email = ?, last_login_time = ? WHERE domain_id = ?
+With Parameters: ["0a65aab0f3c55addff1fb34cea256b9a","Meet Harishbhai Somaiya","Meet.Somaiya@suzlon.com","2025-01-25 17:48:32","40139"]
+Executing SQL Query: SELECT domain_id, name, email, state, area, site, access, last_login_time FROM login WHERE domain_id = ?
+With Parameters: ["40139"]
+POST /api/toggle_admin 200 352 - 297.979 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: '40139',
+  access: 'lubrication,pm,oil_change',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya@suzlon.com',
+  pathname: '/Home',
+  entryTime: '2025-01-25 17:48:30',
+  exitTime: '2025-01-25 17:48:32'
+}
+POST /api/heartbeat 400 57 - 5.239 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: '40139',
+  access: 'lubrication,pm,oil_change',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya@suzlon.com',
+  pathname: '/Home_user?reload=true',
+  entryTime: '2025-01-25 17:48:30',
+  exitTime: '2025-01-25 17:48:32'
+}
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: '40139',
+  access: 'lubrication,pm,oil_change',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya@suzlon.com',
+  pathname: '/Home_user?reload=true',
+  entryTime: '2025-01-25 17:48:30',
+  exitTime: '2025-01-25 17:48:32'
+}
+POST /api/heartbeat 400 57 - 3.994 ms
+POST /api/heartbeat 400 57 - 6.567 ms
+OPTIONS /api/logout_user 200 4 - 0.683 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+POST /api/logout_user 200 218 - 269.466 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: '0a65aab0f3c55addff1fb34cea256b9a',
+  access: 'lubrication,pm,oil_change',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  domain_id: '40139',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya@suzlon.com',
+  pathname: '/Home_user?reload=true',
+  entryTime: '2025-01-25 17:48:33',
+  exitTime: '2025-01-25 17:50:34'
+}
+Start DateTime in IST format: 2025-01-25T12:18:33.000Z
+End DateTime in IST format: 2025-01-25T12:20:34.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-01-25T12:20:34.000Z',
+    Password: 'Suzlon@123',
+    UserID: '40139',
+    ScreenName: '/Home_user?reload=true',
+    StartDateTime: '2025-01-25T12:18:33.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 86.053 ms
+OPTIONS /api/login2 204 0 - 0.408 ms
+POST /api/login2 200 1136 - 148.112 ms
+Retrieved DomainId: 39192
+Decoded Name: Abhishek V Devarkar
+EmailId: Abhishek.Devarkar@suzlon.com
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/checkAdmin?DomainId=39192&Name=Abhishek%20V%20Devarkar&EmailId=Abhishek.Devarkar%40suzlon.com 200 191 - 238.606 ms
+Request data written to data_retrieve_in_toggle_api.json
+Received heartbeat data: {
+  name: 'Abhishek V Devarkar',
+  userId: '39192',
+  access: 'lubrication',
+  adminEmail: 'Abhishek.Devarkar@suzlon.com',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya@suzlon.com',
+  pathname: '/Home',
+  entryTime: '2025-01-25 17:50:38',
+  exitTime: '2025-01-25 17:50:39'
+}
+POST /api/heartbeat 400 57 - 3.055 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing SQL Query: SELECT domain_id FROM admins WHERE name LIKE ?
+With Parameters: ["%Abhishek%V%Devarkar%"]
+Executing SQL Query: UPDATE login SET id = ?, name = ?, email = ?, last_login_time = ? WHERE domain_id = ?
+With Parameters: ["19c89a7082f8d644750a733d5bffa2f4","Abhishek V Devarkar","Abhishek.Devarkar@suzlon.com","2025-01-25 17:50:39","39192"]
+Executing SQL Query: SELECT domain_id, name, email, state, area, site, access, last_login_time FROM login WHERE domain_id = ?
+With Parameters: ["39192"]
+POST /api/toggle_admin 404 58 - 283.772 ms
+Received heartbeat data: {
+  name: 'Abhishek V Devarkar',
+  userId: '39192',
+  access: 'lubrication',
+  adminEmail: 'Abhishek.Devarkar@suzlon.com',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya@suzlon.com',
+  pathname: '/Home?reload=true',
+  entryTime: '2025-01-25 17:50:38',
+  exitTime: '2025-01-25 17:50:40'
+}
+Received heartbeat data: {
+  name: 'Abhishek V Devarkar',
+  userId: '39192',
+  access: 'lubrication',
+  adminEmail: 'Abhishek.Devarkar@suzlon.com',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya@suzlon.com',
+  pathname: '/Home?reload=true',
+  entryTime: '2025-01-25 17:50:38',
+  exitTime: '2025-01-25 17:50:40'
+}
+POST /api/heartbeat 400 57 - 2.839 ms
+POST /api/heartbeat 400 57 - 2.771 ms
+Request data written to data_retrieve_in_toggle_api.json
+Received heartbeat data: {
+  name: 'Abhishek V Devarkar',
+  userId: '39192',
+  access: 'lubrication',
+  adminEmail: 'Abhishek.Devarkar@suzlon.com',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya@suzlon.com',
+  pathname: '/Home?reload=true',
+  entryTime: '2025-01-25 17:50:40',
+  exitTime: '2025-01-25 17:50:41'
+}
+POST /api/heartbeat 400 57 - 4.019 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing SQL Query: SELECT domain_id FROM admins WHERE name LIKE ?
+With Parameters: ["%Abhishek%V%Devarkar%"]
+Executing SQL Query: UPDATE login SET id = ?, name = ?, email = ?, last_login_time = ? WHERE domain_id = ?
+With Parameters: ["7d5e6cbfb60c45b23262f6c558bac27c","Abhishek V Devarkar","Abhishek.Devarkar@suzlon.com","2025-01-25 17:50:42","39192"]
+Executing SQL Query: SELECT domain_id, name, email, state, area, site, access, last_login_time FROM login WHERE domain_id = ?
+With Parameters: ["39192"]
+POST /api/toggle_admin 404 58 - 292.862 ms
+Received heartbeat data: {
+  name: 'Abhishek V Devarkar',
+  userId: '39192',
+  access: 'lubrication',
+  adminEmail: 'Abhishek.Devarkar@suzlon.com',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya@suzlon.com',
+  pathname: '/Home?reload=true',
+  entryTime: '2025-01-25 17:50:40',
+  exitTime: '2025-01-25 17:50:42'
+}
+Received heartbeat data: {
+  name: 'Abhishek V Devarkar',
+  userId: '39192',
+  access: 'lubrication',
+  adminEmail: 'Abhishek.Devarkar@suzlon.com',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya@suzlon.com',
+  pathname: '/Home?reload=true',
+  entryTime: '2025-01-25 17:50:40',
+  exitTime: '2025-01-25 17:50:43'
+}
+POST /api/heartbeat 400 57 - 4.575 ms
+POST /api/heartbeat 400 57 - 2.447 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+POST /api/logout_admin 200 213 - 388.212 ms
+IDs and name successfully written to file: {
+  adminId: 'ba5ceaac551b440f5e51c21cdfb13620',
+  userId: '0a65aab0f3c55addff1fb34cea256b9a',
+  adminName: 'Abhishek V Devarkar',
+  timestamp: '2025-01-25 17:51:22'
+}
+OPTIONS /api/login2 204 0 - 0.310 ms
+POST /api/login2 200 1009 - 95.755 ms
+Retrieved DomainId: 40139
+Decoded Name: Meet Harishbhai Somaiya
+EmailId: Meet.Somaiya@suzlon.com
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/checkAdmin?DomainId=40139&Name=Meet%20Harishbhai%20Somaiya&EmailId=Meet.Somaiya%40suzlon.com 200 190 - 313.340 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: '40139',
+  access: 'lubrication',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya@suzlon.com',
+  pathname: '/Home?reload=true',
+  entryTime: '2025-01-25 17:51:27',
+  exitTime: '2025-01-25 17:51:29'
+}
+POST /api/heartbeat 400 57 - 5.042 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: '40139',
+  access: 'lubrication',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya@suzlon.com',
+  pathname: '/Home?reload=true',
+  entryTime: '2025-01-25 17:51:27',
+  exitTime: '2025-01-25 17:51:29'
+}
+POST /api/heartbeat 400 57 - 2.687 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: '40139',
+  access: 'lubrication',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya@suzlon.com',
+  pathname: '/Home?reload=true',
+  entryTime: '2025-01-25 17:51:31',
+  exitTime: '2025-01-25 17:51:37'
+}
+POST /api/heartbeat 400 57 - 3.717 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+States written to states_sent_back.json
+GET /api/get_states 200 365 - 119.613 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+States written to states_sent_back.json
+GET /api/get_states 304 - - 116.618 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/get_areas?state=Rajasthan 200 60 - 223.448 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/generate_site_report?state=Rajasthan 200 11001 - 350.993 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  adminId: '4df493c203c01fe1834b07f9ca2c4385',
+  access: 'lubrication',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  userId: '0a65aab0f3c55addff1fb34cea256b9a',
+  domain_id: 'Not Set',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya@suzlon.com',
+  pathname: '/Site_Report',
+  entryTime: '2025-01-25 17:51:37',
+  exitTime: '2025-01-25 17:52:25'
+}
+Start DateTime in IST format: 2025-01-25T12:21:37.000Z
+End DateTime in IST format: 2025-01-25T12:22:25.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-01-25T12:22:25.000Z',
+    Password: 'Suzlon@123',
+    UserID: 'Not Set',
+    ScreenName: '/Site_Report',
+    StartDateTime: '2025-01-25T12:21:37.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 84.628 ms
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_fy_year 304 - - 218.978 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_order_type 304 - - 371.807 ms
+GET /api/fetch_fy_year 304 - - 152.622 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_order_type 304 - - 293.558 ms

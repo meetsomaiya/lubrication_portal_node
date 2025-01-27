@@ -1,0 +1,845 @@
+checkAdmin route module loaded
+checkUser route module loaded
+Server is listening on port \\.\pipe\2e9a4d2c-04b7-42ee-8aa6-3109a6455898
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+OPTIONS /api/toggle_admin 200 4 - 3.693 ms
+Request data written to data_retrieve_in_toggle_api.json
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing SQL Query: SELECT domain_id FROM admins WHERE name LIKE ?
+With Parameters: ["%Meet%Somaiya%"]
+Executing SQL Query: UPDATE login SET id = ?, name = ?, email = ?, last_login_time = ? WHERE domain_id = ?
+With Parameters: ["aff5902cd23bfa656ff3aeb673f0b5ca","Meet Somaiya","meet.somaiya@suzlon.com","2025-01-24 09:43:21","40139"]
+Executing SQL Query: SELECT domain_id, name, email, state, area, site, access, last_login_time FROM login WHERE domain_id = ?
+With Parameters: ["40139"]
+POST /api/toggle_admin 200 341 - 53.123 ms
+Request data written to data_retrieve_in_toggle_api.json
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing SQL Query: SELECT domain_id FROM admins WHERE name LIKE ?
+With Parameters: ["%Meet%Somaiya%"]
+Executing SQL Query: UPDATE login SET id = ?, name = ?, email = ?, last_login_time = ? WHERE domain_id = ?
+With Parameters: ["cd9b2e0856be85d5a92e14a500935156","Meet Somaiya","meet.somaiya@suzlon.com","2025-01-24 09:43:32","40139"]
+Executing SQL Query: SELECT domain_id, name, email, state, area, site, access, last_login_time FROM login WHERE domain_id = ?
+With Parameters: ["40139"]
+POST /api/toggle_admin 200 341 - 43.269 ms
+OPTIONS /api/heartbeat 200 4 - 1.848 ms
+Received heartbeat data: {
+  name: 'Meet Somaiya',
+  userId: 'cd9b2e0856be85d5a92e14a500935156',
+  access: 'lubrication,pm,oil_change',
+  adminEmail: 'meet.somaiya@suzlon.com',
+  domain_id: '40139',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'meet.somaiya@suzlon.com',
+  pathname: '/Home_user?reload=true',
+  entryTime: '2025-01-24 09:47:18',
+  exitTime: '2025-01-24 09:47:20'
+}
+Start DateTime in IST format: 2025-01-24T04:17:18.000Z
+End DateTime in IST format: 2025-01-24T04:17:20.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-01-24T04:17:20.000Z',
+    Password: 'Suzlon@123',
+    UserID: '40139',
+    ScreenName: '/Home_user?reload=true',
+    StartDateTime: '2025-01-24T04:17:18.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Somaiya'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 113.958 ms
+Received heartbeat data: {
+  name: 'Meet Somaiya',
+  userId: 'cd9b2e0856be85d5a92e14a500935156',
+  access: 'lubrication,pm,oil_change',
+  adminEmail: 'meet.somaiya@suzlon.com',
+  domain_id: '40139',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'meet.somaiya@suzlon.com',
+  pathname: '/Home_user?reload=true',
+  entryTime: '2025-01-24 09:47:21',
+  exitTime: '2025-01-24 09:47:23'
+}
+Start DateTime in IST format: 2025-01-24T04:17:21.000Z
+End DateTime in IST format: 2025-01-24T04:17:23.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-01-24T04:17:23.000Z',
+    Password: 'Suzlon@123',
+    UserID: '40139',
+    ScreenName: '/Home_user?reload=true',
+    StartDateTime: '2025-01-24T04:17:21.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Somaiya'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 17.465 ms
+Received heartbeat data: {
+  name: 'Meet Somaiya',
+  userId: '40139',
+  access: 'lubrication,pm,oil_change',
+  adminEmail: 'meet.somaiya@suzlon.com',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'meet.somaiya@suzlon.com',
+  pathname: '/Home?reload=true',
+  entryTime: '2025-01-24 09:47:23',
+  exitTime: '2025-01-24 09:47:25'
+}
+POST /api/heartbeat 400 57 - 1.518 ms
+Received heartbeat data: {
+  name: 'Meet Somaiya',
+  userId: '40139',
+  access: 'lubrication,pm,oil_change',
+  adminEmail: 'meet.somaiya@suzlon.com',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'meet.somaiya@suzlon.com',
+  pathname: '/Home?reload=true',
+  entryTime: '2025-01-24 09:47:23',
+  exitTime: '2025-01-24 09:47:25'
+}
+POST /api/heartbeat 400 57 - 1.762 ms
+Request data written to data_retrieve_in_toggle_api.json
+Received heartbeat data: {
+  name: 'Meet Somaiya',
+  userId: '40139',
+  access: 'lubrication,pm,oil_change',
+  adminEmail: 'meet.somaiya@suzlon.com',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'meet.somaiya@suzlon.com',
+  pathname: '/Home?reload=true',
+  entryTime: '2025-01-24 09:47:25',
+  exitTime: '2025-01-24 09:47:27'
+}
+POST /api/heartbeat 400 57 - 1.727 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing SQL Query: SELECT domain_id FROM admins WHERE name LIKE ?
+With Parameters: ["%Meet%Somaiya%"]
+Executing SQL Query: UPDATE login SET id = ?, name = ?, email = ?, last_login_time = ? WHERE domain_id = ?
+With Parameters: ["33d2e26ce4196885be5d2a53ecf419c3","Meet Somaiya","meet.somaiya@suzlon.com","2025-01-24 09:47:27","40139"]
+Executing SQL Query: SELECT domain_id, name, email, state, area, site, access, last_login_time FROM login WHERE domain_id = ?
+With Parameters: ["40139"]
+POST /api/toggle_admin 200 341 - 41.964 ms
+Received heartbeat data: {
+  name: 'Meet Somaiya',
+  userId: '40139',
+  access: 'lubrication,pm,oil_change',
+  adminEmail: 'meet.somaiya@suzlon.com',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'meet.somaiya@suzlon.com',
+  pathname: '/Home',
+  entryTime: '2025-01-24 09:47:25',
+  exitTime: '2025-01-24 09:47:27'
+}
+POST /api/heartbeat 400 57 - 2.030 ms
+Received heartbeat data: {
+  name: 'Meet Somaiya',
+  userId: '33d2e26ce4196885be5d2a53ecf419c3',
+  access: 'lubrication,pm,oil_change',
+  adminEmail: 'meet.somaiya@suzlon.com',
+  domain_id: '40139',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'meet.somaiya@suzlon.com',
+  pathname: '/Home_user?reload=true',
+  entryTime: '2025-01-24 09:47:27',
+  exitTime: '2025-01-24 09:47:29'
+}
+Start DateTime in IST format: 2025-01-24T04:17:27.000Z
+End DateTime in IST format: 2025-01-24T04:17:29.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-01-24T04:17:29.000Z',
+    Password: 'Suzlon@123',
+    UserID: '40139',
+    ScreenName: '/Home_user?reload=true',
+    StartDateTime: '2025-01-24T04:17:27.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Somaiya'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 17.290 ms
+OPTIONS /api/login2 204 0 - 0.581 ms
+POST /api/login2 200 1009 - 63.034 ms
+Retrieved DomainId: 40139
+Decoded Name: Meet Harishbhai Somaiya
+EmailId: Meet.Somaiya@suzlon.com
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/checkAdmin?DomainId=40139&Name=Meet%20Harishbhai%20Somaiya&EmailId=Meet.Somaiya%40suzlon.com 200 190 - 25.156 ms
+OPTIONS /api/heartbeat 200 4 - 0.394 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: '40139',
+  access: 'lubrication',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'meet.somaiya@suzlon.com',
+  pathname: '/Home?reload=true',
+  entryTime: '2025-01-24 09:49:34',
+  exitTime: '2025-01-24 09:49:36'
+}
+OPTIONS /api/heartbeat 200 4 - 0.327 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: '40139',
+  access: 'lubrication',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'meet.somaiya@suzlon.com',
+  pathname: '/Home?reload=true',
+  entryTime: '2025-01-24 09:49:34',
+  exitTime: '2025-01-24 09:49:36'
+}
+POST /api/heartbeat 400 57 - 1.247 ms
+POST /api/heartbeat 400 57 - 0.881 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: '40139',
+  access: 'lubrication',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'meet.somaiya@suzlon.com',
+  pathname: '/Home?reload=true',
+  entryTime: '2025-01-24 09:49:36',
+  exitTime: '2025-01-24 09:49:38'
+}
+OPTIONS /api/toggle_admin 200 4 - 0.380 ms
+POST /api/heartbeat 400 57 - 1.715 ms
+Request data written to data_retrieve_in_toggle_api.json
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing SQL Query: SELECT domain_id FROM admins WHERE name LIKE ?
+With Parameters: ["%Meet%Harishbhai%Somaiya%"]
+Executing SQL Query: UPDATE login SET id = ?, name = ?, email = ?, last_login_time = ? WHERE domain_id = ?
+With Parameters: ["6cd903293c493259eb786434d344e523","Meet Harishbhai Somaiya","Meet.Somaiya@suzlon.com","2025-01-24 09:49:39","40139"]
+Executing SQL Query: SELECT domain_id, name, email, state, area, site, access, last_login_time FROM login WHERE domain_id = ?
+With Parameters: ["40139"]
+POST /api/toggle_admin 200 352 - 78.015 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: '40139',
+  access: 'lubrication,pm,oil_change',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya@suzlon.com',
+  pathname: '/Home',
+  entryTime: '2025-01-24 09:49:36',
+  exitTime: '2025-01-24 09:49:39'
+}
+POST /api/heartbeat 400 57 - 1.054 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: '6cd903293c493259eb786434d344e523',
+  access: 'lubrication,pm,oil_change',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  domain_id: '40139',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya@suzlon.com',
+  pathname: '/Home_user?reload=true',
+  entryTime: '2025-01-24 09:49:39',
+  exitTime: '2025-01-24 09:49:41'
+}
+Start DateTime in IST format: 2025-01-24T04:19:39.000Z
+End DateTime in IST format: 2025-01-24T04:19:41.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-01-24T04:19:41.000Z',
+    Password: 'Suzlon@123',
+    UserID: '40139',
+    ScreenName: '/Home_user?reload=true',
+    StartDateTime: '2025-01-24T04:19:39.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 17.793 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: '6cd903293c493259eb786434d344e523',
+  access: 'lubrication,pm,oil_change',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  domain_id: '40139',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya@suzlon.com',
+  pathname: '/Home_user?reload=true',
+  entryTime: '2025-01-24 09:49:41',
+  exitTime: '2025-01-24 09:49:44'
+}
+Start DateTime in IST format: 2025-01-24T04:19:41.000Z
+End DateTime in IST format: 2025-01-24T04:19:44.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-01-24T04:19:44.000Z',
+    Password: 'Suzlon@123',
+    UserID: '40139',
+    ScreenName: '/Home_user?reload=true',
+    StartDateTime: '2025-01-24T04:19:41.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 12.016 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: '40139',
+  access: 'lubrication,pm,oil_change',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya@suzlon.com',
+  pathname: '/Home?reload=true',
+  entryTime: '2025-01-24 09:49:44',
+  exitTime: '2025-01-24 09:49:46'
+}
+POST /api/heartbeat 400 57 - 1.338 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: '40139',
+  access: 'lubrication,pm,oil_change',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya@suzlon.com',
+  pathname: '/Home?reload=true',
+  entryTime: '2025-01-24 09:49:44',
+  exitTime: '2025-01-24 09:49:46'
+}
+POST /api/heartbeat 400 57 - 1.227 ms
+Request data written to data_retrieve_in_toggle_api.json
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: '40139',
+  access: 'lubrication,pm,oil_change',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya@suzlon.com',
+  pathname: '/Home?reload=true',
+  entryTime: '2025-01-24 09:49:46',
+  exitTime: '2025-01-24 09:49:51'
+}
+POST /api/heartbeat 400 57 - 1.257 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing SQL Query: SELECT domain_id FROM admins WHERE name LIKE ?
+With Parameters: ["%Meet%Harishbhai%Somaiya%"]
+Executing SQL Query: UPDATE login SET id = ?, name = ?, email = ?, last_login_time = ? WHERE domain_id = ?
+With Parameters: ["99f9b980662eac1ad74e43f9e8816b97","Meet Harishbhai Somaiya","Meet.Somaiya@suzlon.com","2025-01-24 09:49:51","40139"]
+Executing SQL Query: SELECT domain_id, name, email, state, area, site, access, last_login_time FROM login WHERE domain_id = ?
+With Parameters: ["40139"]
+POST /api/toggle_admin 200 352 - 37.628 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: '40139',
+  access: 'lubrication,pm,oil_change',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya@suzlon.com',
+  pathname: '/Home',
+  entryTime: '2025-01-24 09:49:46',
+  exitTime: '2025-01-24 09:49:51'
+}
+POST /api/heartbeat 400 57 - 1.174 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: '99f9b980662eac1ad74e43f9e8816b97',
+  access: 'lubrication,pm,oil_change',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  domain_id: '40139',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya@suzlon.com',
+  pathname: '/Home_user?reload=true',
+  entryTime: '2025-01-24 09:49:51',
+  exitTime: '2025-01-24 09:49:53'
+}
+Start DateTime in IST format: 2025-01-24T04:19:51.000Z
+End DateTime in IST format: 2025-01-24T04:19:53.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-01-24T04:19:53.000Z',
+    Password: 'Suzlon@123',
+    UserID: '40139',
+    ScreenName: '/Home_user?reload=true',
+    StartDateTime: '2025-01-24T04:19:51.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 23.882 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: '99f9b980662eac1ad74e43f9e8816b97',
+  access: 'lubrication,pm,oil_change',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  domain_id: '40139',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya@suzlon.com',
+  pathname: '/Home_user?reload=true',
+  entryTime: '2025-01-24 09:47:29',
+  exitTime: '2025-01-24 09:53:22'
+}
+Start DateTime in IST format: 2025-01-24T04:17:29.000Z
+End DateTime in IST format: 2025-01-24T04:23:22.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-01-24T04:23:22.000Z',
+    Password: 'Suzlon@123',
+    UserID: '40139',
+    ScreenName: '/Home_user?reload=true',
+    StartDateTime: '2025-01-24T04:17:29.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 18.525 ms
+OPTIONS /api/logout_user 200 4 - 0.847 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+POST /api/logout_user 200 218 - 46.070 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: '99f9b980662eac1ad74e43f9e8816b97',
+  access: 'lubrication,pm,oil_change',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  domain_id: '40139',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya@suzlon.com',
+  pathname: '/Home_user?reload=true',
+  entryTime: '2025-01-24 09:49:53',
+  exitTime: '2025-01-24 09:54:06'
+}
+Start DateTime in IST format: 2025-01-24T04:19:53.000Z
+End DateTime in IST format: 2025-01-24T04:24:06.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-01-24T04:24:06.000Z',
+    Password: 'Suzlon@123',
+    UserID: '40139',
+    ScreenName: '/Home_user?reload=true',
+    StartDateTime: '2025-01-24T04:19:53.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 20.178 ms
+OPTIONS /api/api_for_auto_login 200 4 - 0.641 ms
+Received Domain ID: 40139
+Base64 Encoded Domain ID: NDAxMzk=
+Sending data to Fleet Manager API: {"domainId":"NDAxMzk=","password":"a"}
+Received Domain ID: 40139
+Base64 Encoded Domain ID: NDAxMzk=
+Sending data to Fleet Manager API: {"domainId":"NDAxMzk=","password":"a"}
+Response from Fleet Manager API: {
+  DomainId: '40139',
+  Name: 'Meet Harishbhai Somaiya',
+  Message: 'Suzlon',
+  EmailId: 'Meet.Somaiya@suzlon.com',
+  Department: 'Digital Solutions',
+  ContactNumber: '02067022444',
+  MobileNumber: '7046412385',
+  EmpGrade: 'M3',
+  IsActive: true
+}
+Response from Fleet Manager API: {
+  DomainId: '40139',
+  Name: 'Meet Harishbhai Somaiya',
+  Message: 'Suzlon',
+  EmailId: 'Meet.Somaiya@suzlon.com',
+  Department: 'Digital Solutions',
+  ContactNumber: '02067022444',
+  MobileNumber: '7046412385',
+  EmpGrade: 'M3',
+  IsActive: true
+}
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+POST /api/api_for_auto_login 200 226 - 61.407 ms
+POST /api/api_for_auto_login 200 226 - 46.658 ms
+Response saved to auto_login_api_response.json
+Response saved to auto_login_api_response.json
+OPTIONS /api/heartbeat 200 4 - 0.754 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: 'a5f93c8fba93d57c9c81abab87fa1991',
+  access: 'lubrication,pm,oil_change',
+  adminEmail: 'Not Set',
+  domain_id: '40139',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya@suzlon.com',
+  pathname: '/Home_user?reload=true',
+  entryTime: '2025-01-24 09:54:55',
+  exitTime: '2025-01-24 09:54:57'
+}
+Start DateTime in IST format: 2025-01-24T04:24:55.000Z
+End DateTime in IST format: 2025-01-24T04:24:57.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-01-24T04:24:57.000Z',
+    Password: 'Suzlon@123',
+    UserID: '40139',
+    ScreenName: '/Home_user?reload=true',
+    StartDateTime: '2025-01-24T04:24:55.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 8.951 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: 'a5f93c8fba93d57c9c81abab87fa1991',
+  access: 'lubrication,pm,oil_change',
+  adminEmail: 'Not Set',
+  domain_id: '40139',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya@suzlon.com',
+  pathname: '/Home_user?reload=true',
+  entryTime: '2025-01-24 09:54:57',
+  exitTime: '2025-01-24 09:54:59'
+}
+Start DateTime in IST format: 2025-01-24T04:24:57.000Z
+End DateTime in IST format: 2025-01-24T04:24:59.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-01-24T04:24:59.000Z',
+    Password: 'Suzlon@123',
+    UserID: '40139',
+    ScreenName: '/Home_user?reload=true',
+    StartDateTime: '2025-01-24T04:24:57.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 11.970 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_type_order_for_wtg_wise_planning 200 451 - 225.361 ms

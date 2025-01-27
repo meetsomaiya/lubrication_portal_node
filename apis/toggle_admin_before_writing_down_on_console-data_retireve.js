@@ -1,7 +1,8 @@
 const express = require('express');
 const fs = require('fs'); // For file operations
 const moment = require('moment-timezone'); // For handling timezones
-const { connectToDatabase } = require('./connect6.js'); // Your database connection module
+//const { connectToDatabase } = require('./connect5.js'); // Your database connection module
+const { connectToDatabase } = require('./connect6.js');
 const router = express.Router(); // Define the router
 const crypto = require('crypto'); // For generating random session IDs
 
@@ -18,26 +19,21 @@ router.use((req, res, next) => {
 // Middleware to parse JSON bodies
 router.use(express.json());
 
-// Function to log SQL queries and their parameters
-const logQuery = (query, params) => {
-    console.log(`Executing SQL Query: ${query}`);
-    console.log(`With Parameters: ${JSON.stringify(params)}`);
-};
-
 // Route to handle adminId, name, email, update sessionId and fetch additional details
 router.post('/', async (req, res) => {
     const { adminId, name, email } = req.body; // Retrieve adminId, name, and email from request body
 
     // Prepare the data to write into the JSON file
-    const requestData = {
-        adminId,
-        name,
-        email
-    };
+const requestData = {
+    adminId,
+    name,
+    email
+};
 
-    // Write the data to a JSON file for verification
-    fs.writeFileSync('data_retrieve_in_toggle_api.json', JSON.stringify(requestData, null, 2), 'utf-8');
-    console.log('Request data written to data_retrieve_in_toggle_api.json');
+// Write the data to a JSON file for verification
+fs.writeFileSync('data_retrieve_in_toggle_api.json', JSON.stringify(requestData, null, 2), 'utf-8');
+
+console.log('Request data written to data_retrieve_in_toggle_api.json');
 
     try {
         const connection = await connectToDatabase(); // Connect to the database
@@ -45,11 +41,9 @@ router.post('/', async (req, res) => {
         // Decode the name (as it might be URL-encoded)
         const decodedName = decodeURIComponent(name); // Decoding the name before using it
 
-        // Prepare the flexible search query using the LIKE operator
-        const adminQuery = `SELECT domain_id FROM admins WHERE name LIKE ?`;
-        const searchName = `%${decodedName.replace(/ /g, '%')}%`; // Prepare the search term with wildcards
-        logQuery(adminQuery, [searchName]); // Log the query and parameters
-        const adminResult = await connection.query(adminQuery, [searchName]); // Execute the query
+        // Fetch domain_id from the admins table using name instead of adminId
+        const adminQuery = `SELECT domain_id FROM admins WHERE name = ?`;
+        const adminResult = await connection.query(adminQuery, [decodedName]); // Use decoded name here
 
         if (adminResult.length === 0) {
             await connection.close();
@@ -66,12 +60,10 @@ router.post('/', async (req, res) => {
 
         // Update sessionId, name, email, and last_login_time in the login table for the retrieved domain_id
         const updateQuery = `UPDATE login SET id = ?, name = ?, email = ?, last_login_time = ? WHERE domain_id = ?`;
-        logQuery(updateQuery, [sessionId, decodedName, email, lastLoginTime, domainId]); // Log the query and parameters
-        await connection.query(updateQuery, [sessionId, decodedName, email, lastLoginTime, domainId]); // Execute the query
+        await connection.query(updateQuery, [sessionId, decodedName, email, lastLoginTime, domainId]); // Use decoded name here
 
         // Fetch additional details from the login table for the given domain_id
         const loginQuery = `SELECT domain_id, name, email, state, area, site, access, last_login_time FROM login WHERE domain_id = ?`;
-        logQuery(loginQuery, [domainId]); // Log the query and parameters
         const loginDetails = await connection.query(loginQuery, [domainId]);
 
         if (loginDetails.length === 0) {

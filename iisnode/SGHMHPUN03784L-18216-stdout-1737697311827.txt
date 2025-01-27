@@ -1,0 +1,5 @@
+checkAdmin route module loaded
+checkUser route module loaded
+Server is listening on port \\.\pipe\fb760724-bb6e-4343-8b8b-fea5ec548257
+OPTIONS /api/heartbeat 200 4 - 6.749 ms
+OPTIONS /api/heartbeat 200 4 - 4.748 ms

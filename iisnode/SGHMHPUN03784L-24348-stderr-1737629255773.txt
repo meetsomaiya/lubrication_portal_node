@@ -1,0 +1,10 @@
+(node:24348) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Error: TypeError: Cannot read properties of undefined (reading 'domain_id')
+    at D:\NODEJS_BACKEND\Lubrication_Portal_Backend\apis\toggle_admin.js:41:41
+Error: TypeError: Cannot read properties of undefined (reading 'domain_id')
+    at D:\NODEJS_BACKEND\Lubrication_Portal_Backend\apis\toggle_admin.js:41:41
+Error: TypeError: Cannot read properties of undefined (reading 'domain_id')
+    at D:\NODEJS_BACKEND\Lubrication_Portal_Backend\apis\toggle_admin.js:41:41
+Error: TypeError: Cannot read properties of undefined (reading 'domain_id')
+    at D:\NODEJS_BACKEND\Lubrication_Portal_Backend\apis\toggle_admin.js:41:41
