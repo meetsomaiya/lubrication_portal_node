@@ -1,22 +1,26 @@
 [
   {
-    "STATE": "RAJASTHAN",
-    "AREA": "Tejuva",
-    "SITE": "Baramsar II",
-    "STATE ENGG HEAD": "vhiralal@suzlon.com",
-    "AREA INCHARGE": "lakhveer.jammu@suzlon.com",
-    "SITE INCHARGE": "Singh.Anand@suzlon.com",
-    "STATE PMO": "kuldeep.singh@suzlon.com",
-    "extra": "meet.somaiya@suzlon.com"
+    "STATE": "Andhra Pradesh",
+    "AREA INCHARGE": "Karri.Indukumar@suzlon.com",
+    "SITE INCHARGE": "sakthivel.pandian@suzlon.com",
+    "STATE PMO": "Navaraja.Chintamneedi@suzlon.com"
   },
   {
-    "STATE": "RAJASTHAN",
-    "AREA": "Tejuva",
-    "SITE": "Baramsar II",
-    "STATE ENGG HEAD": "vhiralal@suzlon.com",
-    "AREA INCHARGE": "lakhveer.jammu@suzlon.com",
-    "SITE INCHARGE": "Singh.Anand@suzlon.com",
-    "STATE PMO": "kuldeep.singh@suzlon.com",
-    "extra": "dummyuser@suzlon.com"
+    "STATE": "GJ - Saurashtra",
+    "AREA INCHARGE": "sharwan.kumar@suzlon.com",
+    "SITE INCHARGE": "vishal.chauhan@suzlon.com",
+    "STATE PMO": "bala.p@suzlon.com"
+  },
+  {
+    "STATE": "Andhra Pradesh",
+    "AREA INCHARGE": "Karri.Indukumar@suzlon.com",
+    "SITE INCHARGE": "sakthivel.pandian@suzlon.com",
+    "STATE PMO": "Navaraja.Chintamneedi@suzlon.com"
+  },
+  {
+    "STATE": "Tamil nadu",
+    "AREA INCHARGE": "mdsheik@suzlon.com",
+    "SITE INCHARGE": "Bala.N@suzlon.com ",
+    "STATE PMO": "R.ANDREW@SUZLON.COM"
   }
 ]

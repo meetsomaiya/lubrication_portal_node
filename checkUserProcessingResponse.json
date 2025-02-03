@@ -1,11 +1,29 @@
 {
-  "id": "98316687ae94f591f5fdaef1b63c345f",
+  "last_login_time": "2025-02-03T16:07:26.000Z",
   "domain_id": "vhiralal",
+  "id": "undefined",
   "name": "Hiralal Vibhandik",
   "email": "vhiralal@suzlon.com",
   "state": "Rajasthan",
   "area": "Akal,Ratan Ka Bass,Tejuva",
-  "site": "Akal,Devikot,Mulana,Soda Mada I,Soda Mada II,Bhesada,Fatehgarh A,Fatehgarh B,Osiyan,Ratan Ka Bass,Baramsar,Baramsar II,Mokala,Sanu,Tejuva",
-  "access": "lubrication",
-  "last_login_time": "2025-01-10 11:08:28"
+  "site": [
+    "Akal",
+    "Devikot",
+    "Mulana",
+    "Soda Mada I",
+    "Soda Mada II",
+    "Bhesada",
+    "Fatehgarh A",
+    "Fatehgarh B",
+    "Osiyan",
+    "Ratan Ka Bass",
+    "Baramsar",
+    "Baramsar II",
+    "Mokala",
+    "Sanu",
+    "Tejuva"
+  ],
+  "access": [
+    "lubrication"
+  ]
 }

@@ -1,9 +1,4 @@
 {
-  "checkAdmin": true,
-  "id": "232d503caeda306da4f421c7c83da30d",
-  "domain_id": "39192",
-  "name": "Abhishek V Devarkar",
-  "email": "Abhishek.Devarkar@suzlon.com",
-  "access": "lubrication",
-  "admin_type": "admin"
+  "checkAdmin": false,
+  "message": "No admin found for the given DomainId."
 }

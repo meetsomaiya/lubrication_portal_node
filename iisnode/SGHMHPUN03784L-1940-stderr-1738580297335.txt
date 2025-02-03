@@ -1,0 +1,11 @@
+(node:1940) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Database query failed: [Error: [odbc] Error retrieving the result set from the statement] {
+  odbcErrors: [
+    {
+      state: '07009',
+      code: 0,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]Invalid Descriptor Index'
+    }
+  ]
+}

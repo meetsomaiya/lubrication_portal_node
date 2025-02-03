@@ -1,8 +1,7 @@
 console.log('checkUser route module loaded');
 
 const express = require('express');
-// const { connectToDatabase } = require('./connect5.js');
-const { connectToDatabase } = require('./connect6.js');
+const { connectToMSSQL } = require('./connect7.js'); // Database connection
 const crypto = require('crypto'); // For generating a random session ID
 const fs = require('fs'); // For file operations
 const moment = require('moment-timezone'); // For handling timezones
@@ -21,86 +20,82 @@ router.use((req, res, next) => {
 
 // Define the GET route for checkAdmin
 router.get('/', async (req, res) => {
-    const { DomainId, Name, EmailId } = req.query; // Retrieve DomainId, Name, and EmailId from query parameters
+    const { DomainId } = req.query; // Retrieve DomainId from query parameters
+
+    // Save retrieved values to a JSON file for verification
+    const receivedData = { DomainId, timestamp: new Date().toISOString() };
+    fs.writeFileSync('checkAdminDataRetrieve.json', JSON.stringify(receivedData, null, 2));
+
+    console.log('Received Query Params:', receivedData);
 
     // Validate the incoming data
-    if (!DomainId || !Name || !EmailId) {
-        return res.status(400).json({ message: 'DomainId, Name, and EmailId are required.' });
+    if (!DomainId) {
+        return res.status(400).json({
+            message: 'DomainId is required.',
+            received: receivedData
+        });
     }
 
-    // Decode the name if it is encoded
-    const decodedName = decodeURIComponent(Name);
-
-    // Log the retrieved DomainId, decoded Name, and EmailId
-    console.log('Retrieved DomainId:', DomainId);
-    console.log('Decoded Name:', decodedName);
-    console.log('EmailId:', EmailId);
-
     try {
-        const connection = await connectToDatabase();
-
-        // SQL query to fetch user details for the specified domain_id
-        const query = `
-            SELECT [id], [domain_id], [name], [email], [state], [area], [site], [access], [last_login_time]
+        // SQL query to fetch user details with correct column ordering
+        const selectQuery = `
+            SELECT 
+                [id], 
+                [domain_id], -- Varchar(20) before varchar(255)
+                [name], 
+                [email], 
+                [state], 
+                [area], 
+                [site], 
+                [access],
+                [last_login_time] -- Non-varchar column first
             FROM [dbo].[login]
-            WHERE [domain_id] = ?
+            WHERE [domain_id] = '${DomainId}'
         `;
 
-        // Execute the query
-        const result = await connection.query(query, [DomainId]);
+        console.log('Executing SQL Query:', selectQuery);
 
-        // Check if the user exists
-        if (result.length === 0) {
+        // Execute the query
+        const result = await connectToMSSQL(selectQuery);
+
+        if (!result || result.length === 0) {
             const response = { checkAdmin: false, message: 'No user found for the given DomainId.' };
-            // Write response to JSON file
             fs.writeFileSync('checkUserProcessingResponse.json', JSON.stringify(response, null, 2));
             return res.status(404).json(response);
         }
 
         const adminData = result[0];
 
-        // Generate a random session ID
+        // Handle undefined/null values and ensure they are properly formatted
+        const getValue = (val) => (val === null || val === undefined ? "undefined" : val);
+        const getArrayValue = (val) => (val ? val.split(",").map(v => v.trim()) : []);
+
+        // Generate a new session ID
         const sessionId = crypto.randomBytes(16).toString('hex');
 
-        // Get the current date and time in Indian Standard Time (Asia/Kolkata)
-        const lastLoginTime = moment().tz('Asia/Kolkata').format('YYYY-MM-DD HH:mm:ss'); // Format: YYYY-MM-DD HH:mm:ss
+        // Get the current date and time in Indian Standard Time
+        const lastLoginTime = moment().tz('Asia/Kolkata').format('YYYY-MM-DD HH:mm:ss');
 
-        // Update the session ID, name, email, and last_login_time in the database for the specific domain_id
-        const updateQuery = `
-            UPDATE [dbo].[login]
-            SET [id] = ?, [name] = ?, [email] = ?, [last_login_time] = ?
-            WHERE [domain_id] = ?
-        `;
-
-        // Execute the update query
-        await connection.query(updateQuery, [sessionId, decodedName, EmailId, lastLoginTime, DomainId]);
-
-        // Prepare the response data
-        const responseData = {
-            id: sessionId, // The new session ID
-            domain_id: adminData.domain_id,
-            name: decodedName, // Use decoded name if available
-            email: EmailId, // Use the provided EmailId
-            state: adminData.state,
-            area: adminData.area,
-            site: adminData.site,
-            access: adminData.access,
-            last_login_time: lastLoginTime // Include the updated last login time
+        // Prepare data with safe handling for null/undefined values and comma-separated values
+        const updatedData = {
+            last_login_time: getValue(adminData.last_login_time),
+            domain_id: getValue(adminData.domain_id),
+            id: getValue(adminData.id),
+            name: getValue(adminData.name),
+            email: getValue(adminData.email),
+            state: getValue(adminData.state),
+            area: getValue(adminData.area),
+            site: getArrayValue(adminData.site), // Convert comma-separated values to an array
+            access: getArrayValue(adminData.access) // Convert comma-separated values to an array
         };
 
-        // Write the successful response to the JSON file
-        fs.writeFileSync('checkUserProcessingResponse.json', JSON.stringify(responseData, null, 2));
+        // Prepare the response data
+        fs.writeFileSync('checkUserProcessingResponse.json', JSON.stringify(updatedData, null, 2));
 
-        // Send the response
-        res.status(200).json(responseData);
-
-        // Close the database connection
-        await connection.close();
+        res.status(200).json(updatedData);
     } catch (error) {
         console.error('Error:', error);
-        const errorResponse = { message: 'An error occurred while processing the request.' };
-        fs.writeFileSync('checkUserProcessingResponse.json', JSON.stringify(errorResponse, null, 2));
-        res.status(500).json(errorResponse);
+        res.status(500).json({ message: 'An error occurred while processing the request.' });
     }
 });
 

@@ -3,7 +3,6 @@ const fs = require('fs'); // For file operations
 const moment = require('moment-timezone'); // For handling timezones
 const router = express.Router(); // Define the router
 const fetch = require('node-fetch'); // Assuming you're using node-fetch for the API request
-//const { connectToDatabase } = require('./connect5.js'); // Database connection module
 const { connectToDatabase } = require('./connect6.js');
 const crypto = require('crypto'); // For generating random session ID
 const Buffer = require('buffer').Buffer; // To use Buffer for base64 encoding
@@ -46,14 +45,11 @@ router.post('/', async (req, res) => {
 
         console.log('Sending data to Fleet Manager API:', postData);
 
-        // Send the request to the Fleet Manager API using fetch
-        // const apiUrl = 'https://suzomsapps.suzlon.com/Services/SuzlonActiveUser/api/SuzlonActiveUser/IsUserActive';
-        const apiUrl = 'https://suzomsuatapps.suzlon.com:7003/Services/SuzlonActiveUser/api/SuzlonActiveUser/IsUserActive/';
+        // const apiUrl = 'https://suzomsuatapps.suzlon.com:7003/Services/SuzlonActiveUser/api/SuzlonActiveUser/IsUserActive/';
+        const apiUrl = 'https://uat-mob.suzlon.com/SuzlonActiveUser/api/SuzlonActiveUser/IsUserActive';
         const response = await fetch(apiUrl, {
             method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
+            headers: { 'Content-Type': 'application/json' },
             body: postData,
         });
 
@@ -97,9 +93,9 @@ router.post('/', async (req, res) => {
 
         // Query additional fields
         const selectQuery = `
-        SELECT state, area, site, access 
-        FROM login
-        WHERE domain_id = ?;
+            SELECT state, area, site, access 
+            FROM login
+            WHERE domain_id = ?;
         `;
         const result = await dbConnection.query(selectQuery, [domain_id]);
 
@@ -109,19 +105,25 @@ router.post('/', async (req, res) => {
 
         const { state, area, site, access } = result[0];
 
+        // Check if the domain_id is present in the admins table
+        const adminCheckQuery = `SELECT COUNT(*) AS count FROM admins WHERE domain_id = ?;`;
+        const adminResult = await dbConnection.query(adminCheckQuery, [domain_id]);
+        const isAdmin = adminResult[0].count > 0; // If count > 0, domain_id exists in admins table
+
         // Close the database connection
         await dbConnection.close();
 
         // Prepare the final response data
         const finalResponse = {
-            id: sessionId,            // From generated session ID
-            domain_id,                // Original domain_id from request
-            name: apiResponse.Name,   // From Fleet Manager API response
-            email: apiResponse.EmailId, // From Fleet Manager API response
-            state,                    // From database query result
-            area,                     // From database query result
-            site,                     // From database query result
-            access                    // From database query result
+            id: sessionId,
+            domain_id,
+            name: apiResponse.Name,
+            email: apiResponse.EmailId,
+            state,
+            area,
+            site,
+            access,
+            isadmin: isAdmin // Include the isadmin flag
         };
 
         // Write the response to a JSON file

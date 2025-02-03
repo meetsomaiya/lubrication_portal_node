@@ -1,0 +1,226 @@
+checkAdmin route module loaded
+checkUser route module loaded
+Server is listening on port \\.\pipe\8c9c441a-9ed7-42aa-99c7-bf1db4218001
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+OPTIONS /api/login2 204 0 - 0.730 ms
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+POST /api/login2 200 1878 - 137.073 ms
+Retrieved DomainId: vhiralal
+Decoded Name: Hiralal Vibhandik
+EmailId: vhiralal@suzlon.com
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/checkAdmin?DomainId=vhiralal&Name=Hiralal%20Vibhandik&EmailId=vhiralal%40suzlon.com 304 - - 44.673 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/checkUser?DomainId=vhiralal&Name=Hiralal%20Vibhandik&EmailId=vhiralal%40suzlon.com 500 50 - 29.209 ms
+OPTIONS /api/login2 204 0 - 0.224 ms
+POST /api/login2 200 1878 - 47.242 ms
+Retrieved DomainId: vhiralal
+Decoded Name: Hiralal Vibhandik
+EmailId: vhiralal@suzlon.com
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/checkAdmin?DomainId=vhiralal&Name=Hiralal%20Vibhandik&EmailId=vhiralal%40suzlon.com 304 - - 34.396 ms
+OPTIONS /api/login2 204 0 - 0.198 ms
+POST /api/login2 200 1878 - 83.036 ms
+Retrieved DomainId: vhiralal
+Decoded Name: Hiralal Vibhandik
+EmailId: vhiralal@suzlon.com
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/checkAdmin?DomainId=vhiralal&Name=Hiralal%20Vibhandik&EmailId=vhiralal%40suzlon.com 304 - - 34.490 ms
+OPTIONS /api/login2 204 0 - 0.202 ms
+POST /api/login2 200 1878 - 70.886 ms
+Retrieved DomainId: vhiralal
+Decoded Name: Hiralal Vibhandik
+EmailId: vhiralal@suzlon.com
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/checkAdmin?DomainId=vhiralal&Name=Hiralal%20Vibhandik&EmailId=vhiralal%40suzlon.com 304 - - 29.670 ms
+OPTIONS /api/login2 204 0 - 0.139 ms
+POST /api/login2 200 1878 - 74.265 ms
+Retrieved DomainId: vhiralal
+Decoded Name: Hiralal Vibhandik
+EmailId: vhiralal@suzlon.com
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/checkAdmin?DomainId=vhiralal&Name=Hiralal%20Vibhandik&EmailId=vhiralal%40suzlon.com 304 - - 32.698 ms
+OPTIONS /api/login2 204 0 - 0.109 ms
+POST /api/login2 200 1878 - 69.022 ms
+Retrieved DomainId: vhiralal
+Decoded Name: Hiralal Vibhandik
+EmailId: vhiralal@suzlon.com
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/checkAdmin?DomainId=vhiralal&Name=Hiralal%20Vibhandik&EmailId=vhiralal%40suzlon.com 304 - - 33.800 ms
+OPTIONS /api/login2 204 0 - 0.124 ms
+POST /api/login2 200 1878 - 74.803 ms
+Retrieved DomainId: vhiralal
+Decoded Name: Hiralal Vibhandik
+EmailId: vhiralal@suzlon.com
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/checkAdmin?DomainId=vhiralal&Name=Hiralal%20Vibhandik&EmailId=vhiralal%40suzlon.com 304 - - 38.544 ms

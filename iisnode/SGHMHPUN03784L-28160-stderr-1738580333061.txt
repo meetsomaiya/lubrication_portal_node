@@ -1,0 +1,16 @@
+(node:28160) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Database query failed: [Error: [odbc] Error getting information about parameters] {
+  odbcErrors: [
+    {
+      state: '42000',
+      code: 156,
+      message: "[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Incorrect syntax near the keyword 'FROM'."
+    },
+    {
+      state: '42000',
+      code: 11501,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]The batch could not be analyzed because of compile errors.'
+    }
+  ]
+}

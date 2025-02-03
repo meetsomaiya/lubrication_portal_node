@@ -1,27 +1,4 @@
 {
-  "total_count": 2,
-  "data": [
-    {
-      "FUNCT_LOC": "SWSTTD-SC2-NED01-NK01",
-      "PLANT": "4466",
-      "CRM_ORDERH": "0018468962",
-      "ZTEXT1": "Open",
-      "ZACTENDT": "-",
-      "ZACTSTDT": "-",
-      "ZEXT_RNO": "Q2_LUB_2024",
-      "ZREQ_SDAT": "19/08/2024",
-      "delay": -145
-    },
-    {
-      "FUNCT_LOC": "SWSTTD-SC2-NED01-NK02",
-      "PLANT": "4466",
-      "CRM_ORDERH": "0018468961",
-      "ZTEXT1": "Open",
-      "ZACTENDT": "-",
-      "ZACTSTDT": "-",
-      "ZEXT_RNO": "Q2_LUB_2024",
-      "ZREQ_SDAT": "22/08/2024",
-      "delay": -142
-    }
-  ]
+  "total_count": 0,
+  "data": []
 }

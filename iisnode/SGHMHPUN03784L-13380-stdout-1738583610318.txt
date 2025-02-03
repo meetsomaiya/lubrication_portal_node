@@ -1,0 +1,1708 @@
+checkAdmin route module loaded
+checkUser route module loaded
+Server is listening on port \\.\pipe\d4106fc4-4f8d-4c10-b271-7b22b5e2f915
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+OPTIONS /api/login2 204 0 - 1.272 ms
+POST /api/login2 200 1878 - 151.729 ms
+Retrieved DomainId: vhiralal
+Decoded Name: Hiralal Vibhandik
+EmailId: vhiralal@suzlon.com
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/checkAdmin?DomainId=vhiralal&Name=Hiralal%20Vibhandik&EmailId=vhiralal%40suzlon.com 304 - - 53.476 ms
+OPTIONS /api/login2 204 0 - 0.227 ms
+POST /api/login2 200 1878 - 75.656 ms
+Retrieved DomainId: vhiralal
+Decoded Name: Hiralal Vibhandik
+EmailId: vhiralal@suzlon.com
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/checkAdmin?DomainId=vhiralal&Name=Hiralal%20Vibhandik&EmailId=vhiralal%40suzlon.com 304 - - 66.884 ms
+OPTIONS /api/login2 204 0 - 0.139 ms
+POST /api/login2 200 1878 - 84.455 ms
+Retrieved DomainId: vhiralal
+Decoded Name: Hiralal Vibhandik
+EmailId: vhiralal@suzlon.com
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/checkAdmin?DomainId=vhiralal&Name=Hiralal%20Vibhandik&EmailId=vhiralal%40suzlon.com 304 - - 30.787 ms
+OPTIONS /api/login2 204 0 - 0.142 ms
+POST /api/login2 200 1878 - 84.739 ms
+Retrieved DomainId: vhiralal
+Decoded Name: Hiralal Vibhandik
+EmailId: vhiralal@suzlon.com
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/checkAdmin?DomainId=vhiralal&Name=Hiralal%20Vibhandik&EmailId=vhiralal%40suzlon.com 304 - - 34.375 ms
+OPTIONS /api/login2 204 0 - 0.410 ms
+POST /api/login2 200 1009 - 8304.983 ms
+Retrieved DomainId: 40139
+Decoded Name: Meet Harishbhai Somaiya
+EmailId: Meet.Somaiya@suzlon.com
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/checkAdmin?DomainId=40139&Name=Meet%20Harishbhai%20Somaiya&EmailId=Meet.Somaiya%40suzlon.com 200 190 - 555.037 ms
+OPTIONS /api/heartbeat 200 4 - 12.028 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: '40139',
+  access: 'lubrication',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  state: 'Not Set',
+  area: 'Not Set',
+  site: 'Not Set',
+  email: 'Not Set',
+  pathname: '/Home?reload=true',
+  entryTime: '2025-02-03 19:39:03',
+  exitTime: '2025-02-03 19:39:06'
+}
+POST /api/heartbeat 400 57 - 14.565 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: '40139',
+  access: 'lubrication',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  state: 'Not Set',
+  area: 'Not Set',
+  site: 'Not Set',
+  email: 'Not Set',
+  pathname: '/Home?reload=true',
+  entryTime: '2025-02-03 19:39:03',
+  exitTime: '2025-02-03 19:39:06'
+}
+POST /api/heartbeat 400 57 - 3.666 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: '40139',
+  access: 'lubrication',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  state: 'Not Set',
+  area: 'Not Set',
+  site: 'Not Set',
+  email: 'Not Set',
+  pathname: '/Home?reload=true',
+  entryTime: '2025-02-03 19:39:06',
+  exitTime: '2025-02-03 19:39:59'
+}
+OPTIONS /api/logout_admin 200 4 - 1.741 ms
+POST /api/heartbeat 400 57 - 3.361 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: '40139',
+  access: 'lubrication',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  state: 'Not Set',
+  area: 'Not Set',
+  site: 'Not Set',
+  email: 'Not Set',
+  pathname: '/Home?reload=true',
+  entryTime: '2025-02-03 19:39:06',
+  exitTime: '2025-02-03 19:39:59'
+}
+POST /api/heartbeat 400 57 - 6.881 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+POST /api/logout_admin 200 197 - 342.933 ms
+IDs and name successfully written to file: {
+  adminId: '71c30bf989a7536c8997af3195f79ce3',
+  userId: 'Not provided',
+  adminName: 'Meet Harishbhai Somaiya',
+  timestamp: '2025-02-03 19:39:59'
+}
+OPTIONS /api/login2 204 0 - 0.278 ms
+POST /api/login2 200 1878 - 171.891 ms
+Retrieved DomainId: vhiralal
+Decoded Name: Hiralal Vibhandik
+EmailId: vhiralal@suzlon.com
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/checkAdmin?DomainId=vhiralal&Name=Hiralal%20Vibhandik&EmailId=vhiralal%40suzlon.com 304 - - 446.664 ms
+OPTIONS /api/login2 204 0 - 0.370 ms
+POST /api/login2 200 1878 - 240.698 ms
+Retrieved DomainId: vhiralal
+Decoded Name: Hiralal Vibhandik
+EmailId: vhiralal@suzlon.com
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/checkAdmin?DomainId=vhiralal&Name=Hiralal%20Vibhandik&EmailId=vhiralal%40suzlon.com 304 - - 245.041 ms
+OPTIONS /api/login2 204 0 - 0.256 ms
+POST /api/login2 200 1878 - 130.359 ms
+Retrieved DomainId: vhiralal
+Decoded Name: Hiralal Vibhandik
+EmailId: vhiralal@suzlon.com
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/checkAdmin?DomainId=vhiralal&Name=Hiralal%20Vibhandik&EmailId=vhiralal%40suzlon.com 304 - - 142.843 ms
+OPTIONS /api/login2 204 0 - 0.205 ms
+POST /api/login2 200 1878 - 208.666 ms
+Retrieved DomainId: vhiralal
+Decoded Name: Hiralal Vibhandik
+EmailId: vhiralal@suzlon.com
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/checkAdmin?DomainId=vhiralal&Name=Hiralal%20Vibhandik&EmailId=vhiralal%40suzlon.com 304 - - 489.519 ms
+OPTIONS /api/login2 204 0 - 0.233 ms
+POST /api/login2 200 1878 - 312.693 ms
+Retrieved DomainId: vhiralal
+Decoded Name: Hiralal Vibhandik
+EmailId: vhiralal@suzlon.com
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/checkAdmin?DomainId=vhiralal&Name=Hiralal%20Vibhandik&EmailId=vhiralal%40suzlon.com 304 - - 249.120 ms
+OPTIONS /api/login2 204 0 - 0.266 ms
+POST /api/login2 200 1878 - 118.837 ms
+Retrieved DomainId: vhiralal
+Decoded Name: Hiralal Vibhandik
+EmailId: vhiralal@suzlon.com
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/checkAdmin?DomainId=vhiralal&Name=Hiralal%20Vibhandik&EmailId=vhiralal%40suzlon.com 304 - - 126.029 ms
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_fy_year 304 - - 302.464 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_order_type 304 - - 452.478 ms
+Connected to the database.
+GET /api/fetch_fy_year 304 - - 229.971 ms
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_order_type 304 - - 303.380 ms
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Connected to the database.
+GET /api/fetch_yd_oil_change_state_wise_data?year=FY%202024-2025 304 - - 813.741 ms
+GET /api/fetch_pd_oil_change_state_wise_data?year=FY%202024-2025 304 - - 824.384 ms
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_fc_oil_change_state_wise_data?year=FY%202024-2025 304 - - 851.240 ms
+GET /api/fetch_ydpd_topup_state_wise_data?year=FY%202024-2025 304 - - 872.231 ms
+GET /api/fetch_gb_oil_change_state_wise_data?year=FY%202024-2025 304 - - 886.827 ms
+GET /api/fetch_dispute_state_wise_data?year=FY%202024-2025 304 - - 904.976 ms
+GET /api/fetch_gb_topup_state_wise_data?year=FY%202024-2025 304 - - 607.615 ms
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_fy_year 304 - - 214.640 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_order_type 304 - - 364.668 ms
+Connected to the database.
+GET /api/fetch_fy_year 304 - - 220.532 ms
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_order_type 304 - - 348.940 ms
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_pd_oil_change_state_wise_data?year=FY%202024-2025 200 730 - 717.916 ms
+GET /api/fetch_yd_oil_change_state_wise_data?year=FY%202024-2025 200 741 - 737.317 ms
+GET /api/fetch_fc_oil_change_state_wise_data?year=FY%202024-2025 200 512 - 745.810 ms
+GET /api/fetch_gb_topup_state_wise_data?year=FY%202024-2025 200 712 - 766.475 ms
+Connected to the database.
+Connected to the database.
+Connected to the database.
+GET /api/fetch_fc_topup_state_wise_data?year=FY%202024-2025 200 596 - 1004.859 ms
+GET /api/fetch_gb_oil_change_state_wise_data?year=FY%202024-2025 200 746 - 1022.508 ms
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_dispute_state_wise_data?year=FY%202024-2025 200 737 - 431.923 ms
+GET /api/fetch_ydpd_topup_state_wise_data?year=FY%202024-2025 200 698 - 450.823 ms
+GET /api/fetch_pending_teco_state_wise_data?year=FY%202024-2025 200 722 - 468.175 ms
+Received heartbeat data: {
+  name: 'Hiralal Vibhandik',
+  userId: '1af6642185013cb41a20e8467368f836',
+  access: 'lubrication',
+  adminEmail: 'vhiralal@suzlon.com',
+  domain_id: 'vhiralal',
+  state: 'Rajasthan',
+  area: 'Akal,Ratan Ka Bass,Tejuva',
+  site: 'Akal,Devikot,Mulana,Soda Mada I,Soda Mada II,Bhesada,Fatehgarh A,Fatehgarh B,Osiyan,Ratan Ka Bass,Baramsar,Baramsar II,Mokala,Sanu,Tejuva',
+  pathname: '/Oil_Analysis_user?reload=true',
+  entryTime: '2025-02-03 20:00:23',
+  exitTime: '2025-02-03 20:00:41'
+}
+Start DateTime in IST format: 2025-02-03T14:30:23.000Z
+End DateTime in IST format: 2025-02-03T14:30:41.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-03T14:30:41.000Z',
+    Password: 'Suzlon@123',
+    UserID: 'vhiralal',
+    ScreenName: '/Oil_Analysis_user?reload=true',
+    StartDateTime: '2025-02-03T14:30:23.000Z',
+    UserEngagementID: 0,
+    UserName: 'Hiralal Vibhandik'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 118.607 ms
+Received heartbeat data: {
+  name: 'Hiralal Vibhandik',
+  userId: '1af6642185013cb41a20e8467368f836',
+  access: 'lubrication',
+  adminEmail: 'vhiralal@suzlon.com',
+  domain_id: 'Not Set',
+  state: 'Rajasthan',
+  area: 'Akal,Ratan Ka Bass,Tejuva',
+  site: 'Akal,Devikot,Mulana,Soda Mada I,Soda Mada II,Bhesada,Fatehgarh A,Fatehgarh B,Osiyan,Ratan Ka Bass,Baramsar,Baramsar II,Mokala,Sanu,Tejuva',
+  pathname: '/Functional_Loc_user',
+  entryTime: '2025-02-03 20:00:41',
+  exitTime: '2025-02-03 20:00:46'
+}
+Start DateTime in IST format: 2025-02-03T14:30:41.000Z
+End DateTime in IST format: 2025-02-03T14:30:46.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-03T14:30:46.000Z',
+    Password: 'Suzlon@123',
+    UserID: 'Not Set',
+    ScreenName: '/Functional_Loc_user',
+    StartDateTime: '2025-02-03T14:30:41.000Z',
+    UserEngagementID: 0,
+    UserName: 'Hiralal Vibhandik'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 36.014 ms
+Received heartbeat data: {
+  name: 'Hiralal Vibhandik',
+  userId: '1af6642185013cb41a20e8467368f836',
+  access: 'lubrication',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  domain_id: 'vhiralal',
+  state: 'Rajasthan',
+  area: 'Akal,Ratan Ka Bass,Tejuva',
+  site: 'Akal,Devikot,Mulana,Soda Mada I,Soda Mada II,Bhesada,Fatehgarh A,Fatehgarh B,Osiyan,Ratan Ka Bass,Baramsar,Baramsar II,Mokala,Sanu,Tejuva',
+  email: 'vhiralal@suzlon.com',
+  pathname: '/Home_user?reload=true',
+  entryTime: '2025-02-03 20:00:46',
+  exitTime: '2025-02-03 20:00:49'
+}
+Start DateTime in IST format: 2025-02-03T14:30:46.000Z
+End DateTime in IST format: 2025-02-03T14:30:49.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-03T14:30:49.000Z',
+    Password: 'Suzlon@123',
+    UserID: 'vhiralal',
+    ScreenName: '/Home_user?reload=true',
+    StartDateTime: '2025-02-03T14:30:46.000Z',
+    UserEngagementID: 0,
+    UserName: 'Hiralal Vibhandik'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 41.670 ms
+OPTIONS /api/logout_user 200 4 - 0.823 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+POST /api/logout_user 200 221 - 185.024 ms
+Received heartbeat data: {
+  name: 'Hiralal Vibhandik',
+  userId: '1af6642185013cb41a20e8467368f836',
+  access: 'lubrication',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  domain_id: 'vhiralal',
+  state: 'Rajasthan',
+  area: 'Akal,Ratan Ka Bass,Tejuva',
+  site: 'Akal,Devikot,Mulana,Soda Mada I,Soda Mada II,Bhesada,Fatehgarh A,Fatehgarh B,Osiyan,Ratan Ka Bass,Baramsar,Baramsar II,Mokala,Sanu,Tejuva',
+  email: 'vhiralal@suzlon.com',
+  pathname: '/Home_user?reload=true',
+  entryTime: '2025-02-03 20:00:49',
+  exitTime: '2025-02-03 20:05:24'
+}
+Start DateTime in IST format: 2025-02-03T14:30:49.000Z
+End DateTime in IST format: 2025-02-03T14:35:24.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-03T14:35:24.000Z',
+    Password: 'Suzlon@123',
+    UserID: 'vhiralal',
+    ScreenName: '/Home_user?reload=true',
+    StartDateTime: '2025-02-03T14:30:49.000Z',
+    UserEngagementID: 0,
+    UserName: 'Hiralal Vibhandik'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 84.052 ms
+OPTIONS /api/login2 204 0 - 0.283 ms
+POST /api/login2 200 1878 - 200.046 ms
+Retrieved DomainId: vhiralal
+Decoded Name: Hiralal Vibhandik
+EmailId: vhiralal@suzlon.com
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/checkAdmin?DomainId=vhiralal&Name=Hiralal%20Vibhandik&EmailId=vhiralal%40suzlon.com 304 - - 148.655 ms
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_fy_year 304 - - 171.753 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_order_type 304 - - 398.116 ms
+Connected to the database.
+GET /api/fetch_fy_year 304 - - 246.354 ms
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_order_type 304 - - 338.666 ms
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_yd_oil_change_state_wise_data?year=FY%202024-2025 304 - - 654.256 ms
+GET /api/fetch_fc_oil_change_state_wise_data?year=FY%202024-2025 304 - - 658.589 ms
+GET /api/fetch_pd_oil_change_state_wise_data?year=FY%202024-2025 304 - - 703.863 ms
+GET /api/fetch_gb_oil_change_state_wise_data?year=FY%202024-2025 304 - - 714.923 ms
+Connected to the database.
+Connected to the database.
+GET /api/fetch_fc_topup_state_wise_data?year=FY%202024-2025 304 - - 879.286 ms
+GET /api/fetch_gb_topup_state_wise_data?year=FY%202024-2025 304 - - 894.409 ms
+Connected to the database.
+Received heartbeat data: {
+  name: 'Hiralal Vibhandik',
+  userId: 'undefined',
+  access: 'lubrication',
+  adminEmail: 'vhiralal@suzlon.com',
+  domain_id: 'vhiralal',
+  state: 'Rajasthan',
+  area: 'Akal,Ratan Ka Bass,Tejuva',
+  site: 'Akal,Devikot,Mulana,Soda Mada I,Soda Mada II,Bhesada,Fatehgarh A,Fatehgarh B,Osiyan,Ratan Ka Bass,Baramsar,Baramsar II,Mokala,Sanu,Tejuva',
+  pathname: '/Oil_Analysis_user?reload=true',
+  entryTime: '2025-02-03 20:05:32',
+  exitTime: '2025-02-03 20:05:35'
+}
+Start DateTime in IST format: 2025-02-03T14:35:32.000Z
+End DateTime in IST format: 2025-02-03T14:35:35.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-03T14:35:35.000Z',
+    Password: 'Suzlon@123',
+    UserID: 'vhiralal',
+    ScreenName: '/Oil_Analysis_user?reload=true',
+    StartDateTime: '2025-02-03T14:35:32.000Z',
+    UserEngagementID: 0,
+    UserName: 'Hiralal Vibhandik'
+  }
+]
+Received heartbeat data: {
+  name: 'Hiralal Vibhandik',
+  userId: 'undefined',
+  access: 'lubrication',
+  adminEmail: 'vhiralal@suzlon.com',
+  domain_id: 'vhiralal',
+  state: 'Rajasthan',
+  area: 'Akal,Ratan Ka Bass,Tejuva',
+  site: 'Akal,Devikot,Mulana,Soda Mada I,Soda Mada II,Bhesada,Fatehgarh A,Fatehgarh B,Osiyan,Ratan Ka Bass,Baramsar,Baramsar II,Mokala,Sanu,Tejuva',
+  pathname: '/Oil_Analysis_user?reload=true',
+  entryTime: '2025-02-03 20:05:32',
+  exitTime: '2025-02-03 20:05:35'
+}
+Start DateTime in IST format: 2025-02-03T14:35:32.000Z
+End DateTime in IST format: 2025-02-03T14:35:35.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-03T14:35:35.000Z',
+    Password: 'Suzlon@123',
+    UserID: 'vhiralal',
+    ScreenName: '/Oil_Analysis_user?reload=true',
+    StartDateTime: '2025-02-03T14:35:32.000Z',
+    UserEngagementID: 0,
+    UserName: 'Hiralal Vibhandik'
+  }
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 102.733 ms
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 97.701 ms
+GET /api/fetch_ydpd_topup_state_wise_data?year=FY%202024-2025 304 - - 436.807 ms
+GET /api/fetch_pending_teco_state_wise_data?year=FY%202024-2025 304 - - 260.579 ms
+GET /api/fetch_dispute_state_wise_data?year=FY%202024-2025 304 - - 470.392 ms
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_fy_year 304 - - 317.880 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_order_type 304 - - 442.433 ms
+GET /api/fetch_fy_year 304 - - 144.425 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_order_type 304 - - 279.957 ms
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_pd_oil_change_state_wise_data?year=FY%202024-2025 304 - - 502.182 ms
+GET /api/fetch_gb_topup_state_wise_data?year=FY%202024-2025 304 - - 509.080 ms
+GET /api/fetch_gb_oil_change_state_wise_data?year=FY%202024-2025 304 - - 526.289 ms
+GET /api/fetch_yd_oil_change_state_wise_data?year=FY%202024-2025 304 - - 544.971 ms
+Connected to the database.
+Connected to the database.
+Connected to the database.
+GET /api/fetch_fc_oil_change_state_wise_data?year=FY%202024-2025 304 - - 746.299 ms
+GET /api/fetch_fc_topup_state_wise_data?year=FY%202024-2025 304 - - 761.123 ms
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_pending_teco_state_wise_data?year=FY%202024-2025 200 722 - 327.983 ms
+GET /api/fetch_ydpd_topup_state_wise_data?year=FY%202024-2025 200 698 - 349.133 ms
+GET /api/fetch_dispute_state_wise_data?year=FY%202024-2025 200 737 - 360.990 ms
+Received heartbeat data: {
+  name: 'Hiralal Vibhandik',
+  userId: 'undefined',
+  access: 'lubrication',
+  adminEmail: 'vhiralal@suzlon.com',
+  domain_id: 'vhiralal',
+  state: 'Rajasthan',
+  area: 'Akal,Ratan Ka Bass,Tejuva',
+  site: 'Akal,Devikot,Mulana,Soda Mada I,Soda Mada II,Bhesada,Fatehgarh A,Fatehgarh B,Osiyan,Ratan Ka Bass,Baramsar,Baramsar II,Mokala,Sanu,Tejuva',
+  pathname: '/Oil_Analysis_user?reload=true',
+  entryTime: '2025-02-03 20:05:35',
+  exitTime: '2025-02-03 20:06:28'
+}
+Start DateTime in IST format: 2025-02-03T14:35:35.000Z
+End DateTime in IST format: 2025-02-03T14:36:28.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-03T14:36:28.000Z',
+    Password: 'Suzlon@123',
+    UserID: 'vhiralal',
+    ScreenName: '/Oil_Analysis_user?reload=true',
+    StartDateTime: '2025-02-03T14:35:35.000Z',
+    UserEngagementID: 0,
+    UserName: 'Hiralal Vibhandik'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 69.341 ms
+Received heartbeat data: {
+  name: 'Hiralal Vibhandik',
+  userId: 'undefined',
+  access: 'lubrication',
+  adminEmail: 'vhiralal@suzlon.com',
+  domain_id: 'vhiralal',
+  state: 'Rajasthan',
+  area: 'Akal,Ratan Ka Bass,Tejuva',
+  site: 'Akal,Devikot,Mulana,Soda Mada I,Soda Mada II,Bhesada,Fatehgarh A,Fatehgarh B,Osiyan,Ratan Ka Bass,Baramsar,Baramsar II,Mokala,Sanu,Tejuva',
+  email: 'vhiralal@suzlon.com',
+  pathname: '/Site_Report_user',
+  entryTime: '2025-02-03 20:06:28',
+  exitTime: '2025-02-03 20:06:33'
+}
+Start DateTime in IST format: 2025-02-03T14:36:28.000Z
+End DateTime in IST format: 2025-02-03T14:36:33.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-03T14:36:33.000Z',
+    Password: 'Suzlon@123',
+    UserID: 'vhiralal',
+    ScreenName: '/Site_Report_user',
+    StartDateTime: '2025-02-03T14:36:28.000Z',
+    UserEngagementID: 0,
+    UserName: 'Hiralal Vibhandik'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 83.075 ms
+Received heartbeat data: {
+  name: 'Hiralal Vibhandik',
+  userId: 'undefined',
+  access: 'lubrication',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  domain_id: 'vhiralal',
+  state: 'Rajasthan',
+  area: 'Akal,Ratan Ka Bass,Tejuva',
+  site: 'Akal,Devikot,Mulana,Soda Mada I,Soda Mada II,Bhesada,Fatehgarh A,Fatehgarh B,Osiyan,Ratan Ka Bass,Baramsar,Baramsar II,Mokala,Sanu,Tejuva',
+  email: 'vhiralal@suzlon.com',
+  pathname: '/Home_user?reload=true',
+  entryTime: '2025-02-03 20:06:33',
+  exitTime: '2025-02-03 20:06:35'
+}
+Start DateTime in IST format: 2025-02-03T14:36:33.000Z
+End DateTime in IST format: 2025-02-03T14:36:35.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-03T14:36:35.000Z',
+    Password: 'Suzlon@123',
+    UserID: 'vhiralal',
+    ScreenName: '/Home_user?reload=true',
+    StartDateTime: '2025-02-03T14:36:33.000Z',
+    UserEngagementID: 0,
+    UserName: 'Hiralal Vibhandik'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 34.672 ms
