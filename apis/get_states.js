@@ -27,7 +27,10 @@ router.get('/', async (req, res) => {
         connection = await connectToDatabase();
 
         // Query to fetch distinct states
-        const query = 'SELECT DISTINCT State FROM installedbase'; // Adjust the column name based on your table schema
+        // const query = 'SELECT DISTINCT State FROM installedbase'; // Adjust the column name based on your table schema
+        const query = "SELECT DISTINCT State FROM installedbase WHERE State <> 'State'";
+
+
         const result = await connection.query(query);
 
         // Extract states from result

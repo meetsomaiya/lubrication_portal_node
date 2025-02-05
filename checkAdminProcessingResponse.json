@@ -1,4 +1,9 @@
 {
-  "checkAdmin": false,
-  "message": "No admin found for the given DomainId."
+  "checkAdmin": true,
+  "id": "863e0ed1015b058904bdc854eff88668",
+  "domain_id": "40139",
+  "name": "Meet Harishbhai Somaiya",
+  "email": "Meet.Somaiya@suzlon.com",
+  "access": "lubrication",
+  "admin_type": "admin"
 }

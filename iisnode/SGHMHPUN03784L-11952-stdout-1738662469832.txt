@@ -1,0 +1,2261 @@
+With Parameters: [
+  'Q1_LUB_2023',
+  'GJ - Saurashtra',
+  'Kuchadi',
+  'Kuchhadi',
+  '2023-02-04',
+  '2027-02-04'
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/get_total_wtg_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=GJ+-+Saurashtra&area=Kuchadi&site=Kuchhadi 200 19743 - 120.326 ms
+Query Result: [
+  { total_count: 89, PLANT: '2453' },
+  statement: '\n' +
+    '            SELECT COUNT(*) AS total_count, PLANT \n' +
+    '            FROM Schedule_plan_lubrication \n' +
+    '            WHERE ZEXT_RNO = ? \n' +
+    "            AND ZTEXT1 NOT IN ('Deletion Flag')\n" +
+    "            AND PLANT NOT LIKE 'T%'\n" +
+    '         AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE State = ?\n' +
+    '                      ) AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE Area = ?\n' +
+    '                      ) AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE Site = ?\n' +
+    '                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [
+    'Q1_LUB_2023',
+    'GJ - Saurashtra',
+    'Kuchadi',
+    'Kuchhadi',
+    '2023-02-04',
+    '2027-02-04'
+  ],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+Query Result: [
+  { total_count: 89, PLANT: '2453' },
+  statement: '\n' +
+    '            SELECT COUNT(*) AS total_count, PLANT \n' +
+    '            FROM Schedule_plan_lubrication \n' +
+    '            WHERE ZEXT_RNO = ? \n' +
+    '            AND TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL\n' +
+    '            AND CONVERT(DATE, TRY_CAST(ZREQ_SDAT AS DATE), 23) <= CONVERT(DATE, GETDATE(), 23)\n' +
+    "            AND ZTEXT1 NOT IN ('Deletion Flag')\n" +
+    "            AND PLANT NOT LIKE 'T%'\n" +
+    '         AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE State = ?\n' +
+    '                      ) AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE Area = ?\n' +
+    '                      ) AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE Site = ?\n' +
+    '                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [
+    'Q1_LUB_2023',
+    'GJ - Saurashtra',
+    'Kuchadi',
+    'Kuchhadi',
+    '2023-02-04',
+    '2027-02-04'
+  ],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+GET /api/get_total_wtg_count_based_on_state?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=GJ+-+Saurashtra&area=Kuchadi&site=Kuchhadi 304 - - 345.833 ms
+GET /api/get_total_planned_wtg_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=GJ+-+Saurashtra&area=Kuchadi&site=Kuchhadi 304 - - 356.054 ms
+Data written to total_count_sent_back.json
+GET /api/get_completed_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=GJ+-+Saurashtra&area=Kuchadi&site=Kuchhadi 304 - - 357.885 ms
+GET /api/get_completed_out_of_grace_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=GJ+-+Saurashtra&area=Kuchadi&site=Kuchhadi 304 - - 399.727 ms
+GET /api/get_total_open_status_wtg_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=GJ+-+Saurashtra&area=Kuchadi&site=Kuchhadi 304 - - 589.775 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: 'd536ce3f19751f3ac610b129c34fb44c',
+  access: 'lubrication,pm,oil_change',
+  adminEmail: 'Meet.Somaiya%40suzlon.com',
+  domain_id: '40139',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya%40suzlon.com',
+  pathname: '/WTG_Wise_Planning_user',
+  entryTime: '2025-02-04 15:17:48',
+  exitTime: '2025-02-04 15:17:52'
+}
+Start DateTime in IST format: 2025-02-04T09:47:48.000Z
+End DateTime in IST format: 2025-02-04T09:47:52.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-04T09:47:52.000Z',
+    Password: 'Suzlon@123',
+    UserID: '40139',
+    ScreenName: '/WTG_Wise_Planning_user',
+    StartDateTime: '2025-02-04T09:47:48.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: 'd536ce3f19751f3ac610b129c34fb44c',
+  access: 'lubrication,pm,oil_change',
+  adminEmail: 'Meet.Somaiya%40suzlon.com',
+  domain_id: '40139',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya%40suzlon.com',
+  pathname: '/WTG_Wise_Planning_user',
+  entryTime: '2025-02-04 15:17:48',
+  exitTime: '2025-02-04 15:17:52'
+}
+Start DateTime in IST format: 2025-02-04T09:47:48.000Z
+End DateTime in IST format: 2025-02-04T09:47:52.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-04T09:47:52.000Z',
+    Password: 'Suzlon@123',
+    UserID: '40139',
+    ScreenName: '/WTG_Wise_Planning_user',
+    StartDateTime: '2025-02-04T09:47:48.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 19.509 ms
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 25.172 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_type_order_for_wtg_wise_planning 304 - - 84.835 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_type_order_for_wtg_wise_planning 304 - - 85.738 ms
+Parameters: {
+  zextRNO: 'Q1_LUB_2023',
+  selectedState: 'GJ - Saurashtra',
+  selectedArea: 'Kuchadi',
+  selectedSite: 'Kuchhadi',
+  startDate: '2023-02-04',
+  endDate: '2027-02-04'
+}
+Parameters: {
+  zextRNO: 'Q1_LUB_2023',
+  selectedState: 'GJ - Saurashtra',
+  selectedArea: 'Kuchadi',
+  selectedSite: 'Kuchhadi',
+  startDate: '2023-02-04',
+  endDate: '2027-02-04'
+}
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+            SELECT COUNT(*) AS total_count, PLANT 
+            FROM Schedule_plan_lubrication 
+            WHERE ZEXT_RNO = ? 
+            AND ZTEXT1 NOT IN ('Deletion Flag')
+            AND PLANT NOT LIKE 'T%'
+         AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE State = ?
+                      ) AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE Area = ?
+                      ) AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE Site = ?
+                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [
+  'Q1_LUB_2023',
+  'GJ - Saurashtra',
+  'Kuchadi',
+  'Kuchhadi',
+  '2023-02-04',
+  '2027-02-04'
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+            SELECT COUNT(*) AS total_count, PLANT 
+            FROM Schedule_plan_lubrication 
+            WHERE ZEXT_RNO = ? 
+            AND TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL
+            AND CONVERT(DATE, TRY_CAST(ZREQ_SDAT AS DATE), 23) <= CONVERT(DATE, GETDATE(), 23)
+            AND ZTEXT1 NOT IN ('Deletion Flag')
+            AND PLANT NOT LIKE 'T%'
+         AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE State = ?
+                      ) AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE Area = ?
+                      ) AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE Site = ?
+                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [
+  'Q1_LUB_2023',
+  'GJ - Saurashtra',
+  'Kuchadi',
+  'Kuchhadi',
+  '2023-02-04',
+  '2027-02-04'
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/get_total_open_status_wtg_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=GJ+-+Saurashtra&area=Kuchadi&site=Kuchhadi 304 - - 301.600 ms
+Query Result: [
+  { total_count: 89, PLANT: '2453' },
+  statement: '\n' +
+    '            SELECT COUNT(*) AS total_count, PLANT \n' +
+    '            FROM Schedule_plan_lubrication \n' +
+    '            WHERE ZEXT_RNO = ? \n' +
+    "            AND ZTEXT1 NOT IN ('Deletion Flag')\n" +
+    "            AND PLANT NOT LIKE 'T%'\n" +
+    '         AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE State = ?\n' +
+    '                      ) AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE Area = ?\n' +
+    '                      ) AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE Site = ?\n' +
+    '                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [
+    'Q1_LUB_2023',
+    'GJ - Saurashtra',
+    'Kuchadi',
+    'Kuchhadi',
+    '2023-02-04',
+    '2027-02-04'
+  ],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+GET /api/get_completed_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=GJ+-+Saurashtra&area=Kuchadi&site=Kuchhadi 304 - - 319.813 ms
+GET /api/get_total_wtg_count_based_on_state?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=GJ+-+Saurashtra&area=Kuchadi&site=Kuchhadi 304 - - 322.450 ms
+GET /api/get_completed_out_of_grace_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=GJ+-+Saurashtra&area=Kuchadi&site=Kuchhadi 304 - - 329.026 ms
+GET /api/get_total_wtg_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=GJ+-+Saurashtra&area=Kuchadi&site=Kuchhadi 200 19743 - 383.755 ms
+Data written to total_count_sent_back.json
+Query Result: [
+  { total_count: 89, PLANT: '2453' },
+  statement: '\n' +
+    '            SELECT COUNT(*) AS total_count, PLANT \n' +
+    '            FROM Schedule_plan_lubrication \n' +
+    '            WHERE ZEXT_RNO = ? \n' +
+    '            AND TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL\n' +
+    '            AND CONVERT(DATE, TRY_CAST(ZREQ_SDAT AS DATE), 23) <= CONVERT(DATE, GETDATE(), 23)\n' +
+    "            AND ZTEXT1 NOT IN ('Deletion Flag')\n" +
+    "            AND PLANT NOT LIKE 'T%'\n" +
+    '         AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE State = ?\n' +
+    '                      ) AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE Area = ?\n' +
+    '                      ) AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE Site = ?\n' +
+    '                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [
+    'Q1_LUB_2023',
+    'GJ - Saurashtra',
+    'Kuchadi',
+    'Kuchhadi',
+    '2023-02-04',
+    '2027-02-04'
+  ],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+GET /api/get_total_planned_wtg_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=GJ+-+Saurashtra&area=Kuchadi&site=Kuchhadi 304 - - 593.478 ms
+Parameters: {
+  zextRNO: 'Q1_LUB_2024',
+  selectedState: 'GJ - Saurashtra',
+  selectedArea: 'Kuchadi',
+  selectedSite: 'Kuchhadi',
+  startDate: '2023-02-04',
+  endDate: '2027-02-04'
+}
+Parameters: {
+  zextRNO: 'Q1_LUB_2024',
+  selectedState: 'GJ - Saurashtra',
+  selectedArea: 'Kuchadi',
+  selectedSite: 'Kuchhadi',
+  startDate: '2023-02-04',
+  endDate: '2027-02-04'
+}
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+            SELECT COUNT(*) AS total_count, PLANT 
+            FROM Schedule_plan_lubrication 
+            WHERE ZEXT_RNO = ? 
+            AND TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL
+            AND CONVERT(DATE, TRY_CAST(ZREQ_SDAT AS DATE), 23) <= CONVERT(DATE, GETDATE(), 23)
+            AND ZTEXT1 NOT IN ('Deletion Flag')
+            AND PLANT NOT LIKE 'T%'
+         AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE State = ?
+                      ) AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE Area = ?
+                      ) AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE Site = ?
+                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [
+  'Q1_LUB_2024',
+  'GJ - Saurashtra',
+  'Kuchadi',
+  'Kuchhadi',
+  '2023-02-04',
+  '2027-02-04'
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+            SELECT COUNT(*) AS total_count, PLANT 
+            FROM Schedule_plan_lubrication 
+            WHERE ZEXT_RNO = ? 
+            AND ZTEXT1 NOT IN ('Deletion Flag')
+            AND PLANT NOT LIKE 'T%'
+         AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE State = ?
+                      ) AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE Area = ?
+                      ) AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE Site = ?
+                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [
+  'Q1_LUB_2024',
+  'GJ - Saurashtra',
+  'Kuchadi',
+  'Kuchhadi',
+  '2023-02-04',
+  '2027-02-04'
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/get_total_wtg_count?orderType=Q1_LUB_2024&fromDate=2023-02-04&toDate=2027-02-04&state=GJ+-+Saurashtra&area=Kuchadi&site=Kuchhadi 200 19710 - 106.805 ms
+Query Result: [
+  { total_count: 89, PLANT: '2453' },
+  statement: '\n' +
+    '            SELECT COUNT(*) AS total_count, PLANT \n' +
+    '            FROM Schedule_plan_lubrication \n' +
+    '            WHERE ZEXT_RNO = ? \n' +
+    "            AND ZTEXT1 NOT IN ('Deletion Flag')\n" +
+    "            AND PLANT NOT LIKE 'T%'\n" +
+    '         AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE State = ?\n' +
+    '                      ) AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE Area = ?\n' +
+    '                      ) AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE Site = ?\n' +
+    '                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [
+    'Q1_LUB_2024',
+    'GJ - Saurashtra',
+    'Kuchadi',
+    'Kuchhadi',
+    '2023-02-04',
+    '2027-02-04'
+  ],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+Query Result: [
+  { total_count: 89, PLANT: '2453' },
+  statement: '\n' +
+    '            SELECT COUNT(*) AS total_count, PLANT \n' +
+    '            FROM Schedule_plan_lubrication \n' +
+    '            WHERE ZEXT_RNO = ? \n' +
+    '            AND TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL\n' +
+    '            AND CONVERT(DATE, TRY_CAST(ZREQ_SDAT AS DATE), 23) <= CONVERT(DATE, GETDATE(), 23)\n' +
+    "            AND ZTEXT1 NOT IN ('Deletion Flag')\n" +
+    "            AND PLANT NOT LIKE 'T%'\n" +
+    '         AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE State = ?\n' +
+    '                      ) AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE Area = ?\n' +
+    '                      ) AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE Site = ?\n' +
+    '                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [
+    'Q1_LUB_2024',
+    'GJ - Saurashtra',
+    'Kuchadi',
+    'Kuchhadi',
+    '2023-02-04',
+    '2027-02-04'
+  ],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+GET /api/get_total_open_status_wtg_count?orderType=Q1_LUB_2024&fromDate=2023-02-04&toDate=2027-02-04&state=GJ+-+Saurashtra&area=Kuchadi&site=Kuchhadi 200 47 - 308.656 ms
+GET /api/get_total_wtg_count_based_on_state?orderType=Q1_LUB_2024&fromDate=2023-02-04&toDate=2027-02-04&state=GJ+-+Saurashtra&area=Kuchadi&site=Kuchhadi 200 58 - 324.055 ms
+Data written to total_count_sent_back.json
+GET /api/get_total_planned_wtg_count?orderType=Q1_LUB_2024&fromDate=2023-02-04&toDate=2027-02-04&state=GJ+-+Saurashtra&area=Kuchadi&site=Kuchhadi 200 65 - 325.122 ms
+GET /api/get_completed_out_of_grace_count?orderType=Q1_LUB_2024&fromDate=2023-02-04&toDate=2027-02-04&state=GJ+-+Saurashtra&area=Kuchadi&site=Kuchhadi 200 66 - 394.327 ms
+GET /api/get_completed_count?orderType=Q1_LUB_2024&fromDate=2023-02-04&toDate=2027-02-04&state=GJ+-+Saurashtra&area=Kuchadi&site=Kuchhadi 200 67 - 591.110 ms
+Parameters: {
+  zextRNO: 'HALF1_LUB_2023',
+  selectedState: 'GJ - Saurashtra',
+  selectedArea: 'Kuchadi',
+  selectedSite: 'Kuchhadi',
+  startDate: '2023-02-04',
+  endDate: '2027-02-04'
+}
+Parameters: {
+  zextRNO: 'HALF1_LUB_2023',
+  selectedState: 'GJ - Saurashtra',
+  selectedArea: 'Kuchadi',
+  selectedSite: 'Kuchhadi',
+  startDate: '2023-02-04',
+  endDate: '2027-02-04'
+}
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+            SELECT COUNT(*) AS total_count, PLANT 
+            FROM Schedule_plan_lubrication 
+            WHERE ZEXT_RNO = ? 
+            AND ZTEXT1 NOT IN ('Deletion Flag')
+            AND PLANT NOT LIKE 'T%'
+         AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE State = ?
+                      ) AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE Area = ?
+                      ) AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE Site = ?
+                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [
+  'HALF1_LUB_2023',
+  'GJ - Saurashtra',
+  'Kuchadi',
+  'Kuchhadi',
+  '2023-02-04',
+  '2027-02-04'
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+            SELECT COUNT(*) AS total_count, PLANT 
+            FROM Schedule_plan_lubrication 
+            WHERE ZEXT_RNO = ? 
+            AND TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL
+            AND CONVERT(DATE, TRY_CAST(ZREQ_SDAT AS DATE), 23) <= CONVERT(DATE, GETDATE(), 23)
+            AND ZTEXT1 NOT IN ('Deletion Flag')
+            AND PLANT NOT LIKE 'T%'
+         AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE State = ?
+                      ) AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE Area = ?
+                      ) AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE Site = ?
+                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [
+  'HALF1_LUB_2023',
+  'GJ - Saurashtra',
+  'Kuchadi',
+  'Kuchhadi',
+  '2023-02-04',
+  '2027-02-04'
+]
+Query Result: [
+  { total_count: 49, PLANT: '2453' },
+  statement: '\n' +
+    '            SELECT COUNT(*) AS total_count, PLANT \n' +
+    '            FROM Schedule_plan_lubrication \n' +
+    '            WHERE ZEXT_RNO = ? \n' +
+    "            AND ZTEXT1 NOT IN ('Deletion Flag')\n" +
+    "            AND PLANT NOT LIKE 'T%'\n" +
+    '         AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE State = ?\n' +
+    '                      ) AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE Area = ?\n' +
+    '                      ) AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE Site = ?\n' +
+    '                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [
+    'HALF1_LUB_2023',
+    'GJ - Saurashtra',
+    'Kuchadi',
+    'Kuchhadi',
+    '2023-02-04',
+    '2027-02-04'
+  ],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+GET /api/get_total_open_status_wtg_count?orderType=HALF1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=GJ+-+Saurashtra&area=Kuchadi&site=Kuchhadi 304 - - 301.306 ms
+GET /api/get_completed_count?orderType=HALF1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=GJ+-+Saurashtra&area=Kuchadi&site=Kuchhadi 304 - - 311.992 ms
+GET /api/get_completed_out_of_grace_count?orderType=HALF1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=GJ+-+Saurashtra&area=Kuchadi&site=Kuchhadi 304 - - 324.676 ms
+GET /api/get_total_wtg_count_based_on_state?orderType=HALF1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=GJ+-+Saurashtra&area=Kuchadi&site=Kuchhadi 304 - - 328.826 ms
+GET /api/get_total_wtg_count?orderType=HALF1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=GJ+-+Saurashtra&area=Kuchadi&site=Kuchhadi 200 11065 - 370.211 ms
+Data written to total_count_sent_back.json
+Query Result: [
+  { total_count: 49, PLANT: '2453' },
+  statement: '\n' +
+    '            SELECT COUNT(*) AS total_count, PLANT \n' +
+    '            FROM Schedule_plan_lubrication \n' +
+    '            WHERE ZEXT_RNO = ? \n' +
+    '            AND TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL\n' +
+    '            AND CONVERT(DATE, TRY_CAST(ZREQ_SDAT AS DATE), 23) <= CONVERT(DATE, GETDATE(), 23)\n' +
+    "            AND ZTEXT1 NOT IN ('Deletion Flag')\n" +
+    "            AND PLANT NOT LIKE 'T%'\n" +
+    '         AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE State = ?\n' +
+    '                      ) AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE Area = ?\n' +
+    '                      ) AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE Site = ?\n' +
+    '                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [
+    'HALF1_LUB_2023',
+    'GJ - Saurashtra',
+    'Kuchadi',
+    'Kuchhadi',
+    '2023-02-04',
+    '2027-02-04'
+  ],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+GET /api/get_total_planned_wtg_count?orderType=HALF1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=GJ+-+Saurashtra&area=Kuchadi&site=Kuchhadi 304 - - 596.216 ms
+Parameters: {
+  zextRNO: 'HALF1_LUB_2023',
+  selectedState: 'GJ - Saurashtra',
+  selectedArea: 'Kuchadi',
+  selectedSite: 'Kuchhadi',
+  startDate: '2023-02-04',
+  endDate: '2027-02-04'
+}
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+        SELECT COUNT(*) AS total_count, PLANT
+        FROM Schedule_plan_lubrication
+        WHERE ZEXT_RNO = ?
+        AND ZTEXT1 NOT IN ('Open', 'In Process', 'Deletion Flag')
+        AND TRY_CAST([ZREQ_SDAT] AS DATE) IS NOT NULL
+        AND CONVERT(DATE, TRY_CAST([ZREQ_SDAT] AS DATE), 23) <= GETDATE()
+        AND [PLANT] NOT LIKE 'T%'
+     AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE State = ?
+                      ) AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE Area = ?
+                      ) AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE Site = ?
+                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [
+  'HALF1_LUB_2023',
+  'GJ - Saurashtra',
+  'Kuchadi',
+  'Kuchhadi',
+  '2023-02-04',
+  '2027-02-04'
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/get_completed_wtg_data?orderType=HALF1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=GJ+-+Saurashtra&area=Kuchadi&site=Kuchhadi 200 11028 - 94.906 ms
+Query Result: [
+  { total_count: 49, PLANT: '2453' },
+  statement: '\n' +
+    '        SELECT COUNT(*) AS total_count, PLANT\n' +
+    '        FROM Schedule_plan_lubrication\n' +
+    '        WHERE ZEXT_RNO = ?\n' +
+    "        AND ZTEXT1 NOT IN ('Open', 'In Process', 'Deletion Flag')\n" +
+    '        AND TRY_CAST([ZREQ_SDAT] AS DATE) IS NOT NULL\n' +
+    '        AND CONVERT(DATE, TRY_CAST([ZREQ_SDAT] AS DATE), 23) <= GETDATE()\n' +
+    "        AND [PLANT] NOT LIKE 'T%'\n" +
+    '     AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE State = ?\n' +
+    '                      ) AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE Area = ?\n' +
+    '                      ) AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE Site = ?\n' +
+    '                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [
+    'HALF1_LUB_2023',
+    'GJ - Saurashtra',
+    'Kuchadi',
+    'Kuchhadi',
+    '2023-02-04',
+    '2027-02-04'
+  ],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+GET /api/get_completed_wtg_count_based_on_state?orderType=HALF1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=GJ+-+Saurashtra&area=Kuchadi&site=Kuchhadi 200 58 - 310.859 ms
+Parameters: {
+  zextRNO: 'HALF1_LUB_2023',
+  selectedState: 'GJ - Saurashtra',
+  selectedArea: 'Kuchadi',
+  selectedSite: 'Kuchhadi',
+  startDate: '2023-02-04',
+  endDate: '2027-02-04'
+}
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+            SELECT COUNT(*) AS total_count, PLANT 
+            FROM Schedule_plan_lubrication 
+            WHERE ZEXT_RNO = ? 
+            AND TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL
+            AND CONVERT(DATE, TRY_CAST(ZREQ_SDAT AS DATE), 23) <= CONVERT(DATE, GETDATE(), 23)
+            AND ZTEXT1 NOT IN ('Deletion Flag')
+            AND PLANT NOT LIKE 'T%'
+         AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE State = ?
+                      ) AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE Area = ?
+                      ) AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE Site = ?
+                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [
+  'HALF1_LUB_2023',
+  'GJ - Saurashtra',
+  'Kuchadi',
+  'Kuchhadi',
+  '2023-02-04',
+  '2027-02-04'
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/get_total_wtg_planned?orderType=HALF1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=GJ+-+Saurashtra&area=Kuchadi&site=Kuchhadi 200 11039 - 84.521 ms
+Query Result: [
+  { total_count: 49, PLANT: '2453' },
+  statement: '\n' +
+    '            SELECT COUNT(*) AS total_count, PLANT \n' +
+    '            FROM Schedule_plan_lubrication \n' +
+    '            WHERE ZEXT_RNO = ? \n' +
+    '            AND TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL\n' +
+    '            AND CONVERT(DATE, TRY_CAST(ZREQ_SDAT AS DATE), 23) <= CONVERT(DATE, GETDATE(), 23)\n' +
+    "            AND ZTEXT1 NOT IN ('Deletion Flag')\n" +
+    "            AND PLANT NOT LIKE 'T%'\n" +
+    '         AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE State = ?\n' +
+    '                      ) AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE Area = ?\n' +
+    '                      ) AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE Site = ?\n' +
+    '                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [
+    'HALF1_LUB_2023',
+    'GJ - Saurashtra',
+    'Kuchadi',
+    'Kuchhadi',
+    '2023-02-04',
+    '2027-02-04'
+  ],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+GET /api/get_planned_wtg_count_based_on_state?orderType=HALF1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=GJ+-+Saurashtra&area=Kuchadi&site=Kuchhadi 200 58 - 299.008 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: 'd536ce3f19751f3ac610b129c34fb44c',
+  access: 'lubrication,pm,oil_change',
+  adminEmail: 'Meet.Somaiya%40suzlon.com',
+  domain_id: '40139',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya%40suzlon.com',
+  pathname: '/WTG_Wise_Planning_user',
+  entryTime: '2025-02-04 15:17:52',
+  exitTime: '2025-02-04 15:18:24'
+}
+Start DateTime in IST format: 2025-02-04T09:47:52.000Z
+End DateTime in IST format: 2025-02-04T09:48:24.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-04T09:48:24.000Z',
+    Password: 'Suzlon@123',
+    UserID: '40139',
+    ScreenName: '/WTG_Wise_Planning_user',
+    StartDateTime: '2025-02-04T09:47:52.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 20.771 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: 'd536ce3f19751f3ac610b129c34fb44c',
+  access: 'lubrication,pm,oil_change',
+  adminEmail: 'Meet.Somaiya%40suzlon.com',
+  domain_id: '40139',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya%40suzlon.com',
+  pathname: '/Home_user',
+  entryTime: '2025-02-04 15:18:24',
+  exitTime: '2025-02-04 15:18:24'
+}
+Start DateTime in IST format: 2025-02-04T09:48:24.000Z
+End DateTime in IST format: 2025-02-04T09:48:24.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-04T09:48:24.000Z',
+    Password: 'Suzlon@123',
+    UserID: '40139',
+    ScreenName: '/Home_user',
+    StartDateTime: '2025-02-04T09:48:24.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 9.368 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: 'd536ce3f19751f3ac610b129c34fb44c',
+  access: 'lubrication,pm,oil_change',
+  adminEmail: 'Meet.Somaiya%40suzlon.com',
+  domain_id: '40139',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya%40suzlon.com',
+  pathname: '/Site_Report_user',
+  entryTime: '2025-02-04 15:18:24',
+  exitTime: '2025-02-04 15:18:25'
+}
+Start DateTime in IST format: 2025-02-04T09:48:24.000Z
+End DateTime in IST format: 2025-02-04T09:48:25.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-04T09:48:25.000Z',
+    Password: 'Suzlon@123',
+    UserID: '40139',
+    ScreenName: '/Site_Report_user',
+    StartDateTime: '2025-02-04T09:48:24.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+Connected to the database.
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 15.615 ms
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_type_order_for_wtg_wise_planning 304 - - 81.093 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_type_order_for_wtg_wise_planning 304 - - 79.574 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: 'd536ce3f19751f3ac610b129c34fb44c',
+  access: 'lubrication,pm,oil_change',
+  adminEmail: 'Meet.Somaiya%40suzlon.com',
+  domain_id: '40139',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya%40suzlon.com',
+  pathname: '/WTG_Wise_Planning_user',
+  entryTime: '2025-02-04 15:18:25',
+  exitTime: '2025-02-04 15:18:26'
+}
+Start DateTime in IST format: 2025-02-04T09:48:25.000Z
+End DateTime in IST format: 2025-02-04T09:48:26.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-04T09:48:26.000Z',
+    Password: 'Suzlon@123',
+    UserID: '40139',
+    ScreenName: '/WTG_Wise_Planning_user',
+    StartDateTime: '2025-02-04T09:48:25.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 12.455 ms
+OPTIONS /api/logout_user 200 4 - 0.942 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+POST /api/logout_user 200 218 - 16.532 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: 'd536ce3f19751f3ac610b129c34fb44c',
+  access: 'lubrication,pm,oil_change',
+  adminEmail: 'Meet.Somaiya%40suzlon.com',
+  domain_id: '40139',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  pathname: '/sop-consumption_user',
+  entryTime: '2025-02-04 15:18:26',
+  exitTime: '2025-02-04 15:18:30'
+}
+Start DateTime in IST format: 2025-02-04T09:48:26.000Z
+End DateTime in IST format: 2025-02-04T09:48:30.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-04T09:48:30.000Z',
+    Password: 'Suzlon@123',
+    UserID: '40139',
+    ScreenName: '/sop-consumption_user',
+    StartDateTime: '2025-02-04T09:48:26.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: 'd536ce3f19751f3ac610b129c34fb44c',
+  access: 'lubrication,pm,oil_change',
+  adminEmail: 'Meet.Somaiya%40suzlon.com',
+  domain_id: '40139',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  pathname: '/sop-consumption_user',
+  entryTime: '2025-02-04 15:18:26',
+  exitTime: '2025-02-04 15:18:30'
+}
+Start DateTime in IST format: 2025-02-04T09:48:26.000Z
+End DateTime in IST format: 2025-02-04T09:48:30.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-04T09:48:30.000Z',
+    Password: 'Suzlon@123',
+    UserID: '40139',
+    ScreenName: '/sop-consumption_user',
+    StartDateTime: '2025-02-04T09:48:26.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 14.151 ms
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 25.444 ms
+OPTIONS /api/login2 204 0 - 1.150 ms
+POST /api/login2 200 1009 - 196.819 ms
+Retrieved DomainId: 40139
+Decoded Name: Meet Harishbhai Somaiya
+EmailId: Meet.Somaiya@suzlon.com
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/checkAdmin?DomainId=40139&Name=Meet%20Harishbhai%20Somaiya&EmailId=Meet.Somaiya%40suzlon.com 200 190 - 18.597 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: '40139',
+  access: 'lubrication',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya%40suzlon.com',
+  pathname: '/Home?reload=true',
+  entryTime: '2025-02-04 15:18:38',
+  exitTime: '2025-02-04 15:18:40'
+}
+POST /api/heartbeat 400 57 - 2.065 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: '40139',
+  access: 'lubrication',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya%40suzlon.com',
+  pathname: '/Home?reload=true',
+  entryTime: '2025-02-04 15:18:38',
+  exitTime: '2025-02-04 15:18:40'
+}
+POST /api/heartbeat 400 57 - 1.406 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: '40139',
+  access: 'lubrication',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya%40suzlon.com',
+  pathname: '/Home?reload=true',
+  entryTime: '2025-02-04 15:18:40',
+  exitTime: '2025-02-04 15:22:31'
+}
+POST /api/heartbeat 400 57 - 1.447 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: '40139',
+  access: 'lubrication',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya%40suzlon.com',
+  pathname: '/Home',
+  entryTime: '2025-02-04 15:18:40',
+  exitTime: '2025-02-04 15:22:31'
+}
+POST /api/heartbeat 400 57 - 1.925 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+States written to states_sent_back.json
+GET /api/get_states 304 - - 30.731 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+States written to states_sent_back.json
+GET /api/get_states 304 - - 28.031 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  adminId: '690a4850e40160a36d81a7889b968122',
+  access: 'lubrication',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  userId: 'd536ce3f19751f3ac610b129c34fb44c',
+  domain_id: 'Not Set',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya%40suzlon.com',
+  pathname: '/Site_Report',
+  entryTime: '2025-02-04 15:22:31',
+  exitTime: '2025-02-04 15:22:32'
+}
+Start DateTime in IST format: 2025-02-04T09:52:31.000Z
+End DateTime in IST format: 2025-02-04T09:52:32.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-04T09:52:32.000Z',
+    Password: 'Suzlon@123',
+    UserID: 'Not Set',
+    ScreenName: '/Site_Report',
+    StartDateTime: '2025-02-04T09:52:31.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 20.386 ms
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+States written to states_sent_back.json
+GET /api/get_states 304 - - 33.344 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+States written to states_sent_back.json
+GET /api/get_states 304 - - 28.915 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_type_order_for_wtg_wise_planning 304 - - 85.193 ms
+States written to states_sent_back.json
+Connected to the database.
+GET /api/get_states 304 - - 35.334 ms
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+States written to states_sent_back.json
+GET /api/get_states 304 - - 30.278 ms
+GET /api/fetch_type_order_for_wtg_wise_planning 304 - - 87.603 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  adminId: '690a4850e40160a36d81a7889b968122',
+  access: 'lubrication',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  userId: 'd536ce3f19751f3ac610b129c34fb44c',
+  domain_id: 'Not Set',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya%40suzlon.com',
+  pathname: '/WTG_Wise_Planning',
+  entryTime: '2025-02-04 15:22:32',
+  exitTime: '2025-02-04 15:22:33'
+}
+Start DateTime in IST format: 2025-02-04T09:52:32.000Z
+End DateTime in IST format: 2025-02-04T09:52:33.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-04T09:52:33.000Z',
+    Password: 'Suzlon@123',
+    UserID: 'Not Set',
+    ScreenName: '/WTG_Wise_Planning',
+    StartDateTime: '2025-02-04T09:52:32.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 12.677 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+States written to states_sent_back.json
+GET /api/get_states 304 - - 28.918 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+States written to states_sent_back.json
+GET /api/get_states 304 - - 28.305 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  adminId: '690a4850e40160a36d81a7889b968122',
+  access: 'lubrication',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  userId: 'd536ce3f19751f3ac610b129c34fb44c',
+  domain_id: 'Not Set',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya%40suzlon.com',
+  pathname: '/Functional_Loc',
+  entryTime: '2025-02-04 15:22:33',
+  exitTime: '2025-02-04 15:22:33'
+}
+Start DateTime in IST format: 2025-02-04T09:52:33.000Z
+End DateTime in IST format: 2025-02-04T09:52:33.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-04T09:52:33.000Z',
+    Password: 'Suzlon@123',
+    UserID: 'Not Set',
+    ScreenName: '/Functional_Loc',
+    StartDateTime: '2025-02-04T09:52:33.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 14.166 ms
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_fy_year 304 - - 80.083 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_fy_year 304 - - 57.289 ms
+GET /api/fetch_order_type 304 - - 231.967 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_order_type 304 - - 187.655 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  adminId: '690a4850e40160a36d81a7889b968122',
+  access: 'lubrication',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  userId: 'd536ce3f19751f3ac610b129c34fb44c',
+  domain_id: 'Not Set',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya%40suzlon.com',
+  pathname: '/Oil_Analysis',
+  entryTime: '2025-02-04 15:22:33',
+  exitTime: '2025-02-04 15:22:34'
+}
+Start DateTime in IST format: 2025-02-04T09:52:33.000Z
+End DateTime in IST format: 2025-02-04T09:52:34.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-04T09:52:34.000Z',
+    Password: 'Suzlon@123',
+    UserID: 'Not Set',
+    ScreenName: '/Oil_Analysis',
+    StartDateTime: '2025-02-04T09:52:33.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 10.629 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  adminId: '690a4850e40160a36d81a7889b968122',
+  access: 'lubrication',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  userId: 'd536ce3f19751f3ac610b129c34fb44c',
+  domain_id: 'Not Set',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya%40suzlon.com',
+  pathname: '/sop-consumption',
+  entryTime: '2025-02-04 15:22:34',
+  exitTime: '2025-02-04 15:22:42'
+}
+Start DateTime in IST format: 2025-02-04T09:52:34.000Z
+End DateTime in IST format: 2025-02-04T09:52:42.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-04T09:52:42.000Z',
+    Password: 'Suzlon@123',
+    UserID: 'Not Set',
+    ScreenName: '/sop-consumption',
+    StartDateTime: '2025-02-04T09:52:34.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  adminId: '690a4850e40160a36d81a7889b968122',
+  access: 'lubrication',
+  adminEmail: 'Meet.Somaiya@suzlon.com',
+  userId: 'd536ce3f19751f3ac610b129c34fb44c',
+  domain_id: 'Not Set',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya%40suzlon.com',
+  pathname: '/sop-consumption',
+  entryTime: '2025-02-04 15:22:34',
+  exitTime: '2025-02-04 15:22:42'
+}
+Start DateTime in IST format: 2025-02-04T09:52:34.000Z
+End DateTime in IST format: 2025-02-04T09:52:42.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-04T09:52:42.000Z',
+    Password: 'Suzlon@123',
+    UserID: 'Not Set',
+    ScreenName: '/sop-consumption',
+    StartDateTime: '2025-02-04T09:52:34.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 18.173 ms
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 28.153 ms

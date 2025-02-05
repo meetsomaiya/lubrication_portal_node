@@ -1,6 +1,6 @@
 checkAdmin route module loaded
 checkUser route module loaded
-Server is listening on port \\.\pipe\81135b54-d1db-4cbb-b6e1-af4535a80a06
+Server is listening on port \\.\pipe\628e58bb-f8b5-41b1-9f79-70c55030a028
 Connected to the database.
 Connected to the database.
 Test query result: [
@@ -37,27 +37,4 @@ Test query result: [
     }
   ]
 ]
-OPTIONS /api/login2 204 0 - 0.751 ms
-POST /api/login2 200 1878 - 136.019 ms
-Retrieved DomainId: vhiralal
-Decoded Name: Hiralal Vibhandik
-EmailId: vhiralal@suzlon.com
-Connected to the database.
-Test query result: [
-  { test: 1 },
-  statement: 'SELECT 1 AS test',
-  parameters: [],
-  return: undefined,
-  count: -1,
-  columns: [
-    {
-      name: 'test',
-      dataType: 4,
-      dataTypeName: 'SQL_INTEGER',
-      columnSize: 10,
-      decimalDigits: 0,
-      nullable: false
-    }
-  ]
-]
-GET /api/checkAdmin?DomainId=vhiralal&Name=Hiralal%20Vibhandik&EmailId=vhiralal%40suzlon.com 304 - - 80.173 ms
+OPTIONS /api/heartbeat 200 4 - 5.560 ms

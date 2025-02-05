@@ -1,0 +1,3 @@
+checkAdmin route module loaded
+checkUser route module loaded
+Server is listening on port \\.\pipe\5a6a9bfa-7f91-431d-bd21-646de806947d

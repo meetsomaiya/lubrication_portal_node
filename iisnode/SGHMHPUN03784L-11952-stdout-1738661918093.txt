@@ -1,0 +1,4312 @@
+Start DateTime in IST format: 2025-02-04T09:38:34.000Z
+End DateTime in IST format: 2025-02-04T09:38:38.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-04T09:38:38.000Z',
+    Password: 'Suzlon@123',
+    UserID: '40139',
+    ScreenName: '/WTG_Wise_Planning_user',
+    StartDateTime: '2025-02-04T09:38:34.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: 'd536ce3f19751f3ac610b129c34fb44c',
+  access: 'lubrication,pm,oil_change',
+  adminEmail: 'Meet.Somaiya%40suzlon.com',
+  domain_id: '40139',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya%40suzlon.com',
+  pathname: '/WTG_Wise_Planning_user',
+  entryTime: '2025-02-04 15:08:34',
+  exitTime: '2025-02-04 15:08:38'
+}
+Start DateTime in IST format: 2025-02-04T09:38:34.000Z
+End DateTime in IST format: 2025-02-04T09:38:38.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-04T09:38:38.000Z',
+    Password: 'Suzlon@123',
+    UserID: '40139',
+    ScreenName: '/WTG_Wise_Planning_user',
+    StartDateTime: '2025-02-04T09:38:34.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 38.196 ms
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 44.521 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_type_order_for_wtg_wise_planning 304 - - 79.848 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_type_order_for_wtg_wise_planning 304 - - 84.252 ms
+Parameters: {
+  zextRNO: 'Q1_LUB_2023',
+  selectedState: '',
+  selectedArea: '',
+  selectedSite: '',
+  startDate: '2023-02-04',
+  endDate: '2027-02-04'
+}
+Parameters: {
+  zextRNO: 'Q1_LUB_2023',
+  selectedState: '',
+  selectedArea: '',
+  selectedSite: '',
+  startDate: '2023-02-04',
+  endDate: '2027-02-04'
+}
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+            SELECT COUNT(*) AS total_count, PLANT 
+            FROM Schedule_plan_lubrication 
+            WHERE ZEXT_RNO = ? 
+            AND TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL
+            AND CONVERT(DATE, TRY_CAST(ZREQ_SDAT AS DATE), 23) <= CONVERT(DATE, GETDATE(), 23)
+            AND ZTEXT1 NOT IN ('Deletion Flag')
+            AND PLANT NOT LIKE 'T%'
+         AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [ 'Q1_LUB_2023', '2023-02-04', '2027-02-04' ]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+            SELECT COUNT(*) AS total_count, PLANT 
+            FROM Schedule_plan_lubrication 
+            WHERE ZEXT_RNO = ? 
+            AND ZTEXT1 NOT IN ('Deletion Flag')
+            AND PLANT NOT LIKE 'T%'
+         AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [ 'Q1_LUB_2023', '2023-02-04', '2027-02-04' ]
+GET /api/get_total_open_status_wtg_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=&area=&site=Select 304 - - 80.218 ms
+Query Result: [
+  { total_count: 103, PLANT: '2451' },
+  { total_count: 12, PLANT: '2452' },
+  { total_count: 89, PLANT: '2453' },
+  { total_count: 98, PLANT: '2454' },
+  { total_count: 19, PLANT: '2457' },
+  { total_count: 91, PLANT: '2458' },
+  { total_count: 103, PLANT: '2471' },
+  { total_count: 92, PLANT: '2472' },
+  { total_count: 84, PLANT: '2473' },
+  { total_count: 95, PLANT: '2474' },
+  { total_count: 82, PLANT: '2475' },
+  { total_count: 77, PLANT: '2476' },
+  { total_count: 89, PLANT: '2491' },
+  { total_count: 261, PLANT: '2492' },
+  { total_count: 104, PLANT: '2493' },
+  { total_count: 80, PLANT: '4401' },
+  { total_count: 85, PLANT: '4402' },
+  { total_count: 93, PLANT: '4405' },
+  { total_count: 68, PLANT: '4406' },
+  { total_count: 76, PLANT: '4407' },
+  { total_count: 96, PLANT: '4408' },
+  { total_count: 40, PLANT: '4410' },
+  { total_count: 90, PLANT: '4412' },
+  { total_count: 81, PLANT: '4413' },
+  { total_count: 56, PLANT: '4414' },
+  { total_count: 9, PLANT: '4416' },
+  { total_count: 111, PLANT: '4417' },
+  { total_count: 82, PLANT: '4418' },
+  { total_count: 95, PLANT: '4419' },
+  { total_count: 106, PLANT: '4425' },
+  { total_count: 89, PLANT: '4431' },
+  { total_count: 102, PLANT: '4432' },
+  { total_count: 108, PLANT: '4433' },
+  { total_count: 103, PLANT: '4434' },
+  { total_count: 48, PLANT: '4435' },
+  { total_count: 64, PLANT: '4436' },
+  { total_count: 174, PLANT: '4437' },
+  { total_count: 106, PLANT: '4438' },
+  { total_count: 90, PLANT: '4439' },
+  { total_count: 72, PLANT: '4440' },
+  { total_count: 8, PLANT: '4441' },
+  { total_count: 39, PLANT: '4443' },
+  { total_count: 86, PLANT: '4444' },
+  { total_count: 123, PLANT: '4446' },
+  { total_count: 63, PLANT: '4447' },
+  { total_count: 80, PLANT: '4451' },
+  { total_count: 16, PLANT: '4452' },
+  { total_count: 65, PLANT: '4453' },
+  { total_count: 61, PLANT: '4454' },
+  { total_count: 45, PLANT: '4455' },
+  { total_count: 64, PLANT: '4456' },
+  { total_count: 88, PLANT: '4457' },
+  { total_count: 44, PLANT: '4458' },
+  { total_count: 2, PLANT: '4466' },
+  { total_count: 122, PLANT: '4471' },
+  { total_count: 78, PLANT: '4472' },
+  { total_count: 147, PLANT: '4473' },
+  { total_count: 76, PLANT: '4474' },
+  { total_count: 93, PLANT: '4475' },
+  { total_count: 52, PLANT: '4476' },
+  { total_count: 100, PLANT: '4477' },
+  { total_count: 103, PLANT: '4478' },
+  { total_count: 113, PLANT: '4479' },
+  { total_count: 49, PLANT: '4481' },
+  { total_count: 96, PLANT: '4482' },
+  { total_count: 31, PLANT: '4486' },
+  { total_count: 82, PLANT: '4488' },
+  { total_count: 8, PLANT: '8901' },
+  statement: '\n' +
+    '            SELECT COUNT(*) AS total_count, PLANT \n' +
+    '            FROM Schedule_plan_lubrication \n' +
+    '            WHERE ZEXT_RNO = ? \n' +
+    '            AND TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL\n' +
+    '            AND CONVERT(DATE, TRY_CAST(ZREQ_SDAT AS DATE), 23) <= CONVERT(DATE, GETDATE(), 23)\n' +
+    "            AND ZTEXT1 NOT IN ('Deletion Flag')\n" +
+    "            AND PLANT NOT LIKE 'T%'\n" +
+    '         AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [ 'Q1_LUB_2023', '2023-02-04', '2027-02-04' ],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+Query Result: [
+  { total_count: 103, PLANT: '2451' },
+  { total_count: 12, PLANT: '2452' },
+  { total_count: 89, PLANT: '2453' },
+  { total_count: 98, PLANT: '2454' },
+  { total_count: 19, PLANT: '2457' },
+  { total_count: 91, PLANT: '2458' },
+  { total_count: 103, PLANT: '2471' },
+  { total_count: 92, PLANT: '2472' },
+  { total_count: 84, PLANT: '2473' },
+  { total_count: 95, PLANT: '2474' },
+  { total_count: 82, PLANT: '2475' },
+  { total_count: 77, PLANT: '2476' },
+  { total_count: 89, PLANT: '2491' },
+  { total_count: 261, PLANT: '2492' },
+  { total_count: 104, PLANT: '2493' },
+  { total_count: 80, PLANT: '4401' },
+  { total_count: 85, PLANT: '4402' },
+  { total_count: 93, PLANT: '4405' },
+  { total_count: 68, PLANT: '4406' },
+  { total_count: 76, PLANT: '4407' },
+  { total_count: 96, PLANT: '4408' },
+  { total_count: 40, PLANT: '4410' },
+  { total_count: 90, PLANT: '4412' },
+  { total_count: 81, PLANT: '4413' },
+  { total_count: 56, PLANT: '4414' },
+  { total_count: 9, PLANT: '4416' },
+  { total_count: 111, PLANT: '4417' },
+  { total_count: 82, PLANT: '4418' },
+  { total_count: 95, PLANT: '4419' },
+  { total_count: 106, PLANT: '4425' },
+  { total_count: 89, PLANT: '4431' },
+  { total_count: 102, PLANT: '4432' },
+  { total_count: 108, PLANT: '4433' },
+  { total_count: 103, PLANT: '4434' },
+  { total_count: 48, PLANT: '4435' },
+  { total_count: 64, PLANT: '4436' },
+  { total_count: 174, PLANT: '4437' },
+  { total_count: 106, PLANT: '4438' },
+  { total_count: 90, PLANT: '4439' },
+  { total_count: 72, PLANT: '4440' },
+  { total_count: 8, PLANT: '4441' },
+  { total_count: 39, PLANT: '4443' },
+  { total_count: 86, PLANT: '4444' },
+  { total_count: 123, PLANT: '4446' },
+  { total_count: 63, PLANT: '4447' },
+  { total_count: 80, PLANT: '4451' },
+  { total_count: 16, PLANT: '4452' },
+  { total_count: 65, PLANT: '4453' },
+  { total_count: 61, PLANT: '4454' },
+  { total_count: 45, PLANT: '4455' },
+  { total_count: 64, PLANT: '4456' },
+  { total_count: 88, PLANT: '4457' },
+  { total_count: 44, PLANT: '4458' },
+  { total_count: 2, PLANT: '4466' },
+  { total_count: 122, PLANT: '4471' },
+  { total_count: 78, PLANT: '4472' },
+  { total_count: 147, PLANT: '4473' },
+  { total_count: 76, PLANT: '4474' },
+  { total_count: 93, PLANT: '4475' },
+  { total_count: 52, PLANT: '4476' },
+  { total_count: 100, PLANT: '4477' },
+  { total_count: 103, PLANT: '4478' },
+  { total_count: 113, PLANT: '4479' },
+  { total_count: 49, PLANT: '4481' },
+  { total_count: 96, PLANT: '4482' },
+  { total_count: 31, PLANT: '4486' },
+  { total_count: 82, PLANT: '4488' },
+  { total_count: 8, PLANT: '8901' },
+  statement: '\n' +
+    '            SELECT COUNT(*) AS total_count, PLANT \n' +
+    '            FROM Schedule_plan_lubrication \n' +
+    '            WHERE ZEXT_RNO = ? \n' +
+    "            AND ZTEXT1 NOT IN ('Deletion Flag')\n" +
+    "            AND PLANT NOT LIKE 'T%'\n" +
+    '         AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [ 'Q1_LUB_2023', '2023-02-04', '2027-02-04' ],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+GET /api/get_total_wtg_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04 200 1206668 - 195.871 ms
+Data written to total_count_sent_back.json
+GET /api/get_total_wtg_count_based_on_state?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=&area=&site=Select 304 - - 1212.458 ms
+GET /api/get_completed_out_of_grace_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=&area=&site=Select 304 - - 1261.736 ms
+GET /api/get_total_planned_wtg_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=&area=&site=Select 304 - - 1282.850 ms
+GET /api/get_completed_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=&area=&site=Select 304 - - 1343.515 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: 'd536ce3f19751f3ac610b129c34fb44c',
+  access: 'lubrication,pm,oil_change',
+  adminEmail: 'Meet.Somaiya%40suzlon.com',
+  domain_id: '40139',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya%40suzlon.com',
+  pathname: '/WTG_Wise_Planning_user',
+  entryTime: '2025-02-04 15:08:38',
+  exitTime: '2025-02-04 15:08:42'
+}
+Start DateTime in IST format: 2025-02-04T09:38:38.000Z
+End DateTime in IST format: 2025-02-04T09:38:42.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-04T09:38:42.000Z',
+    Password: 'Suzlon@123',
+    UserID: '40139',
+    ScreenName: '/WTG_Wise_Planning_user',
+    StartDateTime: '2025-02-04T09:38:38.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: 'd536ce3f19751f3ac610b129c34fb44c',
+  access: 'lubrication,pm,oil_change',
+  adminEmail: 'Meet.Somaiya%40suzlon.com',
+  domain_id: '40139',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya%40suzlon.com',
+  pathname: '/WTG_Wise_Planning_user',
+  entryTime: '2025-02-04 15:08:38',
+  exitTime: '2025-02-04 15:08:42'
+}
+Start DateTime in IST format: 2025-02-04T09:38:38.000Z
+End DateTime in IST format: 2025-02-04T09:38:42.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-04T09:38:42.000Z',
+    Password: 'Suzlon@123',
+    UserID: '40139',
+    ScreenName: '/WTG_Wise_Planning_user',
+    StartDateTime: '2025-02-04T09:38:38.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 10.081 ms
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 10.707 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_type_order_for_wtg_wise_planning 304 - - 81.329 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_type_order_for_wtg_wise_planning 304 - - 83.027 ms
+Parameters: {
+  zextRNO: 'Q1_LUB_2023',
+  selectedState: '',
+  selectedArea: '',
+  selectedSite: '',
+  startDate: '2023-02-04',
+  endDate: '2027-02-04'
+}
+Parameters: {
+  zextRNO: 'Q1_LUB_2023',
+  selectedState: '',
+  selectedArea: '',
+  selectedSite: '',
+  startDate: '2023-02-04',
+  endDate: '2027-02-04'
+}
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+            SELECT COUNT(*) AS total_count, PLANT 
+            FROM Schedule_plan_lubrication 
+            WHERE ZEXT_RNO = ? 
+            AND TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL
+            AND CONVERT(DATE, TRY_CAST(ZREQ_SDAT AS DATE), 23) <= CONVERT(DATE, GETDATE(), 23)
+            AND ZTEXT1 NOT IN ('Deletion Flag')
+            AND PLANT NOT LIKE 'T%'
+         AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [ 'Q1_LUB_2023', '2023-02-04', '2027-02-04' ]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+            SELECT COUNT(*) AS total_count, PLANT 
+            FROM Schedule_plan_lubrication 
+            WHERE ZEXT_RNO = ? 
+            AND ZTEXT1 NOT IN ('Deletion Flag')
+            AND PLANT NOT LIKE 'T%'
+         AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [ 'Q1_LUB_2023', '2023-02-04', '2027-02-04' ]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Query Result: [
+  { total_count: 103, PLANT: '2451' },
+  { total_count: 12, PLANT: '2452' },
+  { total_count: 89, PLANT: '2453' },
+  { total_count: 98, PLANT: '2454' },
+  { total_count: 19, PLANT: '2457' },
+  { total_count: 91, PLANT: '2458' },
+  { total_count: 103, PLANT: '2471' },
+  { total_count: 92, PLANT: '2472' },
+  { total_count: 84, PLANT: '2473' },
+  { total_count: 95, PLANT: '2474' },
+  { total_count: 82, PLANT: '2475' },
+  { total_count: 77, PLANT: '2476' },
+  { total_count: 89, PLANT: '2491' },
+  { total_count: 261, PLANT: '2492' },
+  { total_count: 104, PLANT: '2493' },
+  { total_count: 80, PLANT: '4401' },
+  { total_count: 85, PLANT: '4402' },
+  { total_count: 93, PLANT: '4405' },
+  { total_count: 68, PLANT: '4406' },
+  { total_count: 76, PLANT: '4407' },
+  { total_count: 96, PLANT: '4408' },
+  { total_count: 40, PLANT: '4410' },
+  { total_count: 90, PLANT: '4412' },
+  { total_count: 81, PLANT: '4413' },
+  { total_count: 56, PLANT: '4414' },
+  { total_count: 9, PLANT: '4416' },
+  { total_count: 111, PLANT: '4417' },
+  { total_count: 82, PLANT: '4418' },
+  { total_count: 95, PLANT: '4419' },
+  { total_count: 106, PLANT: '4425' },
+  { total_count: 89, PLANT: '4431' },
+  { total_count: 102, PLANT: '4432' },
+  { total_count: 108, PLANT: '4433' },
+  { total_count: 103, PLANT: '4434' },
+  { total_count: 48, PLANT: '4435' },
+  { total_count: 64, PLANT: '4436' },
+  { total_count: 174, PLANT: '4437' },
+  { total_count: 106, PLANT: '4438' },
+  { total_count: 90, PLANT: '4439' },
+  { total_count: 72, PLANT: '4440' },
+  { total_count: 8, PLANT: '4441' },
+  { total_count: 39, PLANT: '4443' },
+  { total_count: 86, PLANT: '4444' },
+  { total_count: 123, PLANT: '4446' },
+  { total_count: 63, PLANT: '4447' },
+  { total_count: 80, PLANT: '4451' },
+  { total_count: 16, PLANT: '4452' },
+  { total_count: 65, PLANT: '4453' },
+  { total_count: 61, PLANT: '4454' },
+  { total_count: 45, PLANT: '4455' },
+  { total_count: 64, PLANT: '4456' },
+  { total_count: 88, PLANT: '4457' },
+  { total_count: 44, PLANT: '4458' },
+  { total_count: 2, PLANT: '4466' },
+  { total_count: 122, PLANT: '4471' },
+  { total_count: 78, PLANT: '4472' },
+  { total_count: 147, PLANT: '4473' },
+  { total_count: 76, PLANT: '4474' },
+  { total_count: 93, PLANT: '4475' },
+  { total_count: 52, PLANT: '4476' },
+  { total_count: 100, PLANT: '4477' },
+  { total_count: 103, PLANT: '4478' },
+  { total_count: 113, PLANT: '4479' },
+  { total_count: 49, PLANT: '4481' },
+  { total_count: 96, PLANT: '4482' },
+  { total_count: 31, PLANT: '4486' },
+  { total_count: 82, PLANT: '4488' },
+  { total_count: 8, PLANT: '8901' },
+  statement: '\n' +
+    '            SELECT COUNT(*) AS total_count, PLANT \n' +
+    '            FROM Schedule_plan_lubrication \n' +
+    '            WHERE ZEXT_RNO = ? \n' +
+    "            AND ZTEXT1 NOT IN ('Deletion Flag')\n" +
+    "            AND PLANT NOT LIKE 'T%'\n" +
+    '         AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [ 'Q1_LUB_2023', '2023-02-04', '2027-02-04' ],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+Query Result: [
+  { total_count: 103, PLANT: '2451' },
+  { total_count: 12, PLANT: '2452' },
+  { total_count: 89, PLANT: '2453' },
+  { total_count: 98, PLANT: '2454' },
+  { total_count: 19, PLANT: '2457' },
+  { total_count: 91, PLANT: '2458' },
+  { total_count: 103, PLANT: '2471' },
+  { total_count: 92, PLANT: '2472' },
+  { total_count: 84, PLANT: '2473' },
+  { total_count: 95, PLANT: '2474' },
+  { total_count: 82, PLANT: '2475' },
+  { total_count: 77, PLANT: '2476' },
+  { total_count: 89, PLANT: '2491' },
+  { total_count: 261, PLANT: '2492' },
+  { total_count: 104, PLANT: '2493' },
+  { total_count: 80, PLANT: '4401' },
+  { total_count: 85, PLANT: '4402' },
+  { total_count: 93, PLANT: '4405' },
+  { total_count: 68, PLANT: '4406' },
+  { total_count: 76, PLANT: '4407' },
+  { total_count: 96, PLANT: '4408' },
+  { total_count: 40, PLANT: '4410' },
+  { total_count: 90, PLANT: '4412' },
+  { total_count: 81, PLANT: '4413' },
+  { total_count: 56, PLANT: '4414' },
+  { total_count: 9, PLANT: '4416' },
+  { total_count: 111, PLANT: '4417' },
+  { total_count: 82, PLANT: '4418' },
+  { total_count: 95, PLANT: '4419' },
+  { total_count: 106, PLANT: '4425' },
+  { total_count: 89, PLANT: '4431' },
+  { total_count: 102, PLANT: '4432' },
+  { total_count: 108, PLANT: '4433' },
+  { total_count: 103, PLANT: '4434' },
+  { total_count: 48, PLANT: '4435' },
+  { total_count: 64, PLANT: '4436' },
+  { total_count: 174, PLANT: '4437' },
+  { total_count: 106, PLANT: '4438' },
+  { total_count: 90, PLANT: '4439' },
+  { total_count: 72, PLANT: '4440' },
+  { total_count: 8, PLANT: '4441' },
+  { total_count: 39, PLANT: '4443' },
+  { total_count: 86, PLANT: '4444' },
+  { total_count: 123, PLANT: '4446' },
+  { total_count: 63, PLANT: '4447' },
+  { total_count: 80, PLANT: '4451' },
+  { total_count: 16, PLANT: '4452' },
+  { total_count: 65, PLANT: '4453' },
+  { total_count: 61, PLANT: '4454' },
+  { total_count: 45, PLANT: '4455' },
+  { total_count: 64, PLANT: '4456' },
+  { total_count: 88, PLANT: '4457' },
+  { total_count: 44, PLANT: '4458' },
+  { total_count: 2, PLANT: '4466' },
+  { total_count: 122, PLANT: '4471' },
+  { total_count: 78, PLANT: '4472' },
+  { total_count: 147, PLANT: '4473' },
+  { total_count: 76, PLANT: '4474' },
+  { total_count: 93, PLANT: '4475' },
+  { total_count: 52, PLANT: '4476' },
+  { total_count: 100, PLANT: '4477' },
+  { total_count: 103, PLANT: '4478' },
+  { total_count: 113, PLANT: '4479' },
+  { total_count: 49, PLANT: '4481' },
+  { total_count: 96, PLANT: '4482' },
+  { total_count: 31, PLANT: '4486' },
+  { total_count: 82, PLANT: '4488' },
+  { total_count: 8, PLANT: '8901' },
+  statement: '\n' +
+    '            SELECT COUNT(*) AS total_count, PLANT \n' +
+    '            FROM Schedule_plan_lubrication \n' +
+    '            WHERE ZEXT_RNO = ? \n' +
+    '            AND TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL\n' +
+    '            AND CONVERT(DATE, TRY_CAST(ZREQ_SDAT AS DATE), 23) <= CONVERT(DATE, GETDATE(), 23)\n' +
+    "            AND ZTEXT1 NOT IN ('Deletion Flag')\n" +
+    "            AND PLANT NOT LIKE 'T%'\n" +
+    '         AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [ 'Q1_LUB_2023', '2023-02-04', '2027-02-04' ],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+GET /api/get_total_open_status_wtg_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=&area=&site=Select 304 - - 220.700 ms
+GET /api/get_total_wtg_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04 200 1206668 - 316.430 ms
+Data written to total_count_sent_back.json
+GET /api/get_completed_out_of_grace_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=&area=&site=Select 304 - - 1176.555 ms
+GET /api/get_total_planned_wtg_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=&area=&site=Select 304 - - 1194.014 ms
+GET /api/get_completed_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=&area=&site=Select 304 - - 1206.349 ms
+GET /api/get_total_wtg_count_based_on_state?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=&area=&site=Select 304 - - 1228.725 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_type_order_for_wtg_wise_planning 304 - - 90.058 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_type_order_for_wtg_wise_planning 304 - - 82.674 ms
+Parameters: {
+  zextRNO: 'Select',
+  selectedState: '',
+  selectedArea: '',
+  selectedSite: '',
+  startDate: '2023-02-04',
+  endDate: '2027-02-04'
+}
+Parameters: {
+  zextRNO: 'Select',
+  selectedState: '',
+  selectedArea: '',
+  selectedSite: '',
+  startDate: '2023-02-04',
+  endDate: '2027-02-04'
+}
+GET /api/get_total_wtg_count?fromDate=2023-02-04&toDate=2027-02-04 400 35 - 0.418 ms
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+            SELECT COUNT(*) AS total_count, PLANT 
+            FROM Schedule_plan_lubrication 
+            WHERE ZEXT_RNO = ? 
+            AND TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL
+            AND CONVERT(DATE, TRY_CAST(ZREQ_SDAT AS DATE), 23) <= CONVERT(DATE, GETDATE(), 23)
+            AND ZTEXT1 NOT IN ('Deletion Flag')
+            AND PLANT NOT LIKE 'T%'
+         AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [ 'Select', '2023-02-04', '2027-02-04' ]
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+            SELECT COUNT(*) AS total_count, PLANT 
+            FROM Schedule_plan_lubrication 
+            WHERE ZEXT_RNO = ? 
+            AND ZTEXT1 NOT IN ('Deletion Flag')
+            AND PLANT NOT LIKE 'T%'
+         AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [ 'Select', '2023-02-04', '2027-02-04' ]
+Query Result: [
+  statement: '\n' +
+    '            SELECT COUNT(*) AS total_count, PLANT \n' +
+    '            FROM Schedule_plan_lubrication \n' +
+    '            WHERE ZEXT_RNO = ? \n' +
+    '            AND TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL\n' +
+    '            AND CONVERT(DATE, TRY_CAST(ZREQ_SDAT AS DATE), 23) <= CONVERT(DATE, GETDATE(), 23)\n' +
+    "            AND ZTEXT1 NOT IN ('Deletion Flag')\n" +
+    "            AND PLANT NOT LIKE 'T%'\n" +
+    '         AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [ 'Select', '2023-02-04', '2027-02-04' ],
+  return: undefined,
+  count: 0,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+GET /api/get_total_planned_wtg_count?orderType=Select&fromDate=2023-02-04&toDate=2027-02-04&state=&area=&site=Select 304 - - 97.960 ms
+GET /api/get_completed_count?orderType=Select&fromDate=2023-02-04&toDate=2027-02-04&state=&area=&site=Select 304 - - 97.872 ms
+GET /api/get_completed_out_of_grace_count?orderType=Select&fromDate=2023-02-04&toDate=2027-02-04&state=&area=&site=Select 304 - - 98.570 ms
+GET /api/get_total_open_status_wtg_count?orderType=Select&fromDate=2023-02-04&toDate=2027-02-04&state=&area=&site=Select 304 - - 108.202 ms
+Query Result: [
+  statement: '\n' +
+    '            SELECT COUNT(*) AS total_count, PLANT \n' +
+    '            FROM Schedule_plan_lubrication \n' +
+    '            WHERE ZEXT_RNO = ? \n' +
+    "            AND ZTEXT1 NOT IN ('Deletion Flag')\n" +
+    "            AND PLANT NOT LIKE 'T%'\n" +
+    '         AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [ 'Select', '2023-02-04', '2027-02-04' ],
+  return: undefined,
+  count: 0,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+GET /api/get_total_wtg_count_based_on_state?orderType=Select&fromDate=2023-02-04&toDate=2027-02-04&state=&area=&site=Select 304 - - 127.592 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_type_order_for_wtg_wise_planning 304 - - 81.752 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_type_order_for_wtg_wise_planning 304 - - 78.143 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_type_order_for_wtg_wise_planning 304 - - 80.091 ms
+Parameters: {
+  zextRNO: 'Q1_LUB_2023',
+  selectedState: '',
+  selectedArea: '',
+  selectedSite: '',
+  startDate: '2023-02-04',
+  endDate: '2027-02-04'
+}
+Parameters: {
+  zextRNO: 'Q1_LUB_2023',
+  selectedState: '',
+  selectedArea: '',
+  selectedSite: '',
+  startDate: '2023-02-04',
+  endDate: '2027-02-04'
+}
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+            SELECT COUNT(*) AS total_count, PLANT 
+            FROM Schedule_plan_lubrication 
+            WHERE ZEXT_RNO = ? 
+            AND TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL
+            AND CONVERT(DATE, TRY_CAST(ZREQ_SDAT AS DATE), 23) <= CONVERT(DATE, GETDATE(), 23)
+            AND ZTEXT1 NOT IN ('Deletion Flag')
+            AND PLANT NOT LIKE 'T%'
+         AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [ 'Q1_LUB_2023', '2023-02-04', '2027-02-04' ]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+            SELECT COUNT(*) AS total_count, PLANT 
+            FROM Schedule_plan_lubrication 
+            WHERE ZEXT_RNO = ? 
+            AND ZTEXT1 NOT IN ('Deletion Flag')
+            AND PLANT NOT LIKE 'T%'
+         AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [ 'Q1_LUB_2023', '2023-02-04', '2027-02-04' ]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Query Result: [
+  { total_count: 103, PLANT: '2451' },
+  { total_count: 12, PLANT: '2452' },
+  { total_count: 89, PLANT: '2453' },
+  { total_count: 98, PLANT: '2454' },
+  { total_count: 19, PLANT: '2457' },
+  { total_count: 91, PLANT: '2458' },
+  { total_count: 103, PLANT: '2471' },
+  { total_count: 92, PLANT: '2472' },
+  { total_count: 84, PLANT: '2473' },
+  { total_count: 95, PLANT: '2474' },
+  { total_count: 82, PLANT: '2475' },
+  { total_count: 77, PLANT: '2476' },
+  { total_count: 89, PLANT: '2491' },
+  { total_count: 261, PLANT: '2492' },
+  { total_count: 104, PLANT: '2493' },
+  { total_count: 80, PLANT: '4401' },
+  { total_count: 85, PLANT: '4402' },
+  { total_count: 93, PLANT: '4405' },
+  { total_count: 68, PLANT: '4406' },
+  { total_count: 76, PLANT: '4407' },
+  { total_count: 96, PLANT: '4408' },
+  { total_count: 40, PLANT: '4410' },
+  { total_count: 90, PLANT: '4412' },
+  { total_count: 81, PLANT: '4413' },
+  { total_count: 56, PLANT: '4414' },
+  { total_count: 9, PLANT: '4416' },
+  { total_count: 111, PLANT: '4417' },
+  { total_count: 82, PLANT: '4418' },
+  { total_count: 95, PLANT: '4419' },
+  { total_count: 106, PLANT: '4425' },
+  { total_count: 89, PLANT: '4431' },
+  { total_count: 102, PLANT: '4432' },
+  { total_count: 108, PLANT: '4433' },
+  { total_count: 103, PLANT: '4434' },
+  { total_count: 48, PLANT: '4435' },
+  { total_count: 64, PLANT: '4436' },
+  { total_count: 174, PLANT: '4437' },
+  { total_count: 106, PLANT: '4438' },
+  { total_count: 90, PLANT: '4439' },
+  { total_count: 72, PLANT: '4440' },
+  { total_count: 8, PLANT: '4441' },
+  { total_count: 39, PLANT: '4443' },
+  { total_count: 86, PLANT: '4444' },
+  { total_count: 123, PLANT: '4446' },
+  { total_count: 63, PLANT: '4447' },
+  { total_count: 80, PLANT: '4451' },
+  { total_count: 16, PLANT: '4452' },
+  { total_count: 65, PLANT: '4453' },
+  { total_count: 61, PLANT: '4454' },
+  { total_count: 45, PLANT: '4455' },
+  { total_count: 64, PLANT: '4456' },
+  { total_count: 88, PLANT: '4457' },
+  { total_count: 44, PLANT: '4458' },
+  { total_count: 2, PLANT: '4466' },
+  { total_count: 122, PLANT: '4471' },
+  { total_count: 78, PLANT: '4472' },
+  { total_count: 147, PLANT: '4473' },
+  { total_count: 76, PLANT: '4474' },
+  { total_count: 93, PLANT: '4475' },
+  { total_count: 52, PLANT: '4476' },
+  { total_count: 100, PLANT: '4477' },
+  { total_count: 103, PLANT: '4478' },
+  { total_count: 113, PLANT: '4479' },
+  { total_count: 49, PLANT: '4481' },
+  { total_count: 96, PLANT: '4482' },
+  { total_count: 31, PLANT: '4486' },
+  { total_count: 82, PLANT: '4488' },
+  { total_count: 8, PLANT: '8901' },
+  statement: '\n' +
+    '            SELECT COUNT(*) AS total_count, PLANT \n' +
+    '            FROM Schedule_plan_lubrication \n' +
+    '            WHERE ZEXT_RNO = ? \n' +
+    "            AND ZTEXT1 NOT IN ('Deletion Flag')\n" +
+    "            AND PLANT NOT LIKE 'T%'\n" +
+    '         AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [ 'Q1_LUB_2023', '2023-02-04', '2027-02-04' ],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+GET /api/get_total_open_status_wtg_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=&area=&site=Select 304 - - 136.356 ms
+Query Result: [
+  { total_count: 103, PLANT: '2451' },
+  { total_count: 12, PLANT: '2452' },
+  { total_count: 89, PLANT: '2453' },
+  { total_count: 98, PLANT: '2454' },
+  { total_count: 19, PLANT: '2457' },
+  { total_count: 91, PLANT: '2458' },
+  { total_count: 103, PLANT: '2471' },
+  { total_count: 92, PLANT: '2472' },
+  { total_count: 84, PLANT: '2473' },
+  { total_count: 95, PLANT: '2474' },
+  { total_count: 82, PLANT: '2475' },
+  { total_count: 77, PLANT: '2476' },
+  { total_count: 89, PLANT: '2491' },
+  { total_count: 261, PLANT: '2492' },
+  { total_count: 104, PLANT: '2493' },
+  { total_count: 80, PLANT: '4401' },
+  { total_count: 85, PLANT: '4402' },
+  { total_count: 93, PLANT: '4405' },
+  { total_count: 68, PLANT: '4406' },
+  { total_count: 76, PLANT: '4407' },
+  { total_count: 96, PLANT: '4408' },
+  { total_count: 40, PLANT: '4410' },
+  { total_count: 90, PLANT: '4412' },
+  { total_count: 81, PLANT: '4413' },
+  { total_count: 56, PLANT: '4414' },
+  { total_count: 9, PLANT: '4416' },
+  { total_count: 111, PLANT: '4417' },
+  { total_count: 82, PLANT: '4418' },
+  { total_count: 95, PLANT: '4419' },
+  { total_count: 106, PLANT: '4425' },
+  { total_count: 89, PLANT: '4431' },
+  { total_count: 102, PLANT: '4432' },
+  { total_count: 108, PLANT: '4433' },
+  { total_count: 103, PLANT: '4434' },
+  { total_count: 48, PLANT: '4435' },
+  { total_count: 64, PLANT: '4436' },
+  { total_count: 174, PLANT: '4437' },
+  { total_count: 106, PLANT: '4438' },
+  { total_count: 90, PLANT: '4439' },
+  { total_count: 72, PLANT: '4440' },
+  { total_count: 8, PLANT: '4441' },
+  { total_count: 39, PLANT: '4443' },
+  { total_count: 86, PLANT: '4444' },
+  { total_count: 123, PLANT: '4446' },
+  { total_count: 63, PLANT: '4447' },
+  { total_count: 80, PLANT: '4451' },
+  { total_count: 16, PLANT: '4452' },
+  { total_count: 65, PLANT: '4453' },
+  { total_count: 61, PLANT: '4454' },
+  { total_count: 45, PLANT: '4455' },
+  { total_count: 64, PLANT: '4456' },
+  { total_count: 88, PLANT: '4457' },
+  { total_count: 44, PLANT: '4458' },
+  { total_count: 2, PLANT: '4466' },
+  { total_count: 122, PLANT: '4471' },
+  { total_count: 78, PLANT: '4472' },
+  { total_count: 147, PLANT: '4473' },
+  { total_count: 76, PLANT: '4474' },
+  { total_count: 93, PLANT: '4475' },
+  { total_count: 52, PLANT: '4476' },
+  { total_count: 100, PLANT: '4477' },
+  { total_count: 103, PLANT: '4478' },
+  { total_count: 113, PLANT: '4479' },
+  { total_count: 49, PLANT: '4481' },
+  { total_count: 96, PLANT: '4482' },
+  { total_count: 31, PLANT: '4486' },
+  { total_count: 82, PLANT: '4488' },
+  { total_count: 8, PLANT: '8901' },
+  statement: '\n' +
+    '            SELECT COUNT(*) AS total_count, PLANT \n' +
+    '            FROM Schedule_plan_lubrication \n' +
+    '            WHERE ZEXT_RNO = ? \n' +
+    '            AND TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL\n' +
+    '            AND CONVERT(DATE, TRY_CAST(ZREQ_SDAT AS DATE), 23) <= CONVERT(DATE, GETDATE(), 23)\n' +
+    "            AND ZTEXT1 NOT IN ('Deletion Flag')\n" +
+    "            AND PLANT NOT LIKE 'T%'\n" +
+    '         AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [ 'Q1_LUB_2023', '2023-02-04', '2027-02-04' ],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+GET /api/get_total_wtg_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04 200 1206668 - 286.720 ms
+Data written to total_count_sent_back.json
+GET /api/get_completed_out_of_grace_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=&area=&site=Select 304 - - 1214.376 ms
+GET /api/get_total_planned_wtg_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=&area=&site=Select 304 - - 1230.548 ms
+GET /api/get_completed_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=&area=&site=Select 304 - - 1302.864 ms
+GET /api/get_total_wtg_count_based_on_state?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=&area=&site=Select 304 - - 1406.357 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: 'd536ce3f19751f3ac610b129c34fb44c',
+  access: 'lubrication,pm,oil_change',
+  adminEmail: 'Meet.Somaiya%40suzlon.com',
+  domain_id: '40139',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya%40suzlon.com',
+  pathname: '/WTG_Wise_Planning_user',
+  entryTime: '2025-02-04 15:09:51',
+  exitTime: '2025-02-04 15:09:51'
+}
+Start DateTime in IST format: 2025-02-04T09:39:51.000Z
+End DateTime in IST format: 2025-02-04T09:39:51.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-04T09:39:51.000Z',
+    Password: 'Suzlon@123',
+    UserID: '40139',
+    ScreenName: '/WTG_Wise_Planning_user',
+    StartDateTime: '2025-02-04T09:39:51.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: 'd536ce3f19751f3ac610b129c34fb44c',
+  access: 'lubrication,pm,oil_change',
+  adminEmail: 'Meet.Somaiya%40suzlon.com',
+  domain_id: '40139',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya%40suzlon.com',
+  pathname: '/WTG_Wise_Planning_user',
+  entryTime: '2025-02-04 15:09:51',
+  exitTime: '2025-02-04 15:09:51'
+}
+Start DateTime in IST format: 2025-02-04T09:39:51.000Z
+End DateTime in IST format: 2025-02-04T09:39:51.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-04T09:39:51.000Z',
+    Password: 'Suzlon@123',
+    UserID: '40139',
+    ScreenName: '/WTG_Wise_Planning_user',
+    StartDateTime: '2025-02-04T09:39:51.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 27.603 ms
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 26.032 ms
+GET /api/fetch_type_order_for_wtg_wise_planning 304 - - 110.672 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_type_order_for_wtg_wise_planning 304 - - 119.703 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_type_order_for_wtg_wise_planning 304 - - 124.724 ms
+Parameters: {
+  zextRNO: 'Q1_LUB_2023',
+  selectedState: '',
+  selectedArea: '',
+  selectedSite: '',
+  startDate: '2023-02-04',
+  endDate: '2027-02-04'
+}
+Parameters: {
+  zextRNO: 'Q1_LUB_2023',
+  selectedState: '',
+  selectedArea: '',
+  selectedSite: '',
+  startDate: '2023-02-04',
+  endDate: '2027-02-04'
+}
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+            SELECT COUNT(*) AS total_count, PLANT 
+            FROM Schedule_plan_lubrication 
+            WHERE ZEXT_RNO = ? 
+            AND TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL
+            AND CONVERT(DATE, TRY_CAST(ZREQ_SDAT AS DATE), 23) <= CONVERT(DATE, GETDATE(), 23)
+            AND ZTEXT1 NOT IN ('Deletion Flag')
+            AND PLANT NOT LIKE 'T%'
+         AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [ 'Q1_LUB_2023', '2023-02-04', '2027-02-04' ]
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+            SELECT COUNT(*) AS total_count, PLANT 
+            FROM Schedule_plan_lubrication 
+            WHERE ZEXT_RNO = ? 
+            AND ZTEXT1 NOT IN ('Deletion Flag')
+            AND PLANT NOT LIKE 'T%'
+         AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [ 'Q1_LUB_2023', '2023-02-04', '2027-02-04' ]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Query Result: [
+  { total_count: 103, PLANT: '2451' },
+  { total_count: 12, PLANT: '2452' },
+  { total_count: 89, PLANT: '2453' },
+  { total_count: 98, PLANT: '2454' },
+  { total_count: 19, PLANT: '2457' },
+  { total_count: 91, PLANT: '2458' },
+  { total_count: 103, PLANT: '2471' },
+  { total_count: 92, PLANT: '2472' },
+  { total_count: 84, PLANT: '2473' },
+  { total_count: 95, PLANT: '2474' },
+  { total_count: 82, PLANT: '2475' },
+  { total_count: 77, PLANT: '2476' },
+  { total_count: 89, PLANT: '2491' },
+  { total_count: 261, PLANT: '2492' },
+  { total_count: 104, PLANT: '2493' },
+  { total_count: 80, PLANT: '4401' },
+  { total_count: 85, PLANT: '4402' },
+  { total_count: 93, PLANT: '4405' },
+  { total_count: 68, PLANT: '4406' },
+  { total_count: 76, PLANT: '4407' },
+  { total_count: 96, PLANT: '4408' },
+  { total_count: 40, PLANT: '4410' },
+  { total_count: 90, PLANT: '4412' },
+  { total_count: 81, PLANT: '4413' },
+  { total_count: 56, PLANT: '4414' },
+  { total_count: 9, PLANT: '4416' },
+  { total_count: 111, PLANT: '4417' },
+  { total_count: 82, PLANT: '4418' },
+  { total_count: 95, PLANT: '4419' },
+  { total_count: 106, PLANT: '4425' },
+  { total_count: 89, PLANT: '4431' },
+  { total_count: 102, PLANT: '4432' },
+  { total_count: 108, PLANT: '4433' },
+  { total_count: 103, PLANT: '4434' },
+  { total_count: 48, PLANT: '4435' },
+  { total_count: 64, PLANT: '4436' },
+  { total_count: 174, PLANT: '4437' },
+  { total_count: 106, PLANT: '4438' },
+  { total_count: 90, PLANT: '4439' },
+  { total_count: 72, PLANT: '4440' },
+  { total_count: 8, PLANT: '4441' },
+  { total_count: 39, PLANT: '4443' },
+  { total_count: 86, PLANT: '4444' },
+  { total_count: 123, PLANT: '4446' },
+  { total_count: 63, PLANT: '4447' },
+  { total_count: 80, PLANT: '4451' },
+  { total_count: 16, PLANT: '4452' },
+  { total_count: 65, PLANT: '4453' },
+  { total_count: 61, PLANT: '4454' },
+  { total_count: 45, PLANT: '4455' },
+  { total_count: 64, PLANT: '4456' },
+  { total_count: 88, PLANT: '4457' },
+  { total_count: 44, PLANT: '4458' },
+  { total_count: 2, PLANT: '4466' },
+  { total_count: 122, PLANT: '4471' },
+  { total_count: 78, PLANT: '4472' },
+  { total_count: 147, PLANT: '4473' },
+  { total_count: 76, PLANT: '4474' },
+  { total_count: 93, PLANT: '4475' },
+  { total_count: 52, PLANT: '4476' },
+  { total_count: 100, PLANT: '4477' },
+  { total_count: 103, PLANT: '4478' },
+  { total_count: 113, PLANT: '4479' },
+  { total_count: 49, PLANT: '4481' },
+  { total_count: 96, PLANT: '4482' },
+  { total_count: 31, PLANT: '4486' },
+  { total_count: 82, PLANT: '4488' },
+  { total_count: 8, PLANT: '8901' },
+  statement: '\n' +
+    '            SELECT COUNT(*) AS total_count, PLANT \n' +
+    '            FROM Schedule_plan_lubrication \n' +
+    '            WHERE ZEXT_RNO = ? \n' +
+    '            AND TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL\n' +
+    '            AND CONVERT(DATE, TRY_CAST(ZREQ_SDAT AS DATE), 23) <= CONVERT(DATE, GETDATE(), 23)\n' +
+    "            AND ZTEXT1 NOT IN ('Deletion Flag')\n" +
+    "            AND PLANT NOT LIKE 'T%'\n" +
+    '         AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [ 'Q1_LUB_2023', '2023-02-04', '2027-02-04' ],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+Query Result: [
+  { total_count: 103, PLANT: '2451' },
+  { total_count: 12, PLANT: '2452' },
+  { total_count: 89, PLANT: '2453' },
+  { total_count: 98, PLANT: '2454' },
+  { total_count: 19, PLANT: '2457' },
+  { total_count: 91, PLANT: '2458' },
+  { total_count: 103, PLANT: '2471' },
+  { total_count: 92, PLANT: '2472' },
+  { total_count: 84, PLANT: '2473' },
+  { total_count: 95, PLANT: '2474' },
+  { total_count: 82, PLANT: '2475' },
+  { total_count: 77, PLANT: '2476' },
+  { total_count: 89, PLANT: '2491' },
+  { total_count: 261, PLANT: '2492' },
+  { total_count: 104, PLANT: '2493' },
+  { total_count: 80, PLANT: '4401' },
+  { total_count: 85, PLANT: '4402' },
+  { total_count: 93, PLANT: '4405' },
+  { total_count: 68, PLANT: '4406' },
+  { total_count: 76, PLANT: '4407' },
+  { total_count: 96, PLANT: '4408' },
+  { total_count: 40, PLANT: '4410' },
+  { total_count: 90, PLANT: '4412' },
+  { total_count: 81, PLANT: '4413' },
+  { total_count: 56, PLANT: '4414' },
+  { total_count: 9, PLANT: '4416' },
+  { total_count: 111, PLANT: '4417' },
+  { total_count: 82, PLANT: '4418' },
+  { total_count: 95, PLANT: '4419' },
+  { total_count: 106, PLANT: '4425' },
+  { total_count: 89, PLANT: '4431' },
+  { total_count: 102, PLANT: '4432' },
+  { total_count: 108, PLANT: '4433' },
+  { total_count: 103, PLANT: '4434' },
+  { total_count: 48, PLANT: '4435' },
+  { total_count: 64, PLANT: '4436' },
+  { total_count: 174, PLANT: '4437' },
+  { total_count: 106, PLANT: '4438' },
+  { total_count: 90, PLANT: '4439' },
+  { total_count: 72, PLANT: '4440' },
+  { total_count: 8, PLANT: '4441' },
+  { total_count: 39, PLANT: '4443' },
+  { total_count: 86, PLANT: '4444' },
+  { total_count: 123, PLANT: '4446' },
+  { total_count: 63, PLANT: '4447' },
+  { total_count: 80, PLANT: '4451' },
+  { total_count: 16, PLANT: '4452' },
+  { total_count: 65, PLANT: '4453' },
+  { total_count: 61, PLANT: '4454' },
+  { total_count: 45, PLANT: '4455' },
+  { total_count: 64, PLANT: '4456' },
+  { total_count: 88, PLANT: '4457' },
+  { total_count: 44, PLANT: '4458' },
+  { total_count: 2, PLANT: '4466' },
+  { total_count: 122, PLANT: '4471' },
+  { total_count: 78, PLANT: '4472' },
+  { total_count: 147, PLANT: '4473' },
+  { total_count: 76, PLANT: '4474' },
+  { total_count: 93, PLANT: '4475' },
+  { total_count: 52, PLANT: '4476' },
+  { total_count: 100, PLANT: '4477' },
+  { total_count: 103, PLANT: '4478' },
+  { total_count: 113, PLANT: '4479' },
+  { total_count: 49, PLANT: '4481' },
+  { total_count: 96, PLANT: '4482' },
+  { total_count: 31, PLANT: '4486' },
+  { total_count: 82, PLANT: '4488' },
+  { total_count: 8, PLANT: '8901' },
+  statement: '\n' +
+    '            SELECT COUNT(*) AS total_count, PLANT \n' +
+    '            FROM Schedule_plan_lubrication \n' +
+    '            WHERE ZEXT_RNO = ? \n' +
+    "            AND ZTEXT1 NOT IN ('Deletion Flag')\n" +
+    "            AND PLANT NOT LIKE 'T%'\n" +
+    '         AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [ 'Q1_LUB_2023', '2023-02-04', '2027-02-04' ],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+GET /api/get_total_wtg_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04 200 1206668 - 184.528 ms
+GET /api/get_total_open_status_wtg_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=&area=&site=Select 304 - - 192.735 ms
+Data written to total_count_sent_back.json
+GET /api/get_total_planned_wtg_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=&area=&site=Select 304 - - 1125.409 ms
+GET /api/get_completed_out_of_grace_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=&area=&site=Select 304 - - 1240.049 ms
+GET /api/get_completed_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=&area=&site=Select 304 - - 1284.016 ms
+GET /api/get_total_wtg_count_based_on_state?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=&area=&site=Select 304 - - 1329.889 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_type_order_for_wtg_wise_planning 304 - - 85.455 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_type_order_for_wtg_wise_planning 304 - - 81.235 ms
+Parameters: {
+  zextRNO: 'Select',
+  selectedState: '',
+  selectedArea: '',
+  selectedSite: '',
+  startDate: '2023-02-04',
+  endDate: '2027-02-04'
+}
+Parameters: {
+  zextRNO: 'Select',
+  selectedState: '',
+  selectedArea: '',
+  selectedSite: '',
+  startDate: '2023-02-04',
+  endDate: '2027-02-04'
+}
+GET /api/get_total_wtg_count?fromDate=2023-02-04&toDate=2027-02-04 400 35 - 0.329 ms
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+            SELECT COUNT(*) AS total_count, PLANT 
+            FROM Schedule_plan_lubrication 
+            WHERE ZEXT_RNO = ? 
+            AND TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL
+            AND CONVERT(DATE, TRY_CAST(ZREQ_SDAT AS DATE), 23) <= CONVERT(DATE, GETDATE(), 23)
+            AND ZTEXT1 NOT IN ('Deletion Flag')
+            AND PLANT NOT LIKE 'T%'
+         AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [ 'Select', '2023-02-04', '2027-02-04' ]
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+            SELECT COUNT(*) AS total_count, PLANT 
+            FROM Schedule_plan_lubrication 
+            WHERE ZEXT_RNO = ? 
+            AND ZTEXT1 NOT IN ('Deletion Flag')
+            AND PLANT NOT LIKE 'T%'
+         AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [ 'Select', '2023-02-04', '2027-02-04' ]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Query Result: [
+  statement: '\n' +
+    '            SELECT COUNT(*) AS total_count, PLANT \n' +
+    '            FROM Schedule_plan_lubrication \n' +
+    '            WHERE ZEXT_RNO = ? \n' +
+    '            AND TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL\n' +
+    '            AND CONVERT(DATE, TRY_CAST(ZREQ_SDAT AS DATE), 23) <= CONVERT(DATE, GETDATE(), 23)\n' +
+    "            AND ZTEXT1 NOT IN ('Deletion Flag')\n" +
+    "            AND PLANT NOT LIKE 'T%'\n" +
+    '         AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [ 'Select', '2023-02-04', '2027-02-04' ],
+  return: undefined,
+  count: 0,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+GET /api/get_total_planned_wtg_count?orderType=Select&fromDate=2023-02-04&toDate=2027-02-04&state=&area=&site=Select 304 - - 85.725 ms
+GET /api/get_total_open_status_wtg_count?orderType=Select&fromDate=2023-02-04&toDate=2027-02-04&state=&area=&site=Select 304 - - 83.023 ms
+GET /api/get_completed_out_of_grace_count?orderType=Select&fromDate=2023-02-04&toDate=2027-02-04&state=&area=&site=Select 304 - - 113.980 ms
+GET /api/get_completed_count?orderType=Select&fromDate=2023-02-04&toDate=2027-02-04&state=&area=&site=Select 304 - - 123.476 ms
+Query Result: [
+  statement: '\n' +
+    '            SELECT COUNT(*) AS total_count, PLANT \n' +
+    '            FROM Schedule_plan_lubrication \n' +
+    '            WHERE ZEXT_RNO = ? \n' +
+    "            AND ZTEXT1 NOT IN ('Deletion Flag')\n" +
+    "            AND PLANT NOT LIKE 'T%'\n" +
+    '         AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [ 'Select', '2023-02-04', '2027-02-04' ],
+  return: undefined,
+  count: 0,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+GET /api/get_total_wtg_count_based_on_state?orderType=Select&fromDate=2023-02-04&toDate=2027-02-04&state=&area=&site=Select 304 - - 126.729 ms
+GET /api/fetch_type_order_for_wtg_wise_planning 304 - - 147.377 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_type_order_for_wtg_wise_planning 304 - - 79.001 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_type_order_for_wtg_wise_planning 304 - - 89.774 ms
+Parameters: {
+  zextRNO: 'Q1_LUB_2023',
+  selectedState: '',
+  selectedArea: '',
+  selectedSite: '',
+  startDate: '2023-02-04',
+  endDate: '2027-02-04'
+}
+Parameters: {
+  zextRNO: 'Q1_LUB_2023',
+  selectedState: '',
+  selectedArea: '',
+  selectedSite: '',
+  startDate: '2023-02-04',
+  endDate: '2027-02-04'
+}
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+            SELECT COUNT(*) AS total_count, PLANT 
+            FROM Schedule_plan_lubrication 
+            WHERE ZEXT_RNO = ? 
+            AND TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL
+            AND CONVERT(DATE, TRY_CAST(ZREQ_SDAT AS DATE), 23) <= CONVERT(DATE, GETDATE(), 23)
+            AND ZTEXT1 NOT IN ('Deletion Flag')
+            AND PLANT NOT LIKE 'T%'
+         AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [ 'Q1_LUB_2023', '2023-02-04', '2027-02-04' ]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+            SELECT COUNT(*) AS total_count, PLANT 
+            FROM Schedule_plan_lubrication 
+            WHERE ZEXT_RNO = ? 
+            AND ZTEXT1 NOT IN ('Deletion Flag')
+            AND PLANT NOT LIKE 'T%'
+         AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [ 'Q1_LUB_2023', '2023-02-04', '2027-02-04' ]
+GET /api/get_total_open_status_wtg_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=&area=&site=Select 304 - - 111.636 ms
+Query Result: [
+  { total_count: 103, PLANT: '2451' },
+  { total_count: 12, PLANT: '2452' },
+  { total_count: 89, PLANT: '2453' },
+  { total_count: 98, PLANT: '2454' },
+  { total_count: 19, PLANT: '2457' },
+  { total_count: 91, PLANT: '2458' },
+  { total_count: 103, PLANT: '2471' },
+  { total_count: 92, PLANT: '2472' },
+  { total_count: 84, PLANT: '2473' },
+  { total_count: 95, PLANT: '2474' },
+  { total_count: 82, PLANT: '2475' },
+  { total_count: 77, PLANT: '2476' },
+  { total_count: 89, PLANT: '2491' },
+  { total_count: 261, PLANT: '2492' },
+  { total_count: 104, PLANT: '2493' },
+  { total_count: 80, PLANT: '4401' },
+  { total_count: 85, PLANT: '4402' },
+  { total_count: 93, PLANT: '4405' },
+  { total_count: 68, PLANT: '4406' },
+  { total_count: 76, PLANT: '4407' },
+  { total_count: 96, PLANT: '4408' },
+  { total_count: 40, PLANT: '4410' },
+  { total_count: 90, PLANT: '4412' },
+  { total_count: 81, PLANT: '4413' },
+  { total_count: 56, PLANT: '4414' },
+  { total_count: 9, PLANT: '4416' },
+  { total_count: 111, PLANT: '4417' },
+  { total_count: 82, PLANT: '4418' },
+  { total_count: 95, PLANT: '4419' },
+  { total_count: 106, PLANT: '4425' },
+  { total_count: 89, PLANT: '4431' },
+  { total_count: 102, PLANT: '4432' },
+  { total_count: 108, PLANT: '4433' },
+  { total_count: 103, PLANT: '4434' },
+  { total_count: 48, PLANT: '4435' },
+  { total_count: 64, PLANT: '4436' },
+  { total_count: 174, PLANT: '4437' },
+  { total_count: 106, PLANT: '4438' },
+  { total_count: 90, PLANT: '4439' },
+  { total_count: 72, PLANT: '4440' },
+  { total_count: 8, PLANT: '4441' },
+  { total_count: 39, PLANT: '4443' },
+  { total_count: 86, PLANT: '4444' },
+  { total_count: 123, PLANT: '4446' },
+  { total_count: 63, PLANT: '4447' },
+  { total_count: 80, PLANT: '4451' },
+  { total_count: 16, PLANT: '4452' },
+  { total_count: 65, PLANT: '4453' },
+  { total_count: 61, PLANT: '4454' },
+  { total_count: 45, PLANT: '4455' },
+  { total_count: 64, PLANT: '4456' },
+  { total_count: 88, PLANT: '4457' },
+  { total_count: 44, PLANT: '4458' },
+  { total_count: 2, PLANT: '4466' },
+  { total_count: 122, PLANT: '4471' },
+  { total_count: 78, PLANT: '4472' },
+  { total_count: 147, PLANT: '4473' },
+  { total_count: 76, PLANT: '4474' },
+  { total_count: 93, PLANT: '4475' },
+  { total_count: 52, PLANT: '4476' },
+  { total_count: 100, PLANT: '4477' },
+  { total_count: 103, PLANT: '4478' },
+  { total_count: 113, PLANT: '4479' },
+  { total_count: 49, PLANT: '4481' },
+  { total_count: 96, PLANT: '4482' },
+  { total_count: 31, PLANT: '4486' },
+  { total_count: 82, PLANT: '4488' },
+  { total_count: 8, PLANT: '8901' },
+  statement: '\n' +
+    '            SELECT COUNT(*) AS total_count, PLANT \n' +
+    '            FROM Schedule_plan_lubrication \n' +
+    '            WHERE ZEXT_RNO = ? \n' +
+    '            AND TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL\n' +
+    '            AND CONVERT(DATE, TRY_CAST(ZREQ_SDAT AS DATE), 23) <= CONVERT(DATE, GETDATE(), 23)\n' +
+    "            AND ZTEXT1 NOT IN ('Deletion Flag')\n" +
+    "            AND PLANT NOT LIKE 'T%'\n" +
+    '         AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [ 'Q1_LUB_2023', '2023-02-04', '2027-02-04' ],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+Query Result: [
+  { total_count: 103, PLANT: '2451' },
+  { total_count: 12, PLANT: '2452' },
+  { total_count: 89, PLANT: '2453' },
+  { total_count: 98, PLANT: '2454' },
+  { total_count: 19, PLANT: '2457' },
+  { total_count: 91, PLANT: '2458' },
+  { total_count: 103, PLANT: '2471' },
+  { total_count: 92, PLANT: '2472' },
+  { total_count: 84, PLANT: '2473' },
+  { total_count: 95, PLANT: '2474' },
+  { total_count: 82, PLANT: '2475' },
+  { total_count: 77, PLANT: '2476' },
+  { total_count: 89, PLANT: '2491' },
+  { total_count: 261, PLANT: '2492' },
+  { total_count: 104, PLANT: '2493' },
+  { total_count: 80, PLANT: '4401' },
+  { total_count: 85, PLANT: '4402' },
+  { total_count: 93, PLANT: '4405' },
+  { total_count: 68, PLANT: '4406' },
+  { total_count: 76, PLANT: '4407' },
+  { total_count: 96, PLANT: '4408' },
+  { total_count: 40, PLANT: '4410' },
+  { total_count: 90, PLANT: '4412' },
+  { total_count: 81, PLANT: '4413' },
+  { total_count: 56, PLANT: '4414' },
+  { total_count: 9, PLANT: '4416' },
+  { total_count: 111, PLANT: '4417' },
+  { total_count: 82, PLANT: '4418' },
+  { total_count: 95, PLANT: '4419' },
+  { total_count: 106, PLANT: '4425' },
+  { total_count: 89, PLANT: '4431' },
+  { total_count: 102, PLANT: '4432' },
+  { total_count: 108, PLANT: '4433' },
+  { total_count: 103, PLANT: '4434' },
+  { total_count: 48, PLANT: '4435' },
+  { total_count: 64, PLANT: '4436' },
+  { total_count: 174, PLANT: '4437' },
+  { total_count: 106, PLANT: '4438' },
+  { total_count: 90, PLANT: '4439' },
+  { total_count: 72, PLANT: '4440' },
+  { total_count: 8, PLANT: '4441' },
+  { total_count: 39, PLANT: '4443' },
+  { total_count: 86, PLANT: '4444' },
+  { total_count: 123, PLANT: '4446' },
+  { total_count: 63, PLANT: '4447' },
+  { total_count: 80, PLANT: '4451' },
+  { total_count: 16, PLANT: '4452' },
+  { total_count: 65, PLANT: '4453' },
+  { total_count: 61, PLANT: '4454' },
+  { total_count: 45, PLANT: '4455' },
+  { total_count: 64, PLANT: '4456' },
+  { total_count: 88, PLANT: '4457' },
+  { total_count: 44, PLANT: '4458' },
+  { total_count: 2, PLANT: '4466' },
+  { total_count: 122, PLANT: '4471' },
+  { total_count: 78, PLANT: '4472' },
+  { total_count: 147, PLANT: '4473' },
+  { total_count: 76, PLANT: '4474' },
+  { total_count: 93, PLANT: '4475' },
+  { total_count: 52, PLANT: '4476' },
+  { total_count: 100, PLANT: '4477' },
+  { total_count: 103, PLANT: '4478' },
+  { total_count: 113, PLANT: '4479' },
+  { total_count: 49, PLANT: '4481' },
+  { total_count: 96, PLANT: '4482' },
+  { total_count: 31, PLANT: '4486' },
+  { total_count: 82, PLANT: '4488' },
+  { total_count: 8, PLANT: '8901' },
+  statement: '\n' +
+    '            SELECT COUNT(*) AS total_count, PLANT \n' +
+    '            FROM Schedule_plan_lubrication \n' +
+    '            WHERE ZEXT_RNO = ? \n' +
+    "            AND ZTEXT1 NOT IN ('Deletion Flag')\n" +
+    "            AND PLANT NOT LIKE 'T%'\n" +
+    '         AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [ 'Q1_LUB_2023', '2023-02-04', '2027-02-04' ],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+GET /api/get_total_wtg_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04 200 1206668 - 255.936 ms
+Data written to total_count_sent_back.json
+GET /api/get_completed_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=&area=&site=Select 304 - - 1225.276 ms
+GET /api/get_completed_out_of_grace_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=&area=&site=Select 304 - - 1228.245 ms
+GET /api/get_total_planned_wtg_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=&area=&site=Select 304 - - 1257.163 ms
+GET /api/get_total_wtg_count_based_on_state?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=&area=&site=Select 304 - - 1287.496 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_type_order_for_wtg_wise_planning 304 - - 78.905 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_type_order_for_wtg_wise_planning 304 - - 78.626 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_type_order_for_wtg_wise_planning 304 - - 80.726 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_type_order_for_wtg_wise_planning 304 - - 86.056 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_type_order_for_wtg_wise_planning 304 - - 88.475 ms
+Parameters: {
+  zextRNO: 'Q1_LUB_2023',
+  selectedState: '',
+  selectedArea: '',
+  selectedSite: '',
+  startDate: '2023-02-04',
+  endDate: '2027-02-04'
+}
+Parameters: {
+  zextRNO: 'Q1_LUB_2023',
+  selectedState: '',
+  selectedArea: '',
+  selectedSite: '',
+  startDate: '2023-02-04',
+  endDate: '2027-02-04'
+}
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+            SELECT COUNT(*) AS total_count, PLANT 
+            FROM Schedule_plan_lubrication 
+            WHERE ZEXT_RNO = ? 
+            AND TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL
+            AND CONVERT(DATE, TRY_CAST(ZREQ_SDAT AS DATE), 23) <= CONVERT(DATE, GETDATE(), 23)
+            AND ZTEXT1 NOT IN ('Deletion Flag')
+            AND PLANT NOT LIKE 'T%'
+         AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [ 'Q1_LUB_2023', '2023-02-04', '2027-02-04' ]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+            SELECT COUNT(*) AS total_count, PLANT 
+            FROM Schedule_plan_lubrication 
+            WHERE ZEXT_RNO = ? 
+            AND ZTEXT1 NOT IN ('Deletion Flag')
+            AND PLANT NOT LIKE 'T%'
+         AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [ 'Q1_LUB_2023', '2023-02-04', '2027-02-04' ]
+GET /api/get_total_open_status_wtg_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=&area=&site=Select 304 - - 77.640 ms
+Query Result: [
+  { total_count: 103, PLANT: '2451' },
+  { total_count: 12, PLANT: '2452' },
+  { total_count: 89, PLANT: '2453' },
+  { total_count: 98, PLANT: '2454' },
+  { total_count: 19, PLANT: '2457' },
+  { total_count: 91, PLANT: '2458' },
+  { total_count: 103, PLANT: '2471' },
+  { total_count: 92, PLANT: '2472' },
+  { total_count: 84, PLANT: '2473' },
+  { total_count: 95, PLANT: '2474' },
+  { total_count: 82, PLANT: '2475' },
+  { total_count: 77, PLANT: '2476' },
+  { total_count: 89, PLANT: '2491' },
+  { total_count: 261, PLANT: '2492' },
+  { total_count: 104, PLANT: '2493' },
+  { total_count: 80, PLANT: '4401' },
+  { total_count: 85, PLANT: '4402' },
+  { total_count: 93, PLANT: '4405' },
+  { total_count: 68, PLANT: '4406' },
+  { total_count: 76, PLANT: '4407' },
+  { total_count: 96, PLANT: '4408' },
+  { total_count: 40, PLANT: '4410' },
+  { total_count: 90, PLANT: '4412' },
+  { total_count: 81, PLANT: '4413' },
+  { total_count: 56, PLANT: '4414' },
+  { total_count: 9, PLANT: '4416' },
+  { total_count: 111, PLANT: '4417' },
+  { total_count: 82, PLANT: '4418' },
+  { total_count: 95, PLANT: '4419' },
+  { total_count: 106, PLANT: '4425' },
+  { total_count: 89, PLANT: '4431' },
+  { total_count: 102, PLANT: '4432' },
+  { total_count: 108, PLANT: '4433' },
+  { total_count: 103, PLANT: '4434' },
+  { total_count: 48, PLANT: '4435' },
+  { total_count: 64, PLANT: '4436' },
+  { total_count: 174, PLANT: '4437' },
+  { total_count: 106, PLANT: '4438' },
+  { total_count: 90, PLANT: '4439' },
+  { total_count: 72, PLANT: '4440' },
+  { total_count: 8, PLANT: '4441' },
+  { total_count: 39, PLANT: '4443' },
+  { total_count: 86, PLANT: '4444' },
+  { total_count: 123, PLANT: '4446' },
+  { total_count: 63, PLANT: '4447' },
+  { total_count: 80, PLANT: '4451' },
+  { total_count: 16, PLANT: '4452' },
+  { total_count: 65, PLANT: '4453' },
+  { total_count: 61, PLANT: '4454' },
+  { total_count: 45, PLANT: '4455' },
+  { total_count: 64, PLANT: '4456' },
+  { total_count: 88, PLANT: '4457' },
+  { total_count: 44, PLANT: '4458' },
+  { total_count: 2, PLANT: '4466' },
+  { total_count: 122, PLANT: '4471' },
+  { total_count: 78, PLANT: '4472' },
+  { total_count: 147, PLANT: '4473' },
+  { total_count: 76, PLANT: '4474' },
+  { total_count: 93, PLANT: '4475' },
+  { total_count: 52, PLANT: '4476' },
+  { total_count: 100, PLANT: '4477' },
+  { total_count: 103, PLANT: '4478' },
+  { total_count: 113, PLANT: '4479' },
+  { total_count: 49, PLANT: '4481' },
+  { total_count: 96, PLANT: '4482' },
+  { total_count: 31, PLANT: '4486' },
+  { total_count: 82, PLANT: '4488' },
+  { total_count: 8, PLANT: '8901' },
+  statement: '\n' +
+    '            SELECT COUNT(*) AS total_count, PLANT \n' +
+    '            FROM Schedule_plan_lubrication \n' +
+    '            WHERE ZEXT_RNO = ? \n' +
+    '            AND TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL\n' +
+    '            AND CONVERT(DATE, TRY_CAST(ZREQ_SDAT AS DATE), 23) <= CONVERT(DATE, GETDATE(), 23)\n' +
+    "            AND ZTEXT1 NOT IN ('Deletion Flag')\n" +
+    "            AND PLANT NOT LIKE 'T%'\n" +
+    '         AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [ 'Q1_LUB_2023', '2023-02-04', '2027-02-04' ],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+Query Result: [
+  { total_count: 103, PLANT: '2451' },
+  { total_count: 12, PLANT: '2452' },
+  { total_count: 89, PLANT: '2453' },
+  { total_count: 98, PLANT: '2454' },
+  { total_count: 19, PLANT: '2457' },
+  { total_count: 91, PLANT: '2458' },
+  { total_count: 103, PLANT: '2471' },
+  { total_count: 92, PLANT: '2472' },
+  { total_count: 84, PLANT: '2473' },
+  { total_count: 95, PLANT: '2474' },
+  { total_count: 82, PLANT: '2475' },
+  { total_count: 77, PLANT: '2476' },
+  { total_count: 89, PLANT: '2491' },
+  { total_count: 261, PLANT: '2492' },
+  { total_count: 104, PLANT: '2493' },
+  { total_count: 80, PLANT: '4401' },
+  { total_count: 85, PLANT: '4402' },
+  { total_count: 93, PLANT: '4405' },
+  { total_count: 68, PLANT: '4406' },
+  { total_count: 76, PLANT: '4407' },
+  { total_count: 96, PLANT: '4408' },
+  { total_count: 40, PLANT: '4410' },
+  { total_count: 90, PLANT: '4412' },
+  { total_count: 81, PLANT: '4413' },
+  { total_count: 56, PLANT: '4414' },
+  { total_count: 9, PLANT: '4416' },
+  { total_count: 111, PLANT: '4417' },
+  { total_count: 82, PLANT: '4418' },
+  { total_count: 95, PLANT: '4419' },
+  { total_count: 106, PLANT: '4425' },
+  { total_count: 89, PLANT: '4431' },
+  { total_count: 102, PLANT: '4432' },
+  { total_count: 108, PLANT: '4433' },
+  { total_count: 103, PLANT: '4434' },
+  { total_count: 48, PLANT: '4435' },
+  { total_count: 64, PLANT: '4436' },
+  { total_count: 174, PLANT: '4437' },
+  { total_count: 106, PLANT: '4438' },
+  { total_count: 90, PLANT: '4439' },
+  { total_count: 72, PLANT: '4440' },
+  { total_count: 8, PLANT: '4441' },
+  { total_count: 39, PLANT: '4443' },
+  { total_count: 86, PLANT: '4444' },
+  { total_count: 123, PLANT: '4446' },
+  { total_count: 63, PLANT: '4447' },
+  { total_count: 80, PLANT: '4451' },
+  { total_count: 16, PLANT: '4452' },
+  { total_count: 65, PLANT: '4453' },
+  { total_count: 61, PLANT: '4454' },
+  { total_count: 45, PLANT: '4455' },
+  { total_count: 64, PLANT: '4456' },
+  { total_count: 88, PLANT: '4457' },
+  { total_count: 44, PLANT: '4458' },
+  { total_count: 2, PLANT: '4466' },
+  { total_count: 122, PLANT: '4471' },
+  { total_count: 78, PLANT: '4472' },
+  { total_count: 147, PLANT: '4473' },
+  { total_count: 76, PLANT: '4474' },
+  { total_count: 93, PLANT: '4475' },
+  { total_count: 52, PLANT: '4476' },
+  { total_count: 100, PLANT: '4477' },
+  { total_count: 103, PLANT: '4478' },
+  { total_count: 113, PLANT: '4479' },
+  { total_count: 49, PLANT: '4481' },
+  { total_count: 96, PLANT: '4482' },
+  { total_count: 31, PLANT: '4486' },
+  { total_count: 82, PLANT: '4488' },
+  { total_count: 8, PLANT: '8901' },
+  statement: '\n' +
+    '            SELECT COUNT(*) AS total_count, PLANT \n' +
+    '            FROM Schedule_plan_lubrication \n' +
+    '            WHERE ZEXT_RNO = ? \n' +
+    "            AND ZTEXT1 NOT IN ('Deletion Flag')\n" +
+    "            AND PLANT NOT LIKE 'T%'\n" +
+    '         AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [ 'Q1_LUB_2023', '2023-02-04', '2027-02-04' ],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+GET /api/get_total_wtg_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04 200 1206668 - 200.156 ms
+Data written to total_count_sent_back.json
+GET /api/get_total_wtg_count_based_on_state?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=&area=&site=Select 304 - - 1441.244 ms
+GET /api/get_completed_out_of_grace_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=&area=&site=Select 304 - - 1444.005 ms
+GET /api/get_total_planned_wtg_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=&area=&site=Select 304 - - 1586.514 ms
+GET /api/get_completed_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=&area=&site=Select 304 - - 1659.975 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: 'd536ce3f19751f3ac610b129c34fb44c',
+  access: 'lubrication,pm,oil_change',
+  adminEmail: 'Meet.Somaiya%40suzlon.com',
+  domain_id: '40139',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya%40suzlon.com',
+  pathname: '/WTG_Wise_Planning_user',
+  entryTime: '2025-02-04 15:11:41',
+  exitTime: '2025-02-04 15:11:45'
+}
+Start DateTime in IST format: 2025-02-04T09:41:41.000Z
+End DateTime in IST format: 2025-02-04T09:41:45.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-04T09:41:45.000Z',
+    Password: 'Suzlon@123',
+    UserID: '40139',
+    ScreenName: '/WTG_Wise_Planning_user',
+    StartDateTime: '2025-02-04T09:41:41.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: 'd536ce3f19751f3ac610b129c34fb44c',
+  access: 'lubrication,pm,oil_change',
+  adminEmail: 'Meet.Somaiya%40suzlon.com',
+  domain_id: '40139',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya%40suzlon.com',
+  pathname: '/WTG_Wise_Planning_user',
+  entryTime: '2025-02-04 15:11:41',
+  exitTime: '2025-02-04 15:11:45'
+}
+Start DateTime in IST format: 2025-02-04T09:41:41.000Z
+End DateTime in IST format: 2025-02-04T09:41:45.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-04T09:41:45.000Z',
+    Password: 'Suzlon@123',
+    UserID: '40139',
+    ScreenName: '/WTG_Wise_Planning_user',
+    StartDateTime: '2025-02-04T09:41:41.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 23.289 ms
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 23.091 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_type_order_for_wtg_wise_planning 304 - - 90.975 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_type_order_for_wtg_wise_planning 304 - - 81.002 ms
+Parameters: {
+  zextRNO: 'Q1_LUB_2023',
+  selectedState: '',
+  selectedArea: '',
+  selectedSite: '',
+  startDate: '2023-02-04',
+  endDate: '2027-02-04'
+}
+Parameters: {
+  zextRNO: 'Q1_LUB_2023',
+  selectedState: '',
+  selectedArea: '',
+  selectedSite: '',
+  startDate: '2023-02-04',
+  endDate: '2027-02-04'
+}
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+            SELECT COUNT(*) AS total_count, PLANT 
+            FROM Schedule_plan_lubrication 
+            WHERE ZEXT_RNO = ? 
+            AND TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL
+            AND CONVERT(DATE, TRY_CAST(ZREQ_SDAT AS DATE), 23) <= CONVERT(DATE, GETDATE(), 23)
+            AND ZTEXT1 NOT IN ('Deletion Flag')
+            AND PLANT NOT LIKE 'T%'
+         AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [ 'Q1_LUB_2023', '2023-02-04', '2027-02-04' ]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+            SELECT COUNT(*) AS total_count, PLANT 
+            FROM Schedule_plan_lubrication 
+            WHERE ZEXT_RNO = ? 
+            AND ZTEXT1 NOT IN ('Deletion Flag')
+            AND PLANT NOT LIKE 'T%'
+         AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [ 'Q1_LUB_2023', '2023-02-04', '2027-02-04' ]
+GET /api/get_total_open_status_wtg_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=&area=&site=Select 304 - - 81.621 ms
+Query Result: [
+  { total_count: 103, PLANT: '2451' },
+  { total_count: 12, PLANT: '2452' },
+  { total_count: 89, PLANT: '2453' },
+  { total_count: 98, PLANT: '2454' },
+  { total_count: 19, PLANT: '2457' },
+  { total_count: 91, PLANT: '2458' },
+  { total_count: 103, PLANT: '2471' },
+  { total_count: 92, PLANT: '2472' },
+  { total_count: 84, PLANT: '2473' },
+  { total_count: 95, PLANT: '2474' },
+  { total_count: 82, PLANT: '2475' },
+  { total_count: 77, PLANT: '2476' },
+  { total_count: 89, PLANT: '2491' },
+  { total_count: 261, PLANT: '2492' },
+  { total_count: 104, PLANT: '2493' },
+  { total_count: 80, PLANT: '4401' },
+  { total_count: 85, PLANT: '4402' },
+  { total_count: 93, PLANT: '4405' },
+  { total_count: 68, PLANT: '4406' },
+  { total_count: 76, PLANT: '4407' },
+  { total_count: 96, PLANT: '4408' },
+  { total_count: 40, PLANT: '4410' },
+  { total_count: 90, PLANT: '4412' },
+  { total_count: 81, PLANT: '4413' },
+  { total_count: 56, PLANT: '4414' },
+  { total_count: 9, PLANT: '4416' },
+  { total_count: 111, PLANT: '4417' },
+  { total_count: 82, PLANT: '4418' },
+  { total_count: 95, PLANT: '4419' },
+  { total_count: 106, PLANT: '4425' },
+  { total_count: 89, PLANT: '4431' },
+  { total_count: 102, PLANT: '4432' },
+  { total_count: 108, PLANT: '4433' },
+  { total_count: 103, PLANT: '4434' },
+  { total_count: 48, PLANT: '4435' },
+  { total_count: 64, PLANT: '4436' },
+  { total_count: 174, PLANT: '4437' },
+  { total_count: 106, PLANT: '4438' },
+  { total_count: 90, PLANT: '4439' },
+  { total_count: 72, PLANT: '4440' },
+  { total_count: 8, PLANT: '4441' },
+  { total_count: 39, PLANT: '4443' },
+  { total_count: 86, PLANT: '4444' },
+  { total_count: 123, PLANT: '4446' },
+  { total_count: 63, PLANT: '4447' },
+  { total_count: 80, PLANT: '4451' },
+  { total_count: 16, PLANT: '4452' },
+  { total_count: 65, PLANT: '4453' },
+  { total_count: 61, PLANT: '4454' },
+  { total_count: 45, PLANT: '4455' },
+  { total_count: 64, PLANT: '4456' },
+  { total_count: 88, PLANT: '4457' },
+  { total_count: 44, PLANT: '4458' },
+  { total_count: 2, PLANT: '4466' },
+  { total_count: 122, PLANT: '4471' },
+  { total_count: 78, PLANT: '4472' },
+  { total_count: 147, PLANT: '4473' },
+  { total_count: 76, PLANT: '4474' },
+  { total_count: 93, PLANT: '4475' },
+  { total_count: 52, PLANT: '4476' },
+  { total_count: 100, PLANT: '4477' },
+  { total_count: 103, PLANT: '4478' },
+  { total_count: 113, PLANT: '4479' },
+  { total_count: 49, PLANT: '4481' },
+  { total_count: 96, PLANT: '4482' },
+  { total_count: 31, PLANT: '4486' },
+  { total_count: 82, PLANT: '4488' },
+  { total_count: 8, PLANT: '8901' },
+  statement: '\n' +
+    '            SELECT COUNT(*) AS total_count, PLANT \n' +
+    '            FROM Schedule_plan_lubrication \n' +
+    '            WHERE ZEXT_RNO = ? \n' +
+    '            AND TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL\n' +
+    '            AND CONVERT(DATE, TRY_CAST(ZREQ_SDAT AS DATE), 23) <= CONVERT(DATE, GETDATE(), 23)\n' +
+    "            AND ZTEXT1 NOT IN ('Deletion Flag')\n" +
+    "            AND PLANT NOT LIKE 'T%'\n" +
+    '         AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [ 'Q1_LUB_2023', '2023-02-04', '2027-02-04' ],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+Query Result: [
+  { total_count: 103, PLANT: '2451' },
+  { total_count: 12, PLANT: '2452' },
+  { total_count: 89, PLANT: '2453' },
+  { total_count: 98, PLANT: '2454' },
+  { total_count: 19, PLANT: '2457' },
+  { total_count: 91, PLANT: '2458' },
+  { total_count: 103, PLANT: '2471' },
+  { total_count: 92, PLANT: '2472' },
+  { total_count: 84, PLANT: '2473' },
+  { total_count: 95, PLANT: '2474' },
+  { total_count: 82, PLANT: '2475' },
+  { total_count: 77, PLANT: '2476' },
+  { total_count: 89, PLANT: '2491' },
+  { total_count: 261, PLANT: '2492' },
+  { total_count: 104, PLANT: '2493' },
+  { total_count: 80, PLANT: '4401' },
+  { total_count: 85, PLANT: '4402' },
+  { total_count: 93, PLANT: '4405' },
+  { total_count: 68, PLANT: '4406' },
+  { total_count: 76, PLANT: '4407' },
+  { total_count: 96, PLANT: '4408' },
+  { total_count: 40, PLANT: '4410' },
+  { total_count: 90, PLANT: '4412' },
+  { total_count: 81, PLANT: '4413' },
+  { total_count: 56, PLANT: '4414' },
+  { total_count: 9, PLANT: '4416' },
+  { total_count: 111, PLANT: '4417' },
+  { total_count: 82, PLANT: '4418' },
+  { total_count: 95, PLANT: '4419' },
+  { total_count: 106, PLANT: '4425' },
+  { total_count: 89, PLANT: '4431' },
+  { total_count: 102, PLANT: '4432' },
+  { total_count: 108, PLANT: '4433' },
+  { total_count: 103, PLANT: '4434' },
+  { total_count: 48, PLANT: '4435' },
+  { total_count: 64, PLANT: '4436' },
+  { total_count: 174, PLANT: '4437' },
+  { total_count: 106, PLANT: '4438' },
+  { total_count: 90, PLANT: '4439' },
+  { total_count: 72, PLANT: '4440' },
+  { total_count: 8, PLANT: '4441' },
+  { total_count: 39, PLANT: '4443' },
+  { total_count: 86, PLANT: '4444' },
+  { total_count: 123, PLANT: '4446' },
+  { total_count: 63, PLANT: '4447' },
+  { total_count: 80, PLANT: '4451' },
+  { total_count: 16, PLANT: '4452' },
+  { total_count: 65, PLANT: '4453' },
+  { total_count: 61, PLANT: '4454' },
+  { total_count: 45, PLANT: '4455' },
+  { total_count: 64, PLANT: '4456' },
+  { total_count: 88, PLANT: '4457' },
+  { total_count: 44, PLANT: '4458' },
+  { total_count: 2, PLANT: '4466' },
+  { total_count: 122, PLANT: '4471' },
+  { total_count: 78, PLANT: '4472' },
+  { total_count: 147, PLANT: '4473' },
+  { total_count: 76, PLANT: '4474' },
+  { total_count: 93, PLANT: '4475' },
+  { total_count: 52, PLANT: '4476' },
+  { total_count: 100, PLANT: '4477' },
+  { total_count: 103, PLANT: '4478' },
+  { total_count: 113, PLANT: '4479' },
+  { total_count: 49, PLANT: '4481' },
+  { total_count: 96, PLANT: '4482' },
+  { total_count: 31, PLANT: '4486' },
+  { total_count: 82, PLANT: '4488' },
+  { total_count: 8, PLANT: '8901' },
+  statement: '\n' +
+    '            SELECT COUNT(*) AS total_count, PLANT \n' +
+    '            FROM Schedule_plan_lubrication \n' +
+    '            WHERE ZEXT_RNO = ? \n' +
+    "            AND ZTEXT1 NOT IN ('Deletion Flag')\n" +
+    "            AND PLANT NOT LIKE 'T%'\n" +
+    '         AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [ 'Q1_LUB_2023', '2023-02-04', '2027-02-04' ],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+GET /api/get_total_wtg_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04 200 1206668 - 258.133 ms
+Data written to total_count_sent_back.json
+GET /api/get_completed_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=&area=&site=Select 304 - - 1225.575 ms
+GET /api/get_completed_out_of_grace_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=&area=&site=Select 304 - - 1233.312 ms
+GET /api/get_total_planned_wtg_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=&area=&site=Select 304 - - 1285.032 ms
+GET /api/get_total_wtg_count_based_on_state?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=&area=&site=Select 304 - - 1404.822 ms
+Parameters: {
+  zextRNO: 'Q1_LUB_2023',
+  selectedState: 'GJ - Saurashtra',
+  selectedArea: 'Kuchadi',
+  selectedSite: 'Kuchhadi',
+  startDate: '2023-02-04',
+  endDate: '2027-02-04'
+}
+Parameters: {
+  zextRNO: 'Q1_LUB_2023',
+  selectedState: 'GJ - Saurashtra',
+  selectedArea: 'Kuchadi',
+  selectedSite: 'Kuchhadi',
+  startDate: '2023-02-04',
+  endDate: '2027-02-04'
+}
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+            SELECT COUNT(*) AS total_count, PLANT 
+            FROM Schedule_plan_lubrication 
+            WHERE ZEXT_RNO = ? 
+            AND ZTEXT1 NOT IN ('Deletion Flag')
+            AND PLANT NOT LIKE 'T%'
+         AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE State = ?
+                      ) AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE Area = ?
+                      ) AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE Site = ?
+                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [
+  'Q1_LUB_2023',
+  'GJ - Saurashtra',
+  'Kuchadi',
+  'Kuchhadi',
+  '2023-02-04',
+  '2027-02-04'
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+            SELECT COUNT(*) AS total_count, PLANT 
+            FROM Schedule_plan_lubrication 
+            WHERE ZEXT_RNO = ? 
+            AND TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL
+            AND CONVERT(DATE, TRY_CAST(ZREQ_SDAT AS DATE), 23) <= CONVERT(DATE, GETDATE(), 23)
+            AND ZTEXT1 NOT IN ('Deletion Flag')
+            AND PLANT NOT LIKE 'T%'
+         AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE State = ?
+                      ) AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE Area = ?
+                      ) AND PLANT IN (
+                          SELECT DISTINCT Maintenance_Plant 
+                          FROM installedbase 
+                          WHERE Site = ?
+                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [
+  'Q1_LUB_2023',
+  'GJ - Saurashtra',
+  'Kuchadi',
+  'Kuchhadi',
+  '2023-02-04',
+  '2027-02-04'
+]
+GET /api/get_total_wtg_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=GJ+-+Saurashtra&area=Kuchadi&site=Kuchhadi 200 19743 - 201.043 ms
+Query Result: [
+  { total_count: 89, PLANT: '2453' },
+  statement: '\n' +
+    '            SELECT COUNT(*) AS total_count, PLANT \n' +
+    '            FROM Schedule_plan_lubrication \n' +
+    '            WHERE ZEXT_RNO = ? \n' +
+    "            AND ZTEXT1 NOT IN ('Deletion Flag')\n" +
+    "            AND PLANT NOT LIKE 'T%'\n" +
+    '         AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE State = ?\n' +
+    '                      ) AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE Area = ?\n' +
+    '                      ) AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE Site = ?\n' +
+    '                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [
+    'Q1_LUB_2023',
+    'GJ - Saurashtra',
+    'Kuchadi',
+    'Kuchhadi',
+    '2023-02-04',
+    '2027-02-04'
+  ],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+GET /api/get_completed_out_of_grace_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=GJ+-+Saurashtra&area=Kuchadi&site=Kuchhadi 304 - - 408.382 ms
+Data written to total_count_sent_back.json
+GET /api/get_total_wtg_count_based_on_state?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=GJ+-+Saurashtra&area=Kuchadi&site=Kuchhadi 304 - - 412.157 ms
+GET /api/get_completed_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=GJ+-+Saurashtra&area=Kuchadi&site=Kuchhadi 304 - - 417.534 ms
+GET /api/get_total_open_status_wtg_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=GJ+-+Saurashtra&area=Kuchadi&site=Kuchhadi 304 - - 472.090 ms
+Query Result: [
+  { total_count: 89, PLANT: '2453' },
+  statement: '\n' +
+    '            SELECT COUNT(*) AS total_count, PLANT \n' +
+    '            FROM Schedule_plan_lubrication \n' +
+    '            WHERE ZEXT_RNO = ? \n' +
+    '            AND TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL\n' +
+    '            AND CONVERT(DATE, TRY_CAST(ZREQ_SDAT AS DATE), 23) <= CONVERT(DATE, GETDATE(), 23)\n' +
+    "            AND ZTEXT1 NOT IN ('Deletion Flag')\n" +
+    "            AND PLANT NOT LIKE 'T%'\n" +
+    '         AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE State = ?\n' +
+    '                      ) AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE Area = ?\n' +
+    '                      ) AND PLANT IN (\n' +
+    '                          SELECT DISTINCT Maintenance_Plant \n' +
+    '                          FROM installedbase \n' +
+    '                          WHERE Site = ?\n' +
+    '                      ) AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [
+    'Q1_LUB_2023',
+    'GJ - Saurashtra',
+    'Kuchadi',
+    'Kuchhadi',
+    '2023-02-04',
+    '2027-02-04'
+  ],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+GET /api/get_total_planned_wtg_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=GJ+-+Saurashtra&area=Kuchadi&site=Kuchhadi 304 - - 684.036 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_type_order_for_wtg_wise_planning 304 - - 97.265 ms
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: 'd536ce3f19751f3ac610b129c34fb44c',
+  access: 'lubrication,pm,oil_change',
+  adminEmail: 'Meet.Somaiya%40suzlon.com',
+  domain_id: '40139',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya%40suzlon.com',
+  pathname: '/WTG_Wise_Planning_user',
+  entryTime: '2025-02-04 15:12:58',
+  exitTime: '2025-02-04 15:12:58'
+}
+Start DateTime in IST format: 2025-02-04T09:42:58.000Z
+End DateTime in IST format: 2025-02-04T09:42:58.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-04T09:42:58.000Z',
+    Password: 'Suzlon@123',
+    UserID: '40139',
+    ScreenName: '/WTG_Wise_Planning_user',
+    StartDateTime: '2025-02-04T09:42:58.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+Received heartbeat data: {
+  name: 'Meet Harishbhai Somaiya',
+  userId: 'd536ce3f19751f3ac610b129c34fb44c',
+  access: 'lubrication,pm,oil_change',
+  adminEmail: 'Meet.Somaiya%40suzlon.com',
+  domain_id: '40139',
+  state: 'GJ - Saurashtra',
+  area: 'Kuchadi',
+  site: 'Kuchhadi',
+  email: 'Meet.Somaiya%40suzlon.com',
+  pathname: '/WTG_Wise_Planning_user',
+  entryTime: '2025-02-04 15:12:58',
+  exitTime: '2025-02-04 15:12:58'
+}
+Start DateTime in IST format: 2025-02-04T09:42:58.000Z
+End DateTime in IST format: 2025-02-04T09:42:58.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-04T09:42:58.000Z',
+    Password: 'Suzlon@123',
+    UserID: '40139',
+    ScreenName: '/WTG_Wise_Planning_user',
+    StartDateTime: '2025-02-04T09:42:58.000Z',
+    UserEngagementID: 0,
+    UserName: 'Meet Harishbhai Somaiya'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 53.058 ms
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 49.254 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_type_order_for_wtg_wise_planning 304 - - 81.025 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_type_order_for_wtg_wise_planning 304 - - 78.898 ms
+Parameters: {
+  zextRNO: 'Q1_LUB_2023',
+  selectedState: '',
+  selectedArea: '',
+  selectedSite: '',
+  startDate: '2023-02-04',
+  endDate: '2027-02-04'
+}
+Parameters: {
+  zextRNO: 'Q1_LUB_2023',
+  selectedState: '',
+  selectedArea: '',
+  selectedSite: '',
+  startDate: '2023-02-04',
+  endDate: '2027-02-04'
+}
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+            SELECT COUNT(*) AS total_count, PLANT 
+            FROM Schedule_plan_lubrication 
+            WHERE ZEXT_RNO = ? 
+            AND TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL
+            AND CONVERT(DATE, TRY_CAST(ZREQ_SDAT AS DATE), 23) <= CONVERT(DATE, GETDATE(), 23)
+            AND ZTEXT1 NOT IN ('Deletion Flag')
+            AND PLANT NOT LIKE 'T%'
+         AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [ 'Q1_LUB_2023', '2023-02-04', '2027-02-04' ]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing Query: 
+            SELECT COUNT(*) AS total_count, PLANT 
+            FROM Schedule_plan_lubrication 
+            WHERE ZEXT_RNO = ? 
+            AND ZTEXT1 NOT IN ('Deletion Flag')
+            AND PLANT NOT LIKE 'T%'
+         AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT
+With Parameters: [ 'Q1_LUB_2023', '2023-02-04', '2027-02-04' ]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Query Result: [
+  { total_count: 103, PLANT: '2451' },
+  { total_count: 12, PLANT: '2452' },
+  { total_count: 89, PLANT: '2453' },
+  { total_count: 98, PLANT: '2454' },
+  { total_count: 19, PLANT: '2457' },
+  { total_count: 91, PLANT: '2458' },
+  { total_count: 103, PLANT: '2471' },
+  { total_count: 92, PLANT: '2472' },
+  { total_count: 84, PLANT: '2473' },
+  { total_count: 95, PLANT: '2474' },
+  { total_count: 82, PLANT: '2475' },
+  { total_count: 77, PLANT: '2476' },
+  { total_count: 89, PLANT: '2491' },
+  { total_count: 261, PLANT: '2492' },
+  { total_count: 104, PLANT: '2493' },
+  { total_count: 80, PLANT: '4401' },
+  { total_count: 85, PLANT: '4402' },
+  { total_count: 93, PLANT: '4405' },
+  { total_count: 68, PLANT: '4406' },
+  { total_count: 76, PLANT: '4407' },
+  { total_count: 96, PLANT: '4408' },
+  { total_count: 40, PLANT: '4410' },
+  { total_count: 90, PLANT: '4412' },
+  { total_count: 81, PLANT: '4413' },
+  { total_count: 56, PLANT: '4414' },
+  { total_count: 9, PLANT: '4416' },
+  { total_count: 111, PLANT: '4417' },
+  { total_count: 82, PLANT: '4418' },
+  { total_count: 95, PLANT: '4419' },
+  { total_count: 106, PLANT: '4425' },
+  { total_count: 89, PLANT: '4431' },
+  { total_count: 102, PLANT: '4432' },
+  { total_count: 108, PLANT: '4433' },
+  { total_count: 103, PLANT: '4434' },
+  { total_count: 48, PLANT: '4435' },
+  { total_count: 64, PLANT: '4436' },
+  { total_count: 174, PLANT: '4437' },
+  { total_count: 106, PLANT: '4438' },
+  { total_count: 90, PLANT: '4439' },
+  { total_count: 72, PLANT: '4440' },
+  { total_count: 8, PLANT: '4441' },
+  { total_count: 39, PLANT: '4443' },
+  { total_count: 86, PLANT: '4444' },
+  { total_count: 123, PLANT: '4446' },
+  { total_count: 63, PLANT: '4447' },
+  { total_count: 80, PLANT: '4451' },
+  { total_count: 16, PLANT: '4452' },
+  { total_count: 65, PLANT: '4453' },
+  { total_count: 61, PLANT: '4454' },
+  { total_count: 45, PLANT: '4455' },
+  { total_count: 64, PLANT: '4456' },
+  { total_count: 88, PLANT: '4457' },
+  { total_count: 44, PLANT: '4458' },
+  { total_count: 2, PLANT: '4466' },
+  { total_count: 122, PLANT: '4471' },
+  { total_count: 78, PLANT: '4472' },
+  { total_count: 147, PLANT: '4473' },
+  { total_count: 76, PLANT: '4474' },
+  { total_count: 93, PLANT: '4475' },
+  { total_count: 52, PLANT: '4476' },
+  { total_count: 100, PLANT: '4477' },
+  { total_count: 103, PLANT: '4478' },
+  { total_count: 113, PLANT: '4479' },
+  { total_count: 49, PLANT: '4481' },
+  { total_count: 96, PLANT: '4482' },
+  { total_count: 31, PLANT: '4486' },
+  { total_count: 82, PLANT: '4488' },
+  { total_count: 8, PLANT: '8901' },
+  statement: '\n' +
+    '            SELECT COUNT(*) AS total_count, PLANT \n' +
+    '            FROM Schedule_plan_lubrication \n' +
+    '            WHERE ZEXT_RNO = ? \n' +
+    '            AND TRY_CAST(ZREQ_SDAT AS DATE) IS NOT NULL\n' +
+    '            AND CONVERT(DATE, TRY_CAST(ZREQ_SDAT AS DATE), 23) <= CONVERT(DATE, GETDATE(), 23)\n' +
+    "            AND ZTEXT1 NOT IN ('Deletion Flag')\n" +
+    "            AND PLANT NOT LIKE 'T%'\n" +
+    '         AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [ 'Q1_LUB_2023', '2023-02-04', '2027-02-04' ],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
+GET /api/get_total_open_status_wtg_count?orderType=Q1_LUB_2023&fromDate=2023-02-04&toDate=2027-02-04&state=&area=&site=Select 304 - - 181.839 ms
+Query Result: [
+  { total_count: 103, PLANT: '2451' },
+  { total_count: 12, PLANT: '2452' },
+  { total_count: 89, PLANT: '2453' },
+  { total_count: 98, PLANT: '2454' },
+  { total_count: 19, PLANT: '2457' },
+  { total_count: 91, PLANT: '2458' },
+  { total_count: 103, PLANT: '2471' },
+  { total_count: 92, PLANT: '2472' },
+  { total_count: 84, PLANT: '2473' },
+  { total_count: 95, PLANT: '2474' },
+  { total_count: 82, PLANT: '2475' },
+  { total_count: 77, PLANT: '2476' },
+  { total_count: 89, PLANT: '2491' },
+  { total_count: 261, PLANT: '2492' },
+  { total_count: 104, PLANT: '2493' },
+  { total_count: 80, PLANT: '4401' },
+  { total_count: 85, PLANT: '4402' },
+  { total_count: 93, PLANT: '4405' },
+  { total_count: 68, PLANT: '4406' },
+  { total_count: 76, PLANT: '4407' },
+  { total_count: 96, PLANT: '4408' },
+  { total_count: 40, PLANT: '4410' },
+  { total_count: 90, PLANT: '4412' },
+  { total_count: 81, PLANT: '4413' },
+  { total_count: 56, PLANT: '4414' },
+  { total_count: 9, PLANT: '4416' },
+  { total_count: 111, PLANT: '4417' },
+  { total_count: 82, PLANT: '4418' },
+  { total_count: 95, PLANT: '4419' },
+  { total_count: 106, PLANT: '4425' },
+  { total_count: 89, PLANT: '4431' },
+  { total_count: 102, PLANT: '4432' },
+  { total_count: 108, PLANT: '4433' },
+  { total_count: 103, PLANT: '4434' },
+  { total_count: 48, PLANT: '4435' },
+  { total_count: 64, PLANT: '4436' },
+  { total_count: 174, PLANT: '4437' },
+  { total_count: 106, PLANT: '4438' },
+  { total_count: 90, PLANT: '4439' },
+  { total_count: 72, PLANT: '4440' },
+  { total_count: 8, PLANT: '4441' },
+  { total_count: 39, PLANT: '4443' },
+  { total_count: 86, PLANT: '4444' },
+  { total_count: 123, PLANT: '4446' },
+  { total_count: 63, PLANT: '4447' },
+  { total_count: 80, PLANT: '4451' },
+  { total_count: 16, PLANT: '4452' },
+  { total_count: 65, PLANT: '4453' },
+  { total_count: 61, PLANT: '4454' },
+  { total_count: 45, PLANT: '4455' },
+  { total_count: 64, PLANT: '4456' },
+  { total_count: 88, PLANT: '4457' },
+  { total_count: 44, PLANT: '4458' },
+  { total_count: 2, PLANT: '4466' },
+  { total_count: 122, PLANT: '4471' },
+  { total_count: 78, PLANT: '4472' },
+  { total_count: 147, PLANT: '4473' },
+  { total_count: 76, PLANT: '4474' },
+  { total_count: 93, PLANT: '4475' },
+  { total_count: 52, PLANT: '4476' },
+  { total_count: 100, PLANT: '4477' },
+  { total_count: 103, PLANT: '4478' },
+  { total_count: 113, PLANT: '4479' },
+  { total_count: 49, PLANT: '4481' },
+  { total_count: 96, PLANT: '4482' },
+  { total_count: 31, PLANT: '4486' },
+  { total_count: 82, PLANT: '4488' },
+  { total_count: 8, PLANT: '8901' },
+  statement: '\n' +
+    '            SELECT COUNT(*) AS total_count, PLANT \n' +
+    '            FROM Schedule_plan_lubrication \n' +
+    '            WHERE ZEXT_RNO = ? \n' +
+    "            AND ZTEXT1 NOT IN ('Deletion Flag')\n" +
+    "            AND PLANT NOT LIKE 'T%'\n" +
+    '         AND ZREQ_SDAT >= ? AND ZREQ_SDAT <= ? GROUP BY PLANT',
+  parameters: [ 'Q1_LUB_2023', '2023-02-04', '2027-02-04' ],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'total_count',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: true
+    },
+    {
+      name: 'PLANT',
+      dataType: -9,
+      dataTypeName: 'SQL_WVARCHAR',
+      columnSize: 4,
+      decimalDigits: 0,
+      nullable: true
+    }
+  ]
+]
