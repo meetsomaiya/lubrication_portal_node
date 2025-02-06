@@ -1,1 +1,0 @@
-GET /api/fetch_oil_under_supervision_admin 304 - - 848.004 ms

@@ -1,0 +1,340 @@
+checkAdmin route module loaded
+checkUser route module loaded
+Server is listening on port \\.\pipe\bd8b1025-4c7c-413b-909c-89f75436ac49
+Connected to the database.
+Received heartbeat data: {
+  name: 'Not Set',
+  userId: 'Not Set',
+  access: 'Not Set',
+  adminEmail: 'Not Set',
+  domain_id: 'vhiralal',
+  state: 'Not Set',
+  area: 'Not Set',
+  site: 'Not Set',
+  pathname: '/Oil_Analysis_user?domain_id=dmhpcmFsYWw',
+  entryTime: '2025-02-06 21:24:19',
+  exitTime: '2025-02-06 21:26:11'
+}
+Start DateTime in IST format: 2025-02-06T15:54:19.000Z
+End DateTime in IST format: 2025-02-06T15:56:11.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-06T15:56:11.000Z',
+    Password: 'Suzlon@123',
+    UserID: 'vhiralal',
+    ScreenName: '/Oil_Analysis_user?domain_id=dmhpcmFsYWw',
+    StartDateTime: '2025-02-06T15:54:19.000Z',
+    UserEngagementID: 0,
+    UserName: 'Not Set'
+  }
+]
+Received heartbeat data: {
+  name: 'Not Set',
+  userId: 'Not Set',
+  access: 'Not Set',
+  adminEmail: 'Not Set',
+  domain_id: 'vhiralal',
+  state: 'Not Set',
+  area: 'Not Set',
+  site: 'Not Set',
+  pathname: '/Oil_Analysis_user?domain_id=dmhpcmFsYWw',
+  entryTime: '2025-02-06 21:24:19',
+  exitTime: '2025-02-06 21:26:11'
+}
+Start DateTime in IST format: 2025-02-06T15:54:19.000Z
+End DateTime in IST format: 2025-02-06T15:56:11.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-06T15:56:11.000Z',
+    Password: 'Suzlon@123',
+    UserID: 'vhiralal',
+    ScreenName: '/Oil_Analysis_user?domain_id=dmhpcmFsYWw',
+    StartDateTime: '2025-02-06T15:54:19.000Z',
+    UserEngagementID: 0,
+    UserName: 'Not Set'
+  }
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Connected to the database.
+Connected to the database.
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 1455.239 ms
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 1830.502 ms
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_fy_year 304 - - 1791.728 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_order_type 304 - - 1933.616 ms
+Connected to the database.
+GET /api/fetch_fy_year 304 - - 242.508 ms
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_order_type 304 - - 1025.338 ms
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_yd_oil_change_state_wise_data?year=FY%202024-2025 304 - - 5446.403 ms
+GET /api/fetch_fc_topup_state_wise_data?year=FY%202024-2025 304 - - 5461.333 ms
+Connected to the database.
+GET /api/fetch_gb_topup_state_wise_data?year=FY%202024-2025 304 - - 5561.803 ms
+GET /api/fetch_gb_oil_change_state_wise_data?year=FY%202024-2025 304 - - 5581.113 ms
+Connected to the database.
+GET /api/fetch_fc_oil_change_state_wise_data?year=FY%202024-2025 304 - - 5652.598 ms
+GET /api/fetch_pd_oil_change_state_wise_data?year=FY%202024-2025 304 - - 5681.313 ms
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_ydpd_topup_state_wise_data?year=FY%202024-2025 304 - - 393.318 ms
+GET /api/fetch_pending_teco_state_wise_data?year=FY%202024-2025 304 - - 217.743 ms
+GET /api/fetch_dispute_state_wise_data?year=FY%202024-2025 304 - - 331.574 ms

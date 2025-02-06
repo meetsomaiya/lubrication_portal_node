@@ -1,0 +1,368 @@
+(node:15228) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Database connection failed: [Error: [odbc] Error connecting to the database] {
+  odbcErrors: [
+    {
+      state: '08001',
+      code: 258,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: The wait operation timed out.\r\n'
+    },
+    {
+      state: 'HYT00',
+      code: 0,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired'
+    },
+    {
+      state: '01S00',
+      code: 0,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]Invalid connection string attribute'
+    },
+    {
+      state: '08001',
+      code: 258,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.'
+    }
+  ]
+}
+Error in API request: FetchError: request to https://suzomsuatapps.suzlon.com:7003/Services/SuzlonActiveUser/api/SuzlonActiveUser/IsUserActive/ failed, reason: 
+    at ClientRequest.<anonymous> (D:\NODEJS_BACKEND\Lubrication_Portal_Backend\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:103:11)
+    at TLSSocket.socketErrorListener (node:_http_client:506:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+Error in API request: FetchError: request to https://suzomsuatapps.suzlon.com:7003/Services/SuzlonActiveUser/api/SuzlonActiveUser/IsUserActive/ failed, reason: 
+    at ClientRequest.<anonymous> (D:\NODEJS_BACKEND\Lubrication_Portal_Backend\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:103:11)
+    at TLSSocket.socketErrorListener (node:_http_client:506:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+Database connection failed: [Error: [odbc] Error connecting to the database] {
+  odbcErrors: [
+    {
+      state: '08001',
+      code: 258,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: The wait operation timed out.\r\n'
+    },
+    {
+      state: 'HYT00',
+      code: 0,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired'
+    },
+    {
+      state: '01S00',
+      code: 0,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]Invalid connection string attribute'
+    },
+    {
+      state: '08001',
+      code: 258,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.'
+    }
+  ]
+}
+Database connection failed: [Error: [odbc] Error connecting to the database] {
+  odbcErrors: [
+    {
+      state: '08001',
+      code: 258,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: The wait operation timed out.\r\n'
+    },
+    {
+      state: 'HYT00',
+      code: 0,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired'
+    },
+    {
+      state: '01S00',
+      code: 0,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]Invalid connection string attribute'
+    },
+    {
+      state: '08001',
+      code: 258,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.'
+    }
+  ]
+}
+Database connection failed: [Error: [odbc] Error connecting to the database] {
+  odbcErrors: [
+    {
+      state: '08001',
+      code: 258,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: The wait operation timed out.\r\n'
+    },
+    {
+      state: 'HYT00',
+      code: 0,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired'
+    },
+    {
+      state: '01S00',
+      code: 0,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]Invalid connection string attribute'
+    },
+    {
+      state: '08001',
+      code: 258,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.'
+    }
+  ]
+}
+Database connection failed: [Error: [odbc] Error connecting to the database] {
+  odbcErrors: [
+    {
+      state: '08001',
+      code: 258,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: The wait operation timed out.\r\n'
+    },
+    {
+      state: 'HYT00',
+      code: 0,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired'
+    },
+    {
+      state: '01S00',
+      code: 0,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]Invalid connection string attribute'
+    },
+    {
+      state: '08001',
+      code: 258,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.'
+    }
+  ]
+}
+Error in API request: FetchError: request to https://suzomsuatapps.suzlon.com:7003/Services/SuzlonActiveUser/api/SuzlonActiveUser/IsUserActive/ failed, reason: 
+    at ClientRequest.<anonymous> (D:\NODEJS_BACKEND\Lubrication_Portal_Backend\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:103:11)
+    at TLSSocket.socketErrorListener (node:_http_client:506:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+Error in API request: FetchError: request to https://suzomsuatapps.suzlon.com:7003/Services/SuzlonActiveUser/api/SuzlonActiveUser/IsUserActive/ failed, reason: 
+    at ClientRequest.<anonymous> (D:\NODEJS_BACKEND\Lubrication_Portal_Backend\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:103:11)
+    at TLSSocket.socketErrorListener (node:_http_client:506:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+Database connection failed: [Error: [odbc] Error connecting to the database] {
+  odbcErrors: [
+    {
+      state: '08001',
+      code: 258,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: The wait operation timed out.\r\n'
+    },
+    {
+      state: 'HYT00',
+      code: 0,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired'
+    },
+    {
+      state: '01S00',
+      code: 0,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]Invalid connection string attribute'
+    },
+    {
+      state: '08001',
+      code: 258,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.'
+    }
+  ]
+}
+Database connection failed: [Error: [odbc] Error connecting to the database] {
+  odbcErrors: [
+    {
+      state: '08001',
+      code: 258,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: The wait operation timed out.\r\n'
+    },
+    {
+      state: 'HYT00',
+      code: 0,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired'
+    },
+    {
+      state: '01S00',
+      code: 0,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]Invalid connection string attribute'
+    },
+    {
+      state: '08001',
+      code: 258,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.'
+    }
+  ]
+}
+Database connection failed: [Error: [odbc] Error connecting to the database] {
+  odbcErrors: [
+    {
+      state: '08001',
+      code: 258,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: The wait operation timed out.\r\n'
+    },
+    {
+      state: 'HYT00',
+      code: 0,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired'
+    },
+    {
+      state: '01S00',
+      code: 0,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]Invalid connection string attribute'
+    },
+    {
+      state: '08001',
+      code: 258,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.'
+    }
+  ]
+}
+Database connection failed: [Error: [odbc] Error connecting to the database] {
+  odbcErrors: [
+    {
+      state: '08001',
+      code: 258,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: The wait operation timed out.\r\n'
+    },
+    {
+      state: 'HYT00',
+      code: 0,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired'
+    },
+    {
+      state: '01S00',
+      code: 0,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]Invalid connection string attribute'
+    },
+    {
+      state: '08001',
+      code: 258,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.'
+    }
+  ]
+}
+Error in API request: FetchError: request to https://suzomsuatapps.suzlon.com:7003/Services/SuzlonActiveUser/api/SuzlonActiveUser/IsUserActive/ failed, reason: 
+    at ClientRequest.<anonymous> (D:\NODEJS_BACKEND\Lubrication_Portal_Backend\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:103:11)
+    at TLSSocket.socketErrorListener (node:_http_client:506:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+Error in API request: FetchError: request to https://suzomsuatapps.suzlon.com:7003/Services/SuzlonActiveUser/api/SuzlonActiveUser/IsUserActive/ failed, reason: 
+    at ClientRequest.<anonymous> (D:\NODEJS_BACKEND\Lubrication_Portal_Backend\node_modules\node-fetch\lib\index.js:1501:11)
+    at ClientRequest.emit (node:events:518:28)
+    at emitErrorEvent (node:_http_client:103:11)
+    at TLSSocket.socketErrorListener (node:_http_client:506:5)
+    at TLSSocket.emit (node:events:518:28)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:129:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21) {
+  type: 'system',
+  errno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT'
+}
+Database connection failed: [Error: [odbc] Error connecting to the database] {
+  odbcErrors: [
+    {
+      state: '08001',
+      code: 258,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: The wait operation timed out.\r\n'
+    },
+    {
+      state: 'HYT00',
+      code: 0,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired'
+    },
+    {
+      state: '01S00',
+      code: 0,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]Invalid connection string attribute'
+    },
+    {
+      state: '08001',
+      code: 258,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.'
+    }
+  ]
+}
+Database connection failed: [Error: [odbc] Error connecting to the database] {
+  odbcErrors: [
+    {
+      state: '08001',
+      code: 258,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: The wait operation timed out.\r\n'
+    },
+    {
+      state: 'HYT00',
+      code: 0,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired'
+    },
+    {
+      state: '01S00',
+      code: 0,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]Invalid connection string attribute'
+    },
+    {
+      state: '08001',
+      code: 258,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.'
+    }
+  ]
+}
+Database connection failed: [Error: [odbc] Error connecting to the database] {
+  odbcErrors: [
+    {
+      state: '08001',
+      code: 258,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]TCP Provider: The wait operation timed out.\r\n'
+    },
+    {
+      state: 'HYT00',
+      code: 0,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired'
+    },
+    {
+      state: '01S00',
+      code: 0,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]Invalid connection string attribute'
+    },
+    {
+      state: '08001',
+      code: 258,
+      message: '[Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online.'
+    }
+  ]
+}

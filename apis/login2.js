@@ -37,7 +37,9 @@ router.post('/', async (req, res) => {
     }
 
     // API URL for user authentication
-    const apiUrl = "https://uat-mob.suzlon.com/SuzlonActiveUser/api/SuzlonActiveUser/IsUserActive";
+   // const apiUrl = "https://uat-mob.suzlon.com/SuzlonActiveUser/api/SuzlonActiveUser/IsUserActive";
+
+   const apiUrl = 'https://suzomsuatapps.suzlon.com:7003/Services/SuzlonActiveUser/api/SuzlonActiveUser/IsUserActive/';
 
     // Encode domain ID using base64 for API request
     const encodedDomainId = Buffer.from(domain_id).toString('base64');

@@ -1,0 +1,26 @@
+{
+  "DomainId": "39192",
+  "Name": "Abhishek V Devarkar",
+  "Message": "Suzlon",
+  "EmailId": "Abhishek.Devarkar@suzlon.com",
+  "Department": "Digital Solutions",
+  "ContactNumber": "02067021086",
+  "MobileNumber": "8073378059",
+  "EmpGrade": "M5",
+  "IsActive": true,
+  "Groups": [
+    "CN=SEL_PUNEFS_OMS_SGSLColib_WTGAct_Full,OU=OMS,OU=FileServer_Groups,DC=suzlon,DC=com",
+    "CN=SUZLON IT,OU=Users,OU=Pune,DC=suzlon,DC=com",
+    "CN=OMS-Corp,OU=Groups,OU=Pune,OU=Maharashtra,OU=India,DC=suzlon,DC=com",
+    "CN=Suzlon All India OMS group,CN=Users,DC=suzlon,DC=com",
+    "CN=contacts oms,OU=Groups,OU=Pune,OU=Maharashtra,OU=India,DC=suzlon,DC=com",
+    "CN=DLP_Installation,OU=Groups,OU=Pune,OU=Maharashtra,OU=India,DC=suzlon,DC=com",
+    "CN=IB-OMS-DL,CN=Users,DC=suzlon,DC=com",
+    "CN=OMS DA Digitization,CN=Users,DC=suzlon,DC=com",
+    "CN=OMSEMPIB,CN=Users,DC=suzlon,DC=com",
+    "CN=SEL_PUNEFS_OMS_ENG_Digitiz_RW,OU=OMS,OU=FileServer_Groups,DC=suzlon,DC=com",
+    "CN=SEL_PUNEFS_OMS_ENG_Digitiz_FULL,OU=OMS,OU=FileServer_Groups,DC=suzlon,DC=com",
+    "CN=Suzlon All India Group,OU=Groups,OU=Pune,OU=Maharashtra,OU=India,DC=suzlon,DC=com",
+    "CN=Suzlon One Earth Group,OU=Groups,OU=Pune,OU=Maharashtra,OU=India,DC=suzlon,DC=com"
+  ]
+}

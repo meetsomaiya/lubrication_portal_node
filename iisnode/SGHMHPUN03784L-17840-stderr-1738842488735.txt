@@ -1,0 +1,24 @@
+(node:17840) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Invalid API response: {
+  DomainId: '',
+  Name: '',
+  Message: 'Provided domainId not found in AD',
+  EmailId: '',
+  Department: '',
+  ContactNumber: '',
+  MobileNumber: '',
+  EmpGrade: '',
+  IsActive: false
+}
+Invalid API response: {
+  DomainId: '',
+  Name: '',
+  Message: 'Provided domainId not found in AD',
+  EmailId: '',
+  Department: '',
+  ContactNumber: '',
+  MobileNumber: '',
+  EmpGrade: '',
+  IsActive: false
+}
