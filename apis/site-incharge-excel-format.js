@@ -1,8 +1,6 @@
 const express = require('express');
-const path = require('path');
-const fs = require('fs');
 const xlsx = require('xlsx');
-const { connectToDatabase } = require('./connect6.js');
+const { connectToMSSQL } = require('./connect8.js');
 const router = express.Router();
 
 // Set up CORS middleware
@@ -18,14 +16,21 @@ router.use((req, res, next) => {
 // Helper function to generate Excel file from the database result
 async function generateExcelFile() {
   try {
-    const dbConnection = await connectToDatabase();
-
-    // Query the data from site_area_incharge_mapping
-    const query = 'SELECT [id], [Functional Location], [STATE], [AREA], [SITE], [Maintenance Plant], [STATE ENGG HEAD], [AREA INCHARGE], [SITE INCHARGE], [STATE PMO], [MAINTENNACE INCHARGES], [GEAR BOX TEAM], [extra] FROM site_area_incharge_mapping';
-    const rows = await dbConnection.query(query);
+    const pool = await connectToMSSQL();
+    const request = pool.request();
+    
+    // Query data from site_area_incharge_mapping
+    const query = `SELECT [id], [Functional Location], [STATE], [AREA], [SITE], 
+                          [Maintenance Plant], [STATE ENGG HEAD], [AREA INCHARGE], 
+                          [SITE INCHARGE], [STATE PMO], [MAINTENNACE INCHARGES], 
+                          [GEAR BOX TEAM], [extra] 
+                   FROM site_area_incharge_mapping`;
+    
+    const result = await request.query(query);
+    const rows = result.recordset || [];
 
     // Map rows to the desired format
-    const excelData = rows.map((row) => ({
+    const excelData = rows.map(row => ({
       'SR NO': row.id,
       'SAP FUNCTIONAL LOCATION': row['Functional Location'],
       'STATE': row.STATE,
@@ -37,7 +42,7 @@ async function generateExcelFile() {
       'SITE INCHARGES': row['SITE INCHARGE'],
       'STATE PMO': row['STATE PMO'],
       'MAINTENNACE INCHARGES': row['MAINTENNACE INCHARGES'],
-      'GEAR BOX TEAM': row['GEAR BOX TEAM'],
+      'GEAR BOX TEAM': row['GEAR BOX TEAM']
     }));
 
     // Define the headers in the desired order
@@ -56,17 +61,13 @@ async function generateExcelFile() {
       'GEAR BOX TEAM'
     ];
 
-    // Create a worksheet from the excelData
+    // Create a worksheet from the data
     const ws = xlsx.utils.json_to_sheet(excelData, { header: headers });
-
-    // Create a new workbook and append the worksheet
     const wb = xlsx.utils.book_new();
     xlsx.utils.book_append_sheet(wb, ws, 'Site Incharge Mapping');
 
     // Save the Excel file to a buffer
-    const fileBuffer = xlsx.write(wb, { bookType: 'xlsx', type: 'buffer' });
-
-    return fileBuffer;
+    return xlsx.write(wb, { bookType: 'xlsx', type: 'buffer' });
   } catch (error) {
     console.error('Error generating Excel file:', error);
     throw error;
@@ -77,12 +78,11 @@ async function generateExcelFile() {
 router.get('/', async (req, res) => {
   try {
     const excelFile = await generateExcelFile();
-
-    // Set the response headers for downloading the file
+    
+    // Set response headers
     res.setHeader('Content-Type', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
     res.setHeader('Content-Disposition', 'attachment; filename=site_incharge_mapping.xlsx');
-
-    // Send the generated file as a response
+    
     res.send(excelFile);
   } catch (err) {
     console.error('Error downloading file:', err);

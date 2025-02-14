@@ -1,0 +1,3589 @@
+Inserting: {
+  'SR NO': 221114,
+  'Functional Location': 'SWSKAR-SC1-PCD01-VT212',
+  STATE: 'TAMILNADU',
+  AREA: 'Muthiampatti',
+  SITE: 'Karur',
+  'Maintenance Plant': '2478',
+  'STATE ENGG HEAD': 'rchithambaranathan@suzlon.com',
+  'AREA INCHARGE': 'Pradeep.T@suzlon.com',
+  'SITE INCHARGE': 'subramonian.m@suzlon.com',
+  'STATE PMO': 'R.ANDREW@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'govindaraj.p@suzlon.com',
+  'GEAR BOX TEAM': 'govindaraj.p@suzlon.com'
+}
+Inserting: {
+  'SR NO': 221115,
+  'Functional Location': 'SWSKAR-SC1-RWE01-VT223',
+  STATE: 'TAMILNADU',
+  AREA: 'Muthiampatti',
+  SITE: 'Karur',
+  'Maintenance Plant': '2478',
+  'STATE ENGG HEAD': 'rchithambaranathan@suzlon.com',
+  'AREA INCHARGE': 'Pradeep.T@suzlon.com',
+  'SITE INCHARGE': 'subramonian.m@suzlon.com',
+  'STATE PMO': 'R.ANDREW@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'govindaraj.p@suzlon.com',
+  'GEAR BOX TEAM': 'govindaraj.p@suzlon.com'
+}
+Inserting: {
+  'SR NO': 221116,
+  'Functional Location': 'SWSFAT-SC1-AGE01-FS2277',
+  STATE: 'RAJASTHAN',
+  AREA: 'Ratan Ka Bass',
+  SITE: 'Fatehgarh A',
+  'Maintenance Plant': '4411',
+  'STATE ENGG HEAD': 'vhiralal@suzlon.com',
+  'AREA INCHARGE': 'rakesh.jangid@suzlon.com',
+  'SITE INCHARGE': 'chandrapal.udawat@suzlon.com',
+  'STATE PMO': 'kuldeep.singh@suzlon.com',
+  'MAINTENNACE INCHARGES': 'abhishek.chauhan@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 221117,
+  'Functional Location': 'SWSFAT-SC1-AGE01-FS3930',
+  STATE: 'RAJASTHAN',
+  AREA: 'Ratan Ka Bass',
+  SITE: 'Fatehgarh A',
+  'Maintenance Plant': '4411',
+  'STATE ENGG HEAD': 'vhiralal@suzlon.com',
+  'AREA INCHARGE': 'rakesh.jangid@suzlon.com',
+  'SITE INCHARGE': 'chandrapal.udawat@suzlon.com',
+  'STATE PMO': 'kuldeep.singh@suzlon.com',
+  'MAINTENNACE INCHARGES': 'abhishek.chauhan@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 221118,
+  'Functional Location': 'SWSKAN-SC1-SGI01-KKB072',
+  STATE: 'KARNATAKA',
+  AREA: 'East Karanataka',
+  SITE: 'Kanakagiri',
+  'Maintenance Plant': '2497',
+  'STATE ENGG HEAD': 'Mallikarjun.Uppin@suzlon.com',
+  'AREA INCHARGE': 'S.Sivakumar@suzlon.com',
+  'SITE INCHARGE': 'suresh.patil2@suzlon.com',
+  'STATE PMO': 'MUTHUKUMAR.V@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'pramod.sahoo@suzlon.com',
+  'GEAR BOX TEAM': 'devaraj.durairaj@suzlon.com'
+}
+Inserting: {
+  'SR NO': 221119,
+  'Functional Location': 'SWSKAN-SC1-SGI01-KKB073',
+  STATE: 'KARNATAKA',
+  AREA: 'East Karanataka',
+  SITE: 'Kanakagiri',
+  'Maintenance Plant': '2497',
+  'STATE ENGG HEAD': 'Mallikarjun.Uppin@suzlon.com',
+  'AREA INCHARGE': 'S.Sivakumar@suzlon.com',
+  'SITE INCHARGE': 'suresh.patil2@suzlon.com',
+  'STATE PMO': 'MUTHUKUMAR.V@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'pramod.sahoo@suzlon.com',
+  'GEAR BOX TEAM': 'devaraj.durairaj@suzlon.com'
+}
+Inserting: {
+  'SR NO': 221120,
+  'Functional Location': 'SWSKAN-SC1-SGI01-KKB074',
+  STATE: 'KARNATAKA',
+  AREA: 'East Karanataka',
+  SITE: 'Kanakagiri',
+  'Maintenance Plant': '2497',
+  'STATE ENGG HEAD': 'Mallikarjun.Uppin@suzlon.com',
+  'AREA INCHARGE': 'S.Sivakumar@suzlon.com',
+  'SITE INCHARGE': 'suresh.patil2@suzlon.com',
+  'STATE PMO': 'MUTHUKUMAR.V@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'pramod.sahoo@suzlon.com',
+  'GEAR BOX TEAM': 'devaraj.durairaj@suzlon.com'
+}
+Inserting: {
+  'SR NO': 221121,
+  'Functional Location': 'SWSKAN-SC1-SGI01-KKB075',
+  STATE: 'KARNATAKA',
+  AREA: 'East Karanataka',
+  SITE: 'Kanakagiri',
+  'Maintenance Plant': '2497',
+  'STATE ENGG HEAD': 'Mallikarjun.Uppin@suzlon.com',
+  'AREA INCHARGE': 'S.Sivakumar@suzlon.com',
+  'SITE INCHARGE': 'suresh.patil2@suzlon.com',
+  'STATE PMO': 'MUTHUKUMAR.V@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'pramod.sahoo@suzlon.com',
+  'GEAR BOX TEAM': 'devaraj.durairaj@suzlon.com'
+}
+Inserting: {
+  'SR NO': 221122,
+  'Functional Location': 'SWSKAN-SC1-SGI01-KKB077',
+  STATE: 'KARNATAKA',
+  AREA: 'East Karanataka',
+  SITE: 'Kanakagiri',
+  'Maintenance Plant': '2497',
+  'STATE ENGG HEAD': 'Mallikarjun.Uppin@suzlon.com',
+  'AREA INCHARGE': 'S.Sivakumar@suzlon.com',
+  'SITE INCHARGE': 'suresh.patil2@suzlon.com',
+  'STATE PMO': 'MUTHUKUMAR.V@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'pramod.sahoo@suzlon.com',
+  'GEAR BOX TEAM': 'devaraj.durairaj@suzlon.com'
+}
+Inserting: {
+  'SR NO': 221123,
+  'Functional Location': 'SWSFAT-SC1-AGE01-FS2391',
+  STATE: 'RAJASTHAN',
+  AREA: 'Ratan Ka Bass',
+  SITE: 'Fatehgarh A',
+  'Maintenance Plant': '4411',
+  'STATE ENGG HEAD': 'vhiralal@suzlon.com',
+  'AREA INCHARGE': 'rakesh.jangid@suzlon.com',
+  'SITE INCHARGE': 'chandrapal.udawat@suzlon.com',
+  'STATE PMO': 'kuldeep.singh@suzlon.com',
+  'MAINTENNACE INCHARGES': 'abhishek.chauhan@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 221124,
+  'Functional Location': 'SWSFAT-SC1-AGE01-FS3563',
+  STATE: 'RAJASTHAN',
+  AREA: 'Ratan Ka Bass',
+  SITE: 'Fatehgarh A',
+  'Maintenance Plant': '4411',
+  'STATE ENGG HEAD': 'vhiralal@suzlon.com',
+  'AREA INCHARGE': 'rakesh.jangid@suzlon.com',
+  'SITE INCHARGE': 'chandrapal.udawat@suzlon.com',
+  'STATE PMO': 'kuldeep.singh@suzlon.com',
+  'MAINTENNACE INCHARGES': 'abhishek.chauhan@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 221125,
+  'Functional Location': 'SWSFAT-SC1-AGE01-T120',
+  STATE: 'RAJASTHAN',
+  AREA: 'Ratan Ka Bass',
+  SITE: 'Fatehgarh A',
+  'Maintenance Plant': '4411',
+  'STATE ENGG HEAD': 'vhiralal@suzlon.com',
+  'AREA INCHARGE': 'rakesh.jangid@suzlon.com',
+  'SITE INCHARGE': 'chandrapal.udawat@suzlon.com',
+  'STATE PMO': 'kuldeep.singh@suzlon.com',
+  'MAINTENNACE INCHARGES': 'abhishek.chauhan@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 221126,
+  'Functional Location': 'SWSKAN-SC1-SGI01-KKB085',
+  STATE: 'KARNATAKA',
+  AREA: 'East Karanataka',
+  SITE: 'Kanakagiri',
+  'Maintenance Plant': '2497',
+  'STATE ENGG HEAD': 'Mallikarjun.Uppin@suzlon.com',
+  'AREA INCHARGE': 'S.Sivakumar@suzlon.com',
+  'SITE INCHARGE': 'suresh.patil2@suzlon.com',
+  'STATE PMO': 'MUTHUKUMAR.V@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'pramod.sahoo@suzlon.com',
+  'GEAR BOX TEAM': 'devaraj.durairaj@suzlon.com'
+}
+Inserting: {
+  'SR NO': 221127,
+  'Functional Location': 'SWSKAN-SC1-SGI01-KKB101',
+  STATE: 'KARNATAKA',
+  AREA: 'East Karanataka',
+  SITE: 'Kanakagiri',
+  'Maintenance Plant': '2497',
+  'STATE ENGG HEAD': 'Mallikarjun.Uppin@suzlon.com',
+  'AREA INCHARGE': 'S.Sivakumar@suzlon.com',
+  'SITE INCHARGE': 'suresh.patil2@suzlon.com',
+  'STATE PMO': 'MUTHUKUMAR.V@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'pramod.sahoo@suzlon.com',
+  'GEAR BOX TEAM': 'devaraj.durairaj@suzlon.com'
+}
+Inserting: {
+  'SR NO': 221128,
+  'Functional Location': 'SWSKAN-SC1-SGI01-KKB107',
+  STATE: 'KARNATAKA',
+  AREA: 'East Karanataka',
+  SITE: 'Kanakagiri',
+  'Maintenance Plant': '2497',
+  'STATE ENGG HEAD': 'Mallikarjun.Uppin@suzlon.com',
+  'AREA INCHARGE': 'S.Sivakumar@suzlon.com',
+  'SITE INCHARGE': 'suresh.patil2@suzlon.com',
+  'STATE PMO': 'MUTHUKUMAR.V@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'pramod.sahoo@suzlon.com',
+  'GEAR BOX TEAM': 'devaraj.durairaj@suzlon.com'
+}
+Inserting: {
+  'SR NO': 221129,
+  'Functional Location': 'SWSKAN-SC1-SGI01-KKB108',
+  STATE: 'KARNATAKA',
+  AREA: 'East Karanataka',
+  SITE: 'Kanakagiri',
+  'Maintenance Plant': '2497',
+  'STATE ENGG HEAD': 'Mallikarjun.Uppin@suzlon.com',
+  'AREA INCHARGE': 'S.Sivakumar@suzlon.com',
+  'SITE INCHARGE': 'suresh.patil2@suzlon.com',
+  'STATE PMO': 'MUTHUKUMAR.V@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'pramod.sahoo@suzlon.com',
+  'GEAR BOX TEAM': 'devaraj.durairaj@suzlon.com'
+}
+Inserting: {
+  'SR NO': 221130,
+  'Functional Location': 'SWSKAN-SC1-SGI01-KKB109',
+  STATE: 'KARNATAKA',
+  AREA: 'East Karanataka',
+  SITE: 'Kanakagiri',
+  'Maintenance Plant': '2497',
+  'STATE ENGG HEAD': 'Mallikarjun.Uppin@suzlon.com',
+  'AREA INCHARGE': 'S.Sivakumar@suzlon.com',
+  'SITE INCHARGE': 'suresh.patil2@suzlon.com',
+  'STATE PMO': 'MUTHUKUMAR.V@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'pramod.sahoo@suzlon.com',
+  'GEAR BOX TEAM': 'devaraj.durairaj@suzlon.com'
+}
+Inserting: {
+  'SR NO': 221131,
+  'Functional Location': 'SWSKAN-SC1-SGI01-KKB110',
+  STATE: 'KARNATAKA',
+  AREA: 'East Karanataka',
+  SITE: 'Kanakagiri',
+  'Maintenance Plant': '2497',
+  'STATE ENGG HEAD': 'Mallikarjun.Uppin@suzlon.com',
+  'AREA INCHARGE': 'S.Sivakumar@suzlon.com',
+  'SITE INCHARGE': 'suresh.patil2@suzlon.com',
+  'STATE PMO': 'MUTHUKUMAR.V@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'pramod.sahoo@suzlon.com',
+  'GEAR BOX TEAM': 'devaraj.durairaj@suzlon.com'
+}
+Inserting: {
+  'SR NO': 221132,
+  'Functional Location': 'SWSKAN-SC1-SGI01-KKB113',
+  STATE: 'KARNATAKA',
+  AREA: 'East Karanataka',
+  SITE: 'Kanakagiri',
+  'Maintenance Plant': '2497',
+  'STATE ENGG HEAD': 'Mallikarjun.Uppin@suzlon.com',
+  'AREA INCHARGE': 'S.Sivakumar@suzlon.com',
+  'SITE INCHARGE': 'suresh.patil2@suzlon.com',
+  'STATE PMO': 'MUTHUKUMAR.V@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'pramod.sahoo@suzlon.com',
+  'GEAR BOX TEAM': 'devaraj.durairaj@suzlon.com'
+}
+Inserting: {
+  'SR NO': 221133,
+  'Functional Location': 'SWSKAN-SC1-SGI01-KKB127',
+  STATE: 'KARNATAKA',
+  AREA: 'East Karanataka',
+  SITE: 'Kanakagiri',
+  'Maintenance Plant': '2497',
+  'STATE ENGG HEAD': 'Mallikarjun.Uppin@suzlon.com',
+  'AREA INCHARGE': 'S.Sivakumar@suzlon.com',
+  'SITE INCHARGE': 'suresh.patil2@suzlon.com',
+  'STATE PMO': 'MUTHUKUMAR.V@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'pramod.sahoo@suzlon.com',
+  'GEAR BOX TEAM': 'devaraj.durairaj@suzlon.com'
+}
+Inserting: {
+  'SR NO': 221134,
+  'Functional Location': 'SWSFAT-SC1-AGE01-FSN539',
+  STATE: 'RAJASTHAN',
+  AREA: 'Ratan Ka Bass',
+  SITE: 'Fatehgarh B',
+  'Maintenance Plant': '2481',
+  'STATE ENGG HEAD': 'vhiralal@suzlon.com',
+  'AREA INCHARGE': 'rakesh.jangid@suzlon.com',
+  'SITE INCHARGE': 'Achal.Deora@suzlon.com',
+  'STATE PMO': 'kuldeep.singh@suzlon.com',
+  'MAINTENNACE INCHARGES': 'abhishek.chauhan@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 221135,
+  'Functional Location': 'SWSFAT-SC1-AGE01-FS3562',
+  STATE: 'RAJASTHAN',
+  AREA: 'Ratan Ka Bass',
+  SITE: 'Fatehgarh A',
+  'Maintenance Plant': '4411',
+  'STATE ENGG HEAD': 'vhiralal@suzlon.com',
+  'AREA INCHARGE': 'rakesh.jangid@suzlon.com',
+  'SITE INCHARGE': 'chandrapal.udawat@suzlon.com',
+  'STATE PMO': 'kuldeep.singh@suzlon.com',
+  'MAINTENNACE INCHARGES': 'abhishek.chauhan@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 221136,
+  'Functional Location': 'SWSFAT-SC1-AGE01-T116',
+  STATE: 'RAJASTHAN',
+  AREA: 'Ratan Ka Bass',
+  SITE: 'Fatehgarh A',
+  'Maintenance Plant': '4411',
+  'STATE ENGG HEAD': 'vhiralal@suzlon.com',
+  'AREA INCHARGE': 'rakesh.jangid@suzlon.com',
+  'SITE INCHARGE': 'chandrapal.udawat@suzlon.com',
+  'STATE PMO': 'kuldeep.singh@suzlon.com',
+  'MAINTENNACE INCHARGES': 'abhishek.chauhan@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 221137,
+  'Functional Location': 'SWSFAT-SC1-AGE01-N051',
+  STATE: 'RAJASTHAN',
+  AREA: 'Ratan Ka Bass',
+  SITE: 'Fatehgarh B',
+  'Maintenance Plant': '2481',
+  'STATE ENGG HEAD': 'vhiralal@suzlon.com',
+  'AREA INCHARGE': 'rakesh.jangid@suzlon.com',
+  'SITE INCHARGE': 'Achal.Deora@suzlon.com',
+  'STATE PMO': 'kuldeep.singh@suzlon.com',
+  'MAINTENNACE INCHARGES': 'abhishek.chauhan@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 221138,
+  'Functional Location': 'SWSKAN-SC1-SGI01-KKB170',
+  STATE: 'KARNATAKA',
+  AREA: 'East Karanataka',
+  SITE: 'Kanakagiri',
+  'Maintenance Plant': '2497',
+  'STATE ENGG HEAD': 'Mallikarjun.Uppin@suzlon.com',
+  'AREA INCHARGE': 'S.Sivakumar@suzlon.com',
+  'SITE INCHARGE': 'suresh.patil2@suzlon.com',
+  'STATE PMO': 'MUTHUKUMAR.V@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'pramod.sahoo@suzlon.com',
+  'GEAR BOX TEAM': 'devaraj.durairaj@suzlon.com'
+}
+Inserting: {
+  'SR NO': 221139,
+  'Functional Location': 'SWSKAN-SC1-SGI01-KKB177',
+  STATE: 'KARNATAKA',
+  AREA: 'East Karanataka',
+  SITE: 'Kanakagiri',
+  'Maintenance Plant': '2497',
+  'STATE ENGG HEAD': 'Mallikarjun.Uppin@suzlon.com',
+  'AREA INCHARGE': 'S.Sivakumar@suzlon.com',
+  'SITE INCHARGE': 'suresh.patil2@suzlon.com',
+  'STATE PMO': 'MUTHUKUMAR.V@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'pramod.sahoo@suzlon.com',
+  'GEAR BOX TEAM': 'devaraj.durairaj@suzlon.com'
+}
+Inserting: {
+  'SR NO': 221140,
+  'Functional Location': 'SWSMHD-SC1-JCL01-K1N',
+  STATE: 'GUJARAT-Saurashtra',
+  AREA: 'Mahidad',
+  SITE: 'Mahidad',
+  'Maintenance Plant': '2456',
+  'STATE ENGG HEAD': 'bchampak@suzlon.com',
+  'AREA INCHARGE': 'sharwan.kumar@suzlon.com',
+  'SITE INCHARGE': 'jatan.padhiyar@suzlon.com',
+  'STATE PMO': 'bala.p@suzlon.com',
+  'MAINTENNACE INCHARGES': 'Nilesh.Singanjude@suzlon.com',
+  'GEAR BOX TEAM': 'raval.somabhai@suzlon.com'
+}
+Inserting: {
+  'SR NO': 221141,
+  'Functional Location': 'SWSKAR-SC1-BEL01-VT295',
+  STATE: 'TAMILNADU',
+  AREA: 'Muthiampatti',
+  SITE: 'Karur',
+  'Maintenance Plant': '2478',
+  'STATE ENGG HEAD': 'rchithambaranathan@suzlon.com',
+  'AREA INCHARGE': 'Pradeep.T@suzlon.com',
+  'SITE INCHARGE': 'subramonian.m@suzlon.com',
+  'STATE PMO': 'R.ANDREW@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'govindaraj.p@suzlon.com',
+  'GEAR BOX TEAM': 'govindaraj.p@suzlon.com'
+}
+Inserting: {
+  'SR NO': 221142,
+  'Functional Location': 'SWSMOD-SC2-JBE01-GDL127',
+  STATE: 'GUJARAT-Saurashtra',
+  AREA: 'Mahidad',
+  SITE: 'Modpar',
+  'Maintenance Plant': '2455',
+  'STATE ENGG HEAD': 'bchampak@suzlon.com',
+  'AREA INCHARGE': 'sharwan.kumar@suzlon.com',
+  'SITE INCHARGE': 'sandeep.parmar@suzlon.com',
+  'STATE PMO': 'bala.p@suzlon.com',
+  'MAINTENNACE INCHARGES': 'Nilesh.Singanjude@suzlon.com',
+  'GEAR BOX TEAM': 'Bhavin.Gohil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 221143,
+  'Functional Location': 'SWSSAT-SC2-GPL01-G001',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 221144,
+  'Functional Location': 'SWSSAT-SC2-GPL02-G002',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 221145,
+  'Functional Location': 'SWSSAT-SC2-GPL02-G003',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 221146,
+  'Functional Location': 'SWSSAT-SC2-GPL02-G004',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 221147,
+  'Functional Location': 'SWSSAT-SC2-GPL02-G005',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 221148,
+  'Functional Location': 'SWSSAT-SC2-GPL02-G006',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 221149,
+  'Functional Location': 'SWSSAT-SC2-GPL02-G007',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 221150,
+  'Functional Location': 'SWSSAT-SC2-GPL02-G008',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 221151,
+  'Functional Location': 'SWSSAT-SC2-GPL02-G009',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 221152,
+  'Functional Location': 'SWSSAT-SC2-GPL02-G010',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 221153,
+  'Functional Location': 'SWSSAT-SC2-GPL02-G011',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 221154,
+  'Functional Location': 'SWSSAT-SC2-GPL03-G012',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 221155,
+  'Functional Location': 'SWSSAT-SC2-GPL03-G013',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 221156,
+  'Functional Location': 'SWSSAT-SC2-GPL03-G014',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 221157,
+  'Functional Location': 'SWSSAT-SC2-GPL03-G015',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 221158,
+  'Functional Location': 'SWSSAT-SC2-GPL03-G016',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 221159,
+  'Functional Location': 'SWSSAT-SC2-GPL03-G017',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 221160,
+  'Functional Location': 'SWSSAT-SC2-GPL03-G018',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 221161,
+  'Functional Location': 'SWSSAT-SC2-GPL03-G019',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 221162,
+  'Functional Location': 'SWSSAT-SC2-GPL03-G020',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 221163,
+  'Functional Location': 'SWSSAT-SC2-GPL03-G021',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 221164,
+  'Functional Location': 'SWSSAT-SC2-GPL03-G022',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 221165,
+  'Functional Location': 'SWSSAT-SC2-GPL03-G023',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 221166,
+  'Functional Location': 'SWSSAT-SC2-GPL03-G024',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 221167,
+  'Functional Location': 'SWSSAT-SC2-GPL03-G025',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 221168,
+  'Functional Location': 'SWSSAT-SC2-GPL04-G034',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 221169,
+  'Functional Location': 'SWSSAT-SC2-SDG01-G035',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 221170,
+  'Functional Location': 'SWSKHR-SC3-TIP01-K268',
+  STATE: 'MAHARASHTRA',
+  AREA: 'North Maharashtra',
+  SITE: 'Brahmanwel',
+  'Maintenance Plant': '4434',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'nitin.lande@suzlon.com',
+  'SITE INCHARGE': 'Kishor.Wani@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 221171,
+  'Functional Location': 'SWSKHR-SC4-GIP01-K491',
+  STATE: 'MAHARASHTRA',
+  AREA: 'North Maharashtra',
+  SITE: 'Tilali',
+  'Maintenance Plant': '4431',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'nitin.lande@suzlon.com',
+  'SITE INCHARGE': 'satish.girase@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 221172,
+  'Functional Location': 'SWSKHR-SC4-GIP01-K492',
+  STATE: 'MAHARASHTRA',
+  AREA: 'North Maharashtra',
+  SITE: 'Tilali',
+  'Maintenance Plant': '4431',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'nitin.lande@suzlon.com',
+  'SITE INCHARGE': 'satish.girase@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 221173,
+  'Functional Location': 'SWSKHR-SC5-GIP02-K053',
+  STATE: 'MAHARASHTRA',
+  AREA: 'North Maharashtra',
+  SITE: 'Phophade',
+  'Maintenance Plant': '4444',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'nitin.lande@suzlon.com',
+  'SITE INCHARGE': 'bnitin@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 221174,
+  'Functional Location': 'SWSKHR-SC1-TIP02-K129',
+  STATE: 'MAHARASHTRA',
+  AREA: 'North Maharashtra',
+  SITE: 'Petale',
+  'Maintenance Plant': '4433',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'nitin.lande@suzlon.com',
+  'SITE INCHARGE': 'pradeep.khare@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'azimoddin.qazi@suzlon.com'
+}
+Inserting: {
+  'SR NO': 221175,
+  'Functional Location': 'SWSKAY-SC2-FEL01-TK90',
+  STATE: 'TAMILNADU',
+  AREA: 'Viliseri',
+  SITE: 'Kayathar',
+  'Maintenance Plant': '2477',
+  'STATE ENGG HEAD': 'rchithambaranathan@suzlon.com',
+  'AREA INCHARGE': 'mdsheik@suzlon.com',
+  'SITE INCHARGE': 'k.muruganantham@suzlon.com',
+  'STATE PMO': 'R.ANDREW@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'n.dineshkumar@suzlon.com',
+  'GEAR BOX TEAM': 'ramesh.ramar@suzlon.com'
+}
+Inserting: {
+  'SR NO': 221176,
+  'Functional Location': 'SWSKAY-SC2-FEL01-TP175',
+  STATE: 'TAMILNADU',
+  AREA: 'Viliseri',
+  SITE: 'Kayathar',
+  'Maintenance Plant': '2477',
+  'STATE ENGG HEAD': 'rchithambaranathan@suzlon.com',
+  'AREA INCHARGE': 'mdsheik@suzlon.com',
+  'SITE INCHARGE': 'k.muruganantham@suzlon.com',
+  'STATE PMO': 'R.ANDREW@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'n.dineshkumar@suzlon.com',
+  'GEAR BOX TEAM': 'ramesh.ramar@suzlon.com'
+}
+Inserting: {
+  'SR NO': 221177,
+  'Functional Location': 'SWSKAY-SC2-FEL01-TP302',
+  STATE: 'TAMILNADU',
+  AREA: 'Viliseri',
+  SITE: 'Kayathar',
+  'Maintenance Plant': '2477',
+  'STATE ENGG HEAD': 'rchithambaranathan@suzlon.com',
+  'AREA INCHARGE': 'mdsheik@suzlon.com',
+  'SITE INCHARGE': 'k.muruganantham@suzlon.com',
+  'STATE PMO': 'R.ANDREW@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'n.dineshkumar@suzlon.com',
+  'GEAR BOX TEAM': 'ramesh.ramar@suzlon.com'
+}
+Inserting: {
+  'SR NO': 221178,
+  'Functional Location': 'SWSKAY-SC2-FEL01-VP16',
+  STATE: 'TAMILNADU',
+  AREA: 'Viliseri',
+  SITE: 'Kayathar',
+  'Maintenance Plant': '2477',
+  'STATE ENGG HEAD': 'rchithambaranathan@suzlon.com',
+  'AREA INCHARGE': 'mdsheik@suzlon.com',
+  'SITE INCHARGE': 'k.muruganantham@suzlon.com',
+  'STATE PMO': 'R.ANDREW@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'n.dineshkumar@suzlon.com',
+  'GEAR BOX TEAM': 'ramesh.ramar@suzlon.com'
+}
+Inserting: {
+  'SR NO': 221179,
+  'Functional Location': 'SWSKAN-SC1-SGI01-KKB175',
+  STATE: 'KARNATAKA',
+  AREA: 'East Karnataka',
+  SITE: 'Kanakagiri',
+  'Maintenance Plant': '2497',
+  'STATE ENGG HEAD': 'Mallikarjun.Uppin@suzlon.com',
+  'AREA INCHARGE': 'Sivabalasundaram.R@suzlon.com',
+  'SITE INCHARGE': 'suresh.patil2@suzlon.com',
+  'STATE PMO': 'MUTHUKUMAR.V@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'pramod.sahoo@suzlon.com',
+  'GEAR BOX TEAM': 'devaraj.durairaj@suzlon.com'
+}
+Inserting: {
+  'SR NO': 221180,
+  'Functional Location': 'SWSKAY-SC2-CSE01-VLS001',
+  STATE: 'TAMILNADU',
+  AREA: 'Viliseri',
+  SITE: 'Kayathar',
+  'Maintenance Plant': '2477',
+  'STATE ENGG HEAD': 'rchithambaranathan@suzlon.com',
+  'AREA INCHARGE': 'mdsheik@suzlon.com',
+  'SITE INCHARGE': 'k.muruganantham@suzlon.com',
+  'STATE PMO': 'R.ANDREW@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'n.dineshkumar@suzlon.com',
+  'GEAR BOX TEAM': 'ramesh.ramar@suzlon.com'
+}
+Inserting: {
+  'SR NO': 221181,
+  'Functional Location': 'SWSVVD-SC1-GIL01-GIL07',
+  STATE: 'MAHARASHTRA',
+  AREA: 'North Maharashtra',
+  SITE: 'Vavad',
+  'Maintenance Plant': '2493',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'nitin.lande@suzlon.com',
+  'SITE INCHARGE': 'patil.girish@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 221182,
+  'Functional Location': 'SWSKAN-SC1-SGI01-KKB171',
+  STATE: 'KARNATAKA',
+  AREA: 'East Karnataka',
+  SITE: 'Kanakagiri',
+  'Maintenance Plant': '2497',
+  'STATE ENGG HEAD': 'Mallikarjun.Uppin@suzlon.com',
+  'AREA INCHARGE': 'Sivabalasundaram.R@suzlon.com',
+  'SITE INCHARGE': 'suresh.patil2@suzlon.com',
+  'STATE PMO': 'MUTHUKUMAR.V@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'pramod.sahoo@suzlon.com',
+  'GEAR BOX TEAM': 'devaraj.durairaj@suzlon.com'
+}
+Inserting: {
+  'SR NO': 221183,
+  'Functional Location': 'SWSKAY-SC2-FEL01-TT238',
+  STATE: 'TAMILNADU',
+  AREA: 'Viliseri',
+  SITE: 'Kayathar',
+  'Maintenance Plant': '2477',
+  'STATE ENGG HEAD': 'rchithambaranathan@suzlon.com',
+  'AREA INCHARGE': 'mdsheik@suzlon.com',
+  'SITE INCHARGE': 'k.muruganantham@suzlon.com',
+  'STATE PMO': 'R.ANDREW@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'n.dineshkumar@suzlon.com',
+  'GEAR BOX TEAM': 'ramesh.ramar@suzlon.com'
+}
+Inserting: {
+  'SR NO': 221184,
+  'Functional Location': 'SWSKAY-SC2-FEL01-TP272',
+  STATE: 'TAMILNADU',
+  AREA: 'Viliseri',
+  SITE: 'Kayathar',
+  'Maintenance Plant': '2477',
+  'STATE ENGG HEAD': 'rchithambaranathan@suzlon.com',
+  'AREA INCHARGE': 'mdsheik@suzlon.com',
+  'SITE INCHARGE': 'k.muruganantham@suzlon.com',
+  'STATE PMO': 'R.ANDREW@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'n.dineshkumar@suzlon.com',
+  'GEAR BOX TEAM': 'ramesh.ramar@suzlon.com'
+}
+Inserting: {
+  'SR NO': 221185,
+  'Functional Location': 'SWSBHA-SC1-ARI01-KWN08',
+  STATE: 'GUJARAT-Saurashtra',
+  AREA: 'Mahidad',
+  SITE: 'Bharuch',
+  'Maintenance Plant': '2464',
+  'STATE ENGG HEAD': 'bchampak@suzlon.com',
+  'AREA INCHARGE': 'sharwan.kumar@suzlon.com',
+  'SITE INCHARGE': 'jatan.padhiyar@suzlon.com',
+  'STATE PMO': 'bala.p@suzlon.com',
+  'MAINTENNACE INCHARGES': 'Nilesh.Singanjude@suzlon.com',
+  'GEAR BOX TEAM': 'raval.somabhai@suzlon.com'
+}
+Inserting: {
+  'SR NO': 221186,
+  'Functional Location': 'SWSBHA-SC1-ARI01-KWN16',
+  STATE: 'GUJARAT-Saurashtra',
+  AREA: 'Mahidad',
+  SITE: 'Bharuch',
+  'Maintenance Plant': '2464',
+  'STATE ENGG HEAD': 'bchampak@suzlon.com',
+  'AREA INCHARGE': 'sharwan.kumar@suzlon.com',
+  'SITE INCHARGE': 'jatan.padhiyar@suzlon.com',
+  'STATE PMO': 'bala.p@suzlon.com',
+  'MAINTENNACE INCHARGES': 'Nilesh.Singanjude@suzlon.com',
+  'GEAR BOX TEAM': 'raval.somabhai@suzlon.com'
+}
+Inserting: {
+  'SR NO': 221187,
+  'Functional Location': 'SWSBHA-SC1-CTX01-GDR04',
+  STATE: 'GUJARAT-Saurashtra',
+  AREA: 'Mahidad',
+  SITE: 'Bharuch',
+  'Maintenance Plant': '2464',
+  'STATE ENGG HEAD': 'bchampak@suzlon.com',
+  'AREA INCHARGE': 'sharwan.kumar@suzlon.com',
+  'SITE INCHARGE': 'jatan.padhiyar@suzlon.com',
+  'STATE PMO': 'bala.p@suzlon.com',
+  'MAINTENNACE INCHARGES': 'Nilesh.Singanjude@suzlon.com',
+  'GEAR BOX TEAM': 'raval.somabhai@suzlon.com'
+}
+Inserting: {
+  'SR NO': 221188,
+  'Functional Location': 'SWSBHA-SC1-SDE01-GDR06',
+  STATE: 'GUJARAT-Saurashtra',
+  AREA: 'Mahidad',
+  SITE: 'Bharuch',
+  'Maintenance Plant': '2464',
+  'STATE ENGG HEAD': 'bchampak@suzlon.com',
+  'AREA INCHARGE': 'sharwan.kumar@suzlon.com',
+  'SITE INCHARGE': 'jatan.padhiyar@suzlon.com',
+  'STATE PMO': 'bala.p@suzlon.com',
+  'MAINTENNACE INCHARGES': 'Nilesh.Singanjude@suzlon.com',
+  'GEAR BOX TEAM': 'raval.somabhai@suzlon.com'
+}
+Inserting: {
+  'SR NO': 221189,
+  'Functional Location': 'SWSBHA-SC1-SDE01-GDR07',
+  STATE: 'GUJARAT-Saurashtra',
+  AREA: 'Mahidad',
+  SITE: 'Bharuch',
+  'Maintenance Plant': '2464',
+  'STATE ENGG HEAD': 'bchampak@suzlon.com',
+  'AREA INCHARGE': 'sharwan.kumar@suzlon.com',
+  'SITE INCHARGE': 'jatan.padhiyar@suzlon.com',
+  'STATE PMO': 'bala.p@suzlon.com',
+  'MAINTENNACE INCHARGES': 'Nilesh.Singanjude@suzlon.com',
+  'GEAR BOX TEAM': 'raval.somabhai@suzlon.com'
+}
+Inserting: {
+  'SR NO': 221190,
+  'Functional Location': 'SWSDWK-SC1-AEL01-DWK002',
+  STATE: 'GUJARAT-Saurashtra',
+  AREA: 'Kuchadi',
+  SITE: 'Dwarka',
+  'Maintenance Plant': '2459',
+  'STATE ENGG HEAD': 'bchampak@suzlon.com',
+  'AREA INCHARGE': 'jitesh.visavadia@suzlon.com',
+  'SITE INCHARGE': 'vivekgiri.gosai@suzlon.com',
+  'STATE PMO': 'bala.p@suzlon.com',
+  'GEAR BOX TEAM': 'Nayan.Chavda@suzlon.com'
+}
+Inserting: {
+  'SR NO': 221191,
+  'Functional Location': 'SWSDWK-SC1-AEL01-DWK118',
+  STATE: 'GUJARAT-Saurashtra',
+  AREA: 'Kuchadi',
+  SITE: 'Dwarka',
+  'Maintenance Plant': '2459',
+  'STATE ENGG HEAD': 'bchampak@suzlon.com',
+  'AREA INCHARGE': 'jitesh.visavadia@suzlon.com',
+  'SITE INCHARGE': 'vivekgiri.gosai@suzlon.com',
+  'STATE PMO': 'bala.p@suzlon.com',
+  'GEAR BOX TEAM': 'Nayan.Chavda@suzlon.com'
+}
+Inserting: {
+  'SR NO': 221192,
+  'Functional Location': 'SWSDWK-SC1-AEL01-DWK206',
+  STATE: 'GUJARAT-Saurashtra',
+  AREA: 'Kuchadi',
+  SITE: 'Dwarka',
+  'Maintenance Plant': '2459',
+  'STATE ENGG HEAD': 'bchampak@suzlon.com',
+  'AREA INCHARGE': 'jitesh.visavadia@suzlon.com',
+  'SITE INCHARGE': 'vivekgiri.gosai@suzlon.com',
+  'STATE PMO': 'bala.p@suzlon.com',
+  'GEAR BOX TEAM': 'Nayan.Chavda@suzlon.com'
+}
+Inserting: {
+  'SR NO': 221193,
+  'Functional Location': 'SWSKAR-SC1-RCP01-VT77',
+  STATE: 'TAMILNADU',
+  AREA: 'Muthiampatti',
+  SITE: 'Karur',
+  'Maintenance Plant': '2478',
+  'STATE ENGG HEAD': 'rchithambaranathan@suzlon.com',
+  'AREA INCHARGE': 'Pradeep.T@suzlon.com',
+  'SITE INCHARGE': 'subramonian.m@suzlon.com',
+  'STATE PMO': 'R.ANDREW@SUZLON.COM',
+  'GEAR BOX TEAM': 'govindaraj.p@suzlon.com'
+}
+Inserting: {
+  'SR NO': 221194,
+  'Functional Location': 'SWSKAY-SC2-FEL01-TT37',
+  STATE: 'TAMILNADU',
+  AREA: 'Viliseri',
+  SITE: 'Kayathar',
+  'Maintenance Plant': '2477',
+  'STATE ENGG HEAD': 'rchithambaranathan@suzlon.com',
+  'AREA INCHARGE': 'mdsheik@suzlon.com',
+  'SITE INCHARGE': 'k.muruganantham@suzlon.com',
+  'STATE PMO': 'R.ANDREW@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'n.dineshkumar@suzlon.com',
+  'GEAR BOX TEAM': 'ramesh.ramar@suzlon.com'
+}
+Transaction committed successfully!
+POST /api/site_incharge_format_upload 200 57 - 33517.020 ms
+Uploaded file deleted successfully.
+Received heartbeat data: {
+  name: 'Rahul Dnyaneshwar Raut',
+  adminId: 'dad7c8af3407e11ed3437551ab6d0e2c',
+  access: 'lubrication',
+  adminEmail: 'rahul.raut@suzlon.com',
+  userId: 'Not Set',
+  domain_id: 'Not Set',
+  state: 'Not Set',
+  area: 'Not Set',
+  site: 'Not Set',
+  email: 'Not Set',
+  pathname: '/upload-excel',
+  entryTime: '2025-02-14 11:15:33',
+  exitTime: '2025-02-14 11:18:47'
+}
+Start DateTime in IST format: 2025-02-14T05:45:33.000Z
+End DateTime in IST format: 2025-02-14T05:48:47.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-14T05:48:47.000Z',
+    Password: 'Suzlon@123',
+    UserID: 'Not Set',
+    ScreenName: '/upload-excel',
+    StartDateTime: '2025-02-14T05:45:33.000Z',
+    UserEngagementID: 0,
+    UserName: 'Rahul Dnyaneshwar Raut'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 87.872 ms
+GET /api/user-registration-excel-format 200 11130 - 6.497 ms
+Received heartbeat data: {
+  name: 'Rahul Dnyaneshwar Raut',
+  adminId: 'dad7c8af3407e11ed3437551ab6d0e2c',
+  access: 'lubrication',
+  adminEmail: 'rahul.raut@suzlon.com',
+  userId: 'Not Set',
+  domain_id: 'Not Set',
+  state: 'Not Set',
+  area: 'Not Set',
+  site: 'Not Set',
+  email: 'Not Set',
+  pathname: '/register-users',
+  entryTime: '2025-02-14 11:18:47',
+  exitTime: '2025-02-14 11:19:59'
+}
+Start DateTime in IST format: 2025-02-14T05:48:47.000Z
+End DateTime in IST format: 2025-02-14T05:49:59.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-14T05:49:59.000Z',
+    Password: 'Suzlon@123',
+    UserID: 'Not Set',
+    ScreenName: '/register-users',
+    StartDateTime: '2025-02-14T05:48:47.000Z',
+    UserEngagementID: 0,
+    UserName: 'Rahul Dnyaneshwar Raut'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 29.413 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_users 200 37800 - 55.417 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_users 304 - - 62.912 ms
+OPTIONS /api/delete_user 200 4 - 0.481 ms
+Received domainId: 800
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Admin with domainId: 800 deleted successfully.
+POST /api/delete_user 200 55 - 203.534 ms
+Received domainId: 801
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Admin with domainId: 801 deleted successfully.
+POST /api/delete_user 200 55 - 27.837 ms
+Received domainId: 802
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Admin with domainId: 802 deleted successfully.
+POST /api/delete_user 200 55 - 27.494 ms
+Received heartbeat data: {
+  name: 'Rahul Dnyaneshwar Raut',
+  adminId: 'dad7c8af3407e11ed3437551ab6d0e2c',
+  access: 'lubrication',
+  adminEmail: 'rahul.raut@suzlon.com',
+  userId: 'Not Set',
+  domain_id: 'Not Set',
+  state: 'Not Set',
+  area: 'Not Set',
+  site: 'Not Set',
+  email: 'Not Set',
+  pathname: '/User_Management',
+  entryTime: '2025-02-14 11:19:59',
+  exitTime: '2025-02-14 11:21:02'
+}
+Start DateTime in IST format: 2025-02-14T05:49:59.000Z
+End DateTime in IST format: 2025-02-14T05:51:02.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-14T05:51:02.000Z',
+    Password: 'Suzlon@123',
+    UserID: 'Not Set',
+    ScreenName: '/User_Management',
+    StartDateTime: '2025-02-14T05:49:59.000Z',
+    UserEngagementID: 0,
+    UserName: 'Rahul Dnyaneshwar Raut'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 24.317 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_admins 200 921 - 30.380 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_admins 304 - - 71.929 ms
+Received heartbeat data: {
+  name: 'Rahul Dnyaneshwar Raut',
+  adminId: 'dad7c8af3407e11ed3437551ab6d0e2c',
+  access: 'lubrication',
+  adminEmail: 'rahul.raut@suzlon.com',
+  userId: 'Not Set',
+  domain_id: 'Not Set',
+  state: 'Not Set',
+  area: 'Not Set',
+  site: 'Not Set',
+  email: 'Not Set',
+  pathname: '/Admin_management',
+  entryTime: '2025-02-14 11:21:02',
+  exitTime: '2025-02-14 11:21:18'
+}
+Start DateTime in IST format: 2025-02-14T05:51:02.000Z
+End DateTime in IST format: 2025-02-14T05:51:18.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-14T05:51:18.000Z',
+    Password: 'Suzlon@123',
+    UserID: 'Not Set',
+    ScreenName: '/Admin_management',
+    StartDateTime: '2025-02-14T05:51:02.000Z',
+    UserEngagementID: 0,
+    UserName: 'Rahul Dnyaneshwar Raut'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 19.736 ms
+Received heartbeat data: {
+  name: 'Rahul Dnyaneshwar Raut',
+  adminId: 'dad7c8af3407e11ed3437551ab6d0e2c',
+  access: 'lubrication',
+  adminEmail: 'rahul.raut@suzlon.com',
+  userId: 'Not Set',
+  domain_id: 'Not Set',
+  state: 'Not Set',
+  area: 'Not Set',
+  site: 'Not Set',
+  email: 'Not Set',
+  pathname: '/upload-excel',
+  entryTime: '2025-02-14 11:21:18',
+  exitTime: '2025-02-14 11:21:21'
+}
+Start DateTime in IST format: 2025-02-14T05:51:18.000Z
+End DateTime in IST format: 2025-02-14T05:51:21.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-14T05:51:21.000Z',
+    Password: 'Suzlon@123',
+    UserID: 'Not Set',
+    ScreenName: '/upload-excel',
+    StartDateTime: '2025-02-14T05:51:18.000Z',
+    UserEngagementID: 0,
+    UserName: 'Rahul Dnyaneshwar Raut'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 12.809 ms
+Received heartbeat data: {
+  name: 'Rahul Dnyaneshwar Raut',
+  adminId: 'dad7c8af3407e11ed3437551ab6d0e2c',
+  access: 'lubrication',
+  adminEmail: 'rahul.raut@suzlon.com',
+  userId: 'Not Set',
+  domain_id: 'Not Set',
+  state: 'Not Set',
+  area: 'Not Set',
+  site: 'Not Set',
+  email: 'Not Set',
+  pathname: '/register-users',
+  entryTime: '2025-02-14 11:21:21',
+  exitTime: '2025-02-14 11:24:05'
+}
+Start DateTime in IST format: 2025-02-14T05:51:21.000Z
+End DateTime in IST format: 2025-02-14T05:54:05.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-14T05:54:05.000Z',
+    Password: 'Suzlon@123',
+    UserID: 'Not Set',
+    ScreenName: '/register-users',
+    StartDateTime: '2025-02-14T05:51:21.000Z',
+    UserEngagementID: 0,
+    UserName: 'Rahul Dnyaneshwar Raut'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 21.326 ms
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_fy_year 304 - - 358.406 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_fy_year 304 - - 50.645 ms
+GET /api/fetch_order_type 304 - - 506.523 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_order_type 304 - - 209.941 ms
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_gb_topup_state_wise_data?year=FY%202024-2025 304 - - 159.539 ms
+GET /api/fetch_gb_oil_change_state_wise_data?year=FY%202024-2025 304 - - 163.125 ms
+Connected to the database.
+Connected to the database.
+GET /api/fetch_yd_oil_change_state_wise_data?year=FY%202024-2025 304 - - 189.731 ms
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Connected to the database.
+GET /api/fetch_pd_oil_change_state_wise_data?year=FY%202024-2025 304 - - 200.858 ms
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_fc_topup_state_wise_data?year=FY%202024-2025 304 - - 218.271 ms
+GET /api/fetch_ydpd_topup_state_wise_data?year=FY%202024-2025 304 - - 73.668 ms
+GET /api/fetch_dispute_state_wise_data?year=FY%202024-2025 304 - - 82.495 ms
+GET /api/fetch_pending_teco_state_wise_data?year=FY%202024-2025 304 - - 75.466 ms
+Received heartbeat data: {
+  name: 'Rahul Dnyaneshwar Raut',
+  adminId: 'dad7c8af3407e11ed3437551ab6d0e2c',
+  access: 'lubrication',
+  adminEmail: 'rahul.raut@suzlon.com',
+  userId: 'Not Set',
+  domain_id: 'Not Set',
+  state: 'Not Set',
+  area: 'Not Set',
+  site: 'Not Set',
+  email: 'Not Set',
+  pathname: '/Oil_Analysis?reload=true',
+  entryTime: '2025-02-14 11:24:05',
+  exitTime: '2025-02-14 11:24:07'
+}
+Start DateTime in IST format: 2025-02-14T05:54:05.000Z
+End DateTime in IST format: 2025-02-14T05:54:07.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-14T05:54:07.000Z',
+    Password: 'Suzlon@123',
+    UserID: 'Not Set',
+    ScreenName: '/Oil_Analysis?reload=true',
+    StartDateTime: '2025-02-14T05:54:05.000Z',
+    UserEngagementID: 0,
+    UserName: 'Rahul Dnyaneshwar Raut'
+  }
+]
+Received heartbeat data: {
+  name: 'Rahul Dnyaneshwar Raut',
+  adminId: 'dad7c8af3407e11ed3437551ab6d0e2c',
+  access: 'lubrication',
+  adminEmail: 'rahul.raut@suzlon.com',
+  userId: 'Not Set',
+  domain_id: 'Not Set',
+  state: 'Not Set',
+  area: 'Not Set',
+  site: 'Not Set',
+  email: 'Not Set',
+  pathname: '/Oil_Analysis?reload=true',
+  entryTime: '2025-02-14 11:24:05',
+  exitTime: '2025-02-14 11:24:07'
+}
+Start DateTime in IST format: 2025-02-14T05:54:05.000Z
+End DateTime in IST format: 2025-02-14T05:54:07.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-14T05:54:07.000Z',
+    Password: 'Suzlon@123',
+    UserID: 'Not Set',
+    ScreenName: '/Oil_Analysis?reload=true',
+    StartDateTime: '2025-02-14T05:54:05.000Z',
+    UserEngagementID: 0,
+    UserName: 'Rahul Dnyaneshwar Raut'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 13.795 ms
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 18.323 ms
+GET /api/fetch_fc_oil_change_state_wise_data?year=FY%202024-2025 304 - - 694.605 ms
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_fy_year 304 - - 59.102 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_fy_year 304 - - 52.374 ms
+GET /api/fetch_order_type 304 - - 228.408 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_order_type 304 - - 195.543 ms
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_pd_oil_change_state_wise_data?year=FY%202024-2025 304 - - 90.366 ms
+GET /api/fetch_yd_oil_change_state_wise_data?year=FY%202024-2025 304 - - 90.301 ms
+GET /api/fetch_gb_topup_state_wise_data?year=FY%202024-2025 304 - - 90.733 ms
+Connected to the database.
+GET /api/fetch_fc_oil_change_state_wise_data?year=FY%202024-2025 304 - - 101.698 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_fc_topup_state_wise_data?year=FY%202024-2025 304 - - 148.914 ms
+GET /api/fetch_ydpd_topup_state_wise_data?year=FY%202024-2025 304 - - 62.553 ms
+GET /api/fetch_dispute_state_wise_data?year=FY%202024-2025 304 - - 57.348 ms
+GET /api/fetch_gb_oil_change_state_wise_data?year=FY%202024-2025 304 - - 163.452 ms
+GET /api/fetch_pending_teco_state_wise_data?year=FY%202024-2025 304 - - 101.748 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_fc_oil_chg_data?order_type=FC%20Oil%20Change%20Order&financial_year=FY%202024-2025 200 210886 - 519.062 ms
+OPTIONS /api/logout_admin 200 4 - 0.291 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+POST /api/logout_admin 404 48 - 9.941 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+POST /api/logout_admin 404 48 - 10.364 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+POST /api/logout_admin 404 48 - 9.939 ms
+GET /api/logout_admin 404 155 - 1.636 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+POST /api/logout_admin 404 48 - 12.041 ms
+OPTIONS /api/toggle_admin 200 4 - 0.488 ms
+Received heartbeat data: {
+  name: 'Rahul Dnyaneshwar Raut',
+  adminId: 'dad7c8af3407e11ed3437551ab6d0e2c',
+  access: 'lubrication',
+  adminEmail: 'rahul.raut@suzlon.com',
+  userId: 'Not Set',
+  domain_id: 'Not Set',
+  state: 'Not Set',
+  area: 'Not Set',
+  site: 'Not Set',
+  email: 'Not Set',
+  pathname: '/Oil_Analysis?reload=true',
+  entryTime: '2025-02-14 11:24:08',
+  exitTime: '2025-02-14 11:24:38'
+}
+Start DateTime in IST format: 2025-02-14T05:54:08.000Z
+End DateTime in IST format: 2025-02-14T05:54:38.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-14T05:54:38.000Z',
+    Password: 'Suzlon@123',
+    UserID: 'Not Set',
+    ScreenName: '/Oil_Analysis?reload=true',
+    StartDateTime: '2025-02-14T05:54:08.000Z',
+    UserEngagementID: 0,
+    UserName: 'Rahul Dnyaneshwar Raut'
+  }
+]
+Request data written to data_retrieve_in_toggle_api.json
+Connected to the database.
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Executing SQL Query: SELECT domain_id FROM admins WHERE name LIKE ?
+With Parameters: ["%Rahul%Dnyaneshwar%Raut%"]
+User engagement data saved to user_engagement.json
+Executing SQL Query: UPDATE login SET id = ?, name = ?, email = ?, last_login_time = ? WHERE domain_id = ?
+With Parameters: ["8648552c47f13fad1b49924b9f87e21a","Rahul Dnyaneshwar Raut","rahul.raut@suzlon.com","2025-02-14 11:24:38","rautr"]
+POST /api/heartbeat 200 53 - 28.044 ms
+Executing SQL Query: SELECT domain_id, name, email, state, area, site, access, last_login_time FROM login WHERE domain_id = ?
+With Parameters: ["rautr"]
+POST /api/toggle_admin 200 337 - 31.426 ms
+Received heartbeat data: {
+  name: 'Rahul Dnyaneshwar Raut',
+  adminId: 'dad7c8af3407e11ed3437551ab6d0e2c',
+  access: 'lubrication',
+  adminEmail: 'rahul.raut@suzlon.com',
+  userId: '8648552c47f13fad1b49924b9f87e21a',
+  domain_id: 'Not Set',
+  state: 'Maharashtra',
+  area: 'South Maharashtra',
+  site: 'Jath',
+  email: 'rahul.raut@suzlon.com',
+  pathname: '/Oil_Analysis',
+  entryTime: '2025-02-14 11:24:08',
+  exitTime: '2025-02-14 11:24:38'
+}
+Start DateTime in IST format: 2025-02-14T05:54:08.000Z
+End DateTime in IST format: 2025-02-14T05:54:38.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-14T05:54:38.000Z',
+    Password: 'Suzlon@123',
+    UserID: 'Not Set',
+    ScreenName: '/Oil_Analysis',
+    StartDateTime: '2025-02-14T05:54:08.000Z',
+    UserEngagementID: 0,
+    UserName: 'Rahul Dnyaneshwar Raut'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 13.319 ms
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_fy_year 304 - - 54.011 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_fy_year 304 - - 54.924 ms
+GET /api/fetch_order_type 304 - - 221.381 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_order_type 304 - - 196.028 ms
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_gb_oil_change_state_wise_data?year=FY%202024-2025 304 - - 215.955 ms
+GET /api/fetch_fc_oil_change_state_wise_data?year=FY%202024-2025 304 - - 216.320 ms
+Connected to the database.
+GET /api/fetch_pd_oil_change_state_wise_data?year=FY%202024-2025 304 - - 388.819 ms
+Connected to the database.
+GET /api/fetch_gb_topup_state_wise_data?year=FY%202024-2025 304 - - 395.317 ms
+GET /api/fetch_yd_oil_change_state_wise_data?year=FY%202024-2025 304 - - 404.342 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_fc_topup_state_wise_data?year=FY%202024-2025 304 - - 432.735 ms
+GET /api/fetch_dispute_state_wise_data?year=FY%202024-2025 304 - - 229.993 ms
+GET /api/fetch_pending_teco_state_wise_data?year=FY%202024-2025 304 - - 50.702 ms
+GET /api/fetch_ydpd_topup_state_wise_data?year=FY%202024-2025 304 - - 954.485 ms
+OPTIONS /api/logout_user 200 4 - 0.295 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+POST /api/logout_user 200 217 - 45.166 ms
+Received heartbeat data: {
+  name: 'Rahul Dnyaneshwar Raut',
+  userId: '8648552c47f13fad1b49924b9f87e21a',
+  access: 'lubrication',
+  adminEmail: 'rahul.raut@suzlon.com',
+  domain_id: 'rautr',
+  state: 'Maharashtra',
+  area: 'South Maharashtra',
+  site: 'Jath',
+  pathname: '/Oil_Analysis_user',
+  entryTime: '2025-02-14 11:24:38',
+  exitTime: '2025-02-14 11:24:45'
+}
+Start DateTime in IST format: 2025-02-14T05:54:38.000Z
+End DateTime in IST format: 2025-02-14T05:54:45.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-14T05:54:45.000Z',
+    Password: 'Suzlon@123',
+    UserID: 'rautr',
+    ScreenName: '/Oil_Analysis_user',
+    StartDateTime: '2025-02-14T05:54:38.000Z',
+    UserEngagementID: 0,
+    UserName: 'Rahul Dnyaneshwar Raut'
+  }
+]
+Received heartbeat data: {
+  name: 'Rahul Dnyaneshwar Raut',
+  userId: '8648552c47f13fad1b49924b9f87e21a',
+  access: 'lubrication',
+  adminEmail: 'rahul.raut@suzlon.com',
+  domain_id: 'rautr',
+  state: 'Maharashtra',
+  area: 'South Maharashtra',
+  site: 'Jath',
+  pathname: '/Oil_Analysis_user',
+  entryTime: '2025-02-14 11:24:38',
+  exitTime: '2025-02-14 11:24:45'
+}
+Start DateTime in IST format: 2025-02-14T05:54:38.000Z
+End DateTime in IST format: 2025-02-14T05:54:45.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-14T05:54:45.000Z',
+    Password: 'Suzlon@123',
+    UserID: 'rautr',
+    ScreenName: '/Oil_Analysis_user',
+    StartDateTime: '2025-02-14T05:54:38.000Z',
+    UserEngagementID: 0,
+    UserName: 'Rahul Dnyaneshwar Raut'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 34.885 ms
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 30.634 ms
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_fy_year 304 - - 73.900 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_fy_year 304 - - 57.241 ms
+GET /api/fetch_order_type 304 - - 231.125 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_order_type 304 - - 276.751 ms
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_gb_topup_state_wise_data?year=FY%202024-2025 304 - - 91.080 ms
+GET /api/fetch_yd_oil_change_state_wise_data?year=FY%202024-2025 304 - - 99.626 ms
+Connected to the database.
+GET /api/fetch_gb_oil_change_state_wise_data?year=FY%202024-2025 304 - - 103.387 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_ydpd_topup_state_wise_data?year=FY%202024-2025 304 - - 63.043 ms
+GET /api/fetch_fc_oil_change_state_wise_data?year=FY%202024-2025 304 - - 173.464 ms
+GET /api/fetch_pd_oil_change_state_wise_data?year=FY%202024-2025 304 - - 210.215 ms
+GET /api/fetch_pending_teco_state_wise_data?year=FY%202024-2025 304 - - 109.933 ms
+GET /api/fetch_dispute_state_wise_data?year=FY%202024-2025 304 - - 114.411 ms
+GET /api/fetch_fc_topup_state_wise_data?year=FY%202024-2025 304 - - 318.262 ms
+OPTIONS /api/fleet_manager_login 200 4 - 0.422 ms
+Executing SQL Query: SELECT name, email, access, id FROM login WHERE domain_id = 'rautr'
+✅ Connected to MSSQL database
+✅ Query result: [
+  {
+    name: 'Rahul Dnyaneshwar Raut',
+    email: 'rahul.raut@suzlon.com',
+    access: 'lubrication',
+    id: null
+  }
+]
+Executing SQL Query: UPDATE login SET id = '8ab8d976-2b67-4a15-b3c6-ece64a47167f', last_login_time = '2025-02-14 11:24:50' WHERE domain_id = 'rautr'
+✅ Connected to MSSQL database
+✅ Query result: undefined
+Executing SQL Query: UPDATE admins SET name = 'Rahul Dnyaneshwar Raut', email = 'rahul.raut@suzlon.com', id = '8ab8d976-2b67-4a15-b3c6-ece64a47167f' WHERE domain_id = 'rautr'
+✅ Connected to MSSQL database
+✅ Query result: undefined
+Response sent: {
+  name: 'Rahul Dnyaneshwar Raut',
+  domainId: 'rautr',
+  email: 'rahul.raut@suzlon.com',
+  sessionId: '8ab8d976-2b67-4a15-b3c6-ece64a47167f',
+  access: 'lubrication',
+  lastLoginTime: '2025-02-14 11:24:50',
+  timestamp: '2025-02-14T05:54:50.642Z'
+}
+POST /api/fleet_manager_login 200 288 - 190.970 ms
+Received heartbeat data: {
+  name: 'Rahul Dnyaneshwar Raut',
+  userId: '8648552c47f13fad1b49924b9f87e21a',
+  access: 'lubrication',
+  adminEmail: 'rahul.raut@suzlon.com',
+  domain_id: 'rautr',
+  state: 'Maharashtra',
+  area: 'South Maharashtra',
+  site: 'Jath',
+  pathname: '/Oil_Analysis_user',
+  entryTime: '2025-02-14 11:24:47',
+  exitTime: '2025-02-14 11:24:51'
+}
+Start DateTime in IST format: 2025-02-14T05:54:47.000Z
+End DateTime in IST format: 2025-02-14T05:54:51.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-14T05:54:51.000Z',
+    Password: 'Suzlon@123',
+    UserID: 'rautr',
+    ScreenName: '/Oil_Analysis_user',
+    StartDateTime: '2025-02-14T05:54:47.000Z',
+    UserEngagementID: 0,
+    UserName: 'Rahul Dnyaneshwar Raut'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 18.351 ms
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_fy_year 304 - - 216.498 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_order_type 304 - - 251.610 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_fy_year 304 - - 51.038 ms
+GET /api/fetch_order_type 304 - - 193.084 ms
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_gb_oil_change_state_wise_data?year=FY%202024-2025 304 - - 186.803 ms
+GET /api/fetch_gb_topup_state_wise_data?year=FY%202024-2025 304 - - 190.778 ms
+Connected to the database.
+GET /api/fetch_fc_oil_change_state_wise_data?year=FY%202024-2025 304 - - 269.995 ms
+Connected to the database.
+GET /api/fetch_pd_oil_change_state_wise_data?year=FY%202024-2025 304 - - 286.952 ms
+GET /api/fetch_fc_topup_state_wise_data?year=FY%202024-2025 304 - - 285.779 ms
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_pending_teco_state_wise_data?year=FY%202024-2025 304 - - 57.973 ms
+GET /api/fetch_dispute_state_wise_data?year=FY%202024-2025 304 - - 163.487 ms
+Received heartbeat data: {
+  name: 'Rahul Dnyaneshwar Raut',
+  adminId: '8ab8d976-2b67-4a15-b3c6-ece64a47167f',
+  access: 'lubrication',
+  adminEmail: 'rahul.raut@suzlon.com',
+  userId: '8648552c47f13fad1b49924b9f87e21a',
+  domain_id: 'Not Set',
+  state: 'Maharashtra',
+  area: 'South Maharashtra',
+  site: 'Jath',
+  email: 'rahul.raut@suzlon.com',
+  pathname: '/Oil_Analysis?reload=true',
+  entryTime: '2025-02-14 11:24:51',
+  exitTime: '2025-02-14 11:24:53'
+}
+Start DateTime in IST format: 2025-02-14T05:54:51.000Z
+End DateTime in IST format: 2025-02-14T05:54:53.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-14T05:54:53.000Z',
+    Password: 'Suzlon@123',
+    UserID: 'Not Set',
+    ScreenName: '/Oil_Analysis?reload=true',
+    StartDateTime: '2025-02-14T05:54:51.000Z',
+    UserEngagementID: 0,
+    UserName: 'Rahul Dnyaneshwar Raut'
+  }
+]
+Received heartbeat data: {
+  name: 'Rahul Dnyaneshwar Raut',
+  adminId: '8ab8d976-2b67-4a15-b3c6-ece64a47167f',
+  access: 'lubrication',
+  adminEmail: 'rahul.raut@suzlon.com',
+  userId: '8648552c47f13fad1b49924b9f87e21a',
+  domain_id: 'Not Set',
+  state: 'Maharashtra',
+  area: 'South Maharashtra',
+  site: 'Jath',
+  email: 'rahul.raut@suzlon.com',
+  pathname: '/Oil_Analysis?reload=true',
+  entryTime: '2025-02-14 11:24:51',
+  exitTime: '2025-02-14 11:24:53'
+}
+Start DateTime in IST format: 2025-02-14T05:54:51.000Z
+End DateTime in IST format: 2025-02-14T05:54:53.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-14T05:54:53.000Z',
+    Password: 'Suzlon@123',
+    UserID: 'Not Set',
+    ScreenName: '/Oil_Analysis?reload=true',
+    StartDateTime: '2025-02-14T05:54:51.000Z',
+    UserEngagementID: 0,
+    UserName: 'Rahul Dnyaneshwar Raut'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 22.895 ms
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 36.849 ms
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_fy_year 304 - - 95.878 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_fy_year 304 - - 55.149 ms
+GET /api/fetch_yd_oil_change_state_wise_data?year=FY%202024-2025 304 - - 1105.108 ms
+GET /api/fetch_order_type 304 - - 258.772 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_ydpd_topup_state_wise_data?year=FY%202024-2025 304 - - 1304.382 ms
+GET /api/fetch_order_type 304 - - 701.612 ms
+Connected to the database.
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Connected to the database.
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_fc_oil_change_state_wise_data?year=FY%202024-2025 304 - - 262.067 ms
+GET /api/fetch_ydpd_topup_state_wise_data?year=FY%202024-2025 200 698 - 274.102 ms
+Connected to the database.
+Connected to the database.
+GET /api/fetch_yd_oil_change_state_wise_data?year=FY%202024-2025 200 741 - 304.841 ms
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+Connected to the database.
+GET /api/fetch_pd_oil_change_state_wise_data?year=FY%202024-2025 304 - - 326.707 ms
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+GET /api/fetch_gb_topup_state_wise_data?year=FY%202024-2025 304 - - 337.976 ms
+GET /api/fetch_fc_topup_state_wise_data?year=FY%202024-2025 304 - - 81.431 ms
+GET /api/fetch_pending_teco_state_wise_data?year=FY%202024-2025 304 - - 77.203 ms
+GET /api/fetch_dispute_state_wise_data?year=FY%202024-2025 304 - - 114.615 ms
+Connected to the database.
+Test query result: [
+  { test: 1 },
+  statement: 'SELECT 1 AS test',
+  parameters: [],
+  return: undefined,
+  count: -1,
+  columns: [
+    {
+      name: 'test',
+      dataType: 4,
+      dataTypeName: 'SQL_INTEGER',
+      columnSize: 10,
+      decimalDigits: 0,
+      nullable: false
+    }
+  ]
+]
+POST /api/logout_admin 200 220 - 261.062 ms
+IDs and name successfully written to file: {
+  adminId: '8ab8d976-2b67-4a15-b3c6-ece64a47167f',
+  userId: '8648552c47f13fad1b49924b9f87e21a',
+  adminName: 'Rahul Dnyaneshwar Raut',
+  timestamp: '2025-02-14 11:24:56'
+}
+Received heartbeat data: {
+  name: 'Not Set',
+  adminId: 'Not Set',
+  access: 'Not Set',
+  adminEmail: 'rahul.raut@suzlon.com',
+  userId: '8648552c47f13fad1b49924b9f87e21a',
+  domain_id: 'Not Set',
+  state: 'Maharashtra',
+  area: 'South Maharashtra',
+  site: 'Jath',
+  email: 'rahul.raut@suzlon.com',
+  pathname: '/Oil_Analysis?reload=true',
+  entryTime: '2025-02-14 11:24:53',
+  exitTime: '2025-02-14 11:24:56'
+}
+Start DateTime in IST format: 2025-02-14T05:54:53.000Z
+End DateTime in IST format: 2025-02-14T05:54:56.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-14T05:54:56.000Z',
+    Password: 'Suzlon@123',
+    UserID: 'Not Set',
+    ScreenName: '/Oil_Analysis?reload=true',
+    StartDateTime: '2025-02-14T05:54:53.000Z',
+    UserEngagementID: 0,
+    UserName: 'Not Set'
+  }
+]
+Received heartbeat data: {
+  name: 'Not Set',
+  adminId: 'Not Set',
+  access: 'Not Set',
+  adminEmail: 'rahul.raut@suzlon.com',
+  userId: '8648552c47f13fad1b49924b9f87e21a',
+  domain_id: 'Not Set',
+  state: 'Maharashtra',
+  area: 'South Maharashtra',
+  site: 'Jath',
+  email: 'rahul.raut@suzlon.com',
+  pathname: '/Oil_Analysis?reload=true',
+  entryTime: '2025-02-14 11:24:53',
+  exitTime: '2025-02-14 11:24:56'
+}
+Start DateTime in IST format: 2025-02-14T05:54:53.000Z
+End DateTime in IST format: 2025-02-14T05:54:56.000Z
+Data to be sent to API: [
+  {
+    AppID: 'LUBRICATION_PORTAL',
+    ApplicationType: 'web',
+    CustEmail: '',
+    CustID: '',
+    CustName: '',
+    CustomData: '',
+    DeviceID: '3385f58ecd5b7dbd',
+    EndDateTime: '2025-02-14T05:54:56.000Z',
+    Password: 'Suzlon@123',
+    UserID: 'Not Set',
+    ScreenName: '/Oil_Analysis?reload=true',
+    StartDateTime: '2025-02-14T05:54:53.000Z',
+    UserEngagementID: 0,
+    UserName: 'Not Set'
+  }
+]
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 11.536 ms
+API Response: { message: 'Saved Successfully.', isSuccess: true, data: null }
+User engagement data saved to user_engagement.json
+POST /api/heartbeat 200 53 - 20.723 ms
+GET /api/fetch_gb_oil_change_state_wise_data?year=FY%202024-2025 304 - - 1609.267 ms

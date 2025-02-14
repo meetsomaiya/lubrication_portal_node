@@ -1,8 +1,8 @@
 const express = require('express');
-const fs = require('fs');  // Required for file system operations
-//const { connectToDatabase } = require('./connect5.js'); // Your database connection module
-const { connectToDatabase } = require('./connect6.js');
 const router = express.Router();
+// const { connectToDatabase } = require('./connect5.js'); // Database connection module
+
+const { connectToDatabase } = require('./connect6.js'); // Database connection module
 
 // Set up CORS middleware
 router.use((req, res, next) => {
@@ -17,57 +17,43 @@ router.use((req, res, next) => {
 // Middleware to parse JSON bodies
 router.use(express.json());
 
-// Handle the delete request
+// API endpoint to delete an admin
 router.post('/', async (req, res) => {
+    const { domainId } = req.body; // Extract domain_id from the request body
+    console.log('Received domainId:', domainId);
+
+    if (!domainId) {
+        return res.status(400).json({ success: false, message: 'DomainId is required.' });
+    }
+
     try {
-        // Retrieve the domain_id from the request body
-        const { domainId } = req.body;
+        const dbConnection = await connectToDatabase(); // Establish a connection to the database
 
-        if (!domainId) {
-            return res.status(400).json({ message: 'domainId is required' });
+        // Check if the domainId exists in the [admins] table
+        const checkQuery = `SELECT COUNT(*) AS count FROM login WHERE domain_id = ?`;
+        const checkResult = await dbConnection.query(checkQuery, [domainId]);
+        const { count } = checkResult[0];
+
+        if (count === 0) {
+            // If no matching domain_id found
+            console.log(`No admin found with domainId: ${domainId}`);
+            await dbConnection.close();
+            return res.status(404).json({ success: false, message: 'Admin not found.' });
         }
 
-        // Log the domain_id for debugging purposes
-        console.log(`Received domainId for deletion: ${domainId}`);
+        // Delete the row with the matching domain_id
+        const deleteQuery = `DELETE FROM login WHERE domain_id = ?`;
+        await dbConnection.query(deleteQuery, [domainId]);
+        console.log(`Admin with domainId: ${domainId} deleted successfully.`);
 
-        // Connect to the database
-        const dbConnection = await connectToDatabase();
+        // Close the database connection
+        await dbConnection.close();
 
-        // Query the 'login' table to check if the user exists
-        const result = await dbConnection.query('SELECT * FROM login WHERE domain_id = ?', [domainId]);
-
-        if (result.length === 0) {
-            // If no user is found with the given domainId
-            return res.status(404).json({ message: `User with domainId ${domainId} not found` });
-        }
-
-        // Prepare the data to be saved in the JSON file
-        const deleteData = {
-            domainId,
-            timestamp: new Date().toISOString(),
-        };
-
-        // Write the domain_id to delete_user.json file
-        fs.writeFile('delete_user.json', JSON.stringify(deleteData, null, 2), (err) => {
-            if (err) {
-                return res.status(500).json({ message: 'Failed to write to file', error: err });
-            }
-
-            // Proceed to delete the user from the database
-            dbConnection.query('DELETE FROM login WHERE domain_id = ?', [domainId], (err, result) => {
-                if (err) {
-                    console.error('Error deleting user:', err);
-                    return res.status(500).json({ message: 'Failed to delete user from the database', error: err });
-                }
-
-                // If successful, respond to the client
-                res.status(200).json({ message: 'User deleted successfully', domainId });
-            });
-        });
+        // Send a success response
+        res.status(200).json({ success: true, message: 'user deleted successfully.' });
     } catch (error) {
-        // Handle unexpected errors
-        console.error('Error in delete_user API:', error);
-        res.status(500).json({ message: 'Server error', error: error.message });
+        console.error('Error processing delete request:', error);
+        res.status(500).json({ success: false, message: 'Internal server error.' });
     }
 });
 

@@ -1,142 +1,128 @@
-const express = require('express');
-const fs = require('fs');
-const path = require('path');
-const XLSX = require('xlsx');
-const router = express.Router();
-const multer = require('multer');
-const { connectToDatabase } = require('./connect6.js');
+const express = require("express");
+const fs = require("fs");
+const path = require("path");
+const XLSX = require("xlsx");
+const multer = require("multer");
+const { connectToMSSQL, sql } = require("./connect8.js");
 
-// Set up CORS middleware
+const router = express.Router();
+
 router.use((req, res, next) => {
-  res.header('Access-Control-Allow-Origin', '*');
-  res.header('Access-Control-Allow-Methods', 'POST, GET, OPTIONS');
-  res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization');
-  res.header('Access-Control-Allow-Credentials', 'true');
-  res.header('Access-Control-Max-Age', '3600');
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Methods", "POST, GET, OPTIONS");
+  res.header("Access-Control-Allow-Headers", "Content-Type, Authorization");
+  res.header("Access-Control-Allow-Credentials", "true");
+  res.header("Access-Control-Max-Age", "3600");
   next();
 });
 
-// Middleware to parse JSON bodies
 router.use(express.json());
 
-// Configure multer for file upload
-const upload = multer({ dest: 'uploads/' });
+const upload = multer({ dest: "uploads/" });
 
-router.post('/', upload.single('file'), async (req, res) => {
+const isValidMaintenancePlant = (value) => {
+  return /^\d{4}$/.test(value.toString());
+};
+
+const getNullableValue = (value) => (typeof value === "string" && value.trim() !== "" ? value.trim() : null);
+
+const columnMapping = {
+  "SAP FUNCTIONAL LOCATION": "Functional Location",
+  "STATE": "STATE",
+  "NEW AREA": "AREA",
+  "NEW MAIN SITE": "SITE",
+  "Maintenance Plant": "Maintenance Plant",
+  "STATE ENGG HEAD": "STATE ENGG HEAD",
+  "AREA INCHARGE (NEW)": "AREA INCHARGE",
+  "SITE INCHARGES": "SITE INCHARGE",
+  "STATE PMO": "STATE PMO",
+  "MAINTENNACE INCHARGES": "MAINTENNACE INCHARGES",
+  "GEAR BOX TEAM": "GEAR BOX TEAM"
+};
+
+router.post("/", upload.single("file"), async (req, res) => {
   const filePath = req.file.path;
-  console.log('Uploaded file path:', filePath);
+  console.log("Uploaded file path:", filePath);
 
   try {
-    // Read the Excel file
     const workbook = XLSX.readFile(filePath);
     const firstSheetName = workbook.SheetNames[0];
     let sheetData = XLSX.utils.sheet_to_json(workbook.Sheets[firstSheetName]);
 
-    console.log('Original Excel Data:', sheetData);
+    console.log("Original Excel Data:", sheetData);
 
-    // Remove "extra" column if present
-    sheetData = sheetData.map(({ extra, ...row }) => row);
+    sheetData = sheetData.map(row => {
+      return Object.fromEntries(
+        Object.entries(row).map(([key, value]) => [columnMapping[key.trim()] || key.trim(), value])
+      );
+    });
 
-    // Save the processed data for verification
-    const jsonFilePath = path.join(__dirname, 'site_area_incharge_data_read.json');
-    fs.writeFileSync(jsonFilePath, JSON.stringify(sheetData, null, 2));
-    console.log('Data saved to site_area_incharge_data_read.json');
+    const pool = await connectToMSSQL();
+    const transaction = new sql.Transaction(pool);
+    await transaction.begin();
 
-    const dbConnection = await connectToDatabase();
+    try {
+      console.log("Deleting all records from site_area_incharge_mapping...");
+      await new sql.Request(transaction).query("DELETE FROM site_area_incharge_mapping");
+      console.log("All records deleted successfully.");
 
-    for (const row of sheetData) {
-      const {
-        'SAP FUNCTIONAL LOCATION': functionalLocation,
-        STATE,
-        'NEW AREA': AREA,
-        'NEW MAIN SITE': SITE,
-        'Maintenance Plant': maintenancePlant, // Mapping to "Maintenance Plant"
-        'STATE ENGG HEAD': stateEnggHead,
-        'AREA INCHARGE ( NEW)': areaIncharge, // Mapping to "AREA INCHARGE"
-        'SITE INCHARGES': siteIncharge, // Mapping to "SITE INCHARGE"
-        'STATE PM0': statePmo,
-        'MAINTENNACE INCHARGES': maintenanceIncharges,
-        'GEAR BOX TEAM': gearBoxTeam,
-      } = row;
+      console.log("Inserting new records...");
+      for (const row of sheetData) {
+        const maintenancePlant = row["Maintenance Plant"] ? parseInt(row["Maintenance Plant"], 10) : null;
 
-      const sql = `
-        MERGE INTO site_area_incharge_mapping AS target
-        USING (VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)) AS source 
-          ([Functional Location], [STATE], [AREA], [SITE], [Maintenance Plant], [STATE ENGG HEAD], [AREA INCHARGE], [SITE INCHARGE], [STATE PMO], [MAINTENNACE INCHARGES], [GEAR BOX TEAM])
-        ON target.[STATE] = source.[STATE]
-        AND target.[AREA] = source.[AREA]
-        AND target.[SITE] = source.[SITE]
-        WHEN MATCHED THEN
-          UPDATE SET 
-            target.[Functional Location] = source.[Functional Location],
-            target.[STATE ENGG HEAD] = source.[STATE ENGG HEAD],
-            target.[AREA INCHARGE] = source.[AREA INCHARGE],
-            target.[SITE INCHARGE] = source.[SITE INCHARGE],
-            target.[STATE PMO] = source.[STATE PMO],
-            target.[MAINTENNACE INCHARGES] = source.[MAINTENNACE INCHARGES],
-            target.[GEAR BOX TEAM] = source.[GEAR BOX TEAM],
-            target.[Maintenance Plant] = source.[Maintenance Plant]
-        WHEN NOT MATCHED THEN
-          INSERT ([Functional Location], [STATE], [AREA], [SITE], [Maintenance Plant], [STATE ENGG HEAD], [AREA INCHARGE], [SITE INCHARGE], [STATE PMO], [MAINTENNACE INCHARGES], [GEAR BOX TEAM])
-          VALUES (source.[Functional Location], source.[STATE], source.[AREA], source.[SITE], source.[Maintenance Plant], source.[STATE ENGG HEAD], source.[AREA INCHARGE], source.[SITE INCHARGE], source.[STATE PMO], source.[MAINTENNACE INCHARGES], source.[GEAR BOX TEAM]);
-      `;
+        if (!row["Functional Location"] || !row["STATE"] || !row["SITE"] || !maintenancePlant || !isValidMaintenancePlant(maintenancePlant)) {
+          console.warn("Skipping row due to missing or invalid fields:", row);
+          continue;
+        }
 
-      console.log('Executing SQL query:', sql);
-      console.log('With parameters:', [
-        functionalLocation,
-        STATE,
-        AREA,
-        SITE,
-        maintenancePlant,
-        stateEnggHead,
-        areaIncharge,
-        siteIncharge,
-        statePmo,
-        maintenanceIncharges,
-        gearBoxTeam,
-      ]);
+        console.log("Inserting:", row);
 
-      try {
-        await dbConnection.query(sql, [
-          functionalLocation,
-          STATE,
-          AREA,
-          SITE,
-          maintenancePlant,
-          stateEnggHead,
-          areaIncharge,
-          siteIncharge,
-          statePmo,
-          maintenanceIncharges,
-          gearBoxTeam,
-        ]);
-        console.log(`Data for site: ${SITE} updated/inserted successfully.`);
-      } catch (err) {
-        console.error('Error executing query for row:', row, err);
+        const insertQuery = `
+          INSERT INTO site_area_incharge_mapping 
+          ([Functional Location], [STATE], [AREA], [SITE], [Maintenance Plant], [STATE ENGG HEAD], 
+          [AREA INCHARGE], [SITE INCHARGE], [STATE PMO], [MAINTENNACE INCHARGES], [GEAR BOX TEAM])
+          VALUES 
+          (@FunctionalLocation, @STATE, @AREA, @SITE, @MaintenancePlant, @StateEnggHead, 
+          @AreaIncharge, @SiteIncharge, @StatePmo, @MaintenanceIncharges, @GearBoxTeam)
+        `;
+
+        const insertRequest = new sql.Request(transaction);
+        insertRequest.input("FunctionalLocation", sql.NVarChar, row["Functional Location"]);
+        insertRequest.input("STATE", sql.NVarChar, row["STATE"]);
+        insertRequest.input("AREA", sql.NVarChar, row["AREA"]);
+        insertRequest.input("SITE", sql.NVarChar, row["SITE"]);
+        insertRequest.input("MaintenancePlant", sql.Int, maintenancePlant);
+        insertRequest.input("StateEnggHead", sql.NVarChar, getNullableValue(row["STATE ENGG HEAD"]));
+        insertRequest.input("AreaIncharge", sql.NVarChar, getNullableValue(row["AREA INCHARGE"]));
+        insertRequest.input("SiteIncharge", sql.NVarChar, getNullableValue(row["SITE INCHARGE"]));
+        insertRequest.input("StatePmo", sql.NVarChar, getNullableValue(row["STATE PMO"]));
+        insertRequest.input("MaintenanceIncharges", sql.NVarChar, getNullableValue(row["MAINTENNACE INCHARGES"]));
+        insertRequest.input("GearBoxTeam", sql.NVarChar, getNullableValue(row["GEAR BOX TEAM"]));
+
+        try {
+          await insertRequest.query(insertQuery);
+        } catch (error) {
+          console.error("Error executing INSERT query for row:", row, "Error:", error);
+          throw error;
+        }
       }
+
+      await transaction.commit();
+      console.log("Transaction committed successfully!");
+      res.status(200).json({ success: true, message: "File processed successfully!" });
+    } catch (error) {
+      await transaction.rollback();
+      console.error("Error during transaction:", error);
+      res.status(500).json({ success: false, message: "Error during processing" });
     }
-
-    await dbConnection.close();
-    console.log('Database connection closed.');
-
-    // Delete the uploaded Excel file
-    fs.unlink(filePath, (err) => {
-      if (err) {
-        console.error('Error deleting file:', err);
-      } else {
-        console.log('Uploaded file deleted successfully');
-      }
-    });
-
-    res.json({
-      success: true,
-      message: 'File processed, data updated, and saved as JSON',
-      data: sheetData,
-    });
-
   } catch (error) {
-    console.error('Error processing file:', error);
-    res.status(500).send('Error processing file');
+    console.error("Error processing the file:", error);
+    res.status(500).json({ success: false, message: "Error reading or parsing the file" });
+  } finally {
+    fs.unlink(filePath, (err) => {
+      if (err) console.error("Error deleting uploaded file:", err);
+      else console.log("Uploaded file deleted successfully.");
+    });
   }
 });
 

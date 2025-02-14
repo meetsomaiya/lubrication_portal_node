@@ -1,8 +1,6 @@
 const express = require('express');
-const odbc = require('odbc');
 const moment = require('moment-timezone');
-//const { connectToDatabase } = require('./connect3.js');
-const { connectToDatabase } = require('./connect6.js');
+const { connectToMSSQL } = require('./connect8.js'); // Updated connection file
 const router = express.Router();
 
 moment.tz.setDefault('Asia/Kolkata');
@@ -19,10 +17,9 @@ router.use((req, res, next) => {
 
 router.get('/', async (req, res) => {
     try {
-        const db = await connectToDatabase();
+        const pool = await connectToMSSQL();
 
         const financialYear = req.query.financial_year || '';
-        const orderType = req.query.order_type || '';
         const month = req.query.month || '';
 
         let postingDateStart, postingDateEnd;
@@ -45,134 +42,118 @@ router.get('/', async (req, res) => {
         let allData = [];
         let hasMoreData = true;
 
-        // Fetch orders first
+        // Fetch orders with LEFT JOIN for reasons
         while (hasMoreData) {
             const sqlQuery = `
                 SELECT 
-                    [id], 
-                    [Posting Date], 
-                    [Entry Date], 
-                    [Quantity], 
-                    [date_of_insertion], 
-                    [Order No], 
-                    [Function Loc], 
-                    [Issue], 
-                    [Return], 
-                    [Return Percentage], 
-                    [Plant], 
-                    [State], 
-                    [Area], 
-                    [Site], 
-                    [Material], 
-                    [Storage Location], 
-                    [Move Type], 
-                    [Material Document], 
-                    [Description], 
-                    [Val Type], 
-                    [Order Type], 
-                    [Component], 
-                    [WTG Model], 
-                    [Order], 
-                    [Current Oil Change Date], 
-                    [Order Status]
-                FROM [dbo].[dispute_all_orders]
-                WHERE [Posting Date] >= ? AND [Posting Date] <= ? AND [date_of_insertion] = ?
-                ORDER BY [id]
-                OFFSET ? ROWS FETCH NEXT ? ROWS ONLY;
+                    o.[id], 
+                    CONVERT(VARCHAR, o.[Posting Date], 23) AS [Posting Date], 
+                    CONVERT(VARCHAR, o.[Entry Date], 23) AS [Entry Date], 
+                    o.[Quantity], 
+                    CONVERT(VARCHAR, o.[date_of_insertion], 23) AS [date_of_insertion], 
+                    o.[Order No], 
+                    o.[Function Loc], 
+                    o.[Issue], 
+                    o.[Return], 
+                    o.[Return Percentage], 
+                    o.[Plant], 
+                    o.[State], 
+                    o.[Area], 
+                    o.[Site], 
+                    o.[Material], 
+                    o.[Storage Location], 
+                    o.[Move Type], 
+                    o.[Material Document], 
+                    o.[Description], 
+                    o.[Val Type], 
+                    o.[Order Type], 
+                    o.[Component], 
+                    o.[WTG Model], 
+                    o.[Order], 
+                    CONVERT(VARCHAR, o.[Current Oil Change Date], 23) AS [Current Oil Change Date], 
+                    o.[Order Status],
+                    r.[Reason] -- Fetch reason directly with LEFT JOIN
+                FROM [dbo].[dispute_all_orders] o
+                LEFT JOIN (
+                    SELECT [Order No], MIN([Reason]) AS [Reason] 
+                    FROM [dbo].[reason_for_dispute_and_pending_teco] 
+                    GROUP BY [Order No]
+                ) r ON o.[Order No] = r.[Order No]
+                WHERE o.[Posting Date] >= @postingDateStart 
+                AND o.[Posting Date] <= @postingDateEnd 
+                AND o.[date_of_insertion] = @currentDate
+                ORDER BY o.[id]
+                OFFSET @offset ROWS FETCH NEXT @limit ROWS ONLY;
             `;
 
-            const orders = await db.query(sqlQuery, [postingDateStart, postingDateEnd, currentDate, offset, limit]);
-            allData = allData.concat(orders);
+            const result = await pool.request()
+                .input('postingDateStart', postingDateStart)
+                .input('postingDateEnd', postingDateEnd)
+                .input('currentDate', currentDate)
+                .input('offset', offset)
+                .input('limit', limit)
+                .query(sqlQuery);
 
-            if (orders.length < limit) {
+            allData = allData.concat(result.recordset);
+
+            if (result.recordset.length < limit) {
                 hasMoreData = false;
             } else {
                 offset += limit;
             }
         }
 
-        // Fetch unique reasons for each order number
-        const uniqueOrderNumbers = Array.from(new Set(allData.map(order => order['Order No'])));
-        const reasonPlaceholders = uniqueOrderNumbers.map(() => '?').join(', ');
-        
-        const reasonQuery = `
-            SELECT 
-                [Order No], 
-                MIN([Reason]) AS [Reason] -- Ensure only one reason per order number
-            FROM [dbo].[reason_for_dispute_and_pending_teco]
-            WHERE [Order No] IN (${reasonPlaceholders})
-            GROUP BY [Order No];
-        `;
-
-        const reasons = await db.query(reasonQuery, uniqueOrderNumbers);
-
-        // Map reasons to orders
-        const reasonMap = {};
-        reasons.forEach(row => {
-            reasonMap[row['Order No']] = row['Reason'];
-        });
-
-        // Add reasons to orders
-        allData = allData.map(order => ({
-            ...order,
-            reason: reasonMap[order['Order No']] || null, // Default to null if no reason found
-        }));
-
         // Extract unique site values
-        const siteSet = new Set();
-        allData.forEach(order => {
-            if (order.Site) {
-                siteSet.add(order.Site);
-            }
-        });
+        const siteSet = new Set(allData.map(order => order.Site).filter(Boolean));
 
-        // Convert the siteSet to an array and create placeholders for the IN clause
-        const siteArray = Array.from(siteSet);
-        const placeholders = siteArray.map(() => '?').join(', ');
+        if (siteSet.size > 0) {
+            const siteArray = Array.from(siteSet);
 
-        // Fetch site details for unique sites
-        const siteDetailsQuery = `
-            SELECT 
-                [SITE], 
-                [STATE ENGG HEAD], 
-                [AREA INCHARGE], 
-                [SITE INCHARGE], 
-                [STATE PMO]
-            FROM [dbo].[site_area_incharge_mapping]
-            WHERE [SITE] IN (${placeholders});
-        `;
-        
-        // Execute the query with all site values
-        const siteDetails = await db.query(siteDetailsQuery, siteArray);
+            // Fetch site details
+            const siteDetailsQuery = `
+                SELECT 
+                    [SITE], 
+                    [STATE ENGG HEAD], 
+                    [AREA INCHARGE], 
+                    [SITE INCHARGE], 
+                    [STATE PMO]
+                FROM [dbo].[site_area_incharge_mapping]
+                WHERE [SITE] IN (${siteArray.map((_, i) => `@site${i}`).join(', ')});
+            `;
 
-        // Create a map for site details based on site values
-        const siteDetailsMap = {};
-        siteDetails.forEach(site => {
-            siteDetailsMap[site.SITE] = {
-                stateEnggHead: site['STATE ENGG HEAD'],
-                areaIncharge: site['AREA INCHARGE'],
-                siteIncharge: site['SITE INCHARGE'],
-                statePMO: site['STATE PMO'],
-            };
-        });
+            const siteRequest = pool.request();
+            siteArray.forEach((site, i) => siteRequest.input(`site${i}`, site));
 
-        // Add the site details to the orders
-        allData = allData.map(order => {
-            const siteData = siteDetailsMap[order.Site] || {};
-            return {
-                ...order,
-                stateEnggHead: siteData.stateEnggHead || null,
-                areaIncharge: siteData.areaIncharge || null,
-                siteIncharge: siteData.siteIncharge || null,
-                statePMO: siteData.statePMO || null,
-            };
-        });
+            const siteDetails = await siteRequest.query(siteDetailsQuery);
 
-        // Send the combined data as a single response
+            // Create a map for site details
+            const siteDetailsMap = {};
+            siteDetails.recordset.forEach(site => {
+                siteDetailsMap[site.SITE] = {
+                    stateEnggHead: site['STATE ENGG HEAD'],
+                    areaIncharge: site['AREA INCHARGE'],
+                    siteIncharge: site['SITE INCHARGE'],
+                    statePMO: site['STATE PMO'],
+                };
+            });
+
+            // Add the site details to the orders
+            allData = allData.map(order => {
+                const siteData = siteDetailsMap[order.Site] || {};
+                return {
+                    ...order,
+                    stateEnggHead: siteData.stateEnggHead || null,
+                    areaIncharge: siteData.areaIncharge || null,
+                    siteIncharge: siteData.siteIncharge || null,
+                    statePMO: siteData.statePMO || null,
+                };
+            });
+        }
+
         res.json(allData);
 
     } catch (error) {
-        console.error('Error:', error);
+        console.error('❌ Error:', error);
         res.status(500).json({ message: 'Server error occurred' });
     }
 });

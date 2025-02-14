@@ -44,7 +44,9 @@ router.get('/', async (req, res) => {
 
      //   const apiUrl = 'https://uat-mob.suzlon.com/SuzlonActiveUser/api/SuzlonActiveUser/IsUserActive';
 
-     const apiUrl = 'https://suzomsuatapps.suzlon.com:7003/Services/SuzlonActiveUser/api/SuzlonActiveUser/IsUserActive/';
+    //  const apiUrl = 'https://suzomsuatapps.suzlon.com:7003/Services/SuzlonActiveUser/api/SuzlonActiveUser/IsUserActive/';
+
+    const apiUrl = 'https://suzomsapps.suzlon.com/Services/SuzlonActiveUser/api/SuzlonActiveUser/IsUserActive';
         
         // Perform API request
         const response = await fetch(apiUrl, {

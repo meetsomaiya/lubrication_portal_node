@@ -1,7 +1,9 @@
 const odbc = require('odbc');
 
 // ODBC connection string
-const connectionString = 'Driver={ODBC Driver 17 for SQL Server};Server=SELPUNMBDWEB01\\OMS_UAT,7002;Database=LubricationPortal;Uid=LubricationPortal_UAT;Pwd=Suzlon@123;Encrypt=no;TrustServerCertificate=yes;Connection Timeout=30;';
+// const connectionString = 'Driver={ODBC Driver 17 for SQL Server};Server=SELPUNMBDWEB01\\OMS_UAT,7002;Database=LubricationPortal;Uid=LubricationPortal_UAT;Pwd=Suzlon@123;Encrypt=no;TrustServerCertificate=yes;Connection Timeout=30;';
+
+const connectionString = 'Driver={ODBC Driver 17 for SQL Server};Server=SELPUNPWRBI02, 1433;Database=LubricationPortal;Uid=LubricationPortal;Pwd=djiguhjsgyt2345dfg;Encrypt=no;TrustServerCertificate=yes;Connection Timeout=30;';
 
 
 

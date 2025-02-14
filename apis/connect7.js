@@ -1,12 +1,28 @@
 const sql = require('mssql');
 
 // MSSQL Connection Configuration (Matching ODBC)
+// const config = {
+//     user: 'LubricationPortal_UAT',
+//     password: 'Suzlon@123',
+//     server: 'SELPUNMBDWEB01', // Use only the main server name
+//     database: 'LubricationPortal',
+//     port: 7002, // Use explicit port
+//     options: {
+//         encrypt: false, // Same as ODBC `Encrypt=no`
+//         trustServerCertificate: true, // Same as ODBC `TrustServerCertificate=yes`
+//         enableArithAbort: true, // Prevents certain query issues
+//         rowCollectionOnRequestCompletion: true, // Ensures proper row handling
+//     },
+//     connectionTimeout: 30000,  // 30 seconds
+//     requestTimeout: 30000,
+// };
+
 const config = {
-    user: 'LubricationPortal_UAT',
-    password: 'Suzlon@123',
-    server: 'SELPUNMBDWEB01', // Use only the main server name
+    user: 'LubricationPortal',
+    password: 'djiguhjsgyt2345dfg',
+    server: 'SELPUNPWRBI02', // Use only the main server name
     database: 'LubricationPortal',
-    port: 7002, // Use explicit port
+    port: 1433, // Use explicit port
     options: {
         encrypt: false, // Same as ODBC `Encrypt=no`
         trustServerCertificate: true, // Same as ODBC `TrustServerCertificate=yes`

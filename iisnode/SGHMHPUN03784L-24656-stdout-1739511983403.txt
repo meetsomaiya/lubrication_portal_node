@@ -1,0 +1,3920 @@
+Inserting: {
+  'SR NO': 220288,
+  'Functional Location': 'SWSSUP-SC2-MDA01-A001',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Supa',
+  'Maintenance Plant': '4436',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'pawarp@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220289,
+  'Functional Location': 'SWSSUP-SC2-MDA01-A002',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Supa',
+  'Maintenance Plant': '4436',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'pawarp@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220290,
+  'Functional Location': 'SWSSUP-SC3-GAE01-BP06',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Supa',
+  'Maintenance Plant': '4436',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'pawarp@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220291,
+  'Functional Location': 'SWSSUP-SC3-HGE01-BP05',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Supa',
+  'Maintenance Plant': '4436',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'pawarp@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220292,
+  'Functional Location': 'SWSSUP-SC3-HGE01-BP07',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Supa',
+  'Maintenance Plant': '4436',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'pawarp@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220293,
+  'Functional Location': 'SWSSUP-SC3-PHS01-BP09',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Supa',
+  'Maintenance Plant': '4436',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'pawarp@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220294,
+  'Functional Location': 'SWSSUP-SC3-SST01-BP02',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Supa',
+  'Maintenance Plant': '4436',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'pawarp@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220295,
+  'Functional Location': 'SWSSUP-SC3-SST01-BP03',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Supa',
+  'Maintenance Plant': '4436',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'pawarp@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220296,
+  'Functional Location': 'SWSSWP-SC1-AAP01-S071',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220297,
+  'Functional Location': 'SWSSWP-SC1-AAS01-S019',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220298,
+  'Functional Location': 'SWSSWP-SC1-ACC01-S002',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220299,
+  'Functional Location': 'SWSSWP-SC1-ACC01-S004',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220300,
+  'Functional Location': 'SWSSWP-SC1-ACL01-SDP05',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220301,
+  'Functional Location': 'SWSSWP-SC1-AHT01-S070',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220302,
+  'Functional Location': 'SWSSWP-SC1-AII01-S008',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220303,
+  'Functional Location': 'SWSSWP-SC1-AIW01-S014',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220304,
+  'Functional Location': 'SWSSWP-SC1-ASL01-S050',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220305,
+  'Functional Location': 'SWSSWP-SC1-ASL01-S052',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220306,
+  'Functional Location': 'SWSSWP-SC1-BCS01-S023',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220307,
+  'Functional Location': 'SWSSWP-SC1-BCS01-SDP03',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220308,
+  'Functional Location': 'SWSSWP-SC1-BSC01-S009',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220309,
+  'Functional Location': 'SWSSWP-SC1-BSC01-S020',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220310,
+  'Functional Location': 'SWSSWP-SC1-BSC01-S031',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220311,
+  'Functional Location': 'SWSSWP-SC1-CHB01-S001',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220312,
+  'Functional Location': 'SWSSWP-SC1-CHB01-S030',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220313,
+  'Functional Location': 'SWSSWP-SC1-DEV01-S017',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220314,
+  'Functional Location': 'SWSSWP-SC1-DRL01-SDP08',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220315,
+  'Functional Location': 'SWSSWP-SC1-GIC01-S075',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220316,
+  'Functional Location': 'SWSSWP-SC1-GIU01-S073',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220317,
+  'Functional Location': 'SWSSWP-SC1-GME01-S072',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220318,
+  'Functional Location': 'SWSSWP-SC1-HEP01-B011',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220319,
+  'Functional Location': 'SWSSWP-SC1-JDG01-S025',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220320,
+  'Functional Location': 'SWSSWP-SC1-KEI01-S076',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220321,
+  'Functional Location': 'SWSSWP-SC1-MAA01-S088',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220322,
+  'Functional Location': 'SWSSWP-SC1-MCL01-B007',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220323,
+  'Functional Location': 'SWSSWP-SC1-MCL01-SDP04',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220324,
+  'Functional Location': 'SWSSWP-SC1-MEL01-SDP16',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220325,
+  'Functional Location': 'SWSSWP-SC1-MML01-S024',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220326,
+  'Functional Location': 'SWSSWP-SC1-MMP01-B030',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220327,
+  'Functional Location': 'SWSSWP-SC1-MMP01-S087',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220328,
+  'Functional Location': 'SWSSWP-SC1-PCC01-S003',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220329,
+  'Functional Location': 'SWSSWP-SC1-PCC01-S042',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220330,
+  'Functional Location': 'SWSSWP-SC1-PIH01-S074',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220331,
+  'Functional Location': 'SWSSWP-SC1-PMP01-S049',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220332,
+  'Functional Location': 'SWSSWP-SC1-PPP01-S032',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220333,
+  'Functional Location': 'SWSSWP-SC1-PPP01-S068',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220334,
+  'Functional Location': 'SWSSWP-SC1-QEL01-S041',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220335,
+  'Functional Location': 'SWSSWP-SC1-RMH01-S015',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220336,
+  'Functional Location': 'SWSSWP-SC1-SKP01-S021',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220337,
+  'Functional Location': 'SWSSWP-SC1-SKS01-S010',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220338,
+  'Functional Location': 'SWSSWP-SC1-SKS01-S012',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220339,
+  'Functional Location': 'SWSSWP-SC1-SML01-S028',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220340,
+  'Functional Location': 'SWSSWP-SC1-SMS01-S077',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220341,
+  'Functional Location': 'SWSSWP-SC1-SOT01-S040',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220342,
+  'Functional Location': 'SWSSWP-SC1-SOT01-S063',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220343,
+  'Functional Location': 'SWSSWP-SC1-SOT01-S064',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220344,
+  'Functional Location': 'SWSSWP-SC1-SSC01-S018',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220345,
+  'Functional Location': 'SWSSWP-SC1-SSS01-S095',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220346,
+  'Functional Location': 'SWSSWP-SC1-STC01-S045',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220347,
+  'Functional Location': 'SWSSWP-SC1-SVC01-SDP15',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220348,
+  'Functional Location': 'SWSSWP-SC1-TPCL1-B001',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220349,
+  'Functional Location': 'SWSSWP-SC1-TPCL1-B002',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220350,
+  'Functional Location': 'SWSSWP-SC1-TPCL1-B003',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220351,
+  'Functional Location': 'SWSSWP-SC1-TPCL1-B004',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220352,
+  'Functional Location': 'SWSSWP-SC1-TPCL1-B005',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220353,
+  'Functional Location': 'SWSSWP-SC1-TPCL1-B006',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220354,
+  'Functional Location': 'SWSSWP-SC1-TPCL1-B009',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220355,
+  'Functional Location': 'SWSSWP-SC1-TPCL1-B013',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220356,
+  'Functional Location': 'SWSSWP-SC1-TPCL1-B014',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220357,
+  'Functional Location': 'SWSSWP-SC1-TPCL1-B015',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220358,
+  'Functional Location': 'SWSSWP-SC1-TPCL1-B016',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220359,
+  'Functional Location': 'SWSSWP-SC1-TPCL1-B017',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220360,
+  'Functional Location': 'SWSSWP-SC1-TPCL1-B018',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220361,
+  'Functional Location': 'SWSSWP-SC1-TPCL1-B020',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220362,
+  'Functional Location': 'SWSSWP-SC1-UJA01-S029',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220363,
+  'Functional Location': 'SWSSWP-SC1-VNR01-S016',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220364,
+  'Functional Location': 'SWSSWP-SC1-VSC01-B012',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220365,
+  'Functional Location': 'SWSSWP-SC1-VSL01-B010',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220366,
+  'Functional Location': 'SWSSWP-SC1-VTX01-S043',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220367,
+  'Functional Location': 'SWSSWP-SC1-ZFS01-S039',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220368,
+  'Functional Location': 'SWSSWP-SC1-ZFS01-S078',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220369,
+  'Functional Location': 'SWSSWP-SC1-ZFS01-S085',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220370,
+  'Functional Location': 'SWSSWP-SC1-ZFS01-S086',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Sadawaghapur',
+  'Maintenance Plant': '4438',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'prakash.deshmukh@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'vinayak.patil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220371,
+  'Functional Location': 'SWSSWP-SC2-ACL01-MV01',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220372,
+  'Functional Location': 'SWSSWP-SC2-ACL01-MV04',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220373,
+  'Functional Location': 'SWSSWP-SC2-ADB01-MV05',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220374,
+  'Functional Location': 'SWSSWP-SC2-ADL01-MV14',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220375,
+  'Functional Location': 'SWSSWP-SC2-BGC01-MV13',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220376,
+  'Functional Location': 'SWSSWP-SC2-DJM01-MV17',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220377,
+  'Functional Location': 'SWSSWP-SC2-DJM01-MV18',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220378,
+  'Functional Location': 'SWSSWP-SC2-GHA01-MV02',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220379,
+  'Functional Location': 'SWSSWP-SC2-GHA01-MV03',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220380,
+  'Functional Location': 'SWSSWP-SC2-GIE01-MV12',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220381,
+  'Functional Location': 'SWSSWP-SC2-GIE01-MV23',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220382,
+  'Functional Location': 'SWSSWP-SC2-MEI01-MV15',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220383,
+  'Functional Location': 'SWSSWP-SC2-MEI01-MV16',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220384,
+  'Functional Location': 'SWSSWP-SC2-NSE01-MV29',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220385,
+  'Functional Location': 'SWSSWP-SC2-NSE01-MV30',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220386,
+  'Functional Location': 'SWSSWP-SC2-NSE01-MV31',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220387,
+  'Functional Location': 'SWSSWP-SC2-NSE01-MV32',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220388,
+  'Functional Location': 'SWSSWP-SC2-NSE01-MV33',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220389,
+  'Functional Location': 'SWSSWP-SC2-SDP01-MV06',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220390,
+  'Functional Location': 'SWSSWP-SC2-SSC01-MV11',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220391,
+  'Functional Location': 'SWSSWP-SC2-STI01-MV07',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220392,
+  'Functional Location': 'SWSSWP-SC2-STI01-MV08',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220393,
+  'Functional Location': 'SWSSWP-SC2-STI01-MV09',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220394,
+  'Functional Location': 'SWSSWP-SC2-STI01-MV10',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Satara A',
+  'Maintenance Plant': '4437',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'prakash.kadam@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220395,
+  'Functional Location': 'SWSTTD-SC2-NED01-NK01',
+  STATE: 'Andhra Pradesh',
+  AREA: 'Borampalli',
+  SITE: 'Gandikota',
+  'Maintenance Plant': '4466',
+  'STATE ENGG HEAD': 'rajan.muniappan@suzlon.com',
+  'AREA INCHARGE': 'Rajanna.Adepu@suzlon.com',
+  'SITE INCHARGE': 'Karthikeyan.T@suzlon.com',
+  'STATE PMO': 'Navaraja.Chintamneedi@suzlon.com',
+  'MAINTENNACE INCHARGES': 'subramaniap@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220396,
+  'Functional Location': 'SWSTTD-SC2-NED01-NK02',
+  STATE: 'Andhra Pradesh',
+  AREA: 'Borampalli',
+  SITE: 'Gandikota',
+  'Maintenance Plant': '4466',
+  'STATE ENGG HEAD': 'rajan.muniappan@suzlon.com',
+  'AREA INCHARGE': 'Rajanna.Adepu@suzlon.com',
+  'SITE INCHARGE': 'Karthikeyan.T@suzlon.com',
+  'STATE PMO': 'Navaraja.Chintamneedi@suzlon.com',
+  'MAINTENNACE INCHARGES': 'subramaniap@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220397,
+  'Functional Location': 'SWSUDT-SC1-JDS01-TP175',
+  STATE: 'TAMILNADU',
+  AREA: 'Viliseri',
+  SITE: 'Pattarkulam',
+  'Maintenance Plant': '2475',
+  'STATE ENGG HEAD': 'rchithambaranathan@suzlon.com',
+  'AREA INCHARGE': 'mdsheik@suzlon.com',
+  'SITE INCHARGE': 'uthiravasagam@suzlon.com',
+  'STATE PMO': 'R.ANDREW@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'ramesh.ramar@suzlon.com',
+  'GEAR BOX TEAM': 'ramesh.ramar@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220398,
+  'Functional Location': 'SWSUDT-SC1-POT02-TP178',
+  STATE: 'TAMILNADU',
+  AREA: 'Viliseri',
+  SITE: 'Pattarkulam',
+  'Maintenance Plant': '2475',
+  'STATE ENGG HEAD': 'rchithambaranathan@suzlon.com',
+  'AREA INCHARGE': 'mdsheik@suzlon.com',
+  'SITE INCHARGE': 'uthiravasagam@suzlon.com',
+  'STATE PMO': 'R.ANDREW@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'ramesh.ramar@suzlon.com',
+  'GEAR BOX TEAM': 'ramesh.ramar@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220399,
+  'Functional Location': 'SWSKAV-SC4-FCL01-G306',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Wagholi',
+  'Maintenance Plant': '2491',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'syashodhan@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'Aniket.shinde@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220400,
+  'Functional Location': 'SWSSUP-SC1-SRS01-M057',
+  STATE: 'MAHARASHTRA',
+  AREA: 'Central Maharashtra',
+  SITE: 'Supa',
+  'Maintenance Plant': '4436',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'rmukesh@suzlon.com',
+  'SITE INCHARGE': 'pawarp@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220401,
+  'Functional Location': 'SWSSMD-SC1-FLC01-J214',
+  STATE: 'RAJASTHAN',
+  AREA: 'Akal',
+  SITE: 'Soda Mada I',
+  'Maintenance Plant': '4406',
+  'STATE ENGG HEAD': 'vhiralal@suzlon.com',
+  'AREA INCHARGE': 'Vinaykumar.Patel@suzlon.com',
+  'SITE INCHARGE': 'Ganesh.Khatri@suzlon.com',
+  'STATE PMO': 'kuldeep.singh@suzlon.com',
+  'MAINTENNACE INCHARGES': 'abhishek.chauhan@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220402,
+  'Functional Location': 'SWSSNK-SC1-TRS01-S205',
+  STATE: 'TAMILNADU',
+  AREA: 'Radhapuram',
+  SITE: 'Sankaneri',
+  'Maintenance Plant': '4478',
+  'STATE ENGG HEAD': 'rchithambaranathan@suzlon.com',
+  'AREA INCHARGE': 'rajasekar.a@suzlon.com',
+  'SITE INCHARGE': 'Ramesh.N@suzlon.com',
+  'STATE PMO': 'R.ANDREW@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'sivasankar.murugan@suzlon.com',
+  'GEAR BOX TEAM': 'sivasankar.murugan@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220403,
+  'Functional Location': 'SWSSMD-SC2-RCC01-J132',
+  STATE: 'RAJASTHAN',
+  AREA: 'Akal',
+  SITE: 'Akal',
+  'Maintenance Plant': '4405',
+  'STATE ENGG HEAD': 'vhiralal@suzlon.com',
+  'AREA INCHARGE': 'Vinaykumar.Patel@suzlon.com',
+  'SITE INCHARGE': 'yashwant.dhakar@suzlon.com',
+  'STATE PMO': 'kuldeep.singh@suzlon.com',
+  'MAINTENNACE INCHARGES': 'abhishek.chauhan@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220404,
+  'Functional Location': 'SWSSMD-SC2-RCC01-J137',
+  STATE: 'RAJASTHAN',
+  AREA: 'Akal',
+  SITE: 'Akal',
+  'Maintenance Plant': '4405',
+  'STATE ENGG HEAD': 'vhiralal@suzlon.com',
+  'AREA INCHARGE': 'Vinaykumar.Patel@suzlon.com',
+  'SITE INCHARGE': 'yashwant.dhakar@suzlon.com',
+  'STATE PMO': 'kuldeep.singh@suzlon.com',
+  'MAINTENNACE INCHARGES': 'abhishek.chauhan@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220405,
+  'Functional Location': 'SWSBHT-SC1-GNC01-B005',
+  STATE: 'GUJARAT-Saurashtra',
+  AREA: 'Kuchadi',
+  SITE: 'Bhogat',
+  'Maintenance Plant': '2451',
+  'STATE ENGG HEAD': 'bchampak@suzlon.com',
+  'AREA INCHARGE': 'jitesh.visavadia@suzlon.com',
+  'SITE INCHARGE': 'kripal.kher@suzlon.com',
+  'STATE PMO': 'bala.p@suzlon.com',
+  'MAINTENNACE INCHARGES': 'Nilesh.Singanjude@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220406,
+  'Functional Location': 'SWSSMD-SC1-FLC02-J230',
+  STATE: 'RAJASTHAN',
+  AREA: 'Akal',
+  SITE: 'Soda Mada I',
+  'Maintenance Plant': '4406',
+  'STATE ENGG HEAD': 'vhiralal@suzlon.com',
+  'AREA INCHARGE': 'Vinaykumar.Patel@suzlon.com',
+  'SITE INCHARGE': 'Ganesh.Khatri@suzlon.com',
+  'STATE PMO': 'kuldeep.singh@suzlon.com',
+  'MAINTENNACE INCHARGES': 'abhishek.chauhan@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220407,
+  'Functional Location': 'SWSCHD-SC3-RCC01-K048',
+  STATE: 'KARNATAKA',
+  AREA: 'South Karnataka',
+  SITE: 'Chitradurga',
+  'Maintenance Plant': '4456',
+  'STATE ENGG HEAD': 'Mallikarjun.Uppin@suzlon.com',
+  'AREA INCHARGE': 'nagabushan.t@suzlon.com',
+  'SITE INCHARGE': 'Umesh.B@suzlon.com',
+  'STATE PMO': 'MUTHUKUMAR.V@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'vishwanatha.g@suzlon.com',
+  'GEAR BOX TEAM': 'devaraj.durairaj@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220408,
+  'Functional Location': 'SWSNAG-SC1-MPG01-N004',
+  STATE: 'MADHYA PRADESH',
+  AREA: 'Ratlam',
+  SITE: 'Mahuria',
+  'Maintenance Plant': '4447',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'irshad.khan@suzlon.com',
+  'SITE INCHARGE': 'nitish.tiwari@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220409,
+  'Functional Location': 'SWSSNK-SC1-GSM01-S651',
+  STATE: 'TAMILNADU',
+  AREA: 'Radhapuram',
+  SITE: 'Parameshwarapuram',
+  'Maintenance Plant': '4482',
+  'STATE ENGG HEAD': 'rchithambaranathan@suzlon.com',
+  'AREA INCHARGE': 'rajasekar.a@suzlon.com',
+  'SITE INCHARGE': 'yuvaraj.k@suzlon.com',
+  'STATE PMO': 'R.ANDREW@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'berinmathan.thiraviyaraj@suzlon.com',
+  'GEAR BOX TEAM': 'berinmathan.thiraviyaraj@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220410,
+  'Functional Location': 'SWSCHD-SC3-RCC01-K049',
+  STATE: 'KARNATAKA',
+  AREA: 'South Karnataka',
+  SITE: 'Chitradurga',
+  'Maintenance Plant': '4456',
+  'STATE ENGG HEAD': 'Mallikarjun.Uppin@suzlon.com',
+  'AREA INCHARGE': 'nagabushan.t@suzlon.com',
+  'SITE INCHARGE': 'Umesh.B@suzlon.com',
+  'STATE PMO': 'MUTHUKUMAR.V@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'vishwanatha.g@suzlon.com',
+  'GEAR BOX TEAM': 'devaraj.durairaj@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220411,
+  'Functional Location': 'SWSKHR-SC1-RSE01-K001',
+  STATE: 'MAHARASHTRA',
+  AREA: 'North Maharashtra',
+  SITE: 'Phophade',
+  'Maintenance Plant': '4444',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'nitin.lande@suzlon.com',
+  'SITE INCHARGE': 'bnitin@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220412,
+  'Functional Location': 'SWSKHR-SC1-RSE01-K008',
+  STATE: 'MAHARASHTRA',
+  AREA: 'North Maharashtra',
+  SITE: 'Phophade',
+  'Maintenance Plant': '4444',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'nitin.lande@suzlon.com',
+  'SITE INCHARGE': 'bnitin@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220413,
+  'Functional Location': 'SWSKHR-SC1-REI01-K023',
+  STATE: 'MAHARASHTRA',
+  AREA: 'North Maharashtra',
+  SITE: 'Phophade',
+  'Maintenance Plant': '4444',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'nitin.lande@suzlon.com',
+  'SITE INCHARGE': 'bnitin@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220414,
+  'Functional Location': 'SWSKHR-SC1-REI02-K025',
+  STATE: 'MAHARASHTRA',
+  AREA: 'North Maharashtra',
+  SITE: 'Phophade',
+  'Maintenance Plant': '4444',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'nitin.lande@suzlon.com',
+  'SITE INCHARGE': 'bnitin@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220415,
+  'Functional Location': 'SWSKHR-SC1-REI01-K026',
+  STATE: 'MAHARASHTRA',
+  AREA: 'North Maharashtra',
+  SITE: 'Phophade',
+  'Maintenance Plant': '4444',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'nitin.lande@suzlon.com',
+  'SITE INCHARGE': 'pradeep.khare@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220416,
+  'Functional Location': 'SWSKHR-SC1-REI01-K028',
+  STATE: 'MAHARASHTRA',
+  AREA: 'North Maharashtra',
+  SITE: 'Phophade',
+  'Maintenance Plant': '4444',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'nitin.lande@suzlon.com',
+  'SITE INCHARGE': 'pradeep.khare@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220417,
+  'Functional Location': 'SWSKHR-SC1-REI01-K031',
+  STATE: 'MAHARASHTRA',
+  AREA: 'North Maharashtra',
+  SITE: 'Phophade',
+  'Maintenance Plant': '4444',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'nitin.lande@suzlon.com',
+  'SITE INCHARGE': 'bnitin@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220418,
+  'Functional Location': 'SWSKHR-SC1-REI01-K032',
+  STATE: 'MAHARASHTRA',
+  AREA: 'North Maharashtra',
+  SITE: 'Phophade',
+  'Maintenance Plant': '4444',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'nitin.lande@suzlon.com',
+  'SITE INCHARGE': 'bnitin@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220419,
+  'Functional Location': 'SWSKHR-SC1-RSE01-K002',
+  STATE: 'MAHARASHTRA',
+  AREA: 'North Maharashtra',
+  SITE: 'Phophade',
+  'Maintenance Plant': '4444',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'nitin.lande@suzlon.com',
+  'SITE INCHARGE': 'bnitin@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220420,
+  'Functional Location': 'SWSKHR-SC1-REI01-K027',
+  STATE: 'MAHARASHTRA',
+  AREA: 'North Maharashtra',
+  SITE: 'Phophade',
+  'Maintenance Plant': '4444',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'nitin.lande@suzlon.com',
+  'SITE INCHARGE': 'pradeep.khare@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220421,
+  'Functional Location': 'SWSKHR-SC1-REI01-K029',
+  STATE: 'MAHARASHTRA',
+  AREA: 'North Maharashtra',
+  SITE: 'Phophade',
+  'Maintenance Plant': '4444',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'nitin.lande@suzlon.com',
+  'SITE INCHARGE': 'pradeep.khare@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220422,
+  'Functional Location': 'SWSKHR-SC1-GAL01-K013',
+  STATE: 'MAHARASHTRA',
+  AREA: 'North Maharashtra',
+  SITE: 'Phophade',
+  'Maintenance Plant': '4444',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'nitin.lande@suzlon.com',
+  'SITE INCHARGE': 'bnitin@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220423,
+  'Functional Location': 'SWSKHR-SC1-REI01-K016',
+  STATE: 'MAHARASHTRA',
+  AREA: 'North Maharashtra',
+  SITE: 'Phophade',
+  'Maintenance Plant': '4444',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'nitin.lande@suzlon.com',
+  'SITE INCHARGE': 'bnitin@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220424,
+  'Functional Location': 'SWSCHD-SC2-MNT01-K038',
+  STATE: 'KARNATAKA',
+  AREA: 'South Karnataka',
+  SITE: 'Chitradurga',
+  'Maintenance Plant': '4456',
+  'STATE ENGG HEAD': 'Mallikarjun.Uppin@suzlon.com',
+  'AREA INCHARGE': 'nagabushan.t@suzlon.com',
+  'SITE INCHARGE': 'Umesh.B@suzlon.com',
+  'STATE PMO': 'MUTHUKUMAR.V@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'vishwanatha.g@suzlon.com',
+  'GEAR BOX TEAM': 'devaraj.durairaj@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220425,
+  'Functional Location': 'SWSBHT-SC2-GNC01-B072',
+  STATE: 'GUJARAT-Saurashtra',
+  AREA: 'Kuchadi',
+  SITE: 'Bhogat',
+  'Maintenance Plant': '2451',
+  'STATE ENGG HEAD': 'bchampak@suzlon.com',
+  'AREA INCHARGE': 'jitesh.visavadia@suzlon.com',
+  'SITE INCHARGE': 'kripal.kher@suzlon.com',
+  'STATE PMO': 'bala.p@suzlon.com',
+  'MAINTENNACE INCHARGES': 'Nilesh.Singanjude@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220426,
+  'Functional Location': 'SWSKHR-SC1-REI01-K030',
+  STATE: 'MAHARASHTRA',
+  AREA: 'North Maharashtra',
+  SITE: 'Phophade',
+  'Maintenance Plant': '4444',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'nitin.lande@suzlon.com',
+  'SITE INCHARGE': 'pradeep.khare@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220427,
+  'Functional Location': 'SWSSMD-SC1-VCL01-J254',
+  STATE: 'RAJASTHAN',
+  AREA: 'Akal',
+  SITE: 'Soda Mada I',
+  'Maintenance Plant': '4406',
+  'STATE ENGG HEAD': 'vhiralal@suzlon.com',
+  'AREA INCHARGE': 'Vinaykumar.Patel@suzlon.com',
+  'SITE INCHARGE': 'Ganesh.Khatri@suzlon.com',
+  'STATE PMO': 'kuldeep.singh@suzlon.com',
+  'MAINTENNACE INCHARGES': 'abhishek.chauhan@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220428,
+  'Functional Location': 'SWSSMD-SC1-VCL01-J277',
+  STATE: 'RAJASTHAN',
+  AREA: 'Akal',
+  SITE: 'Soda Mada I',
+  'Maintenance Plant': '4406',
+  'STATE ENGG HEAD': 'vhiralal@suzlon.com',
+  'AREA INCHARGE': 'Vinaykumar.Patel@suzlon.com',
+  'SITE INCHARGE': 'Ganesh.Khatri@suzlon.com',
+  'STATE PMO': 'kuldeep.singh@suzlon.com',
+  'MAINTENNACE INCHARGES': 'abhishek.chauhan@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220429,
+  'Functional Location': 'SWSSMD-SC1-VCL01-J279',
+  STATE: 'RAJASTHAN',
+  AREA: 'Akal',
+  SITE: 'Soda Mada I',
+  'Maintenance Plant': '4406',
+  'STATE ENGG HEAD': 'vhiralal@suzlon.com',
+  'AREA INCHARGE': 'Vinaykumar.Patel@suzlon.com',
+  'SITE INCHARGE': 'Ganesh.Khatri@suzlon.com',
+  'STATE PMO': 'kuldeep.singh@suzlon.com',
+  'MAINTENNACE INCHARGES': 'abhishek.chauhan@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220430,
+  'Functional Location': 'SWSKHR-SC1-JMP01-K085',
+  STATE: 'MAHARASHTRA',
+  AREA: 'North Maharashtra',
+  SITE: 'Petale',
+  'Maintenance Plant': '4433',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'nitin.lande@suzlon.com',
+  'SITE INCHARGE': 'pradeep.khare@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'azimoddin.qazi@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220431,
+  'Functional Location': 'SWSKHR-SC1-HEP01-K144',
+  STATE: 'MAHARASHTRA',
+  AREA: 'North Maharashtra',
+  SITE: 'Petale',
+  'Maintenance Plant': '4433',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'nitin.lande@suzlon.com',
+  'SITE INCHARGE': 'pradeep.khare@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'azimoddin.qazi@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220432,
+  'Functional Location': 'SWSKHR-SC1-JDI01-K149',
+  STATE: 'MAHARASHTRA',
+  AREA: 'North Maharashtra',
+  SITE: 'Petale',
+  'Maintenance Plant': '4433',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'nitin.lande@suzlon.com',
+  'SITE INCHARGE': 'pradeep.khare@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'azimoddin.qazi@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220433,
+  'Functional Location': 'SWSKHR-SC1-HEP01-K133',
+  STATE: 'MAHARASHTRA',
+  AREA: 'North Maharashtra',
+  SITE: 'Petale',
+  'Maintenance Plant': '4433',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'nitin.lande@suzlon.com',
+  'SITE INCHARGE': 'pradeep.khare@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'azimoddin.qazi@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220434,
+  'Functional Location': 'SWSKHR-SC1-FEG01-K095',
+  STATE: 'MAHARASHTRA',
+  AREA: 'North Maharashtra',
+  SITE: 'Petale',
+  'Maintenance Plant': '4433',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'nitin.lande@suzlon.com',
+  'SITE INCHARGE': 'pradeep.khare@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'azimoddin.qazi@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220435,
+  'Functional Location': 'SWSKHR-SC1-JDI01-K151',
+  STATE: 'MAHARASHTRA',
+  AREA: 'North Maharashtra',
+  SITE: 'Petale',
+  'Maintenance Plant': '4433',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'nitin.lande@suzlon.com',
+  'SITE INCHARGE': 'pradeep.khare@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'azimoddin.qazi@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220436,
+  'Functional Location': 'SWSKHR-SC1-RCC01-K175',
+  STATE: 'MAHARASHTRA',
+  AREA: 'North Maharashtra',
+  SITE: 'Petale',
+  'Maintenance Plant': '4433',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'nitin.lande@suzlon.com',
+  'SITE INCHARGE': 'pradeep.khare@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'azimoddin.qazi@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220437,
+  'Functional Location': 'SWSKAV-SC1-RCL01-G207',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Wagholi',
+  'Maintenance Plant': '2491',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'syashodhan@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'Aniket.shinde@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220438,
+  'Functional Location': 'SWSKHR-SC2-KJJ01-K419',
+  STATE: 'MAHARASHTRA',
+  AREA: 'North Maharashtra',
+  SITE: 'Vavad',
+  'Maintenance Plant': '2493',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'nitin.lande@suzlon.com',
+  'SITE INCHARGE': 'patil.girish@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220439,
+  'Functional Location': 'SWSMDV-SC1-GNC01-C004',
+  STATE: 'GUJARAT-Kutch',
+  AREA: 'Nanisindhodi',
+  SITE: 'Lathedi',
+  'Maintenance Plant': '4419',
+  'STATE ENGG HEAD': 'Sakthivel.Thirumalai@suzlon.com',
+  'AREA INCHARGE': 'Nilesh.Sule@suzlon.com',
+  'SITE INCHARGE': 'rajkumar.majhi@suzlon.com',
+  'STATE PMO': 'Jyoti.Meena@suzlon.com',
+  'MAINTENNACE INCHARGES': 'deepak.soni@suzlon.com',
+  'GEAR BOX TEAM': 'deepak.soni@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220440,
+  'Functional Location': 'SWSMDV-SC1-GNC01-C006',
+  STATE: 'GUJARAT-Kutch',
+  AREA: 'Nanisindhodi',
+  SITE: 'Lathedi',
+  'Maintenance Plant': '4419',
+  'STATE ENGG HEAD': 'Sakthivel.Thirumalai@suzlon.com',
+  'AREA INCHARGE': 'Nilesh.Sule@suzlon.com',
+  'SITE INCHARGE': 'rajkumar.majhi@suzlon.com',
+  'STATE PMO': 'Jyoti.Meena@suzlon.com',
+  'MAINTENNACE INCHARGES': 'deepak.soni@suzlon.com',
+  'GEAR BOX TEAM': 'deepak.soni@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220441,
+  'Functional Location': 'SWSMDV-SC1-GNC01-C007',
+  STATE: 'GUJARAT-Kutch',
+  AREA: 'Nanisindhodi',
+  SITE: 'Lathedi',
+  'Maintenance Plant': '4419',
+  'STATE ENGG HEAD': 'Sakthivel.Thirumalai@suzlon.com',
+  'AREA INCHARGE': 'Nilesh.Sule@suzlon.com',
+  'SITE INCHARGE': 'rajkumar.majhi@suzlon.com',
+  'STATE PMO': 'Jyoti.Meena@suzlon.com',
+  'MAINTENNACE INCHARGES': 'deepak.soni@suzlon.com',
+  'GEAR BOX TEAM': 'deepak.soni@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220442,
+  'Functional Location': 'SWSMDV-SC1-GNC01-C010',
+  STATE: 'GUJARAT-Kutch',
+  AREA: 'Nanisindhodi',
+  SITE: 'Lathedi',
+  'Maintenance Plant': '4419',
+  'STATE ENGG HEAD': 'Sakthivel.Thirumalai@suzlon.com',
+  'AREA INCHARGE': 'Nilesh.Sule@suzlon.com',
+  'SITE INCHARGE': 'rajkumar.majhi@suzlon.com',
+  'STATE PMO': 'Jyoti.Meena@suzlon.com',
+  'MAINTENNACE INCHARGES': 'deepak.soni@suzlon.com',
+  'GEAR BOX TEAM': 'deepak.soni@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220443,
+  'Functional Location': 'SWSMDV-SC1-GNC02-C011',
+  STATE: 'GUJARAT-Kutch',
+  AREA: 'Nanisindhodi',
+  SITE: 'Lathedi',
+  'Maintenance Plant': '4419',
+  'STATE ENGG HEAD': 'Sakthivel.Thirumalai@suzlon.com',
+  'AREA INCHARGE': 'Nilesh.Sule@suzlon.com',
+  'SITE INCHARGE': 'rajkumar.majhi@suzlon.com',
+  'STATE PMO': 'Jyoti.Meena@suzlon.com',
+  'MAINTENNACE INCHARGES': 'deepak.soni@suzlon.com',
+  'GEAR BOX TEAM': 'deepak.soni@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220444,
+  'Functional Location': 'SWSMDV-SC1-GNC02-C014',
+  STATE: 'GUJARAT-Kutch',
+  AREA: 'Nanisindhodi',
+  SITE: 'Lathedi',
+  'Maintenance Plant': '4419',
+  'STATE ENGG HEAD': 'Sakthivel.Thirumalai@suzlon.com',
+  'AREA INCHARGE': 'Nilesh.Sule@suzlon.com',
+  'SITE INCHARGE': 'rajkumar.majhi@suzlon.com',
+  'STATE PMO': 'Jyoti.Meena@suzlon.com',
+  'MAINTENNACE INCHARGES': 'deepak.soni@suzlon.com',
+  'GEAR BOX TEAM': 'deepak.soni@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220445,
+  'Functional Location': 'SWSMDV-SC1-GNC02-C016',
+  STATE: 'GUJARAT-Kutch',
+  AREA: 'Nanisindhodi',
+  SITE: 'Lathedi',
+  'Maintenance Plant': '4419',
+  'STATE ENGG HEAD': 'Sakthivel.Thirumalai@suzlon.com',
+  'AREA INCHARGE': 'Nilesh.Sule@suzlon.com',
+  'SITE INCHARGE': 'rajkumar.majhi@suzlon.com',
+  'STATE PMO': 'Jyoti.Meena@suzlon.com',
+  'MAINTENNACE INCHARGES': 'deepak.soni@suzlon.com',
+  'GEAR BOX TEAM': 'deepak.soni@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220446,
+  'Functional Location': 'SWSMDV-SC1-GNC02-C017',
+  STATE: 'GUJARAT-Kutch',
+  AREA: 'Nanisindhodi',
+  SITE: 'Lathedi',
+  'Maintenance Plant': '4419',
+  'STATE ENGG HEAD': 'Sakthivel.Thirumalai@suzlon.com',
+  'AREA INCHARGE': 'Nilesh.Sule@suzlon.com',
+  'SITE INCHARGE': 'rajkumar.majhi@suzlon.com',
+  'STATE PMO': 'Jyoti.Meena@suzlon.com',
+  'MAINTENNACE INCHARGES': 'deepak.soni@suzlon.com',
+  'GEAR BOX TEAM': 'deepak.soni@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220447,
+  'Functional Location': 'SWSMDV-SC1-GNC02-C019',
+  STATE: 'GUJARAT-Kutch',
+  AREA: 'Nanisindhodi',
+  SITE: 'Lathedi',
+  'Maintenance Plant': '4419',
+  'STATE ENGG HEAD': 'Sakthivel.Thirumalai@suzlon.com',
+  'AREA INCHARGE': 'Nilesh.Sule@suzlon.com',
+  'SITE INCHARGE': 'rajkumar.majhi@suzlon.com',
+  'STATE PMO': 'Jyoti.Meena@suzlon.com',
+  'MAINTENNACE INCHARGES': 'deepak.soni@suzlon.com',
+  'GEAR BOX TEAM': 'deepak.soni@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220448,
+  'Functional Location': 'SWSMDV-SC1-GNC02-C013',
+  STATE: 'GUJARAT-Kutch',
+  AREA: 'Nanisindhodi',
+  SITE: 'Lathedi',
+  'Maintenance Plant': '4419',
+  'STATE ENGG HEAD': 'Sakthivel.Thirumalai@suzlon.com',
+  'AREA INCHARGE': 'Nilesh.Sule@suzlon.com',
+  'SITE INCHARGE': 'rajkumar.majhi@suzlon.com',
+  'STATE PMO': 'Jyoti.Meena@suzlon.com',
+  'MAINTENNACE INCHARGES': 'deepak.soni@suzlon.com',
+  'GEAR BOX TEAM': 'deepak.soni@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220449,
+  'Functional Location': 'SWSKAV-SC2-APF01-G024',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Ghatnandre',
+  'Maintenance Plant': '4440',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'mohseen.mujawar@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'dhanaji.supane@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220450,
+  'Functional Location': 'SWSMDV-SC1-GNC02-C012',
+  STATE: 'GUJARAT-Kutch',
+  AREA: 'Nanisindhodi',
+  SITE: 'Lathedi',
+  'Maintenance Plant': '4419',
+  'STATE ENGG HEAD': 'Sakthivel.Thirumalai@suzlon.com',
+  'AREA INCHARGE': 'Nilesh.Sule@suzlon.com',
+  'SITE INCHARGE': 'rajkumar.majhi@suzlon.com',
+  'STATE PMO': 'Jyoti.Meena@suzlon.com',
+  'MAINTENNACE INCHARGES': 'deepak.soni@suzlon.com',
+  'GEAR BOX TEAM': 'deepak.soni@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220451,
+  'Functional Location': 'SWSMDV-SC1-GNC01-C008',
+  STATE: 'GUJARAT-Kutch',
+  AREA: 'Nanisindhodi',
+  SITE: 'Lathedi',
+  'Maintenance Plant': '4419',
+  'STATE ENGG HEAD': 'Sakthivel.Thirumalai@suzlon.com',
+  'AREA INCHARGE': 'Nilesh.Sule@suzlon.com',
+  'SITE INCHARGE': 'rajkumar.majhi@suzlon.com',
+  'STATE PMO': 'Jyoti.Meena@suzlon.com',
+  'MAINTENNACE INCHARGES': 'deepak.soni@suzlon.com',
+  'GEAR BOX TEAM': 'deepak.soni@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220452,
+  'Functional Location': 'SWSMDV-SC1-GNC01-C009',
+  STATE: 'GUJARAT-Kutch',
+  AREA: 'Nanisindhodi',
+  SITE: 'Lathedi',
+  'Maintenance Plant': '4419',
+  'STATE ENGG HEAD': 'Sakthivel.Thirumalai@suzlon.com',
+  'AREA INCHARGE': 'Nilesh.Sule@suzlon.com',
+  'SITE INCHARGE': 'rajkumar.majhi@suzlon.com',
+  'STATE PMO': 'Jyoti.Meena@suzlon.com',
+  'MAINTENNACE INCHARGES': 'deepak.soni@suzlon.com',
+  'GEAR BOX TEAM': 'deepak.soni@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220453,
+  'Functional Location': 'SWSMDV-SC1-GNC02-C015',
+  STATE: 'GUJARAT-Kutch',
+  AREA: 'Nanisindhodi',
+  SITE: 'Lathedi',
+  'Maintenance Plant': '4419',
+  'STATE ENGG HEAD': 'Sakthivel.Thirumalai@suzlon.com',
+  'AREA INCHARGE': 'Nilesh.Sule@suzlon.com',
+  'SITE INCHARGE': 'rajkumar.majhi@suzlon.com',
+  'STATE PMO': 'Jyoti.Meena@suzlon.com',
+  'MAINTENNACE INCHARGES': 'deepak.soni@suzlon.com',
+  'GEAR BOX TEAM': 'deepak.soni@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220454,
+  'Functional Location': 'SWSMDV-SC1-GNC02-C018',
+  STATE: 'GUJARAT-Kutch',
+  AREA: 'Nanisindhodi',
+  SITE: 'Lathedi',
+  'Maintenance Plant': '4419',
+  'STATE ENGG HEAD': 'Sakthivel.Thirumalai@suzlon.com',
+  'AREA INCHARGE': 'Nilesh.Sule@suzlon.com',
+  'SITE INCHARGE': 'rajkumar.majhi@suzlon.com',
+  'STATE PMO': 'Jyoti.Meena@suzlon.com',
+  'MAINTENNACE INCHARGES': 'deepak.soni@suzlon.com',
+  'GEAR BOX TEAM': 'deepak.soni@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220455,
+  'Functional Location': 'SWSMDV-SC1-GNC02-C020',
+  STATE: 'GUJARAT-Kutch',
+  AREA: 'Nanisindhodi',
+  SITE: 'Lathedi',
+  'Maintenance Plant': '4419',
+  'STATE ENGG HEAD': 'Sakthivel.Thirumalai@suzlon.com',
+  'AREA INCHARGE': 'Nilesh.Sule@suzlon.com',
+  'SITE INCHARGE': 'rajkumar.majhi@suzlon.com',
+  'STATE PMO': 'Jyoti.Meena@suzlon.com',
+  'MAINTENNACE INCHARGES': 'deepak.soni@suzlon.com',
+  'GEAR BOX TEAM': 'deepak.soni@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220456,
+  'Functional Location': 'SWSKAV-SC2-MEP02-G038',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Ghatnandre',
+  'Maintenance Plant': '4440',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'mohseen.mujawar@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'dhanaji.supane@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220457,
+  'Functional Location': 'SWSKAV-SC2-MEP01-G055',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Ghatnandre',
+  'Maintenance Plant': '4440',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'mohseen.mujawar@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'dhanaji.supane@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220458,
+  'Functional Location': 'SWSKAV-SC2-MEP01-G056',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Ghatnandre',
+  'Maintenance Plant': '4440',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'mohseen.mujawar@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'dhanaji.supane@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220459,
+  'Functional Location': 'SWSKHR-SC2-JBD01-K422',
+  STATE: 'MAHARASHTRA',
+  AREA: 'North Maharashtra',
+  SITE: 'Tilali',
+  'Maintenance Plant': '4431',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'nitin.lande@suzlon.com',
+  'SITE INCHARGE': 'satish.girase@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220460,
+  'Functional Location': 'SWSKHR-SC2-JBD01-K469',
+  STATE: 'MAHARASHTRA',
+  AREA: 'North Maharashtra',
+  SITE: 'Tilali',
+  'Maintenance Plant': '4431',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'nitin.lande@suzlon.com',
+  'SITE INCHARGE': 'satish.girase@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220461,
+  'Functional Location': 'SWSMDV-SC1-GNC01-C001',
+  STATE: 'GUJARAT-Kutch',
+  AREA: 'Nanisindhodi',
+  SITE: 'Lathedi',
+  'Maintenance Plant': '4419',
+  'STATE ENGG HEAD': 'Sakthivel.Thirumalai@suzlon.com',
+  'AREA INCHARGE': 'Nilesh.Sule@suzlon.com',
+  'SITE INCHARGE': 'rajkumar.majhi@suzlon.com',
+  'STATE PMO': 'Jyoti.Meena@suzlon.com',
+  'MAINTENNACE INCHARGES': 'deepak.soni@suzlon.com',
+  'GEAR BOX TEAM': 'deepak.soni@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220462,
+  'Functional Location': 'SWSMDV-SC1-GNC01-C003',
+  STATE: 'GUJARAT-Kutch',
+  AREA: 'Nanisindhodi',
+  SITE: 'Lathedi',
+  'Maintenance Plant': '4419',
+  'STATE ENGG HEAD': 'Sakthivel.Thirumalai@suzlon.com',
+  'AREA INCHARGE': 'Nilesh.Sule@suzlon.com',
+  'SITE INCHARGE': 'rajkumar.majhi@suzlon.com',
+  'STATE PMO': 'Jyoti.Meena@suzlon.com',
+  'MAINTENNACE INCHARGES': 'deepak.soni@suzlon.com',
+  'GEAR BOX TEAM': 'deepak.soni@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220463,
+  'Functional Location': 'SWSMDV-SC1-GNC01-C023',
+  STATE: 'GUJARAT-Kutch',
+  AREA: 'Nanisindhodi',
+  SITE: 'Lathedi',
+  'Maintenance Plant': '4419',
+  'STATE ENGG HEAD': 'Sakthivel.Thirumalai@suzlon.com',
+  'AREA INCHARGE': 'Nilesh.Sule@suzlon.com',
+  'SITE INCHARGE': 'rajkumar.majhi@suzlon.com',
+  'STATE PMO': 'Jyoti.Meena@suzlon.com',
+  'MAINTENNACE INCHARGES': 'deepak.soni@suzlon.com',
+  'GEAR BOX TEAM': 'deepak.soni@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220464,
+  'Functional Location': 'SWSMDV-SC1-GNC01-C024',
+  STATE: 'GUJARAT-Kutch',
+  AREA: 'Nanisindhodi',
+  SITE: 'Lathedi',
+  'Maintenance Plant': '4419',
+  'STATE ENGG HEAD': 'Sakthivel.Thirumalai@suzlon.com',
+  'AREA INCHARGE': 'Nilesh.Sule@suzlon.com',
+  'SITE INCHARGE': 'rajkumar.majhi@suzlon.com',
+  'STATE PMO': 'Jyoti.Meena@suzlon.com',
+  'MAINTENNACE INCHARGES': 'deepak.soni@suzlon.com',
+  'GEAR BOX TEAM': 'deepak.soni@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220465,
+  'Functional Location': 'SWSKAV-SC2-MEP03-G052',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Ghatnandre',
+  'Maintenance Plant': '4440',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'mohseen.mujawar@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'dhanaji.supane@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220466,
+  'Functional Location': 'SWSKAV-SC2-MEP03-G053',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Ghatnandre',
+  'Maintenance Plant': '4440',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'mohseen.mujawar@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'dhanaji.supane@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220467,
+  'Functional Location': 'SWSKAV-SC2-MEP03-G054',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Ghatnandre',
+  'Maintenance Plant': '4440',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'mohseen.mujawar@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'dhanaji.supane@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220468,
+  'Functional Location': 'SWSKAV-SC2-MEP03-G057',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Ghatnandre',
+  'Maintenance Plant': '4440',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'mohseen.mujawar@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'dhanaji.supane@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220469,
+  'Functional Location': 'SWSKHR-SC2-MCC01-K427',
+  STATE: 'MAHARASHTRA',
+  AREA: 'North Maharashtra',
+  SITE: 'Vavad',
+  'Maintenance Plant': '2493',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'nitin.lande@suzlon.com',
+  'SITE INCHARGE': 'patil.girish@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220470,
+  'Functional Location': 'SWSKHR-SC4-RCC02-K488',
+  STATE: 'MAHARASHTRA',
+  AREA: 'North Maharashtra',
+  SITE: 'Vavad',
+  'Maintenance Plant': '2493',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'nitin.lande@suzlon.com',
+  'SITE INCHARGE': 'patil.girish@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220471,
+  'Functional Location': 'SWSKHR-SC4-RCC02-K498',
+  STATE: 'MAHARASHTRA',
+  AREA: 'North Maharashtra',
+  SITE: 'Vavad',
+  'Maintenance Plant': '2493',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'nitin.lande@suzlon.com',
+  'SITE INCHARGE': 'patil.girish@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220472,
+  'Functional Location': 'SWSKAV-SC4-PKD02-G304',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Wagholi',
+  'Maintenance Plant': '2491',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'syashodhan@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'Aniket.shinde@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220473,
+  'Functional Location': 'SWSKAV-SC4-MEP04-G320',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Ghatnandre',
+  'Maintenance Plant': '4440',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'mohseen.mujawar@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'dhanaji.supane@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220474,
+  'Functional Location': 'SWSKHR-SC4-KJJ02-K493',
+  STATE: 'MAHARASHTRA',
+  AREA: 'North Maharashtra',
+  SITE: 'Vavad',
+  'Maintenance Plant': '2493',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'nitin.lande@suzlon.com',
+  'SITE INCHARGE': 'patil.girish@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220475,
+  'Functional Location': 'SWSKHR-SC3-GLT01-K252',
+  STATE: 'MAHARASHTRA',
+  AREA: 'North Maharashtra',
+  SITE: 'Brahmanwel',
+  'Maintenance Plant': '4434',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'nitin.lande@suzlon.com',
+  'SITE INCHARGE': 'Kishor.Wani@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220476,
+  'Functional Location': 'SWSKHR-SC3-MLA01-K258',
+  STATE: 'MAHARASHTRA',
+  AREA: 'North Maharashtra',
+  SITE: 'Brahmanwel',
+  'Maintenance Plant': '4434',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'nitin.lande@suzlon.com',
+  'SITE INCHARGE': 'Kishor.Wani@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220477,
+  'Functional Location': 'SWSKHR-SC1-GLT02-J119',
+  STATE: 'MAHARASHTRA',
+  AREA: 'North Maharashtra',
+  SITE: 'Petale',
+  'Maintenance Plant': '4433',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'nitin.lande@suzlon.com',
+  'SITE INCHARGE': 'pradeep.khare@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'azimoddin.qazi@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220478,
+  'Functional Location': 'SWSKAV-SC5-ERA01-G346',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Bothe',
+  'Maintenance Plant': '4443',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'jnimish@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'pawar.pravin@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220479,
+  'Functional Location': 'SWSKAV-SC5-ERA01-G348',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Bothe',
+  'Maintenance Plant': '4443',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'jnimish@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'pawar.pravin@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220480,
+  'Functional Location': 'SWSKAV-SC5-ERA01-G379',
+  STATE: 'MAHARASHTRA',
+  AREA: 'South Maharashtra',
+  SITE: 'Bothe',
+  'Maintenance Plant': '4443',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'sshete@suzlon.com',
+  'SITE INCHARGE': 'jnimish@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'pawar.pravin@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220481,
+  'Functional Location': 'SWSKHR-SC5-NCL01-J063',
+  STATE: 'MAHARASHTRA',
+  AREA: 'North Maharashtra',
+  SITE: 'Phophade',
+  'Maintenance Plant': '4444',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'nitin.lande@suzlon.com',
+  'SITE INCHARGE': 'bnitin@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220482,
+  'Functional Location': 'SWSKHR-SC8-KCF01-J076',
+  STATE: 'MAHARASHTRA',
+  AREA: 'North Maharashtra',
+  SITE: 'Aichale',
+  'Maintenance Plant': '4432',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'nitin.lande@suzlon.com',
+  'SITE INCHARGE': 'sunil.nawadekar@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'azimoddin.qazi@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220483,
+  'Functional Location': 'SWSKHR-S10-ERA01-J042',
+  STATE: 'MAHARASHTRA',
+  AREA: 'North Maharashtra',
+  SITE: 'Phophade',
+  'Maintenance Plant': '4444',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'nitin.lande@suzlon.com',
+  'SITE INCHARGE': 'bnitin@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220484,
+  'Functional Location': 'SWSSMD-SC1-ACP01-J288',
+  STATE: 'RAJASTHAN',
+  AREA: 'Akal',
+  SITE: 'Soda Mada II',
+  'Maintenance Plant': '4412',
+  'STATE ENGG HEAD': 'vhiralal@suzlon.com',
+  'AREA INCHARGE': 'Vinaykumar.Patel@suzlon.com',
+  'SITE INCHARGE': 'Mandeep.Singh@suzlon.com',
+  'STATE PMO': 'kuldeep.singh@suzlon.com',
+  'MAINTENNACE INCHARGES': 'abhishek.chauhan@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220485,
+  'Functional Location': 'SWSSMD-SC1-JCO01-J289',
+  STATE: 'RAJASTHAN',
+  AREA: 'Akal',
+  SITE: 'Soda Mada II',
+  'Maintenance Plant': '4412',
+  'STATE ENGG HEAD': 'vhiralal@suzlon.com',
+  'AREA INCHARGE': 'Vinaykumar.Patel@suzlon.com',
+  'SITE INCHARGE': 'Mandeep.Singh@suzlon.com',
+  'STATE PMO': 'kuldeep.singh@suzlon.com',
+  'MAINTENNACE INCHARGES': 'abhishek.chauhan@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220486,
+  'Functional Location': 'SWSSAD-SC6-GRI01-AK051',
+  STATE: 'RAJASTHAN',
+  AREA: 'Akal',
+  SITE: 'Akal',
+  'Maintenance Plant': '4405',
+  'STATE ENGG HEAD': 'vhiralal@suzlon.com',
+  'AREA INCHARGE': 'Vinaykumar.Patel@suzlon.com',
+  'SITE INCHARGE': 'yashwant.dhakar@suzlon.com',
+  'STATE PMO': 'kuldeep.singh@suzlon.com',
+  'MAINTENNACE INCHARGES': 'abhishek.chauhan@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220487,
+  'Functional Location': 'SWSKHR-SC4-PSI01-CK03',
+  STATE: 'MAHARASHTRA',
+  AREA: 'North Maharashtra',
+  SITE: 'Vavad',
+  'Maintenance Plant': '2493',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'nitin.lande@suzlon.com',
+  'SITE INCHARGE': 'patil.girish@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220488,
+  'Functional Location': 'SWSSAD-SC6-PGE01-AK200',
+  STATE: 'RAJASTHAN',
+  AREA: 'Akal',
+  SITE: 'Akal',
+  'Maintenance Plant': '4405',
+  'STATE ENGG HEAD': 'vhiralal@suzlon.com',
+  'AREA INCHARGE': 'Vinaykumar.Patel@suzlon.com',
+  'SITE INCHARGE': 'yashwant.dhakar@suzlon.com',
+  'STATE PMO': 'kuldeep.singh@suzlon.com',
+  'MAINTENNACE INCHARGES': 'abhishek.chauhan@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220489,
+  'Functional Location': 'SWSCHI-SC1-SML01-HA01',
+  STATE: 'KARNATAKA',
+  AREA: 'SOUTH KARNATAKA',
+  SITE: 'Chitradurga',
+  'Maintenance Plant': '4456',
+  'STATE ENGG HEAD': 'Mallikarjun.Uppin@suzlon.com',
+  'AREA INCHARGE': 'nagabushan.t@suzlon.com',
+  'SITE INCHARGE': 'Umesh.B@suzlon.com',
+  'STATE PMO': 'MUTHUKUMAR.V@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'vishwanatha.g@suzlon.com',
+  'GEAR BOX TEAM': 'devaraj.durairaj@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220490,
+  'Functional Location': 'SWSCHI-SC1-SML01-HA02',
+  STATE: 'KARNATAKA',
+  AREA: 'SOUTH KARNATAKA',
+  SITE: 'Chitradurga',
+  'Maintenance Plant': '4456',
+  'STATE ENGG HEAD': 'Mallikarjun.Uppin@suzlon.com',
+  'AREA INCHARGE': 'nagabushan.t@suzlon.com',
+  'SITE INCHARGE': 'Umesh.B@suzlon.com',
+  'STATE PMO': 'MUTHUKUMAR.V@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'vishwanatha.g@suzlon.com',
+  'GEAR BOX TEAM': 'devaraj.durairaj@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220491,
+  'Functional Location': 'SWSCHI-SC1-SML01-HA03',
+  STATE: 'KARNATAKA',
+  AREA: 'SOUTH KARNATAKA',
+  SITE: 'Chitradurga',
+  'Maintenance Plant': '4456',
+  'STATE ENGG HEAD': 'Mallikarjun.Uppin@suzlon.com',
+  'AREA INCHARGE': 'nagabushan.t@suzlon.com',
+  'SITE INCHARGE': 'Umesh.B@suzlon.com',
+  'STATE PMO': 'MUTHUKUMAR.V@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'vishwanatha.g@suzlon.com',
+  'GEAR BOX TEAM': 'devaraj.durairaj@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220492,
+  'Functional Location': 'SWSCHI-SC1-SML01-HA04',
+  STATE: 'KARNATAKA',
+  AREA: 'SOUTH KARNATAKA',
+  SITE: 'Chitradurga',
+  'Maintenance Plant': '4456',
+  'STATE ENGG HEAD': 'Mallikarjun.Uppin@suzlon.com',
+  'AREA INCHARGE': 'nagabushan.t@suzlon.com',
+  'SITE INCHARGE': 'Umesh.B@suzlon.com',
+  'STATE PMO': 'MUTHUKUMAR.V@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'vishwanatha.g@suzlon.com',
+  'GEAR BOX TEAM': 'devaraj.durairaj@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220493,
+  'Functional Location': 'SWSCHI-SC1-SML01-HB01',
+  STATE: 'KARNATAKA',
+  AREA: 'SOUTH KARNATAKA',
+  SITE: 'Chitradurga',
+  'Maintenance Plant': '4456',
+  'STATE ENGG HEAD': 'Mallikarjun.Uppin@suzlon.com',
+  'AREA INCHARGE': 'nagabushan.t@suzlon.com',
+  'SITE INCHARGE': 'Umesh.B@suzlon.com',
+  'STATE PMO': 'MUTHUKUMAR.V@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'vishwanatha.g@suzlon.com',
+  'GEAR BOX TEAM': 'devaraj.durairaj@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220494,
+  'Functional Location': 'SWSCHI-SC1-SML01-HB02',
+  STATE: 'KARNATAKA',
+  AREA: 'SOUTH KARNATAKA',
+  SITE: 'Chitradurga',
+  'Maintenance Plant': '4456',
+  'STATE ENGG HEAD': 'Mallikarjun.Uppin@suzlon.com',
+  'AREA INCHARGE': 'nagabushan.t@suzlon.com',
+  'SITE INCHARGE': 'Umesh.B@suzlon.com',
+  'STATE PMO': 'MUTHUKUMAR.V@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'vishwanatha.g@suzlon.com',
+  'GEAR BOX TEAM': 'devaraj.durairaj@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220495,
+  'Functional Location': 'SWSCHI-SC1-EPL01-HC05',
+  STATE: 'KARNATAKA',
+  AREA: 'SOUTH KARNATAKA',
+  SITE: 'Chitradurga',
+  'Maintenance Plant': '4456',
+  'STATE ENGG HEAD': 'Mallikarjun.Uppin@suzlon.com',
+  'AREA INCHARGE': 'nagabushan.t@suzlon.com',
+  'SITE INCHARGE': 'Umesh.B@suzlon.com',
+  'STATE PMO': 'MUTHUKUMAR.V@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'vishwanatha.g@suzlon.com',
+  'GEAR BOX TEAM': 'devaraj.durairaj@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220496,
+  'Functional Location': 'SWSCHI-SC1-EPL01-HC06',
+  STATE: 'KARNATAKA',
+  AREA: 'SOUTH KARNATAKA',
+  SITE: 'Chitradurga',
+  'Maintenance Plant': '4456',
+  'STATE ENGG HEAD': 'Mallikarjun.Uppin@suzlon.com',
+  'AREA INCHARGE': 'nagabushan.t@suzlon.com',
+  'SITE INCHARGE': 'Umesh.B@suzlon.com',
+  'STATE PMO': 'MUTHUKUMAR.V@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'vishwanatha.g@suzlon.com',
+  'GEAR BOX TEAM': 'devaraj.durairaj@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220497,
+  'Functional Location': 'SWSCHI-SC1-SML01-HA05',
+  STATE: 'KARNATAKA',
+  AREA: 'SOUTH KARNATAKA',
+  SITE: 'Chitradurga',
+  'Maintenance Plant': '4456',
+  'STATE ENGG HEAD': 'Mallikarjun.Uppin@suzlon.com',
+  'AREA INCHARGE': 'nagabushan.t@suzlon.com',
+  'SITE INCHARGE': 'Umesh.B@suzlon.com',
+  'STATE PMO': 'MUTHUKUMAR.V@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'vishwanatha.g@suzlon.com',
+  'GEAR BOX TEAM': 'devaraj.durairaj@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220498,
+  'Functional Location': 'SWSCHI-SC1-SML01-HB04',
+  STATE: 'KARNATAKA',
+  AREA: 'SOUTH KARNATAKA',
+  SITE: 'Chitradurga',
+  'Maintenance Plant': '4456',
+  'STATE ENGG HEAD': 'Mallikarjun.Uppin@suzlon.com',
+  'AREA INCHARGE': 'nagabushan.t@suzlon.com',
+  'SITE INCHARGE': 'Umesh.B@suzlon.com',
+  'STATE PMO': 'MUTHUKUMAR.V@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'vishwanatha.g@suzlon.com',
+  'GEAR BOX TEAM': 'devaraj.durairaj@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220499,
+  'Functional Location': 'SWSCHI-SC1-SML01-HB03',
+  STATE: 'KARNATAKA',
+  AREA: 'SOUTH KARNATAKA',
+  SITE: 'Chitradurga',
+  'Maintenance Plant': '4456',
+  'STATE ENGG HEAD': 'Mallikarjun.Uppin@suzlon.com',
+  'AREA INCHARGE': 'nagabushan.t@suzlon.com',
+  'SITE INCHARGE': 'Umesh.B@suzlon.com',
+  'STATE PMO': 'MUTHUKUMAR.V@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'vishwanatha.g@suzlon.com',
+  'GEAR BOX TEAM': 'devaraj.durairaj@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220500,
+  'Functional Location': 'SWSBHT-SC4-KEL01-BAR16',
+  STATE: 'GUJARAT-Saurashtra',
+  AREA: 'Kuchadi',
+  SITE: 'Bhogat',
+  'Maintenance Plant': '2451',
+  'STATE ENGG HEAD': 'bchampak@suzlon.com',
+  'AREA INCHARGE': 'jitesh.visavadia@suzlon.com',
+  'SITE INCHARGE': 'kripal.kher@suzlon.com',
+  'STATE PMO': 'bala.p@suzlon.com',
+  'MAINTENNACE INCHARGES': 'Nilesh.Singanjude@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220501,
+  'Functional Location': 'SWSSUL-SC2-AHL01-E044',
+  STATE: 'TAMILNADU',
+  AREA: 'Bogampatti',
+  SITE: 'Elavanthy',
+  'Maintenance Plant': '2471',
+  'STATE ENGG HEAD': 'rchithambaranathan@suzlon.com',
+  'AREA INCHARGE': 'Sivabalasundaram.R@suzlon.com',
+  'SITE INCHARGE': 'rajakumar.mohandass@suzlon.com',
+  'STATE PMO': 'R.ANDREW@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'premkumar.m@suzlon.com',
+  'GEAR BOX TEAM': 'premkumar.m@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220502,
+  'Functional Location': 'SWSSNK-SC2-ESL02-S149',
+  STATE: 'TAMILNADU',
+  AREA: 'Radhapuram',
+  SITE: 'Sankaneri',
+  'Maintenance Plant': '4478',
+  'STATE ENGG HEAD': 'rchithambaranathan@suzlon.com',
+  'AREA INCHARGE': 'rajasekar.a@suzlon.com',
+  'SITE INCHARGE': 'Ramesh.N@suzlon.com',
+  'STATE PMO': 'R.ANDREW@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'sivasankar.murugan@suzlon.com',
+  'GEAR BOX TEAM': 'sivasankar.murugan@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220503,
+  'Functional Location': 'SWSSUL-SC2-ASC06-E770',
+  STATE: 'TAMILNADU',
+  AREA: 'Bogampatti',
+  SITE: 'Elavanthy',
+  'Maintenance Plant': '2471',
+  'STATE ENGG HEAD': 'rchithambaranathan@suzlon.com',
+  'AREA INCHARGE': 'Sivabalasundaram.R@suzlon.com',
+  'SITE INCHARGE': 'rajakumar.mohandass@suzlon.com',
+  'STATE PMO': 'R.ANDREW@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'premkumar.m@suzlon.com',
+  'GEAR BOX TEAM': 'premkumar.m@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220504,
+  'Functional Location': 'SWSKHR-S12-JAL01-V088',
+  STATE: 'MAHARASHTRA',
+  AREA: 'North Maharashtra',
+  SITE: 'Brahmanwel',
+  'Maintenance Plant': '4434',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'nitin.lande@suzlon.com',
+  'SITE INCHARGE': 'Kishor.Wani@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220505,
+  'Functional Location': 'SWSKHR-S11-TPC01-V38',
+  STATE: 'MAHARASHTRA',
+  AREA: 'North Maharashtra',
+  SITE: 'Brahmanwel',
+  'Maintenance Plant': '4434',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'nitin.lande@suzlon.com',
+  'SITE INCHARGE': 'Kishor.Wani@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220506,
+  'Functional Location': 'SWSDEV-SC4-GIF07-K162',
+  STATE: 'TAMILNADU',
+  AREA: 'Devarkulam',
+  SITE: 'Devarkulam',
+  'Maintenance Plant': '4475',
+  'STATE ENGG HEAD': 'rchithambaranathan@suzlon.com',
+  'AREA INCHARGE': 'rajendran.s@suzlon.com',
+  'SITE INCHARGE': 'm.masilamani@suzlon.com',
+  'STATE PMO': 'R.ANDREW@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'NA',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220507,
+  'Functional Location': 'SWSSUL-SC2-SSM05-P051',
+  STATE: 'TAMILNADU',
+  AREA: 'Muthayampatty',
+  SITE: 'Ponnapuram',
+  'Maintenance Plant': '2473',
+  'STATE ENGG HEAD': 'rchithambaranathan@suzlon.com',
+  'AREA INCHARGE': 'Pradeep.T@suzlon.com',
+  'SITE INCHARGE': 'mohanraj.marappan@suzlon.com',
+  'STATE PMO': 'R.ANDREW@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'ganesh.elumalai@suzlon.com',
+  'GEAR BOX TEAM': 'ganesh.elumalai@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220508,
+  'Functional Location': 'SWSDEV-SC5-ASL05-K434',
+  STATE: 'TAMILNADU',
+  AREA: 'Devarkulam',
+  SITE: 'Uthumalai',
+  'Maintenance Plant': '2476',
+  'STATE ENGG HEAD': 'rchithambaranathan@suzlon.com',
+  'AREA INCHARGE': 'rajendran.s@suzlon.com',
+  'SITE INCHARGE': 'ASHOKMURALIDARAN.EV@suzlon.com',
+  'STATE PMO': 'R.ANDREW@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'Muthusamy.Sudalaikannu@suzlon.com',
+  'GEAR BOX TEAM': 'Muthusamy.Sudalaikannu@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220509,
+  'Functional Location': 'SWSMDV-S14-JPA02-B444',
+  STATE: 'GUJARAT-Kutch',
+  AREA: 'Nanisindhodi',
+  SITE: 'Lathedi',
+  'Maintenance Plant': '4419',
+  'STATE ENGG HEAD': 'Sakthivel.Thirumalai@suzlon.com',
+  'AREA INCHARGE': 'Nilesh.Sule@suzlon.com',
+  'SITE INCHARGE': 'rajkumar.majhi@suzlon.com',
+  'STATE PMO': 'Jyoti.Meena@suzlon.com',
+  'MAINTENNACE INCHARGES': 'deepak.soni@suzlon.com',
+  'GEAR BOX TEAM': 'deepak.soni@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220510,
+  'Functional Location': 'SWSKHR-SC3-SSP04-K273',
+  STATE: 'MAHARASHTRA',
+  AREA: 'North Maharashtra',
+  SITE: 'Brahmanwel',
+  'Maintenance Plant': '4434',
+  'STATE ENGG HEAD': 'reknath@suzlon.com',
+  'AREA INCHARGE': 'nitin.lande@suzlon.com',
+  'SITE INCHARGE': 'Kishor.Wani@suzlon.com',
+  'STATE PMO': 'PRASHANTK@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'jumakant@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220511,
+  'Functional Location': 'SWSDEV-SC2-RSP05-K100',
+  STATE: 'TAMILNADU',
+  AREA: 'Devarkulam',
+  SITE: 'Vellapaneri',
+  'Maintenance Plant': '4481',
+  'STATE ENGG HEAD': 'rchithambaranathan@suzlon.com',
+  'AREA INCHARGE': 'rajendran.s@suzlon.com',
+  'SITE INCHARGE': 'sivanandham.subramanian@suzlon.com',
+  'STATE PMO': 'R.ANDREW@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'kaikondan.a@suzlon.com',
+  'GEAR BOX TEAM': 'kaikondan.a@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220512,
+  'Functional Location': 'SWSDEV-SC1-FPL01-VL303',
+  STATE: 'TAMILNADU',
+  AREA: 'Devarkulam',
+  SITE: 'Vellapaneri',
+  'Maintenance Plant': '4481',
+  'STATE ENGG HEAD': 'rchithambaranathan@suzlon.com',
+  'AREA INCHARGE': 'rajendran.s@suzlon.com',
+  'SITE INCHARGE': 'sivanandham.subramanian@suzlon.com',
+  'STATE PMO': 'R.ANDREW@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'kaikondan.a@suzlon.com',
+  'GEAR BOX TEAM': 'kaikondan.a@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220513,
+  'Functional Location': 'SWSVAR-SC3-MVL01-PPD082',
+  STATE: 'Andhra Pradesh',
+  AREA: 'Vajrakarur',
+  SITE: 'Vajrakarur',
+  'Maintenance Plant': '4467',
+  'STATE ENGG HEAD': 'rajan.muniappan@suzlon.com',
+  'AREA INCHARGE': 'Karri.Indukumar@suzlon.com',
+  'SITE INCHARGE': 'sankararao.kondala@suzlon.com',
+  'STATE PMO': 'Navaraja.Chintamneedi@suzlon.com',
+  'MAINTENNACE INCHARGES': 'subramaniap@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220514,
+  'Functional Location': 'SWSVAR-SC3-MVL01-PPD084',
+  STATE: 'Andhra Pradesh',
+  AREA: 'Vajrakarur',
+  SITE: 'Vajrakarur',
+  'Maintenance Plant': '4467',
+  'STATE ENGG HEAD': 'rajan.muniappan@suzlon.com',
+  'AREA INCHARGE': 'Karri.Indukumar@suzlon.com',
+  'SITE INCHARGE': 'sankararao.kondala@suzlon.com',
+  'STATE PMO': 'Navaraja.Chintamneedi@suzlon.com',
+  'MAINTENNACE INCHARGES': 'subramaniap@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220515,
+  'Functional Location': 'SWSDEV-SC1-BHL01-SK088',
+  STATE: 'TAMILNADU',
+  AREA: 'Devarkulam',
+  SITE: 'Vellapaneri',
+  'Maintenance Plant': '4481',
+  'STATE ENGG HEAD': 'rchithambaranathan@suzlon.com',
+  'AREA INCHARGE': 'rajendran.s@suzlon.com',
+  'SITE INCHARGE': 'sivanandham.subramanian@suzlon.com',
+  'STATE PMO': 'R.ANDREW@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'kaikondan.a@suzlon.com',
+  'GEAR BOX TEAM': 'kaikondan.a@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220516,
+  'Functional Location': 'SWSVAR-SC3-MVL01-PPD047',
+  STATE: 'Andhra Pradesh',
+  AREA: 'Vajrakarur',
+  SITE: 'Vajrakarur',
+  'Maintenance Plant': '4467',
+  'STATE ENGG HEAD': 'rajan.muniappan@suzlon.com',
+  'AREA INCHARGE': 'Karri.Indukumar@suzlon.com',
+  'SITE INCHARGE': 'sankararao.kondala@suzlon.com',
+  'STATE PMO': 'Navaraja.Chintamneedi@suzlon.com',
+  'MAINTENNACE INCHARGES': 'subramaniap@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220517,
+  'Functional Location': 'SWSFAT-SC1-AGE01-SBE05',
+  STATE: 'RAJASTHAN',
+  AREA: 'Ratan Ka Bass',
+  SITE: 'Fatehgarh B',
+  'Maintenance Plant': '2481',
+  'STATE ENGG HEAD': 'vhiralal@suzlon.com',
+  'AREA INCHARGE': 'rakesh.jangid@suzlon.com',
+  'SITE INCHARGE': 'Achal.Deora@suzlon.com',
+  'STATE PMO': 'kuldeep.singh@suzlon.com',
+  'MAINTENNACE INCHARGES': 'abhishek.chauhan@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220518,
+  'Functional Location': 'SWSKAY-SC2-RCW01-VLS003',
+  STATE: 'TAMILNADU',
+  AREA: 'Viliseri',
+  SITE: 'Kayathar',
+  'Maintenance Plant': '2477',
+  'STATE ENGG HEAD': 'rchithambaranathan@suzlon.com',
+  'AREA INCHARGE': 'mdsheik@suzlon.com',
+  'SITE INCHARGE': 'k.muruganantham@suzlon.com',
+  'STATE PMO': 'R.ANDREW@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'ramesh.ramar@suzlon.com',
+  'GEAR BOX TEAM': 'ramesh.ramar@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220519,
+  'Functional Location': 'SWSMOD-SC2-GCL01-NMT034',
+  STATE: 'GUJARAT-Saurashtra',
+  AREA: 'Mahidad',
+  SITE: 'Modpar',
+  'Maintenance Plant': '2455',
+  'STATE ENGG HEAD': 'bchampak@suzlon.com',
+  'AREA INCHARGE': 'sharwan.kumar@suzlon.com',
+  'SITE INCHARGE': 'sandeep.parmar@suzlon.com',
+  'STATE PMO': 'bala.p@suzlon.com',
+  'MAINTENNACE INCHARGES': 'Nilesh.Singanjude@suzlon.com',
+  'GEAR BOX TEAM': 'Bhavin.Gohil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220520,
+  'Functional Location': 'SWSMOD-SC2-MEL01-NMT037',
+  STATE: 'GUJARAT-Saurashtra',
+  AREA: 'Mahidad',
+  SITE: 'Modpar',
+  'Maintenance Plant': '2455',
+  'STATE ENGG HEAD': 'bchampak@suzlon.com',
+  'AREA INCHARGE': 'sharwan.kumar@suzlon.com',
+  'SITE INCHARGE': 'sandeep.parmar@suzlon.com',
+  'STATE PMO': 'bala.p@suzlon.com',
+  'MAINTENNACE INCHARGES': 'Nilesh.Singanjude@suzlon.com',
+  'GEAR BOX TEAM': 'Bhavin.Gohil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220521,
+  'Functional Location': 'SWSMOD-SC2-AEL01-GDL241',
+  STATE: 'GUJARAT-Saurashtra',
+  AREA: 'Mahidad',
+  SITE: 'Modpar',
+  'Maintenance Plant': '2455',
+  'STATE ENGG HEAD': 'bchampak@suzlon.com',
+  'AREA INCHARGE': 'sharwan.kumar@suzlon.com',
+  'SITE INCHARGE': 'sandeep.parmar@suzlon.com',
+  'STATE PMO': 'bala.p@suzlon.com',
+  'MAINTENNACE INCHARGES': 'Nilesh.Singanjude@suzlon.com',
+  'GEAR BOX TEAM': 'Bhavin.Gohil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220522,
+  'Functional Location': 'SWSKAY-SC2-AWL01-VLS021',
+  STATE: 'TAMILNADU',
+  AREA: 'Viliseri',
+  SITE: 'Kayathar',
+  'Maintenance Plant': '2477',
+  'STATE ENGG HEAD': 'rchithambaranathan@suzlon.com',
+  'AREA INCHARGE': 'mdsheik@suzlon.com',
+  'SITE INCHARGE': 'k.muruganantham@suzlon.com',
+  'STATE PMO': 'R.ANDREW@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'ramesh.ramar@suzlon.com',
+  'GEAR BOX TEAM': 'ramesh.ramar@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220523,
+  'Functional Location': 'SWSMOD-SC2-APL01-NMT308',
+  STATE: 'GUJARAT-Saurashtra',
+  AREA: 'Mahidad',
+  SITE: 'Modpar',
+  'Maintenance Plant': '2455',
+  'STATE ENGG HEAD': 'bchampak@suzlon.com',
+  'AREA INCHARGE': 'sharwan.kumar@suzlon.com',
+  'SITE INCHARGE': 'sandeep.parmar@suzlon.com',
+  'STATE PMO': 'bala.p@suzlon.com',
+  'MAINTENNACE INCHARGES': 'Nilesh.Singanjude@suzlon.com',
+  'GEAR BOX TEAM': 'Bhavin.Gohil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220524,
+  'Functional Location': 'SWSFAT-SC1-AGE01-SBE21',
+  STATE: 'RAJASTHAN',
+  AREA: 'Ratan Ka Bass',
+  SITE: 'Fatehgarh B',
+  'Maintenance Plant': '2481',
+  'STATE ENGG HEAD': 'vhiralal@suzlon.com',
+  'AREA INCHARGE': 'rakesh.jangid@suzlon.com',
+  'SITE INCHARGE': 'Achal.Deora@suzlon.com',
+  'STATE PMO': 'kuldeep.singh@suzlon.com',
+  'MAINTENNACE INCHARGES': 'abhishek.chauhan@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220525,
+  'Functional Location': 'SWSKAR-SC1-AEE01-VK583',
+  STATE: 'TAMILNADU',
+  AREA: 'Muthiampatti',
+  SITE: 'Karur',
+  'Maintenance Plant': '2478',
+  'STATE ENGG HEAD': 'rchithambaranathan@suzlon.com',
+  'AREA INCHARGE': 'Pradeep.T@suzlon.com',
+  'SITE INCHARGE': 'subramonian.m@suzlon.com',
+  'STATE PMO': 'R.ANDREW@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'govindaraj.p@suzlon.com',
+  'GEAR BOX TEAM': 'govindaraj.p@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220526,
+  'Functional Location': 'SWSKAN-SC1-SGI01-KKB165',
+  STATE: 'KARNATAKA',
+  AREA: 'East Karanataka',
+  SITE: 'Kanakagiri',
+  'Maintenance Plant': '2497',
+  'STATE ENGG HEAD': 'Mallikarjun.Uppin@suzlon.com',
+  'AREA INCHARGE': 'S.Sivakumar@suzlon.com',
+  'SITE INCHARGE': 'suresh.patil2@suzlon.com',
+  'STATE PMO': 'MUTHUKUMAR.V@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'pramod.sahoo@suzlon.com',
+  'GEAR BOX TEAM': 'devaraj.durairaj@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220527,
+  'Functional Location': 'SWSKAR-SC1-DEL01-VK350',
+  STATE: 'TAMILNADU',
+  AREA: 'Muthiampatti',
+  SITE: 'Karur',
+  'Maintenance Plant': '2478',
+  'STATE ENGG HEAD': 'rchithambaranathan@suzlon.com',
+  'AREA INCHARGE': 'Pradeep.T@suzlon.com',
+  'SITE INCHARGE': 'subramonian.m@suzlon.com',
+  'STATE PMO': 'R.ANDREW@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'govindaraj.p@suzlon.com',
+  'GEAR BOX TEAM': 'govindaraj.p@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220528,
+  'Functional Location': 'SWSKAR-SC1-KML01-VK17',
+  STATE: 'TAMILNADU',
+  AREA: 'Muthayampatty',
+  SITE: 'Karur',
+  'Maintenance Plant': '2478',
+  'STATE ENGG HEAD': 'rchithambaranathan@suzlon.com',
+  'AREA INCHARGE': 'Pradeep.T@suzlon.com',
+  'SITE INCHARGE': 'subramonian.m@suzlon.com',
+  'STATE PMO': 'R.ANDREW@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'govindaraj.p@suzlon.com',
+  'GEAR BOX TEAM': 'govindaraj.p@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220529,
+  'Functional Location': 'SWSKAR-SC1-SAM01-VK1073',
+  STATE: 'TAMILNADU',
+  AREA: 'Muthayampatty',
+  SITE: 'Karur',
+  'Maintenance Plant': '2478',
+  'STATE ENGG HEAD': 'rchithambaranathan@suzlon.com',
+  'AREA INCHARGE': 'Pradeep.T@suzlon.com',
+  'SITE INCHARGE': 'subramonian.m@suzlon.com',
+  'STATE PMO': 'R.ANDREW@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'govindaraj.p@suzlon.com',
+  'GEAR BOX TEAM': 'govindaraj.p@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220530,
+  'Functional Location': 'SWSKAR-SC1-AVG01-VK58',
+  STATE: 'TAMILNADU',
+  AREA: 'Muthayampatty',
+  SITE: 'Karur',
+  'Maintenance Plant': '2478',
+  'STATE ENGG HEAD': 'rchithambaranathan@suzlon.com',
+  'AREA INCHARGE': 'Pradeep.T@suzlon.com',
+  'SITE INCHARGE': 'subramonian.m@suzlon.com',
+  'STATE PMO': 'R.ANDREW@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'govindaraj.p@suzlon.com',
+  'GEAR BOX TEAM': 'govindaraj.p@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220531,
+  'Functional Location': 'SWSKAR-SC1-VKA01-VK263',
+  STATE: 'TAMILNADU',
+  AREA: 'Muthiampatti',
+  SITE: 'Karur',
+  'Maintenance Plant': '2478',
+  'STATE ENGG HEAD': 'rchithambaranathan@suzlon.com',
+  'AREA INCHARGE': 'Pradeep.T@suzlon.com',
+  'SITE INCHARGE': 'subramonian.m@suzlon.com',
+  'STATE PMO': 'R.ANDREW@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'govindaraj.p@suzlon.com',
+  'GEAR BOX TEAM': 'govindaraj.p@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220532,
+  'Functional Location': 'SWSFAT-SC1-AGE01-SBE67',
+  STATE: 'RAJASTHAN',
+  AREA: 'Ratan Ka Bass',
+  SITE: 'Fatehgarh B',
+  'Maintenance Plant': '2481',
+  'STATE ENGG HEAD': 'vhiralal@suzlon.com',
+  'AREA INCHARGE': 'rakesh.jangid@suzlon.com',
+  'SITE INCHARGE': 'Achal.Deora@suzlon.com',
+  'STATE PMO': 'kuldeep.singh@suzlon.com',
+  'MAINTENNACE INCHARGES': 'abhishek.chauhan@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220533,
+  'Functional Location': 'SWSKAN-SC1-SGI01-KKB079',
+  STATE: 'KARNATAKA',
+  AREA: 'East Karanataka',
+  SITE: 'Kanakagiri',
+  'Maintenance Plant': '2497',
+  'STATE ENGG HEAD': 'Mallikarjun.Uppin@suzlon.com',
+  'AREA INCHARGE': 'S.Sivakumar@suzlon.com',
+  'SITE INCHARGE': 'suresh.patil2@suzlon.com',
+  'STATE PMO': 'MUTHUKUMAR.V@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'pramod.sahoo@suzlon.com',
+  'GEAR BOX TEAM': 'devaraj.durairaj@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220534,
+  'Functional Location': 'SWSKAR-SC1-AVG01-VK560',
+  STATE: 'TAMILNADU',
+  AREA: 'Muthiampatti',
+  SITE: 'Karur',
+  'Maintenance Plant': '2478',
+  'STATE ENGG HEAD': 'rchithambaranathan@suzlon.com',
+  'AREA INCHARGE': 'Pradeep.T@suzlon.com',
+  'SITE INCHARGE': 'subramonian.m@suzlon.com',
+  'STATE PMO': 'R.ANDREW@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'govindaraj.p@suzlon.com',
+  'GEAR BOX TEAM': 'govindaraj.p@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220535,
+  'Functional Location': 'SWSKAR-SC1-RKL01-VK664',
+  STATE: 'TAMILNADU',
+  AREA: 'Muthayampatty',
+  SITE: 'Karur',
+  'Maintenance Plant': '2478',
+  'STATE ENGG HEAD': 'rchithambaranathan@suzlon.com',
+  'AREA INCHARGE': 'Pradeep.T@suzlon.com',
+  'SITE INCHARGE': 'subramonian.m@suzlon.com',
+  'STATE PMO': 'R.ANDREW@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'govindaraj.p@suzlon.com',
+  'GEAR BOX TEAM': 'govindaraj.p@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220536,
+  'Functional Location': 'SWSMOD-SC2-GPL01-NMT303',
+  STATE: 'GUJARAT-Saurashtra',
+  AREA: 'Mahidad',
+  SITE: 'Modpar',
+  'Maintenance Plant': '2455',
+  'STATE ENGG HEAD': 'bchampak@suzlon.com',
+  'AREA INCHARGE': 'sharwan.kumar@suzlon.com',
+  'SITE INCHARGE': 'sandeep.parmar@suzlon.com',
+  'STATE PMO': 'bala.p@suzlon.com',
+  'MAINTENNACE INCHARGES': 'Nilesh.Singanjude@suzlon.com',
+  'GEAR BOX TEAM': 'Bhavin.Gohil@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220537,
+  'Functional Location': 'SWSJAJ-SC1-KML01-HTP004',
+  STATE: 'KARNATAKA',
+  AREA: 'SOUTH KARNATAKA',
+  SITE: 'JAJIKALGUDDA',
+  'Maintenance Plant': '4455',
+  'STATE ENGG HEAD': 'Mallikarjun.Uppin@suzlon.com',
+  'AREA INCHARGE': 'nagabushan.t@suzlon.com',
+  'SITE INCHARGE': 'nethaji.k@suzlon.com',
+  'STATE PMO': 'MUTHUKUMAR.V@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'vishwanatha.g@suzlon.com',
+  'GEAR BOX TEAM': 'devaraj.durairaj@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220538,
+  'Functional Location': 'SWSJAJ-SC1-KML01-HTP010',
+  STATE: 'KARNATAKA',
+  AREA: 'SOUTH KARNATAKA',
+  SITE: 'JAJIKALGUDDA',
+  'Maintenance Plant': '4455',
+  'STATE ENGG HEAD': 'Mallikarjun.Uppin@suzlon.com',
+  'AREA INCHARGE': 'nagabushan.t@suzlon.com',
+  'SITE INCHARGE': 'nethaji.k@suzlon.com',
+  'STATE PMO': 'MUTHUKUMAR.V@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'vishwanatha.g@suzlon.com',
+  'GEAR BOX TEAM': 'devaraj.durairaj@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220539,
+  'Functional Location': 'SWSJAJ-SC1-KML01-HTP008',
+  STATE: 'KARNATAKA',
+  AREA: 'SOUTH KARNATAKA',
+  SITE: 'JAJIKALGUDDA',
+  'Maintenance Plant': '4455',
+  'STATE ENGG HEAD': 'Mallikarjun.Uppin@suzlon.com',
+  'AREA INCHARGE': 'nagabushan.t@suzlon.com',
+  'SITE INCHARGE': 'nethaji.k@suzlon.com',
+  'STATE PMO': 'MUTHUKUMAR.V@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'vishwanatha.g@suzlon.com',
+  'GEAR BOX TEAM': 'devaraj.durairaj@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220540,
+  'Functional Location': 'SWSKAR-SC1-AEE01-VK486',
+  STATE: 'TAMILNADU',
+  AREA: 'Muthayampatty',
+  SITE: 'Karur',
+  'Maintenance Plant': '2478',
+  'STATE ENGG HEAD': 'rchithambaranathan@suzlon.com',
+  'AREA INCHARGE': 'Pradeep.T@suzlon.com',
+  'SITE INCHARGE': 'subramonian.m@suzlon.com',
+  'STATE PMO': 'R.ANDREW@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'govindaraj.p@suzlon.com',
+  'GEAR BOX TEAM': 'govindaraj.p@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220541,
+  'Functional Location': 'SWSFAT-SC1-AGE01-FS3422',
+  STATE: 'RAJASTHAN',
+  AREA: 'Ratan Ka Bass',
+  SITE: 'Fatehgarh B',
+  'Maintenance Plant': '2481',
+  'STATE ENGG HEAD': 'vhiralal@suzlon.com',
+  'AREA INCHARGE': 'rakesh.jangid@suzlon.com',
+  'SITE INCHARGE': 'Achal.Deora@suzlon.com',
+  'STATE PMO': 'kuldeep.singh@suzlon.com',
+  'MAINTENNACE INCHARGES': 'abhishek.chauhan@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220542,
+  'Functional Location': 'SWSFAT-SC1-AGE01-FS3261',
+  STATE: 'RAJASTHAN',
+  AREA: 'Ratan Ka Bass',
+  SITE: 'Fatehgarh B',
+  'Maintenance Plant': '2481',
+  'STATE ENGG HEAD': 'vhiralal@suzlon.com',
+  'AREA INCHARGE': 'rakesh.jangid@suzlon.com',
+  'SITE INCHARGE': 'Achal.Deora@suzlon.com',
+  'STATE PMO': 'kuldeep.singh@suzlon.com',
+  'MAINTENNACE INCHARGES': 'abhishek.chauhan@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220543,
+  'Functional Location': 'SWSFAT-SC1-AGE01-FTNA04',
+  STATE: 'RAJASTHAN',
+  AREA: 'Ratan Ka Bass',
+  SITE: 'Fatehgarh A',
+  'Maintenance Plant': '4411',
+  'STATE ENGG HEAD': 'vhiralal@suzlon.com',
+  'AREA INCHARGE': 'rakesh.jangid@suzlon.com',
+  'SITE INCHARGE': 'chandrapal.udawat@suzlon.com',
+  'STATE PMO': 'kuldeep.singh@suzlon.com',
+  'MAINTENNACE INCHARGES': 'abhishek.chauhan@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220544,
+  'Functional Location': 'SWSKAN-SC1-SGI01-KKB078',
+  STATE: 'KARNATAKA',
+  AREA: 'East Karanataka',
+  SITE: 'Kanakagiri',
+  'Maintenance Plant': '2497',
+  'STATE ENGG HEAD': 'Mallikarjun.Uppin@suzlon.com',
+  'AREA INCHARGE': 'S.Sivakumar@suzlon.com',
+  'SITE INCHARGE': 'suresh.patil2@suzlon.com',
+  'STATE PMO': 'MUTHUKUMAR.V@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'pramod.sahoo@suzlon.com',
+  'GEAR BOX TEAM': 'devaraj.durairaj@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220545,
+  'Functional Location': 'SWSKAY-SC2-PEL01-MAN082',
+  STATE: 'TAMILNADU',
+  AREA: 'Viliseri',
+  SITE: 'Kayathar',
+  'Maintenance Plant': '2477',
+  'STATE ENGG HEAD': 'rchithambaranathan@suzlon.com',
+  'AREA INCHARGE': 'mdsheik@suzlon.com',
+  'SITE INCHARGE': 'k.muruganantham@suzlon.com',
+  'STATE PMO': 'R.ANDREW@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'ramesh.ramar@suzlon.com',
+  'GEAR BOX TEAM': 'ramesh.ramar@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220546,
+  'Functional Location': 'SWSKAR-SC1-AWL01-VK511',
+  STATE: 'TAMILNADU',
+  AREA: 'Muthayampatty',
+  SITE: 'Karur',
+  'Maintenance Plant': '2478',
+  'STATE ENGG HEAD': 'rchithambaranathan@suzlon.com',
+  'AREA INCHARGE': 'Pradeep.T@suzlon.com',
+  'SITE INCHARGE': 'subramonian.m@suzlon.com',
+  'STATE PMO': 'R.ANDREW@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'govindaraj.p@suzlon.com',
+  'GEAR BOX TEAM': 'govindaraj.p@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220547,
+  'Functional Location': 'SWSFAT-SC2-AEJ01-FA1103',
+  STATE: 'RAJASTHAN',
+  AREA: 'Ratan Ka Bass',
+  SITE: 'Fatehgarh A',
+  'Maintenance Plant': '4411',
+  'STATE ENGG HEAD': 'vhiralal@suzlon.com',
+  'AREA INCHARGE': 'rakesh.jangid@suzlon.com',
+  'SITE INCHARGE': 'chandrapal.udawat@suzlon.com',
+  'STATE PMO': 'kuldeep.singh@suzlon.com',
+  'MAINTENNACE INCHARGES': 'abhishek.chauhan@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220548,
+  'Functional Location': 'SWSFAT-SC1-AGE01-N04',
+  STATE: 'RAJASTHAN',
+  AREA: 'Ratan Ka Bass',
+  SITE: 'Fatehgarh B',
+  'Maintenance Plant': '2481',
+  'STATE ENGG HEAD': 'vhiralal@suzlon.com',
+  'AREA INCHARGE': 'rakesh.jangid@suzlon.com',
+  'SITE INCHARGE': 'Achal.Deora@suzlon.com',
+  'STATE PMO': 'kuldeep.singh@suzlon.com',
+  'MAINTENNACE INCHARGES': 'abhishek.chauhan@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220549,
+  'Functional Location': 'SWSKAN-SC1-SGI01-KKB070',
+  STATE: 'KARNATAKA',
+  AREA: 'East Karanataka',
+  SITE: 'Kanakagiri',
+  'Maintenance Plant': '2497',
+  'STATE ENGG HEAD': 'Mallikarjun.Uppin@suzlon.com',
+  'AREA INCHARGE': 'S.Sivakumar@suzlon.com',
+  'SITE INCHARGE': 'suresh.patil2@suzlon.com',
+  'STATE PMO': 'MUTHUKUMAR.V@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'pramod.sahoo@suzlon.com',
+  'GEAR BOX TEAM': 'devaraj.durairaj@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220550,
+  'Functional Location': 'SWSKAR-SC1-BBE01-VT150',
+  STATE: 'TAMILNADU',
+  AREA: 'Muthayampatty',
+  SITE: 'Karur',
+  'Maintenance Plant': '2478',
+  'STATE ENGG HEAD': 'rchithambaranathan@suzlon.com',
+  'AREA INCHARGE': 'Pradeep.T@suzlon.com',
+  'SITE INCHARGE': 'subramonian.m@suzlon.com',
+  'STATE PMO': 'R.ANDREW@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'govindaraj.p@suzlon.com',
+  'GEAR BOX TEAM': 'govindaraj.p@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220551,
+  'Functional Location': 'SWSKAR-SC1-GWL01-VT07',
+  STATE: 'TAMILNADU',
+  AREA: 'Muthiampatti',
+  SITE: 'Karur',
+  'Maintenance Plant': '2478',
+  'STATE ENGG HEAD': 'rchithambaranathan@suzlon.com',
+  'AREA INCHARGE': 'Pradeep.T@suzlon.com',
+  'SITE INCHARGE': 'subramonian.m@suzlon.com',
+  'STATE PMO': 'R.ANDREW@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'govindaraj.p@suzlon.com',
+  'GEAR BOX TEAM': 'govindaraj.p@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220552,
+  'Functional Location': 'SWSKAR-SC1-AGE01-VT388',
+  STATE: 'TAMILNADU',
+  AREA: 'Muthiampatti',
+  SITE: 'Karur',
+  'Maintenance Plant': '2478',
+  'STATE ENGG HEAD': 'rchithambaranathan@suzlon.com',
+  'AREA INCHARGE': 'Pradeep.T@suzlon.com',
+  'SITE INCHARGE': 'subramonian.m@suzlon.com',
+  'STATE PMO': 'R.ANDREW@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'govindaraj.p@suzlon.com',
+  'GEAR BOX TEAM': 'govindaraj.p@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220553,
+  'Functional Location': 'SWSFAT-SC1-AGE01-SBE26',
+  STATE: 'RAJASTHAN',
+  AREA: 'Ratan Ka Bass',
+  SITE: 'Fatehgarh B',
+  'Maintenance Plant': '2481',
+  'STATE ENGG HEAD': 'vhiralal@suzlon.com',
+  'AREA INCHARGE': 'rakesh.jangid@suzlon.com',
+  'SITE INCHARGE': 'Achal.Deora@suzlon.com',
+  'STATE PMO': 'kuldeep.singh@suzlon.com',
+  'MAINTENNACE INCHARGES': 'abhishek.chauhan@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220554,
+  'Functional Location': 'SWSKAR-SC1-RCP01-VT156',
+  STATE: 'TAMILNADU',
+  AREA: 'Muthiampatti',
+  SITE: 'Karur',
+  'Maintenance Plant': '2478',
+  'STATE ENGG HEAD': 'rchithambaranathan@suzlon.com',
+  'AREA INCHARGE': 'Pradeep.T@suzlon.com',
+  'SITE INCHARGE': 'subramonian.m@suzlon.com',
+  'STATE PMO': 'R.ANDREW@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'govindaraj.p@suzlon.com',
+  'GEAR BOX TEAM': 'govindaraj.p@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220555,
+  'Functional Location': 'SWSFAT-SC1-AGE01-SBE63',
+  STATE: 'RAJASTHAN',
+  AREA: 'Ratan Ka Bass',
+  SITE: 'Fatehgarh B',
+  'Maintenance Plant': '2481',
+  'STATE ENGG HEAD': 'vhiralal@suzlon.com',
+  'AREA INCHARGE': 'rakesh.jangid@suzlon.com',
+  'SITE INCHARGE': 'Achal.Deora@suzlon.com',
+  'STATE PMO': 'kuldeep.singh@suzlon.com',
+  'MAINTENNACE INCHARGES': 'abhishek.chauhan@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220556,
+  'Functional Location': 'SWSKAN-SC1-SGI01-KKB168',
+  STATE: 'KARNATAKA',
+  AREA: 'East Karanataka',
+  SITE: 'Kanakagiri',
+  'Maintenance Plant': '2497',
+  'STATE ENGG HEAD': 'Mallikarjun.Uppin@suzlon.com',
+  'AREA INCHARGE': 'S.Sivakumar@suzlon.com',
+  'SITE INCHARGE': 'suresh.patil2@suzlon.com',
+  'STATE PMO': 'MUTHUKUMAR.V@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'pramod.sahoo@suzlon.com',
+  'GEAR BOX TEAM': 'devaraj.durairaj@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220557,
+  'Functional Location': 'SWSFAT-SC1-AGE01-SBE37',
+  STATE: 'RAJASTHAN',
+  AREA: 'Ratan Ka Bass',
+  SITE: 'Fatehgarh B',
+  'Maintenance Plant': '2481',
+  'STATE ENGG HEAD': 'vhiralal@suzlon.com',
+  'AREA INCHARGE': 'rakesh.jangid@suzlon.com',
+  'SITE INCHARGE': 'Achal.Deora@suzlon.com',
+  'STATE PMO': 'kuldeep.singh@suzlon.com',
+  'MAINTENNACE INCHARGES': 'abhishek.chauhan@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220558,
+  'Functional Location': 'SWSKAR-SC1-PSL01-VT10',
+  STATE: 'TAMILNADU',
+  AREA: 'Muthiampatti',
+  SITE: 'Karur',
+  'Maintenance Plant': '2478',
+  'STATE ENGG HEAD': 'rchithambaranathan@suzlon.com',
+  'AREA INCHARGE': 'Pradeep.T@suzlon.com',
+  'SITE INCHARGE': 'subramonian.m@suzlon.com',
+  'STATE PMO': 'R.ANDREW@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'govindaraj.p@suzlon.com',
+  'GEAR BOX TEAM': 'govindaraj.p@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220559,
+  'Functional Location': 'SWSKAN-SC1-SGI01-KKB184',
+  STATE: 'KARNATAKA',
+  AREA: 'East Karanataka',
+  SITE: 'Kanakagiri',
+  'Maintenance Plant': '2497',
+  'STATE ENGG HEAD': 'Mallikarjun.Uppin@suzlon.com',
+  'AREA INCHARGE': 'S.Sivakumar@suzlon.com',
+  'SITE INCHARGE': 'suresh.patil2@suzlon.com',
+  'STATE PMO': 'MUTHUKUMAR.V@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'pramod.sahoo@suzlon.com',
+  'GEAR BOX TEAM': 'devaraj.durairaj@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220560,
+  'Functional Location': 'SWSFAT-SC1-AGE01-SBE50',
+  STATE: 'RAJASTHAN',
+  AREA: 'Ratan Ka Bass',
+  SITE: 'Fatehgarh B',
+  'Maintenance Plant': '2481',
+  'STATE ENGG HEAD': 'vhiralal@suzlon.com',
+  'AREA INCHARGE': 'rakesh.jangid@suzlon.com',
+  'SITE INCHARGE': 'Achal.Deora@suzlon.com',
+  'STATE PMO': 'kuldeep.singh@suzlon.com',
+  'MAINTENNACE INCHARGES': 'abhishek.chauhan@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220561,
+  'Functional Location': 'SWSKAR-SC1-AVG01-VK643',
+  STATE: 'TAMILNADU',
+  AREA: 'Muthiampatti',
+  SITE: 'Karur',
+  'Maintenance Plant': '2478',
+  'STATE ENGG HEAD': 'rchithambaranathan@suzlon.com',
+  'AREA INCHARGE': 'Pradeep.T@suzlon.com',
+  'SITE INCHARGE': 'subramonian.m@suzlon.com',
+  'STATE PMO': 'R.ANDREW@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'govindaraj.p@suzlon.com',
+  'GEAR BOX TEAM': 'govindaraj.p@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220562,
+  'Functional Location': 'SWSKAN-SC1-SGI01-KKB081',
+  STATE: 'KARNATAKA',
+  AREA: 'East Karanataka',
+  SITE: 'Kanakagiri',
+  'Maintenance Plant': '2497',
+  'STATE ENGG HEAD': 'Mallikarjun.Uppin@suzlon.com',
+  'AREA INCHARGE': 'S.Sivakumar@suzlon.com',
+  'SITE INCHARGE': 'suresh.patil2@suzlon.com',
+  'STATE PMO': 'MUTHUKUMAR.V@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'pramod.sahoo@suzlon.com',
+  'GEAR BOX TEAM': 'devaraj.durairaj@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220563,
+  'Functional Location': 'SWSKAN-SC1-SGI01-KKB128',
+  STATE: 'KARNATAKA',
+  AREA: 'East Karanataka',
+  SITE: 'Kanakagiri',
+  'Maintenance Plant': '2497',
+  'STATE ENGG HEAD': 'Mallikarjun.Uppin@suzlon.com',
+  'AREA INCHARGE': 'S.Sivakumar@suzlon.com',
+  'SITE INCHARGE': 'suresh.patil2@suzlon.com',
+  'STATE PMO': 'MUTHUKUMAR.V@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'pramod.sahoo@suzlon.com',
+  'GEAR BOX TEAM': 'devaraj.durairaj@suzlon.com'
+}
+Inserting: {
+  'SR NO': 220564,
+  'Functional Location': 'SWSFAT-SC1-AGE01-SBE70',
+  STATE: 'RAJASTHAN',
+  AREA: 'Ratan Ka Bass',
+  SITE: 'Fatehgarh B',
+  'Maintenance Plant': '2481',
+  'STATE ENGG HEAD': 'vhiralal@suzlon.com',
+  'AREA INCHARGE': 'rakesh.jangid@suzlon.com',
+  'SITE INCHARGE': 'Achal.Deora@suzlon.com',
+  'STATE PMO': 'kuldeep.singh@suzlon.com',
+  'MAINTENNACE INCHARGES': 'abhishek.chauhan@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220565,
+  'Functional Location': 'SWSFAT-SC1-AGE01-SBE85',
+  STATE: 'RAJASTHAN',
+  AREA: 'Ratan Ka Bass',
+  SITE: 'Fatehgarh B',
+  'Maintenance Plant': '2481',
+  'STATE ENGG HEAD': 'vhiralal@suzlon.com',
+  'AREA INCHARGE': 'rakesh.jangid@suzlon.com',
+  'SITE INCHARGE': 'Achal.Deora@suzlon.com',
+  'STATE PMO': 'kuldeep.singh@suzlon.com',
+  'MAINTENNACE INCHARGES': 'abhishek.chauhan@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220566,
+  'Functional Location': 'SWSFAT-SC1-AGE01-N037',
+  STATE: 'RAJASTHAN',
+  AREA: 'Ratan Ka Bass',
+  SITE: 'Fatehgarh B',
+  'Maintenance Plant': '2481',
+  'STATE ENGG HEAD': 'vhiralal@suzlon.com',
+  'AREA INCHARGE': 'rakesh.jangid@suzlon.com',
+  'SITE INCHARGE': 'Achal.Deora@suzlon.com',
+  'STATE PMO': 'kuldeep.singh@suzlon.com',
+  'MAINTENNACE INCHARGES': 'abhishek.chauhan@suzlon.com',
+  'GEAR BOX TEAM': 'NA'
+}
+Inserting: {
+  'SR NO': 220567,
+  'Functional Location': 'SWSDEV-SC2-ASM01-KAY055',
+  STATE: 'TAMILNADU',
+  AREA: 'Viliseri',
+  SITE: 'Kayathar',
+  'Maintenance Plant': '2477',
+  'STATE ENGG HEAD': 'rchithambaranathan@suzlon.com',
+  'AREA INCHARGE': 'mdsheik@suzlon.com',
+  'SITE INCHARGE': 'k.muruganantham@suzlon.com',
+  'STATE PMO': 'R.ANDREW@SUZLON.COM',
+  'MAINTENNACE INCHARGES': 'ramesh.ramar@suzlon.com',
+  'GEAR BOX TEAM': 'ramesh.ramar@suzlon.com'
+}
